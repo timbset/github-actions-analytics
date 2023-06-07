@@ -1,0 +1,12 @@
+{
+  "name": "github-actions-analytics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/timbset/github-actions-analytics",
+  "author": "timbset <timbset@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "type": "module"
+}
