@@ -9,6 +9,8 @@
     "analytics": "node bin/index.js"
   },
   "dependencies": {
+    "@octokit/core": "^4.2.1",
+    "dotenv": "^16.1.4",
     "yargs": "^17.7.2"
   },
   "type": "module"
