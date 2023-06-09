@@ -154,4 +154,53 @@ yargs(hideBin(process.argv))
       }, null, 2));
     });
   })
+  .command('jobs csv', 'Converts jobs to CSV', (yargs) => {
+    return yargs;
+  }, async () => {
+    const monday = new Date();
+    monday.setUTCHours(0, 0, 0);
+    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+
+    const nextMonday = new Date(monday);
+    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+
+    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
+    const dateDirName = monday.toISOString().split('T')[0];
+    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+
+    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[jobs]') && name.endsWith('.json'));
+
+    const headers = [
+      'id',
+      'run_id',
+      'workflow_name',
+      'name',
+      'head_branch',
+      'run_attempt',
+      'status',
+      'conclusion',
+      'created_at',
+      'started_at',
+      'completed_at',
+    ];
+
+    const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
+
+    jobsFiles.forEach((name) => {
+      const jobs = JSON.parse(fs.readFileSync(path.join(dataPath, name))).jobs;
+
+      fs.writeFileSync(
+        path.join(dataPath, name).replace('.json', '.csv'),
+        [headers.join(';')].concat(
+          jobs.map((job) =>
+            headers.map((header) =>
+              header.endsWith('_at')
+                ? dateFormatter.format(new Date(job[header]))
+                : job[header]
+            ).join(';')
+          )
+        ).join('\n')
+      );
+    });
+  })
   .parse();
