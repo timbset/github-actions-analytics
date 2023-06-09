@@ -203,4 +203,164 @@ yargs(hideBin(process.argv))
       );
     });
   })
+  .command('jobs report', (yargs) => {
+    return yargs;
+  }, () => {
+    const monday = new Date();
+    monday.setUTCHours(0, 0, 0);
+    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+
+    const nextMonday = new Date(monday);
+    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+
+    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
+    const dateDirName = monday.toISOString().split('T')[0];
+    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+
+    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[jobs]') && name.endsWith('.json'));
+
+    const headers = [
+      'workflow_name',
+      'job_name',
+
+      'main_success_runs',
+      'main_failure_runs',
+      'main_cancelled_runs',
+      'main_skipped_runs',
+      'main_retries',
+      'main_min_duration',
+      'main_avg_duration',
+      'main_max_duration',
+
+      'pr_success_runs',
+      'pr_failure_runs',
+      'pr_cancelled_runs',
+      'pr_skipped_runs',
+      'pr_retries',
+      'pr_min_duration',
+      'pr_avg_duration',
+      'pr_max_duration',
+    ];
+
+    const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
+    const numberFormatter = Intl.NumberFormat('ru-RU', { maximumSignificantDigits: 10 });
+
+    jobsFiles.forEach((name) => {
+      const jobs = JSON.parse(fs.readFileSync(path.join(dataPath, name))).jobs;
+      const reportMap = new Map();
+
+      jobs.forEach((job) => {
+        if (!reportMap.has(job.name)) {
+          reportMap.set(job.name, {
+            workflow_name: job.workflow_name,
+            job_name: job.name,
+
+            main_success_runs: 0,
+            main_failure_runs: 0,
+            main_cancelled_runs: 0,
+            main_skipped_runs: 0,
+            main_min_duration: Infinity,
+            main_max_duration: 0,
+            main_sum_duration: 0,
+            main_count_duration: 0,
+            main_retries: 0,
+
+            pr_success_runs: 0,
+            pr_failure_runs: 0,
+            pr_cancelled_runs: 0,
+            pr_skipped_runs: 0,
+            pr_min_duration: Infinity,
+            pr_max_duration: 0,
+            pr_sum_duration: 0,
+            pr_count_duration: 0,
+            pr_retries: 0,
+          });
+        }
+
+        const branchPrefix = /^\d{2}_\d$/.test(job.head_branch) ? 'main' : 'pr';
+
+        const report = reportMap.get(job.name);
+        const duration = (new Date(job.completed_at).getTime() - new Date(job.started_at).getTime()) / 1000 / 60 / 60 / 24;
+
+        report[`${branchPrefix}_${job.conclusion}_runs`]++;
+        report[`${branchPrefix}_sum_duration`] += duration;
+        report[`${branchPrefix}_count_duration`]++;
+
+        if (job.run_attempt > 1) {
+          report[`${branchPrefix}_retries`]++;
+        }
+
+        if (job.conclusion !== 'skipped' && duration < report[`${branchPrefix}_min_duration`]) {
+          report[`${branchPrefix}_min_duration`] = duration;
+        }
+
+        if (duration > report[`${branchPrefix}_max_duration`]) {
+          report[`${branchPrefix}_max_duration`] = duration;
+        }
+      });
+
+      reportMap.forEach((report) => {
+        report.main_avg_duration = report.main_count_duration > 0
+          ? report.main_sum_duration / report.main_count_duration
+          : 0;
+
+        report.pr_avg_duration = report.main_count_duration > 0
+          ? report.pr_sum_duration / report.pr_count_duration
+          : 0;
+
+        if (!Number.isFinite(report.main_min_duration)) {
+          report.main_min_duration = 0;
+        }
+
+        if (!Number.isFinite(report.pr_min_duration)) {
+          report.pr_min_duration = 0;
+        }
+      });
+
+      fs.writeFileSync(
+        path.join(dataPath, name).replace('[jobs]', '[jobs_report]').replace('.json', '.csv'),
+        [headers.map((header) => header.replaceAll('_', ' ')).join(';')].concat(
+          [...reportMap.values()].map((report) =>
+            headers.map((header) =>
+              header.endsWith('_at')
+                ? dateFormatter.format(new Date(report[header]))
+                : typeof report[header] === 'number'
+                  ? numberFormatter.format(report[header])
+                  : report[header]
+            ).join(';')
+          )
+        ).join('\n')
+      );
+    });
+  })
+  .command('jobs merge', (yargs) => {
+    return yargs;
+  }, () => {
+    const monday = new Date();
+    monday.setUTCHours(0, 0, 0);
+    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+
+    const nextMonday = new Date(monday);
+    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+
+    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
+    const dateDirName = monday.toISOString().split('T')[0];
+    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+
+    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[jobs_report]') && name.endsWith('.csv'));
+    const result = [];
+
+    jobsFiles.forEach((jobsFilePath) => {
+      const data = fs.readFileSync(path.join(dataPath, jobsFilePath)).toString();
+      const splitted = data.split('\n');
+
+      if (result.length === 0) {
+        result.push(...splitted);
+      } else {
+        result.push(...splitted.slice(1));
+      }
+    });
+
+    fs.writeFileSync(path.join(dataPath, 'jobs_report.csv'), result.join('\n'));
+  })
   .parse();
