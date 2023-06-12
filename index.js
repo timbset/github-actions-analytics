@@ -49,6 +49,8 @@ const normalizeDate = (date) => {
   throw new Error(`Invalid date format for ${date}`);
 };
 
+const buildCreated = (from, to) => `${normalizeDate(from)}..${normalizeDate(to)}`;
+
 const getRepoDirName = () => `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`.replace('/', '\u2215');
 
 const convertJsonJobsToCsv = (sourcePath, targetPath, headers, filter = () => true) => {
@@ -158,7 +160,7 @@ yargs(hideBin(process.argv))
         auth: getEnv('GH_AUTH_TOKEN'),
       });
 
-      const created = `${normalizeDate(from)}..${normalizeDate(to)}`;
+      const created = buildCreated(from, to);
       const repoPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', getRepoDirName());
       const dataPath = path.join(repoPath, created);
 
@@ -213,8 +215,7 @@ yargs(hideBin(process.argv))
         default: null,
       }),
     async ({ from, to, workflow_file }) => {
-      const created = `${normalizeDate(from)}..${normalizeDate(to)}`;
-
+      const created = buildCreated(from, to);
       const repoPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', getRepoDirName());
       const dataPath = path.join(repoPath, created);
 
@@ -245,56 +246,193 @@ yargs(hideBin(process.argv))
       }
     }
   )
-  .command('jobs load', 'Loads jobs using workflow run data', async () => {
-    const octokit = new Octokit({
-      auth: getEnv('GH_AUTH_TOKEN'),
-    });
+  .command(
+    'workflow_runs summary',
+    'Builds workflow runs summary',
+    (yargs) => addFromAndToOptions(yargs)
+      .option('workflow_file', {
+        description: 'Workflow file name',
+        type: 'string',
+        default: null,
+      }),
+    async ({ from, to, workflow_file }) => {
+      const created = buildCreated(from, to);
+      const repoDirName = getRepoDirName();
+      const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
 
-    const monday = new Date();
-    monday.setUTCHours(0, 0, 0);
-    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+      const runsFiles = fs.readdirSync(path.join(dataPath, 'runs'));
 
-    const nextMonday = new Date(monday);
-    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+      const headers = [
+        'id',
+        'workflow_name',
 
-    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
-    const dateDirName = monday.toISOString().split('T')[0];
-    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+        'main_success_runs',
+        'main_failure_runs',
+        'main_cancelled_runs',
+        'main_skipped_runs',
+        'main_retries',
+        'main_min_duration',
+        'main_avg_duration',
+        'main_max_duration',
 
-    const workflowRunsPath = path.join(dataPath, 'workflow_runs.json');
+        'pr_success_runs',
+        'pr_failure_runs',
+        'pr_cancelled_runs',
+        'pr_skipped_runs',
+        'pr_retries',
+        'pr_min_duration',
+        'pr_avg_duration',
+        'pr_max_duration',
+      ];
 
-    if (!fs.existsSync(workflowRunsPath)) {
-      throw new Error('Workflow file not found');
-    }
+      const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
+      const numberFormatter = Intl.NumberFormat('ru-RU', { maximumSignificantDigits: 10 });
 
-    const runs = JSON.parse(fs.readFileSync(workflowRunsPath).toString()).workflow_runs;
+      const reportMap = new Map();
 
-    let status, data, jobs = [];
+      runsFiles.forEach((name) => {
+        const runs = JSON.parse(fs.readFileSync(path.join(dataPath, 'runs', name))).workflow_runs;
 
-    for (const run of runs) {
-      let page = 1;
+        runs.forEach((run) => {
+          if (!reportMap.has(run.name)) {
+            reportMap.set(run.name, {
+              id: getWorkflowId(run),
+              workflow_name: run.name,
 
-      do {
-        ({ status, data } = await octokit.request('GET /repos/{owner}/{repo}/actions/runs/{run_id}/jobs', {
-          owner: getEnv('GH_REPO_OWNER'),
-          repo: getEnv('GH_REPO_NAME'),
-          run_id: run.id,
-          per_page: 100,
-          page,
-          headers: {
-            'X-GitHub-Api-Version': '2022-11-28',
+              main_success_runs: 0,
+              main_failure_runs: 0,
+              main_cancelled_runs: 0,
+              main_skipped_runs: 0,
+              main_min_duration: Infinity,
+              main_max_duration: 0,
+              main_sum_duration: 0,
+              main_count_duration: 0,
+              main_retries: 0,
+
+              pr_success_runs: 0,
+              pr_failure_runs: 0,
+              pr_cancelled_runs: 0,
+              pr_skipped_runs: 0,
+              pr_min_duration: Infinity,
+              pr_max_duration: 0,
+              pr_sum_duration: 0,
+              pr_count_duration: 0,
+              pr_retries: 0,
+            });
           }
-        }));
 
-        page++;
-        jobs = jobs.concat(data.jobs);
-      } while (status === 200 && data.jobs.length >= 100);
+          const branchPrefix = /^\d{2}_\d$/.test(run.head_branch) ? 'main' : 'pr';
+
+          const report = reportMap.get(run.name);
+          const duration = (new Date(run.updated_at).getTime() - new Date(run.run_started_at).getTime()) / 1000 / 60 / 60 / 24;
+
+          report[`${branchPrefix}_${run.conclusion}_runs`]++;
+          report[`${branchPrefix}_sum_duration`] += duration;
+          report[`${branchPrefix}_count_duration`]++;
+
+          if (run.run_attempt > 1) {
+            report[`${branchPrefix}_retries`]++;
+          }
+
+          if (run.conclusion !== 'skipped' && duration < report[`${branchPrefix}_min_duration`]) {
+            report[`${branchPrefix}_min_duration`] = duration;
+          }
+
+          if (duration > report[`${branchPrefix}_max_duration`]) {
+            report[`${branchPrefix}_max_duration`] = duration;
+          }
+        });
+      });
+
+      reportMap.forEach((report) => {
+        report.main_avg_duration = report.main_count_duration > 0
+          ? report.main_sum_duration / report.main_count_duration
+          : 0;
+
+        report.pr_avg_duration = report.pr_count_duration > 0
+          ? report.pr_sum_duration / report.pr_count_duration
+          : 0;
+
+        if (!Number.isFinite(report.main_min_duration)) {
+          report.main_min_duration = 0;
+        }
+
+        if (!Number.isFinite(report.pr_min_duration)) {
+          report.pr_min_duration = 0;
+        }
+      });
+
+      fs.writeFileSync(
+        path.join(dataPath, 'workflow_runs.csv'),
+        [headers.map((header) => header.replaceAll('_', ' ')).join(';')].concat(
+          [...reportMap.values()].map((report) =>
+            headers.map((header) =>
+              header.endsWith('_at')
+                ? dateFormatter.format(new Date(report[header]))
+                : typeof report[header] === 'number'
+                  ? numberFormatter.format(report[header])
+                  : report[header]
+            ).join(';')
+          )
+        ).join('\n')
+      );
     }
+  )
+  .command(
+    'jobs load',
+    'Loads jobs using workflow run data',
+    (yargs) => addFromAndToOptions(yargs),
+      async ({ from, to }) => {
+      const octokit = new Octokit({
+        auth: getEnv('GH_AUTH_TOKEN'),
+      });
 
-    fs.writeFileSync(path.join(dataPath, 'jobs.json'), JSON.stringify({
-      jobs,
-    }, null, 2));
-  })
+      const monday = new Date();
+      monday.setUTCHours(0, 0, 0);
+      monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+
+      const nextMonday = new Date(monday);
+      nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+
+      const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
+      const dateDirName = monday.toISOString().split('T')[0];
+      const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+
+      const workflowRunsPath = path.join(dataPath, 'workflow_runs.json');
+
+      if (!fs.existsSync(workflowRunsPath)) {
+        throw new Error('Workflow file not found');
+      }
+
+      const runs = JSON.parse(fs.readFileSync(workflowRunsPath).toString()).workflow_runs;
+
+      let status, data, jobs = [];
+
+      for (const run of runs) {
+        let page = 1;
+
+        do {
+          ({ status, data } = await octokit.request('GET /repos/{owner}/{repo}/actions/runs/{run_id}/jobs', {
+            owner: getEnv('GH_REPO_OWNER'),
+            repo: getEnv('GH_REPO_NAME'),
+            run_id: run.id,
+            per_page: 100,
+            page,
+            headers: {
+              'X-GitHub-Api-Version': '2022-11-28',
+            }
+          }));
+
+          page++;
+          jobs = jobs.concat(data.jobs);
+        } while (status === 200 && data.jobs.length >= 100);
+      }
+
+      fs.writeFileSync(path.join(dataPath, 'jobs.json'), JSON.stringify({
+        jobs,
+      }, null, 2));
+    }
+  )
   .command('jobs split', 'Split jobs by workflow', async () => {
     const monday = new Date();
     monday.setUTCHours(0, 0, 0);
