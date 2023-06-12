@@ -432,6 +432,7 @@ yargs(hideBin(process.argv))
               repo: getEnv('GH_REPO_NAME'),
               run_id: run.id,
               per_page: 100,
+              filter: 'all',
               page,
               headers: {
                 'X-GitHub-Api-Version': '2022-11-28',
@@ -525,98 +526,100 @@ yargs(hideBin(process.argv))
         convertJsonJobsToCsv(path.join(dataPath, name), path.join(dataPath, name).replace('.json', '.csv'), headers)
       );
   })
-  .command('jobs report', 'Builds jobs summary report', () => {
-    const monday = new Date();
-    monday.setUTCHours(0, 0, 0);
-    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+  .command(
+    'jobs report',
+    'Builds jobs summary report',
+    (yargs) => addFromAndToOptions(yargs),
+    ({ from, to }) => {
+      const created = buildCreated(from, to);
+      const repoDirName = getRepoDirName();
+      const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
+      const jobsPath = path.join(dataPath, 'jobs');
 
-    const nextMonday = new Date(monday);
-    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+      const jobsFiles = fs.readdirSync(jobsPath);
 
-    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
-    const dateDirName = monday.toISOString().split('T')[0];
-    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+      const headers = [
+        'workflow_name',
+        'job_name',
 
-    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[jobs]') && name.endsWith('.json'));
+        'main_success_runs',
+        'main_failure_runs',
+        'main_cancelled_runs',
+        'main_skipped_runs',
+        'main_retries',
+        'main_min_duration',
+        'main_avg_duration',
+        'main_max_duration',
 
-    const headers = [
-      'workflow_name',
-      'job_name',
+        'pr_success_runs',
+        'pr_failure_runs',
+        'pr_cancelled_runs',
+        'pr_skipped_runs',
+        'pr_retries',
+        'pr_min_duration',
+        'pr_avg_duration',
+        'pr_max_duration',
+      ];
 
-      'main_success_runs',
-      'main_failure_runs',
-      'main_cancelled_runs',
-      'main_skipped_runs',
-      'main_retries',
-      'main_min_duration',
-      'main_avg_duration',
-      'main_max_duration',
+      const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
+      const numberFormatter = Intl.NumberFormat('ru-RU', { maximumSignificantDigits: 10 });
 
-      'pr_success_runs',
-      'pr_failure_runs',
-      'pr_cancelled_runs',
-      'pr_skipped_runs',
-      'pr_retries',
-      'pr_min_duration',
-      'pr_avg_duration',
-      'pr_max_duration',
-    ];
-
-    const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
-    const numberFormatter = Intl.NumberFormat('ru-RU', { maximumSignificantDigits: 10 });
-
-    jobsFiles.forEach((name) => {
-      const jobs = JSON.parse(fs.readFileSync(path.join(dataPath, name))).jobs;
       const reportMap = new Map();
 
-      jobs.forEach((job) => {
-        if (!reportMap.has(job.name)) {
-          reportMap.set(job.name, {
-            workflow_name: job.workflow_name,
-            job_name: job.name,
+      jobsFiles.forEach((name) => {
+        const jobs = JSON.parse(fs.readFileSync(path.join(dataPath, 'jobs', name))).jobs;
 
-            main_success_runs: 0,
-            main_failure_runs: 0,
-            main_cancelled_runs: 0,
-            main_skipped_runs: 0,
-            main_min_duration: Infinity,
-            main_max_duration: 0,
-            main_sum_duration: 0,
-            main_count_duration: 0,
-            main_retries: 0,
+        jobs.forEach((job) => {
+          const key = `${job.workflow_name}/${job.name}`;
 
-            pr_success_runs: 0,
-            pr_failure_runs: 0,
-            pr_cancelled_runs: 0,
-            pr_skipped_runs: 0,
-            pr_min_duration: Infinity,
-            pr_max_duration: 0,
-            pr_sum_duration: 0,
-            pr_count_duration: 0,
-            pr_retries: 0,
-          });
-        }
+          if (!reportMap.has(key)) {
+            reportMap.set(key, {
+              workflow_name: job.workflow_name,
+              job_name: job.name,
 
-        const branchPrefix = /^\d{2}_\d$/.test(job.head_branch) ? 'main' : 'pr';
+              main_success_runs: 0,
+              main_failure_runs: 0,
+              main_cancelled_runs: 0,
+              main_skipped_runs: 0,
+              main_min_duration: Infinity,
+              main_max_duration: 0,
+              main_sum_duration: 0,
+              main_count_duration: 0,
+              main_retries: 0,
 
-        const report = reportMap.get(job.name);
-        const duration = (new Date(job.completed_at).getTime() - new Date(job.started_at).getTime()) / 1000 / 60 / 60 / 24;
+              pr_success_runs: 0,
+              pr_failure_runs: 0,
+              pr_cancelled_runs: 0,
+              pr_skipped_runs: 0,
+              pr_min_duration: Infinity,
+              pr_max_duration: 0,
+              pr_sum_duration: 0,
+              pr_count_duration: 0,
+              pr_retries: 0,
+            });
+          }
 
-        report[`${branchPrefix}_${job.conclusion}_runs`]++;
-        report[`${branchPrefix}_sum_duration`] += duration;
-        report[`${branchPrefix}_count_duration`]++;
+          const branchPrefix = /^\d{2}_\d$/.test(job.head_branch) ? 'main' : 'pr';
 
-        if (job.run_attempt > 1) {
-          report[`${branchPrefix}_retries`]++;
-        }
+          const report = reportMap.get(key);
+          const duration = (new Date(job.completed_at).getTime() - new Date(job.started_at).getTime()) / 1000 / 60 / 60 / 24;
 
-        if (job.conclusion !== 'skipped' && duration < report[`${branchPrefix}_min_duration`]) {
-          report[`${branchPrefix}_min_duration`] = duration;
-        }
+          report[`${branchPrefix}_${job.conclusion}_runs`]++;
+          report[`${branchPrefix}_sum_duration`] += duration;
+          report[`${branchPrefix}_count_duration`]++;
 
-        if (duration > report[`${branchPrefix}_max_duration`]) {
-          report[`${branchPrefix}_max_duration`] = duration;
-        }
+          if (job.run_attempt > 1) {
+            report[`${branchPrefix}_retries`]++;
+          }
+
+          if (job.conclusion !== 'skipped' && duration < report[`${branchPrefix}_min_duration`]) {
+            report[`${branchPrefix}_min_duration`] = duration;
+          }
+
+          if (duration > report[`${branchPrefix}_max_duration`]) {
+            report[`${branchPrefix}_max_duration`] = duration;
+          }
+        });
       });
 
       reportMap.forEach((report) => {
@@ -624,7 +627,7 @@ yargs(hideBin(process.argv))
           ? report.main_sum_duration / report.main_count_duration
           : 0;
 
-        report.pr_avg_duration = report.main_count_duration > 0
+        report.pr_avg_duration = report.pr_count_duration > 0
           ? report.pr_sum_duration / report.pr_count_duration
           : 0;
 
@@ -638,7 +641,7 @@ yargs(hideBin(process.argv))
       });
 
       fs.writeFileSync(
-        path.join(dataPath, name).replace('[jobs]', '[jobs_report]').replace('.json', '.csv'),
+        path.join(dataPath, 'jobs_summary.csv'),
         [headers.map((header) => header.replaceAll('_', ' ')).join(';')].concat(
           [...reportMap.values()].map((report) =>
             headers.map((header) =>
@@ -651,36 +654,8 @@ yargs(hideBin(process.argv))
           )
         ).join('\n')
       );
-    });
-  })
-  .command('jobs merge', 'Merges jobs', () => {
-    const monday = new Date();
-    monday.setUTCHours(0, 0, 0);
-    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
-
-    const nextMonday = new Date(monday);
-    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
-
-    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
-    const dateDirName = monday.toISOString().split('T')[0];
-    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
-
-    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[jobs_report]') && name.endsWith('.csv'));
-    const result = [];
-
-    jobsFiles.forEach((jobsFilePath) => {
-      const data = fs.readFileSync(path.join(dataPath, jobsFilePath)).toString();
-      const splitted = data.split('\n');
-
-      if (result.length === 0) {
-        result.push(...splitted);
-      } else {
-        result.push(...splitted.slice(1));
-      }
-    });
-
-    fs.writeFileSync(path.join(dataPath, 'jobs_report.csv'), result.join('\n'));
-  })
+    }
+  )
   .command('jobs failures', 'Builds a list of failed jobs', () => {
     const monday = new Date(2023, 5, 5);
     monday.setUTCHours(0, 0, 0);
@@ -716,32 +691,36 @@ yargs(hideBin(process.argv))
         )
       );
   })
-  .command('jobs merge_failures', 'Merges jobs failures', () => {
-    const monday = new Date(2023, 5, 5);
-    monday.setUTCHours(0, 0, 0);
-    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+  .command({
+    command: 'jobs failures',
+    describe: 'Merges jobs failures',
+    handler: ({ from, to }) => {
+      const monday = new Date(2023, 5, 5);
+      monday.setUTCHours(0, 0, 0);
+      monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
 
-    const nextMonday = new Date(monday);
-    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+      const nextMonday = new Date(monday);
+      nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
 
-    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
-    const dateDirName = monday.toISOString().split('T')[0];
-    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+      const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
+      const dateDirName = monday.toISOString().split('T')[0];
+      const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
 
-    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[job_failures]') && name.endsWith('.csv'));
-    const result = [];
+      const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[job_failures]') && name.endsWith('.csv'));
+      const result = [];
 
-    jobsFiles.forEach((jobsFilePath) => {
-      const data = fs.readFileSync(path.join(dataPath, jobsFilePath)).toString();
-      const splitted = data.split('\n');
+      jobsFiles.forEach((jobsFilePath) => {
+        const data = fs.readFileSync(path.join(dataPath, jobsFilePath)).toString();
+        const splitted = data.split('\n');
 
-      if (result.length === 0) {
-        result.push(...splitted);
-      } else {
-        result.push(...splitted.slice(1));
-      }
-    });
+        if (result.length === 0) {
+          result.push(...splitted);
+        } else {
+          result.push(...splitted.slice(1));
+        }
+      });
 
-    fs.writeFileSync(path.join(dataPath, 'jobs_failures.csv'), result.join('\n'));
+      fs.writeFileSync(path.join(dataPath, 'jobs_failures.csv'), result.join('\n'));
+    },
   })
   .parse();
