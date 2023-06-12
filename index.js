@@ -656,71 +656,53 @@ yargs(hideBin(process.argv))
       );
     }
   )
-  .command('jobs failures', 'Builds a list of failed jobs', () => {
-    const monday = new Date(2023, 5, 5);
-    monday.setUTCHours(0, 0, 0);
-    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+  .command(
+    'jobs failures',
+    'Builds a list of failed jobs',
+    (yargs) => addFromAndToOptions(yargs),
+    ({ from, to }) => {
+      const created = buildCreated(from, to);
+      const repoDirName = getRepoDirName();
+      const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
 
-    const nextMonday = new Date(monday);
-    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+      const headers = [
+        'id',
+        'run_id',
+        'run_attempt',
+        'workflow_name',
+        'name',
+        'head_branch',
+        'conclusion',
+        'created_at',
+        'html_url',
+      ];
 
-    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
-    const dateDirName = monday.toISOString().split('T')[0];
-    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+      const jobsToBuild = fs.readdirSync(path.join(dataPath, 'jobs'))
+        .reduce((acc, name) => {
+          const { jobs } = JSON.parse(fs.readFileSync(path.join(dataPath, 'jobs', name)).toString());
 
-    const headers = [
-      'id',
-      'run_id',
-      'run_attempt',
-      'workflow_name',
-      'name',
-      'head_branch',
-      'conclusion',
-      'created_at',
-      'html_url',
-    ];
+          return acc.concat(
+            jobs.filter((job) => job.conclusion === 'failure')
+          );
+        }, []);
 
-    fs.readdirSync(dataPath)
-      .filter((name) => name.startsWith('[jobs]') && name.endsWith('.json'))
-      .map((name) =>
-        convertJsonJobsToCsv(
-          path.join(dataPath, name),
-          path.join(dataPath, name).replace('[jobs]', '[job_failures]').replace('.json', '.csv'),
-          headers,
-          (job) => job.conclusion === 'failure',
-        )
+      const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
+      const numberFormatter = Intl.NumberFormat('ru-RU', { maximumSignificantDigits: 10 });
+
+      fs.writeFileSync(
+        path.join(dataPath, 'jobs_failures.csv'),
+        [headers.map((header) => header.replaceAll('_', ' ')).join(';')].concat(
+          jobsToBuild.map((report) =>
+            headers.map((header) =>
+              header.endsWith('_at')
+                ? dateFormatter.format(new Date(report[header]))
+                : typeof report[header] === 'number' && !header.includes('id')
+                  ? numberFormatter.format(report[header])
+                  : report[header]
+            ).join(';')
+          )
+        ).join('\n')
       );
-  })
-  .command({
-    command: 'jobs failures',
-    describe: 'Merges jobs failures',
-    handler: ({ from, to }) => {
-      const monday = new Date(2023, 5, 5);
-      monday.setUTCHours(0, 0, 0);
-      monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
-
-      const nextMonday = new Date(monday);
-      nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
-
-      const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
-      const dateDirName = monday.toISOString().split('T')[0];
-      const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
-
-      const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[job_failures]') && name.endsWith('.csv'));
-      const result = [];
-
-      jobsFiles.forEach((jobsFilePath) => {
-        const data = fs.readFileSync(path.join(dataPath, jobsFilePath)).toString();
-        const splitted = data.split('\n');
-
-        if (result.length === 0) {
-          result.push(...splitted);
-        } else {
-          result.push(...splitted.slice(1));
-        }
-      });
-
-      fs.writeFileSync(path.join(dataPath, 'jobs_failures.csv'), result.join('\n'));
-    },
-  })
+    }
+  )
   .parse();
