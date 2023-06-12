@@ -16,7 +16,42 @@ const getEnv = (name) => {
   return process.env[name];
 };
 
-function convertJsonJobsToCsv(sourcePath, targetPath, headers, filter = () => true) {
+const normalizeNumber = (value) => {
+  return value < 10 ? `0${value}` : `${value}`;
+};
+
+const normalizeDate = (date) => {
+  if (date === 'today') {
+    const today = new Date();
+
+    return [
+      today.getUTCFullYear(),
+      normalizeNumber(today.getUTCMonth() + 1),
+      today.getUTCDate(),
+    ].join('-');
+  }
+
+  if (date === 'yesterday') {
+    const yesterday = new Date();
+    yesterday.setUTCDate(yesterday.getUTCDate() - 1);
+
+    return [
+      yesterday.getUTCFullYear(),
+      normalizeNumber(yesterday.getUTCMonth() + 1),
+      yesterday.getUTCDate(),
+    ].join('-');
+  }
+
+  if (/\d{4}(-\d{2}){2}(T(\d{2}:){2}\d{2}Z)?/.test(date)) {
+    return date;
+  }
+
+  throw new Error(`Invalid date format for ${date}`);
+};
+
+const getRepoDirName = () => `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`.replace('/', '\u2215');
+
+const convertJsonJobsToCsv = (sourcePath, targetPath, headers, filter = () => true) => {
   const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
   const jobs = JSON.parse(fs.readFileSync(sourcePath)).jobs;
 
@@ -30,60 +65,190 @@ function convertJsonJobsToCsv(sourcePath, targetPath, headers, filter = () => tr
       )
     ).join('\n')
   );
-}
+};
+
+const ensureDataFolder = (repoPath, dataPath) => {
+  if (!fs.existsSync(repoPath)) {
+    fs.mkdirSync(repoPath);
+  }
+
+  if (!fs.existsSync(dataPath)) {
+    fs.mkdirSync(dataPath);
+  }
+};
+
+const addFromAndToOptions = (yargs) => yargs.options({
+  from: {
+    describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
+    default: 'yesterday',
+    type: 'string'
+  },
+  to: {
+    describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
+    default: 'today',
+    type: 'string'
+  },
+});
+
+const getWorkflowId = (workflow) => {
+  const splitted = workflow.path.split('/');
+  return splitted[splitted.length - 1];
+};
+
+const loadWorkflowRuns = async (workflow, created, dataPath) => {
+  const octokit = new Octokit({
+    auth: getEnv('GH_AUTH_TOKEN'),
+  });
+
+  const runsPath = path.join(dataPath, 'runs');
+
+  if (!fs.existsSync(runsPath)) {
+    fs.mkdirSync(runsPath);
+  }
+
+  const id = getWorkflowId(workflow);
+  const filePath = path.join(runsPath, `${id}.json`);
+
+  if (fs.existsSync(filePath)) {
+    console.warn(`"${id}" workflow runs already loaded, skip`);
+    return;
+  }
+
+  let status, data, runs = [];
+  let page = 1;
+
+  console.log(`"${id}" workflow runs loading...`);
+
+  do {
+    ({ status, data } = await octokit.request(`GET /repos/{owner}/{repo}/actions/workflows/${id}/runs`, {
+      owner: getEnv('GH_REPO_OWNER'),
+      repo: getEnv('GH_REPO_NAME'),
+      per_page: 100,
+      page,
+      created,
+      headers: {
+        'X-GitHub-Api-Version': '2022-11-28',
+      }
+    }));
+
+    runs = runs.concat(data.workflow_runs);
+
+    const current = Math.min(page * 100, data.total_count)
+    console.log(`  ${current}/${data.total_count} loaded`);
+
+    page++;
+  } while (status === 200 && data.workflow_runs.length >= 100);
+
+  fs.writeFileSync(filePath, JSON.stringify({
+    workflow_runs: runs,
+  }, null, 2));
+
+  console.log(`"${id}" workflow runs saved`);
+};
 
 yargs(hideBin(process.argv))
   .scriptName('yarn analytics')
   .recommendCommands()
   .demandCommand(1)
-  .command('workflow_run load', 'Loads workflow run data', (yargs) => {
-    return yargs;
-  }, async () => {
-    const octokit = new Octokit({
-      auth: getEnv('GH_AUTH_TOKEN'),
-    });
+  .command(
+    'workflows load',
+    'Loads workflows data',
+    (yargs) => addFromAndToOptions(yargs),
+    async ({ from, to }) => {
+      const octokit = new Octokit({
+        auth: getEnv('GH_AUTH_TOKEN'),
+      });
 
-    const monday = new Date();
-    monday.setUTCHours(0, 0, 0);
-    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+      const created = `${normalizeDate(from)}..${normalizeDate(to)}`;
+      const repoPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', getRepoDirName());
+      const dataPath = path.join(repoPath, created);
 
-    const nextMonday = new Date(monday);
-    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+      ensureDataFolder(repoPath, dataPath);
 
-    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
-    const dateDirName = monday.toISOString().split('T')[0];
-    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+      const workflowsPath = path.join(dataPath, 'workflows.json');
 
-    if (!fs.existsSync(dataPath)) {
-      fs.mkdirSync(dataPath, { recursive: true });
+      if (fs.existsSync(workflowsPath)) {
+        console.warn('Workflows already loaded, skip');
+        return;
+      }
+
+      let status, data, workflows = [];
+      let page = 1;
+
+      console.log('Loading workflows...');
+
+      do {
+        ({ status, data } = await octokit.request('GET /repos/{owner}/{repo}/actions/workflows', {
+          owner: getEnv('GH_REPO_OWNER'),
+          repo: getEnv('GH_REPO_NAME'),
+          per_page: 100,
+          page,
+          created,
+          headers: {
+            'X-GitHub-Api-Version': '2022-11-28',
+          }
+        }));
+
+        workflows = workflows.concat(data.workflows);
+
+        const current = Math.min(page * 100, data.total_count)
+        console.log(`  ${current}/${data.total_count} loaded`);
+
+        page++;
+      } while (status === 200 && data.workflows.length >= 100);
+
+      fs.writeFileSync(workflowsPath, JSON.stringify({
+        workflows: workflows,
+      }, null, 2));
+
+      console.log('Workflows saved');
     }
+  )
+  .command(
+    'workflow_runs load',
+    'Loads workflow runs data',
+    (yargs) => addFromAndToOptions(yargs)
+      .option('workflow_file', {
+        description: 'Workflow file name',
+      }),
+    async ({ from, to, workflow_file }) => {
+      const created = `${normalizeDate(from)}..${normalizeDate(to)}`;
 
-    let status, data, runs = [];
-    let page = 1;
+      const repoPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', getRepoDirName());
+      const dataPath = path.join(repoPath, created);
 
-    do {
-      ({ status, data } = await octokit.request('GET /repos/{owner}/{repo}/actions/runs', {
-        owner: getEnv('GH_REPO_OWNER'),
-        repo: getEnv('GH_REPO_NAME'),
-        per_page: 100,
-        page,
-        created: `${monday.toISOString().split('T')[0]}..${nextMonday.toISOString().split('T')[0]}`,
-        headers: {
-          'X-GitHub-Api-Version': '2022-11-28',
+      ensureDataFolder(repoPath, dataPath);
+
+      const workflowsPath = path.join(dataPath, 'workflows.json');
+
+      if (!fs.existsSync(workflowsPath)) {
+        throw new Error('Workflows not found');
+      }
+
+      const { workflows } = JSON.parse(fs.readFileSync(workflowsPath).toString());
+
+      if (workflow_file == null) {
+        console.log(`${workflows.length} workflows found`);
+
+        for (const workflow of workflows) {
+          await loadWorkflowRuns(workflow, created, dataPath);
         }
-      }));
+      } else {
+        const foundWorkflows = workflows.filter((w) => getWorkflowId(w) === workflow_file);
 
-      page++;
-      runs = runs.concat(data.workflow_runs);
-    } while (status === 200 && data.workflow_runs.length >= 100);
+        if (foundWorkflows.length === 0) {
+          throw new Error(`"${workflow_name}" workflow not found`);
+        }
 
-    fs.writeFileSync(path.join(dataPath, 'workflow_runs.json'), JSON.stringify({
-      workflow_runs: runs,
-    }, null, 2));
-  })
-  .command('jobs load', 'Loads jobs using workflow run data', (yargs) => {
-    return yargs;
-  }, async () => {
+        if (foundWorkflows.length !== 1) {
+          throw new Error(`${foundWorkflows.length} found with name "${workflow_file}"`);
+        }
+
+        await loadWorkflowRuns(foundWorkflows[0], created, dataPath);
+      }
+    }
+  )
+  .command('jobs load', 'Loads jobs using workflow run data', async () => {
     const octokit = new Octokit({
       auth: getEnv('GH_AUTH_TOKEN'),
     });
@@ -133,9 +298,7 @@ yargs(hideBin(process.argv))
       jobs,
     }, null, 2));
   })
-  .command('jobs split', 'Split jobs by workflow', (yargs) => {
-    return yargs;
-  }, async () => {
+  .command('jobs split', 'Split jobs by workflow', async () => {
     const monday = new Date();
     monday.setUTCHours(0, 0, 0);
     monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
@@ -170,9 +333,7 @@ yargs(hideBin(process.argv))
       }, null, 2));
     });
   })
-  .command('jobs csv', 'Converts jobs to CSV', (yargs) => {
-    return yargs;
-  }, async () => {
+  .command('jobs csv', 'Converts jobs to CSV', async () => {
     const monday = new Date();
     monday.setUTCHours(0, 0, 0);
     monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
@@ -205,9 +366,7 @@ yargs(hideBin(process.argv))
         convertJsonJobsToCsv(path.join(dataPath, name), path.join(dataPath, name).replace('.json', '.csv'), headers)
       );
   })
-  .command('jobs report', (yargs) => {
-    return yargs;
-  }, () => {
+  .command('jobs report', 'Builds jobs summary report', () => {
     const monday = new Date();
     monday.setUTCHours(0, 0, 0);
     monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
@@ -335,9 +494,7 @@ yargs(hideBin(process.argv))
       );
     });
   })
-  .command('jobs merge', (yargs) => {
-    return yargs;
-  }, () => {
+  .command('jobs merge', 'Merges jobs', () => {
     const monday = new Date();
     monday.setUTCHours(0, 0, 0);
     monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
@@ -365,9 +522,7 @@ yargs(hideBin(process.argv))
 
     fs.writeFileSync(path.join(dataPath, 'jobs_report.csv'), result.join('\n'));
   })
-  .command('jobs failures', (yargs) => {
-    return yargs;
-  }, () => {
+  .command('jobs failures', 'Builds a list of failed jobs', () => {
     const monday = new Date(2023, 5, 5);
     monday.setUTCHours(0, 0, 0);
     monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
@@ -402,9 +557,7 @@ yargs(hideBin(process.argv))
         )
       );
   })
-  .command('jobs merge_failures', (yargs) => {
-    return yargs;
-  }, () => {
+  .command('jobs merge_failures', 'Merges jobs failures', () => {
     const monday = new Date(2023, 5, 5);
     monday.setUTCHours(0, 0, 0);
     monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
@@ -418,8 +571,6 @@ yargs(hideBin(process.argv))
 
     const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[job_failures]') && name.endsWith('.csv'));
     const result = [];
-
-    console.log(jobsFiles);
 
     jobsFiles.forEach((jobsFilePath) => {
       const data = fs.readFileSync(path.join(dataPath, jobsFilePath)).toString();
