@@ -16,6 +16,22 @@ const getEnv = (name) => {
   return process.env[name];
 };
 
+function convertJsonJobsToCsv(sourcePath, targetPath, headers, filter = () => true) {
+  const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
+  const jobs = JSON.parse(fs.readFileSync(sourcePath)).jobs;
+
+  fs.writeFileSync(targetPath, [headers.join(';')].concat(
+      jobs.filter(filter).map((job) =>
+        headers.map((header) =>
+          header.endsWith('_at')
+            ? dateFormatter.format(new Date(job[header]))
+            : job[header]
+        ).join(';')
+      )
+    ).join('\n')
+  );
+}
+
 yargs(hideBin(process.argv))
   .scriptName('yarn analytics')
   .recommendCommands()
@@ -168,8 +184,6 @@ yargs(hideBin(process.argv))
     const dateDirName = monday.toISOString().split('T')[0];
     const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
 
-    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[jobs]') && name.endsWith('.json'));
-
     const headers = [
       'id',
       'run_id',
@@ -184,24 +198,12 @@ yargs(hideBin(process.argv))
       'completed_at',
     ];
 
-    const dateFormatter = Intl.DateTimeFormat('ru-RU', { dateStyle: 'short', timeStyle: 'medium' });
-
-    jobsFiles.forEach((name) => {
-      const jobs = JSON.parse(fs.readFileSync(path.join(dataPath, name))).jobs;
-
-      fs.writeFileSync(
-        path.join(dataPath, name).replace('.json', '.csv'),
-        [headers.join(';')].concat(
-          jobs.map((job) =>
-            headers.map((header) =>
-              header.endsWith('_at')
-                ? dateFormatter.format(new Date(job[header]))
-                : job[header]
-            ).join(';')
-          )
-        ).join('\n')
+    fs
+      .readdirSync(dataPath)
+      .filter((name) => name.startsWith('[jobs]') && name.endsWith('.json'))
+      .map((name) =>
+        convertJsonJobsToCsv(path.join(dataPath, name), path.join(dataPath, name).replace('.json', '.csv'), headers)
       );
-    });
   })
   .command('jobs report', (yargs) => {
     return yargs;
@@ -362,5 +364,74 @@ yargs(hideBin(process.argv))
     });
 
     fs.writeFileSync(path.join(dataPath, 'jobs_report.csv'), result.join('\n'));
+  })
+  .command('jobs failures', (yargs) => {
+    return yargs;
+  }, () => {
+    const monday = new Date(2023, 5, 5);
+    monday.setUTCHours(0, 0, 0);
+    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+
+    const nextMonday = new Date(monday);
+    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+
+    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
+    const dateDirName = monday.toISOString().split('T')[0];
+    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+
+    const headers = [
+      'id',
+      'run_id',
+      'run_attempt',
+      'workflow_name',
+      'name',
+      'head_branch',
+      'conclusion',
+      'created_at',
+      'html_url',
+    ];
+
+    fs.readdirSync(dataPath)
+      .filter((name) => name.startsWith('[jobs]') && name.endsWith('.json'))
+      .map((name) =>
+        convertJsonJobsToCsv(
+          path.join(dataPath, name),
+          path.join(dataPath, name).replace('[jobs]', '[job_failures]').replace('.json', '.csv'),
+          headers,
+          (job) => job.conclusion === 'failure',
+        )
+      );
+  })
+  .command('jobs merge_failures', (yargs) => {
+    return yargs;
+  }, () => {
+    const monday = new Date(2023, 5, 5);
+    monday.setUTCHours(0, 0, 0);
+    monday.setUTCDate(monday.getUTCDate() - monday.getUTCDay() + 1);
+
+    const nextMonday = new Date(monday);
+    nextMonday.setUTCDate(nextMonday.getUTCDate() + 7);
+
+    const repoDirName = `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
+    const dateDirName = monday.toISOString().split('T')[0];
+    const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, dateDirName);
+
+    const jobsFiles = fs.readdirSync(dataPath).filter((name) => name.startsWith('[job_failures]') && name.endsWith('.csv'));
+    const result = [];
+
+    console.log(jobsFiles);
+
+    jobsFiles.forEach((jobsFilePath) => {
+      const data = fs.readFileSync(path.join(dataPath, jobsFilePath)).toString();
+      const splitted = data.split('\n');
+
+      if (result.length === 0) {
+        result.push(...splitted);
+      } else {
+        result.push(...splitted.slice(1));
+      }
+    });
+
+    fs.writeFileSync(path.join(dataPath, 'jobs_failures.csv'), result.join('\n'));
   })
   .parse();
