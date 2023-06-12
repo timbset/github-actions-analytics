@@ -95,7 +95,7 @@ const getWorkflowId = (workflow) => {
   return splitted[splitted.length - 1];
 };
 
-const loadWorkflowRuns = async (workflow, created, dataPath) => {
+const loadWorkflowRuns = async (workflowId, created, dataPath) => {
   const octokit = new Octokit({
     auth: getEnv('GH_AUTH_TOKEN'),
   });
@@ -106,21 +106,20 @@ const loadWorkflowRuns = async (workflow, created, dataPath) => {
     fs.mkdirSync(runsPath);
   }
 
-  const id = getWorkflowId(workflow);
-  const filePath = path.join(runsPath, `${id}.json`);
+  const filePath = path.join(runsPath, `${workflowId}.json`);
 
   if (fs.existsSync(filePath)) {
-    console.warn(`"${id}" workflow runs already loaded, skip`);
+    console.warn(`"${workflowId}" workflow runs already loaded, skip`);
     return;
   }
 
   let status, data, runs = [];
   let page = 1;
 
-  console.log(`"${id}" workflow runs loading...`);
+  console.log(`"${workflowId}" workflow runs loading...`);
 
   do {
-    ({ status, data } = await octokit.request(`GET /repos/{owner}/{repo}/actions/workflows/${id}/runs`, {
+    ({ status, data } = await octokit.request(`GET /repos/{owner}/{repo}/actions/workflows/${workflowId}/runs`, {
       owner: getEnv('GH_REPO_OWNER'),
       repo: getEnv('GH_REPO_NAME'),
       per_page: 100,
@@ -143,7 +142,7 @@ const loadWorkflowRuns = async (workflow, created, dataPath) => {
     workflow_runs: runs,
   }, null, 2));
 
-  console.log(`"${id}" workflow runs saved`);
+  console.log(`"${workflowId}" workflow runs saved`);
 };
 
 yargs(hideBin(process.argv))
@@ -210,6 +209,8 @@ yargs(hideBin(process.argv))
     (yargs) => addFromAndToOptions(yargs)
       .option('workflow_file', {
         description: 'Workflow file name',
+        type: 'string',
+        default: null,
       }),
     async ({ from, to, workflow_file }) => {
       const created = `${normalizeDate(from)}..${normalizeDate(to)}`;
@@ -221,30 +222,26 @@ yargs(hideBin(process.argv))
 
       const workflowsPath = path.join(dataPath, 'workflows.json');
 
-      if (!fs.existsSync(workflowsPath)) {
-        throw new Error('Workflows not found');
+      let workflowIds = [];
+
+      if (workflow_file !== null) {
+        workflowIds = Array.isArray(workflow_file) ? workflow_file : [workflow_file];
+      } else {
+        if (!fs.existsSync(workflowsPath)) {
+          throw new Error('Workflows must be loaded first or use specific workflow files');
+        }
+
+        workflowIds = JSON.parse(fs.readFileSync(workflowsPath).toString()).workflows.map(getWorkflowId);
       }
 
-      const { workflows } = JSON.parse(fs.readFileSync(workflowsPath).toString());
+      console.log(`${workflowIds.length} workflows will be loaded`);
 
-      if (workflow_file == null) {
-        console.log(`${workflows.length} workflows found`);
-
-        for (const workflow of workflows) {
-          await loadWorkflowRuns(workflow, created, dataPath);
+      for (const id of workflowIds) {
+        try {
+          await loadWorkflowRuns(id, created, dataPath);
+        } catch (error) {
+          console.error(`"${id}" cannot be loaded: ${error}`);
         }
-      } else {
-        const foundWorkflows = workflows.filter((w) => getWorkflowId(w) === workflow_file);
-
-        if (foundWorkflows.length === 0) {
-          throw new Error(`"${workflow_name}" workflow not found`);
-        }
-
-        if (foundWorkflows.length !== 1) {
-          throw new Error(`${foundWorkflows.length} found with name "${workflow_file}"`);
-        }
-
-        await loadWorkflowRuns(foundWorkflows[0], created, dataPath);
       }
     }
   )
