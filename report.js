@@ -63,6 +63,7 @@ export async function buildWorkflowRunsReport(date) {
   const runsFiles = fs.readdirSync(path.join(dataPath, 'runs'));
 
   const headers = [
+    'date',
     'id',
     'workflow_name',
 
@@ -96,6 +97,7 @@ export async function buildWorkflowRunsReport(date) {
     runs.forEach((run) => {
       if (!reportMap.has(run.name)) {
         reportMap.set(run.name, {
+          date: created,
           id: getWorkflowId(run),
           workflow_name: run.name,
 
