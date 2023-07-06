@@ -3,7 +3,12 @@ import { hideBin } from 'yargs/helpers';
 import dotenv from 'dotenv';
 import { join } from 'path';
 
-import { loadWorkflows, loadWorkflowRuns, loadJobs } from './load.js';
+import {
+  loadWorkflowsFromRange,
+  loadWorkflowRunsFromRange,
+  loadJobsFromRange,
+} from './load.js';
+
 import { buildJobsReport, buildWorkflowRunsReport, buildFailuresList, mergeCsvFiles } from './report.js';
 import { getRepoPath, getDatesFromRange } from './utils.js';
 
@@ -30,19 +35,26 @@ yargs(hideBin(process.argv))
     'load [name]',
     'loads specified entity',
     (yargs) => yargs
-      .command('workflows', 'loads workflows', (yargs) => yargs, async ({ date }) => {
-        await loadWorkflows(date);
+      .command('workflows', 'loads workflows', (yargs) => yargs, async ({ from, to }) => {
+        await loadWorkflowsFromRange(from, to);
       })
-      .command('workflow_runs', 'loads workflow runs', (yargs) => yargs, async ({ date }) => {
-        await loadWorkflowRuns(date);
+      .command('workflow_runs', 'loads workflow runs', (yargs) => yargs, async ({ from, to }) => {
+        await loadWorkflowRunsFromRange(from, to);
       })
-      .command('jobs', 'loads jobs', (yargs) => yargs, async ({ date }) => {
-        await loadJobs(date);
+      .command('jobs', 'loads jobs', (yargs) => yargs, async ({ from, to }) => {
+        await loadJobsFromRange(from, to);
       })
-      .option('date', {
-        describe: 'date for which data will be loaded (format: YYYY-MM-DD, "yesterday" or "today")',
-        default: 'yesterday',
-        type: 'string'
+      .options({
+        from: {
+          describe: 'filter start date (format: YYYY-MM-DD, "yesterday" or "today")',
+          default: 'yesterday',
+          type: 'string'
+        },
+        to: {
+          describe: 'filter start date (format: YYYY-MM-DD, "yesterday" or "today")',
+          default: 'yesterday',
+          type: 'string'
+        },
       })
       .demandCommand(1)
   )

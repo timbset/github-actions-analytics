@@ -3,7 +3,7 @@ import { Octokit } from '@octokit/core';
 import fs from 'fs';
 import path from 'path';
 
-import { getRepoPath, normalizeDate } from './utils.js';
+import { getDatesFromRange, getRepoPath, normalizeDate } from './utils.js';
 
 dotenv.config();
 
@@ -90,6 +90,14 @@ const loadWorkflowRunsById = async (workflowId, created, dataPath) => {
   console.log(`"${workflowId}" workflow runs saved`);
 };
 
+export async function loadWorkflowsFromRange(from, to) {
+  const dates = getDatesFromRange(from, to).reverse();
+
+  for (const date of dates) {
+    await loadWorkflows(date);
+  }
+}
+
 export async function loadWorkflows(date) {
   const octokit = getOctokit();
 
@@ -138,6 +146,14 @@ export async function loadWorkflows(date) {
   console.log('Workflows saved');
 }
 
+export async function loadWorkflowRunsFromRange(from, to) {
+  const dates = getDatesFromRange(from, to);
+
+  for (const date of dates) {
+    await loadWorkflowRuns(date);
+  }
+}
+
 export async function loadWorkflowRuns(date) {
   const created = normalizeDate(date);
   const dataPath = path.join(getRepoPath(), created);
@@ -163,6 +179,14 @@ export async function loadWorkflowRuns(date) {
   }
 }
 
+export async function loadJobsFromRange(from, to) {
+  const dates = getDatesFromRange(from, to);
+
+  for (const date of dates) {
+    await loadJobs(date);
+  }
+}
+
 export async function loadJobs(date) {
   const octokit = getOctokit();
 
@@ -177,13 +201,20 @@ export async function loadJobs(date) {
   const runsPath = path.join(dataPath, 'runs');
 
   if (!fs.existsSync(runsPath)) {
-    throw new Error('Workflow runs folder not found. Load runs first');
+    throw new Error('Workflow runs folder not found. Load them first');
   }
 
-  const runFiles = fs.readdirSync(path.join(dataPath, 'runs'));
+  const runFiles = fs.readdirSync(runsPath);
   const runIds = runFiles.map((name) => name.replace('.json', ''));
 
   for (const runId of runIds) {
+    const jobsPath = path.join(dataPath, 'jobs', `${runId}.json`);
+
+    if (fs.existsSync(jobsPath)) {
+      console.log('Jobs already loaded, skipping')
+      continue;
+    }
+
     const runs = JSON.parse(fs.readFileSync(path.join(dataPath, 'runs', `${runId}.json`)).toString()).workflow_runs;
     console.log(`"${runId}" workflow. Loading jobs for ${runs.length} workflow runs...`);
 
