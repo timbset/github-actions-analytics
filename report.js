@@ -3,6 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import { URL, fileURLToPath } from 'url';
 
+import { getRepoPath, normalizeDate } from './utils.js';
+
 const DEFAULT_LOCALE = 'de-DE';
 
 dotenv.config();
@@ -15,39 +17,6 @@ const getEnv = (name) => {
   return process.env[name];
 };
 
-const normalizeNumber = (value) => {
-  return value < 10 ? `0${value}` : `${value}`;
-};
-
-const normalizeDate = (date) => {
-  if (date === 'today') {
-    const today = new Date();
-
-    return [
-      today.getUTCFullYear(),
-      normalizeNumber(today.getUTCMonth() + 1),
-      today.getUTCDate(),
-    ].join('-');
-  }
-
-  if (date === 'yesterday') {
-    const yesterday = new Date();
-    yesterday.setUTCDate(yesterday.getUTCDate() - 1);
-
-    return [
-      yesterday.getUTCFullYear(),
-      normalizeNumber(yesterday.getUTCMonth() + 1),
-      normalizeNumber(yesterday.getUTCDate()),
-    ].join('-');
-  }
-
-  if (/\d{4}(-\d{2}){2}(T(\d{2}:){2}\d{2}Z)?/.test(date)) {
-    return date;
-  }
-
-  throw new Error(`Invalid date format for ${date}`);
-};
-
 const getRepoDirName = () => `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`.replace('/', '\u2215');
 
 const getWorkflowId = (workflow) => {
@@ -58,7 +27,7 @@ const getWorkflowId = (workflow) => {
 export async function buildWorkflowRunsReport(date) {
   const created = normalizeDate(date);
   const repoDirName = getRepoDirName();
-  const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
+  const dataPath = path.join(getRepoPath(), created);
 
   const runsFiles = fs.readdirSync(path.join(dataPath, 'runs'));
 
@@ -361,4 +330,32 @@ export function buildFailuresList(date, { delimiter, locale }) {
       )
     ).join('\n')
   );
+}
+
+export function mergeCsvFiles(targetPath, sourcePaths) {
+  if (sourcePaths.length === 0) {
+    throw new Error('At least 1 source path is required');
+  }
+
+  if (fs.existsSync(targetPath)) {
+    fs.unlinkSync(targetPath);
+  }
+
+  fs.copyFileSync(sourcePaths[0], targetPath);
+
+  for (let i = 1; i < sourcePaths.length; i++) {
+    const sourcePath = sourcePaths[i];
+
+    const targetContent = fs.readFileSync(targetPath).toString();
+    const sourceContent = fs.readFileSync(sourcePath).toString();
+
+    const [targetHeader] = targetContent.split('\n');
+    const [sourceHeader, ...sourceBody] = sourceContent.split('\n');
+
+    if (targetHeader !== sourceHeader) {
+      throw new Error(`Headers are different for ${targetPath} and ${sourcePath}`);
+    }
+
+    fs.writeFileSync(targetPath, targetContent + '\n' + sourceBody.join('\n'));
+  }
 }

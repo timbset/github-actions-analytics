@@ -1,9 +1,11 @@
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 import dotenv from 'dotenv';
+import { join } from 'path';
 
 import { loadWorkflows, loadWorkflowRuns, loadJobs } from './load.js';
-import { buildJobsReport, buildWorkflowRunsReport, buildFailuresList } from './report.js';
+import { buildJobsReport, buildWorkflowRunsReport, buildFailuresList, mergeCsvFiles } from './report.js';
+import { getRepoPath, getDatesFromRange } from './utils.js';
 
 dotenv.config();
 
@@ -77,5 +79,29 @@ yargs(hideBin(process.argv))
     async ({ date, delimiter, locale }) => {
       await buildFailuresList(date, { delimiter, locale })
     }
+  )
+  .command(
+    'merge_reports [name]',
+    'Merges reports with specific name',
+    (yargs) => yargs
+      .command('workflow_runs', 'Merges workflow runs reports', (yargs) => yargs, async ({ from, to }) => {
+        mergeCsvFiles(
+          join(getRepoPath(), 'workflow_runs.csv'),
+          getDatesFromRange(from, to).reverse().map((date) => join(getRepoPath(), date, 'workflow_runs.csv'))
+        );
+      })
+      .options({
+        from: {
+          describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
+          default: 'yesterday',
+          type: 'string'
+        },
+        to: {
+          describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
+          default: 'today',
+          type: 'string'
+        },
+      })
+      .demandCommand(1)
   )
   .parse();

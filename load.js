@@ -2,9 +2,8 @@ import dotenv from 'dotenv';
 import { Octokit } from '@octokit/core';
 import fs from 'fs';
 import path from 'path';
-import { URL, fileURLToPath } from 'url';
 
-const DEFAULT_LOCALE = 'de-DE';
+import { getRepoPath, normalizeDate } from './utils.js';
 
 dotenv.config();
 
@@ -26,57 +25,6 @@ const getEnv = (name) => {
   }
 
   return process.env[name];
-};
-
-const normalizeNumber = (value) => {
-  return value < 10 ? `0${value}` : `${value}`;
-};
-
-const normalizeDate = (date) => {
-  if (date === 'today') {
-    const today = new Date();
-
-    return [
-      today.getUTCFullYear(),
-      normalizeNumber(today.getUTCMonth() + 1),
-      today.getUTCDate(),
-    ].join('-');
-  }
-
-  if (date === 'yesterday') {
-    const yesterday = new Date();
-    yesterday.setUTCDate(yesterday.getUTCDate() - 1);
-
-    return [
-      yesterday.getUTCFullYear(),
-      normalizeNumber(yesterday.getUTCMonth() + 1),
-      normalizeNumber(yesterday.getUTCDate()),
-    ].join('-');
-  }
-
-  if (/\d{4}(-\d{2}){2}(T(\d{2}:){2}\d{2}Z)?/.test(date)) {
-    return date;
-  }
-
-  throw new Error(`Invalid date format for ${date}`);
-};
-
-const getRepoDirName = () => `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`.replace('/', '\u2215');
-
-const convertJsonJobsToCsv = (sourcePath, targetPath, headers, filter = () => true) => {
-  const dateFormatter = Intl.DateTimeFormat(DEFAULT_LOCALE, { dateStyle: 'short', timeStyle: 'medium' });
-  const jobs = JSON.parse(fs.readFileSync(sourcePath)).jobs;
-
-  fs.writeFileSync(targetPath, [headers.join(';')].concat(
-      jobs.filter(filter).map((job) =>
-        headers.map((header) =>
-          header.endsWith('_at')
-            ? dateFormatter.format(new Date(job[header]))
-            : job[header]
-        ).join(';')
-      )
-    ).join('\n')
-  );
 };
 
 const ensureDataFolder = (repoPath, dataPath) => {
@@ -146,7 +94,7 @@ export async function loadWorkflows(date) {
   const octokit = getOctokit();
 
   const created = normalizeDate(date);
-  const repoPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', getRepoDirName());
+  const repoPath = getRepoPath();
   const dataPath = path.join(repoPath, created);
 
   ensureDataFolder(repoPath, dataPath);
@@ -192,10 +140,9 @@ export async function loadWorkflows(date) {
 
 export async function loadWorkflowRuns(date) {
   const created = normalizeDate(date);
-  const repoPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', getRepoDirName());
-  const dataPath = path.join(repoPath, created);
+  const dataPath = path.join(getRepoPath(), created);
 
-  ensureDataFolder(repoPath, dataPath);
+  ensureDataFolder(getRepoPath(), dataPath);
 
   const workflowsPath = path.join(dataPath, 'workflows.json');
 
@@ -220,7 +167,7 @@ export async function loadJobs(date) {
   const octokit = getOctokit();
 
   const created = normalizeDate(date);
-  const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', getRepoDirName(), created);
+  const dataPath = path.join(getRepoPath(), created);
   const jobsPath = path.join(dataPath, 'jobs');
 
   if (!fs.existsSync(jobsPath)) {
