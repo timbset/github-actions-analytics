@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { URL, fileURLToPath } from 'url';
 
-import { getRepoPath, normalizeDate } from './utils.js';
+import { getDatesFromRange, getRepoPath, normalizeDate } from './utils.js';
 
 const DEFAULT_LOCALE = 'de-DE';
 
@@ -24,9 +24,16 @@ const getWorkflowId = (workflow) => {
   return splitted[splitted.length - 1];
 };
 
+export async function buildWorkflowRunsReportFromRange(from, to) {
+  const dates = getDatesFromRange(from, to);
+
+  for (const date of dates) {
+    await buildWorkflowRunsReport(date);
+  }
+}
+
 export async function buildWorkflowRunsReport(date) {
   const created = normalizeDate(date);
-  const repoDirName = getRepoDirName();
   const dataPath = path.join(getRepoPath(), created);
 
   const runsFiles = fs.readdirSync(path.join(dataPath, 'runs'));
@@ -147,6 +154,14 @@ export async function buildWorkflowRunsReport(date) {
       )
     ).join('\n')
   );
+}
+
+export async function buildJobsReportFromRange(from, to) {
+  const dates = getDatesFromRange(from, to);
+
+  for (const date of dates) {
+    await buildJobsReport(date);
+  }
 }
 
 export async function buildJobsReport(date) {
@@ -278,12 +293,21 @@ export async function buildJobsReport(date) {
   );
 }
 
-export function buildFailuresList(date, { delimiter, locale }) {
+export async function buildFailuresListFromRange(from, to, options) {
+  const dates = getDatesFromRange(from, to);
+
+  for (const date of dates) {
+    await buildFailuresList(date, options);
+  }
+}
+
+export async function buildFailuresList(date, { delimiter, locale }) {
   const created = normalizeDate(date);
   const repoDirName = getRepoDirName();
   const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
 
   const headers = [
+    'created_at',
     'id',
     'run_id',
     'run_attempt',
@@ -291,7 +315,6 @@ export function buildFailuresList(date, { delimiter, locale }) {
     'name',
     'head_branch',
     'conclusion',
-    'created_at',
     'html_url',
   ];
 
@@ -321,8 +344,8 @@ export function buildFailuresList(date, { delimiter, locale }) {
       jobsToBuild.map((report) =>
         headers.map((header) =>
           header.endsWith('_at')
-            // ? dateFormatter.format(new Date(report[header]))
-            ? new Date(report[header]).toISOString().replace(/\..+/, '')
+            ? dateFormatter.format(new Date(report[header]))
+            // ? new Date(report[header]).toISOString().replace(/\..+/, '')
             : typeof report[header] === 'number' && !header.includes('id')
               ? numberFormatter.format(report[header])
               : report[header]
@@ -351,6 +374,10 @@ export function mergeCsvFiles(targetPath, sourcePaths) {
 
     const [targetHeader] = targetContent.split('\n');
     const [sourceHeader, ...sourceBody] = sourceContent.split('\n');
+
+    if (sourceBody.length === 0) {
+      continue;
+    }
 
     if (targetHeader !== sourceHeader) {
       throw new Error(`Headers are different for ${targetPath} and ${sourcePath}`);

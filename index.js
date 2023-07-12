@@ -9,23 +9,29 @@ import {
   loadJobsFromRange,
 } from './load.js';
 
-import { buildJobsReport, buildWorkflowRunsReport, buildFailuresList, mergeCsvFiles } from './report.js';
+import {
+  mergeCsvFiles,
+  buildJobsReportFromRange,
+  buildWorkflowRunsReportFromRange,
+  buildFailuresListFromRange,
+} from './report.js';
+
 import { getRepoPath, getDatesFromRange } from './utils.js';
 
 dotenv.config();
 
-const addFromAndToOptions = (yargs) => yargs.options({
+const fromAndToOptions = {
   from: {
-    describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
+    describe: 'filter start date (format: YYYY-MM-DD, "yesterday" or "today")',
     default: 'yesterday',
     type: 'string'
   },
   to: {
-    describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
-    default: 'today',
+    describe: 'filter start date (format: YYYY-MM-DD, "yesterday" or "today")',
+    default: 'yesterday',
     type: 'string'
   },
-});
+};
 
 yargs(hideBin(process.argv))
   .scriptName('yarn analytics')
@@ -44,52 +50,37 @@ yargs(hideBin(process.argv))
       .command('jobs', 'loads jobs', (yargs) => yargs, async ({ from, to }) => {
         await loadJobsFromRange(from, to);
       })
-      .options({
-        from: {
-          describe: 'filter start date (format: YYYY-MM-DD, "yesterday" or "today")',
-          default: 'yesterday',
-          type: 'string'
-        },
-        to: {
-          describe: 'filter start date (format: YYYY-MM-DD, "yesterday" or "today")',
-          default: 'yesterday',
-          type: 'string'
-        },
-      })
+      .options(fromAndToOptions)
       .demandCommand(1)
   )
   .command(
     'report [name]',
     'builds a report for specified entity',
     (yargs) => yargs
-      .command('workflow_runs', 'builds a workflow runs report', (yargs) => yargs, async ({ date }) => {
-        await buildWorkflowRunsReport(date);
+      .command('workflow_runs', 'builds a workflow runs report', (yargs) => yargs, async ({ from, to }) => {
+        await buildWorkflowRunsReportFromRange(from, to);
       })
-      .command('jobs', 'builds a jobs report', (yargs) => yargs, async ({ date }) => {
-        await buildJobsReport(date);
+      .command('jobs', 'builds a jobs report', (yargs) => yargs, async ({ from, to }) => {
+        await buildJobsReportFromRange(from, to);
       })
-      .option('date', {
-        describe: 'date for which data will be loaded (format: YYYY-MM-DD, "yesterday" or "today")',
-        default: 'yesterday',
-        type: 'string'
-      })
+      .options(fromAndToOptions)
       .demandCommand(1)
   )
   .command(
-    'jobs failures',
-    'Builds a list of failed jobs',
-    (yargs) =>
-      addFromAndToOptions(yargs)
-        .options({
-          delimiter: {
-            default: ',',
-          },
-          locale: {
-            default: 'en-US',
-          },
-        }),
-    async ({ date, delimiter, locale }) => {
-      await buildFailuresList(date, { delimiter, locale })
+    'failures jobs',
+    'Builds a list of failed entities',
+    (yargs) => yargs
+      .options({
+        ...fromAndToOptions,
+        delimiter: {
+          default: ',',
+        },
+        locale: {
+          default: 'en-US',
+        },
+      }),
+    async ({ from, to, delimiter, locale }) => {
+      await buildFailuresListFromRange(from, to, { delimiter, locale });
     }
   )
   .command(
@@ -102,18 +93,24 @@ yargs(hideBin(process.argv))
           getDatesFromRange(from, to).reverse().map((date) => join(getRepoPath(), date, 'workflow_runs.csv'))
         );
       })
-      .options({
-        from: {
-          describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
-          default: 'yesterday',
-          type: 'string'
-        },
-        to: {
-          describe: 'filter start date (format: YYYY-MM-DD or YYYY-MM-DDTHH:MM:SSZ)',
-          default: 'today',
-          type: 'string'
-        },
+      .command('jobs', 'Merges jobs reports', (yargs) => yargs, async ({ from, to }) => {
+        mergeCsvFiles(
+          join(getRepoPath(), 'jobs_summary.csv'),
+          getDatesFromRange(from, to).reverse().map((date) => join(getRepoPath(), date, 'jobs_summary.csv'))
+        );
       })
+      .options(fromAndToOptions)
       .demandCommand(1)
+  )
+  .command(
+    'merge_failures',
+    'Merges failure lists',
+    (yargs) => yargs.options(fromAndToOptions),
+    async ({ from, to }) => {
+      mergeCsvFiles(
+        join(getRepoPath(), 'jobs_failures.csv'),
+        getDatesFromRange(from, to).reverse().map((date) => join(getRepoPath(), date, 'jobs_failures.csv'))
+      );
+    }
   )
   .parse();
