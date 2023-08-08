@@ -1,0 +1,15 @@
+name: Update data
+
+concurrency:
+  group: update-data
+  cancel-in-progress: true
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "Test"
