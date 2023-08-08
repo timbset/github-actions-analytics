@@ -1,0 +1,13 @@
+date;id;workflow name;main success runs;main failure runs;main cancelled runs;main skipped runs;main retries;main min duration;main avg duration;main max duration;pr success runs;pr failure runs;pr cancelled runs;pr skipped runs;pr retries;pr min duration;pr avg duration;pr max duration
+2023-08-05;_security-alerts.yml;Send dependabot new vulnerability alerts;1;0;0;0;0;0,0002893518519;0,0002893518519;0,0002893518519;0;0;0;0;0;0;0;0
+2023-08-05;codeql.yml;CodeQL;1;0;0;0;0;0,01533564815;0,01533564815;0,01533564815;0;0;0;0;0;0;0;0
+2023-08-05;devextreme_npm_tests.yml;DevExtreme package tests;0;0;0;0;0;0;0;0;0;3;3;0;0;0,004872685185;0,01511766975;0,02136574074
+2023-08-05;lint.yml;Lint;0;0;0;0;0;0;0;0;1;3;2;0;0;0,005081018519;0,01232445988;0,0169212963
+2023-08-05;qunit_tests-additional-renovation.yml;Additional QUnit;0;0;0;0;0;0;0;0;0;4;2;0;0;0,00474537037;0,0116087963;0,01856481481
+2023-08-05;qunit_tests-renovation.yml;QUnit tests for renovation;0;0;0;0;0;0;0;0;4;0;2;0;0;0,004733796296;0,0102025463;0,01340277778
+2023-08-05;renovate_autoapprove.yml;Auto approve renovate bot PR;0;0;0;0;0;0;0;0;6;0;0;0;0;0,0001157407407;0,0001755401235;0,0003125
+2023-08-05;renovation.yml;Renovation;0;0;0;0;0;0;0;0;6;0;0;0;0;0,003020833333;0,003987268519;0,005115740741
+2023-08-05;styles.yml;Styles tests;0;0;0;0;0;0;0;0;6;0;0;0;0;0,001030092593;0,001545138889;0,00306712963
+2023-08-05;testcafe_tests.yml;TestCafe tests;0;0;0;0;0;0;0;0;0;3;3;0;0;0,004756944444;0,0153587963;0,02280092593
+2023-08-05;themebuilder_tests.yml;Themebuilder and Styles tests;0;0;0;0;0;0;0;0;4;0;2;0;0;0,004861111111;0,008425925926;0,01123842593
+2023-08-05;ts_declarations.yml;TS Declarations;0;0;0;0;0;0;0;0;6;0;0;0;0;0,001446759259;0,002027391975;0,00337962963
