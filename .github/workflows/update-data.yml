@@ -25,5 +25,17 @@ jobs:
       - name: Load workflows
         run: yarn analytics load workflows
 
+      - name: Load workflow runs
+        run: yarn analytics load workflow_runs
+
+      - name: Report workflow runs
+        run: yarn analytics report workflow_runs
+
       - name: Check loaded files
         run: find data/$GH_REPO_OWNER/$GH_REPO_NAME
+
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Update data"
+          git push
