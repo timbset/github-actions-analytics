@@ -12,7 +12,7 @@ export function getEnv(name) {
 }
 
 export function getRepoDirName() {
-  return `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`.replace('/', '\u2215');
+  return `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
 }
 
 export function getRootPath() {
