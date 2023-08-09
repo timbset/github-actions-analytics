@@ -23,16 +23,16 @@ jobs:
         run: yarn
 
       - name: Load workflows
-        run: yarn analytics load workflows --from=2023-08-01 --to=2023-08-07
+        run: yarn analytics load workflows --from=2023-08-02 --to=2023-08-08
 
       - name: Load workflow runs
-        run: yarn analytics load workflow_runs --from=2023-08-01 --to=2023-08-07
+        run: yarn analytics load workflow_runs --from=2023-08-02 --to=2023-08-08
 
       - name: Report workflow runs
-        run: yarn analytics report workflow_runs --from=2023-08-01 --to=2023-08-07
+        run: yarn analytics report workflow_runs --from=2023-08-02 --to=2023-08-08
 
       - name: Merge workflow runs reports
-        run: yarn analytics merge_reports workflow_runs --from=2023-08-01 --to=2023-08-07
+        run: yarn analytics merge_reports workflow_runs --from=2023-08-02 --to=2023-08-08
 
       - name: Check loaded files
         run: find data/$GH_REPO_OWNER/$GH_REPO_NAME
