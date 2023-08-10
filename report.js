@@ -18,7 +18,7 @@ const getEnv = (name) => {
   return process.env[name];
 };
 
-const getRepoDirName = () => `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`.replace('/', '\u2215');
+const getRepoDirName = () => `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
 
 const getWorkflowId = (workflow) => {
   const splitted = workflow.path.split('/');
