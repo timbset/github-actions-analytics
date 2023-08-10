@@ -24,15 +24,15 @@ const getWorkflowId = (workflow) => {
   return splitted[splitted.length - 1];
 };
 
-export async function buildWorkflowRunsReportFromRange(from, to) {
-  const dates = getDatesFromRange(from, to);
+export async function buildWorkflowRunsSummaryFromRange({ from, to }) {
+  const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await buildWorkflowRunsReport(date);
+    await buildWorkflowRunsSummary(date);
   }
 }
 
-export async function buildWorkflowRunsReport(date) {
+export async function buildWorkflowRunsSummary(date) {
   const created = normalizeDate(date);
   const dataPath = path.join(getRepoPath(), created);
 
@@ -156,15 +156,15 @@ export async function buildWorkflowRunsReport(date) {
   );
 }
 
-export async function buildJobsReportFromRange(from, to) {
-  const dates = getDatesFromRange(from, to);
+export async function buildJobsSummaryFromRange({ from, to }) {
+  const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await buildJobsReport(date);
+    await buildJobsSummary(date);
   }
 }
 
-export async function buildJobsReport(date) {
+export async function buildJobsSummary(date) {
   const created = normalizeDate(date);
   const repoDirName = getRepoDirName();
   const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
@@ -293,8 +293,8 @@ export async function buildJobsReport(date) {
   );
 }
 
-export async function buildFailuresListFromRange(from, to, options) {
-  const dates = getDatesFromRange(from, to);
+export async function buildFailuresListFromRange({ from, to, ...options }) {
+  const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
     await buildFailuresList(date, options);

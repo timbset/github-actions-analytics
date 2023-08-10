@@ -60,7 +60,7 @@ export function normalizeDate(date) {
   throw new Error(`Invalid date format for ${date}`);
 }
 
-export function getDatesFromRange(from, to) {
+export function getDatesFromRange({ from, to }) {
   const fromDate = new Date(normalizeDate(from));
   const toDate = new Date(normalizeDate(to));
   const days = (toDate.getTime() - fromDate.getTime()) / 1000 / 60 / 60 / 24 + 1;

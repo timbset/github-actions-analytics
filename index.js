@@ -11,8 +11,8 @@ import {
 
 import {
   mergeCsvFiles,
-  buildJobsReportFromRange,
-  buildWorkflowRunsReportFromRange,
+  buildJobsSummaryFromRange,
+  buildWorkflowRunsSummaryFromRange,
   buildFailuresListFromRange,
 } from './report.js';
 
@@ -42,26 +42,26 @@ yargs(hideBin(process.argv))
     'loads specified entity',
     (yargs) => yargs
       .command('workflows', 'loads workflows', (yargs) => yargs, async ({ from, to }) => {
-        await loadWorkflowsFromRange(from, to);
+        await loadWorkflowsFromRange({ from, to });
       })
       .command('workflow_runs', 'loads workflow runs', (yargs) => yargs, async ({ from, to }) => {
-        await loadWorkflowRunsFromRange(from, to);
+        await loadWorkflowRunsFromRange({ from, to });
       })
       .command('jobs', 'loads jobs', (yargs) => yargs, async ({ from, to }) => {
-        await loadJobsFromRange(from, to);
+        await loadJobsFromRange({ from, to });
       })
       .options(fromAndToOptions)
       .demandCommand(1)
   )
   .command(
-    'report [name]',
-    'builds a report for specified entity',
+    'summary [name]',
+    'builds a summary for specified entity',
     (yargs) => yargs
-      .command('workflow_runs', 'builds a workflow runs report', (yargs) => yargs, async ({ from, to }) => {
-        await buildWorkflowRunsReportFromRange(from, to);
+      .command('workflow_runs', 'builds a workflow runs summary', (yargs) => yargs, async ({ from, to }) => {
+        await buildWorkflowRunsSummaryFromRange({ from, to });
       })
-      .command('jobs', 'builds a jobs report', (yargs) => yargs, async ({ from, to }) => {
-        await buildJobsReportFromRange(from, to);
+      .command('jobs', 'builds a jobs summary', (yargs) => yargs, async ({ from, to }) => {
+        await buildJobsSummaryFromRange({ from, to });
       })
       .options(fromAndToOptions)
       .demandCommand(1)

@@ -90,8 +90,8 @@ const loadWorkflowRunsById = async (workflowId, created, dataPath) => {
   console.log(`"${workflowId}" workflow runs saved`);
 };
 
-export async function loadWorkflowsFromRange(from, to) {
-  const dates = getDatesFromRange(from, to).reverse();
+export async function loadWorkflowsFromRange({ from, to }) {
+  const dates = getDatesFromRange({ from, to }).reverse();
 
   for (const date of dates) {
     await loadWorkflows(date);
@@ -146,8 +146,8 @@ export async function loadWorkflows(date) {
   console.log('Workflows saved');
 }
 
-export async function loadWorkflowRunsFromRange(from, to) {
-  const dates = getDatesFromRange(from, to);
+export async function loadWorkflowRunsFromRange({ from, to }) {
+  const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
     await loadWorkflowRuns(date);
@@ -180,7 +180,7 @@ export async function loadWorkflowRuns(date) {
 }
 
 export async function loadJobsFromRange(from, to) {
-  const dates = getDatesFromRange(from, to);
+  const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
     await loadJobs(date);
