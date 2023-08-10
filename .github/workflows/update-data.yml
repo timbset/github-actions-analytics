@@ -26,7 +26,7 @@ jobs:
         run: yarn analytics report workflow_runs_last_days --days=16 --fetch
 
       - name: Build jobs report
-        run: yarn analytics report jobs_last_days --days=1 --fetch
+        run: yarn analytics report jobs_last_days --days=7 --fetch
 
       - name: Commit changes
         if: always()
