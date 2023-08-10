@@ -71,3 +71,15 @@ export function getDatesFromRange({ from, to }) {
     return date.toISOString().split('T')[0];
   });
 }
+
+export function getDateRange(days) {
+  const to = new Date();
+  to.setDate(to.getDate() - 1);
+  const from = new Date();
+  from.setDate(from.getDate() - days);
+
+  return [
+    from.toISOString().split('T')[0],
+    to.toISOString().split('T')[0],
+  ];
+}

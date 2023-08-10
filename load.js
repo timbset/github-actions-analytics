@@ -193,7 +193,7 @@ export async function loadJobsFromRange(from, to) {
   }
 }
 
-export async function loadJobs(date) {
+export async function loadJobs({ date, withFetch }) {
   const octokit = getOctokit();
 
   const created = normalizeDate(date);
@@ -207,7 +207,11 @@ export async function loadJobs(date) {
   const runsPath = path.join(dataPath, 'runs');
 
   if (!fs.existsSync(runsPath)) {
-    throw new Error('Workflow runs folder not found. Load them first');
+    if (withFetch) {
+      await loadWorkflowRuns({ date, withFetch });
+    } else {
+      throw new Error('Workflow runs not found. Load them first');
+    }
   }
 
   const runFiles = fs.readdirSync(runsPath);

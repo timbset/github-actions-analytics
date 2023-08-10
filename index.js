@@ -2,7 +2,6 @@ import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 import dotenv from 'dotenv';
 import { join } from 'path';
-import fs from 'fs';
 
 import {
   loadWorkflowsFromRange,
@@ -17,11 +16,11 @@ import {
   buildFailuresListFromRange,
 } from './report.js';
 
-import { getRepoPath, getDatesFromRange } from './utils.js';
+import { getRepoPath, getDatesFromRange, getDateRange } from './utils.js';
 
 dotenv.config();
 
-const fromAndToOptions = {
+const options = {
   from: {
     describe: 'filter start date (format: YYYY-MM-DD, "yesterday" or "today")',
     default: 'yesterday',
@@ -36,6 +35,17 @@ const fromAndToOptions = {
     describe: 'prepares data recursively if some is not ready yet',
     default: false,
     type: 'boolean'
+  },
+  days: {
+    description: 'the number of days',
+    default: 7,
+    type: 'number',
+  },
+  delimiter: {
+    default: ',',
+  },
+  locale: {
+    default: 'en-US',
   },
 };
 
@@ -56,7 +66,10 @@ yargs(hideBin(process.argv))
       .command('jobs', 'loads jobs', (yargs) => yargs, async ({ from, to }) => {
         await loadJobsFromRange({ from, to });
       })
-      .options(fromAndToOptions)
+      .options({
+        from: options.from,
+        to: options.to,
+      })
       .demandCommand(1)
   )
   .command(
@@ -69,7 +82,10 @@ yargs(hideBin(process.argv))
       .command('jobs', 'builds a jobs summary', (yargs) => yargs, async ({ from, to }) => {
         await buildJobsSummaryFromRange({ from, to });
       })
-      .options(fromAndToOptions)
+      .options({
+        from: options.from,
+        to: options.to,
+      })
       .demandCommand(1)
   )
   .command(
@@ -79,7 +95,11 @@ yargs(hideBin(process.argv))
       .command(
         'workflow_runs',
         'Builds workflow runs report from workflow runs summary',
-        (yargs) => yargs.options(fromAndToOptions),
+        (yargs) => yargs.options({
+          from: options.from,
+          to: options.to,
+          fetch: options.fetch,
+        }),
         async ({ from, to, fetch: withFetch }) => {
           const dates = getDatesFromRange({ from, to }).reverse();
           const summaryPaths = dates.map((date) => join(getRepoPath(), date, 'workflow_runs.csv'));
@@ -96,49 +116,63 @@ yargs(hideBin(process.argv))
         'workflow_runs_last_days',
         'Builds workflow runs from last N days',
         (yargs) => yargs.option({
-          days: {
-            description: 'the number of days',
-            default: 14,
-            type: 'number',
-          },
-          fetch: {
-            describe: 'prepares data recursively if some is not ready yet',
-            default: false,
-            type: 'boolean'
-          },
+          fetch: options.fetch,
+          days: options.days,
         }), async ({ fetch: withFetch, days }) => {
-        const to = new Date();
-        to.setDate(to.getDate() - 1);
-        const from = new Date();
-        from.setDate(from.getDate() - days);
-
-        const dates = getDatesFromRange({
-          from: from.toISOString().split('T')[0],
-          to: to.toISOString().split('T')[0]
-        }).reverse();
+          const [from, to] = getDateRange(days);
 
           await buildWorkflowRunsSummaryFromRange({
-            from: from.toISOString().split('T')[0],
-            to: to.toISOString().split('T')[0],
+            from,
+            to,
             withFetch,
-            isEnsure: true
           });
 
-          const summaryPaths = dates.map((date) => join(getRepoPath(), date, 'workflow_runs.csv'));
+          const summaryPaths = getDatesFromRange({ from, to })
+            .reverse()
+            .map((date) => join(getRepoPath(), date, 'workflow_runs.csv'));
 
           mergeCsvFiles(
-            join(getRepoPath(), 'workflow_runs.csv'),
+            join(getRepoPath(), `workflow_runs_last_${days}_days.csv`),
             summaryPaths
           );
       })
       .command(
         'jobs',
         'Builds jobs report from jobs summary',
-        (yargs) => yargs.options(fromAndToOptions),
+        (yargs) => yargs.options({
+          from: options.from,
+          to: options.to,
+        }),
         async ({ from, to }) => {
           mergeCsvFiles(
             join(getRepoPath(), 'jobs_summary.csv'),
             getDatesFromRange({ from, to }).reverse().map((date) => join(getRepoPath(), date, 'jobs_summary.csv'))
+          );
+        }
+      )
+      .command(
+        'jobs_last_days',
+        'Builds jobs report from jobs last N days',
+        (yargs) => yargs.options({
+          days: options.days,
+          fetch: options.fetch,
+        }),
+        async ({ days, fetch: withFetch }) => {
+          const [from, to] = getDateRange(days);
+
+          await buildJobsSummaryFromRange({
+            from,
+            to,
+            withFetch,
+          });
+
+          const summaryPaths = getDatesFromRange({ from, to })
+            .reverse()
+            .map((date) => join(getRepoPath(), date, 'jobs_summary.csv'));
+
+          mergeCsvFiles(
+            join(getRepoPath(), `jobs_summary_last_${days}_days.csv`),
+            summaryPaths
           );
         }
       )
@@ -149,13 +183,10 @@ yargs(hideBin(process.argv))
     'Builds a list of failed entities',
     (yargs) => yargs
       .options({
-        ...fromAndToOptions,
-        delimiter: {
-          default: ',',
-        },
-        locale: {
-          default: 'en-US',
-        },
+        from: options.from,
+        to: options.to,
+        delimiter: options.delimiter,
+        locale: options.locale,
       }),
     async ({ from, to, delimiter, locale }) => {
       await buildFailuresListFromRange(from, to, { delimiter, locale });
@@ -164,7 +195,10 @@ yargs(hideBin(process.argv))
   .command(
     'merge_failures',
     'Merges failure lists',
-    (yargs) => yargs.options(fromAndToOptions),
+    (yargs) => yargs.options({
+      from: options.from,
+      to: options.to,
+    }),
     async ({ from, to }) => {
       mergeCsvFiles(
         join(getRepoPath(), 'jobs_failures.csv'),

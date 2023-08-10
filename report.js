@@ -4,7 +4,7 @@ import path from 'path';
 import { URL, fileURLToPath } from 'url';
 
 import { getDatesFromRange, getRepoPath, normalizeDate } from './utils.js';
-import { loadWorkflowRuns } from './load.js';
+import { loadJobs, loadWorkflowRuns } from './load.js';
 
 const DEFAULT_LOCALE = 'de-DE';
 
@@ -172,19 +172,36 @@ export async function buildWorkflowRunsSummary({ date, withFetch = false }) {
   );
 }
 
-export async function buildJobsSummaryFromRange({ from, to }) {
+export async function buildJobsSummaryFromRange({ from, to, withFetch }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await buildJobsSummary(date);
+    await buildJobsSummary({ date, withFetch });
   }
 }
 
-export async function buildJobsSummary(date) {
+export async function buildJobsSummary({ date, withFetch }) {
   const created = normalizeDate(date);
   const repoDirName = getRepoDirName();
+
   const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
+
+  const summaryPath = path.join(dataPath, 'jobs_summary.csv');
+
+  if (fs.existsSync(summaryPath)) {
+    return;
+  }
+
   const jobsPath = path.join(dataPath, 'jobs');
+
+  if (!fs.existsSync(jobsPath)) {
+      if (withFetch) {
+        console.log(`Jobs data for ${date} is absent. Loading...`);
+        await loadJobs({ date, withFetch });
+      } else {
+        throw new Error(`Cannot build jobs summary for ${date}. Load jobs raw data first`);
+      }
+    }
 
   const jobsFiles = fs.readdirSync(jobsPath);
 

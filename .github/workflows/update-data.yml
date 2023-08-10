@@ -25,8 +25,8 @@ jobs:
       - name: Build workflow runs report
         run: yarn analytics report workflow_runs_last_days --days=16 --fetch
 
-      - name: Check loaded files
-        run: find data/$GH_REPO_OWNER/$GH_REPO_NAME
+      - name: Build jobs report
+        run: yarn analytics report jobs_last_days --days=7 --fetch
 
       - name: Commit changes
         run: |
