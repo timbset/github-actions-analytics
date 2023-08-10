@@ -4,6 +4,7 @@ import path from 'path';
 import { URL, fileURLToPath } from 'url';
 
 import { getDatesFromRange, getRepoPath, normalizeDate } from './utils.js';
+import { loadWorkflowRuns } from './load.js';
 
 const DEFAULT_LOCALE = 'de-DE';
 
@@ -24,17 +25,32 @@ const getWorkflowId = (workflow) => {
   return splitted[splitted.length - 1];
 };
 
-export async function buildWorkflowRunsSummaryFromRange({ from, to }) {
+export async function buildWorkflowRunsSummaryFromRange({ from, to, withFetch }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await buildWorkflowRunsSummary(date);
+    await buildWorkflowRunsSummary({ date, withFetch });
   }
 }
 
-export async function buildWorkflowRunsSummary(date) {
+export async function buildWorkflowRunsSummary({ date, withFetch = false }) {
   const created = normalizeDate(date);
   const dataPath = path.join(getRepoPath(), created);
+
+  const workflowRunsPath = path.join(dataPath, 'workflow_runs.csv');
+
+  if (fs.existsSync(workflowRunsPath)) {
+    return;
+  }
+
+  if (!fs.existsSync(path.join(dataPath, 'runs'))) {
+    if (withFetch) {
+      console.log(`Workflow runs data for ${date} is absent. Loading...`);
+      await loadWorkflowRuns({ date, withFetch });
+    } else {
+      throw new Error(`Cannot build workflow runs summary for ${date}. Load workflow runs raw data first`);
+    }
+  }
 
   const runsFiles = fs.readdirSync(path.join(dataPath, 'runs'));
 

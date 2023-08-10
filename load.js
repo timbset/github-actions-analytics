@@ -150,11 +150,11 @@ export async function loadWorkflowRunsFromRange({ from, to }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await loadWorkflowRuns(date);
+    await loadWorkflowRuns({ date });
   }
 }
 
-export async function loadWorkflowRuns(date) {
+export async function loadWorkflowRuns({ date, withFetch = false }) {
   const created = normalizeDate(date);
   const dataPath = path.join(getRepoPath(), created);
 
@@ -163,7 +163,13 @@ export async function loadWorkflowRuns(date) {
   const workflowsPath = path.join(dataPath, 'workflows.json');
 
   if (!fs.existsSync(workflowsPath)) {
-    throw new Error('Workflows must be loaded first or use specific workflow files');
+    if (withFetch) {
+      console.log(`\nWorkflows not found. Loading...`)
+      await loadWorkflows(date);
+      console.log('');
+    } else {
+      throw new Error('Workflows must be loaded first or use specific workflow files');
+    }
   }
 
   const workflowIds = JSON.parse(fs.readFileSync(workflowsPath).toString()).workflows.map(getWorkflowId);
