@@ -22,17 +22,8 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Load workflows
-        run: yarn analytics load workflows --from=2023-08-02 --to=2023-08-09
-
-      - name: Load workflow runs
-        run: yarn analytics load workflow_runs --from=2023-08-02 --to=2023-08-09
-
-      - name: Report workflow runs
-        run: yarn analytics summary workflow_runs --from=2023-08-02 --to=2023-08-09
-
-      - name: Merge workflow runs reports
-        run: yarn analytics merge_reports workflow_runs --from=2023-08-02 --to=2023-08-09
+      - name: Build workflow runs report
+        run: yarn analytics report workflow_runs_last_days --days=16 --fetch
 
       - name: Check loaded files
         run: find data/$GH_REPO_OWNER/$GH_REPO_NAME
