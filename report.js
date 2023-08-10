@@ -152,7 +152,7 @@ export async function buildWorkflowRunsReport(date) {
               : report[header]
         ).join(';')
       )
-    ).join('\n')
+    ).join('\n') + '\n'
   );
 }
 
@@ -289,7 +289,7 @@ export async function buildJobsReport(date) {
               : report[header]
         ).join(';')
       )
-    ).join('\n')
+    ).join('\n') + '\n'
   );
 }
 
@@ -351,7 +351,7 @@ export async function buildFailuresList(date, { delimiter, locale }) {
               : report[header]
         ).join(delimiter)
       )
-    ).join('\n')
+    ).join('\n') + '\n'
   );
 }
 
@@ -383,6 +383,6 @@ export function mergeCsvFiles(targetPath, sourcePaths) {
       throw new Error(`Headers are different for ${targetPath} and ${sourcePath}`);
     }
 
-    fs.writeFileSync(targetPath, targetContent + '\n' + sourceBody.join('\n'));
+    fs.writeFileSync(targetPath, targetContent + '\n' + sourceBody.join('\n') + '\n');
   }
 }
