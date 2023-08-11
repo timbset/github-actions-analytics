@@ -185,11 +185,11 @@ export async function loadWorkflowRuns({ date, withFetch = false }) {
   }
 }
 
-export async function loadJobsFromRange(from, to) {
+export async function loadJobsFromRange({ from, to }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await loadJobs(date);
+    await loadJobs({ date });
   }
 }
 
