@@ -189,7 +189,7 @@ yargs(hideBin(process.argv))
         locale: options.locale,
       }),
     async ({ from, to, delimiter, locale }) => {
-      await buildFailuresListFromRange(from, to, { delimiter, locale });
+      await buildFailuresListFromRange({ from, to, delimiter, locale });
     }
   )
   .command(
@@ -202,7 +202,7 @@ yargs(hideBin(process.argv))
     async ({ from, to }) => {
       mergeCsvFiles(
         join(getRepoPath(), 'jobs_failures.csv'),
-        getDatesFromRange(from, to).reverse().map((date) => join(getRepoPath(), date, 'jobs_failures.csv'))
+        getDatesFromRange({ from, to }).reverse().map((date) => join(getRepoPath(), date, 'jobs_failures.csv'))
       );
     }
   )
