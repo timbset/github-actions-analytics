@@ -422,10 +422,13 @@ export function mergeCsvFiles(targetPath, sourcePaths) {
     const targetContent = fs.readFileSync(targetPath).toString();
     const sourceContent = fs.readFileSync(sourcePath).toString();
 
-    const [targetHeader] = targetContent.split('\n');
+    const [targetHeader, ...targetBody] = targetContent.split('\n');
     const [sourceHeader, ...sourceBody] = sourceContent.split('\n');
 
-    if (sourceBody.length === 0) {
+    const targetBodyWithoutEmptyLines = targetBody.filter(Boolean);
+    const sourceBodyWithoutEmptyLines = sourceBody.filter(Boolean);
+
+    if (sourceBodyWithoutEmptyLines.length === 0) {
       continue;
     }
 
@@ -433,6 +436,11 @@ export function mergeCsvFiles(targetPath, sourcePaths) {
       throw new Error(`Headers are different for ${targetPath} and ${sourcePath}`);
     }
 
-    fs.writeFileSync(targetPath, targetContent + '\n' + sourceBody.join('\n') + '\n');
+    fs.writeFileSync(
+      targetPath,
+      [targetHeader]
+        .concat(targetBodyWithoutEmptyLines, sourceBodyWithoutEmptyLines, '\n')
+        .join('\n')
+    );
   }
 }
