@@ -176,6 +176,32 @@ yargs(hideBin(process.argv))
           );
         }
       )
+      .command(
+        'failures_last_days',
+        'Builds failure list report from jobs last N days',
+        (yargs) => yargs.options({
+          days: options.days,
+          fetch: options.fetch,
+          delimiter: options.delimiter,
+          locale: options.locale,
+        }),
+        async ({ days, fetch: withFetch, delimiter, locale }) => {
+          const [from, to] = getDateRange(days);
+
+          console.log(`Building report from ${from} to ${to}`);
+
+          await buildFailuresListFromRange({ from, to, delimiter, locale, withFetch });
+
+          const summaryPaths = getDatesFromRange({ from, to })
+            .reverse()
+            .map((date) => join(getRepoPath(), date, 'jobs_failures.csv'));
+
+          mergeCsvFiles(
+            join(getRepoPath(), `jobs_failures_last_${days}_days.csv`),
+            summaryPaths
+          );
+        }
+      )
       .demandCommand(1)
   )
   .command(

@@ -330,11 +330,11 @@ export async function buildFailuresListFromRange({ from, to, ...options }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await buildFailuresList(date, options);
+    await buildFailuresList({ ...options, date });
   }
 }
 
-export async function buildFailuresList(date, { delimiter, locale }) {
+export async function buildFailuresList({ date, delimiter, locale, withFetch }) {
   const created = normalizeDate(date);
   const repoDirName = getRepoDirName();
   const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
@@ -351,9 +351,26 @@ export async function buildFailuresList(date, { delimiter, locale }) {
     'html_url',
   ];
 
-  const jobsToBuild = fs.readdirSync(path.join(dataPath, 'jobs'))
+  const failuresPath = path.join(dataPath, 'jobs_failures.csv');
+
+  if (fs.existsSync(failuresPath)) {
+    return;
+  }
+
+  const jobsPath = path.join(dataPath, 'jobs');
+
+  if (!fs.existsSync(jobsPath)) {
+    if (withFetch) {
+      console.log(`Jobs data for ${date} is absent. Loading...`);
+      await loadJobs({ date, withFetch });
+    } else {
+      throw new Error(`Cannot build jobs failures for ${date}. Load jobs raw data first`);
+    }
+  }
+
+  const jobsToBuild = fs.readdirSync(jobsPath)
     .reduce((acc, name) => {
-      const { jobs } = JSON.parse(fs.readFileSync(path.join(dataPath, 'jobs', name)).toString());
+      const { jobs } = JSON.parse(fs.readFileSync(path.join(jobsPath, name)).toString());
 
       return acc.concat(
         jobs.filter((job) => job.conclusion === 'failure')
@@ -372,7 +389,7 @@ export async function buildFailuresList(date, { delimiter, locale }) {
   }
 
   fs.writeFileSync(
-    path.join(dataPath, 'jobs_failures.csv'),
+    failuresPath,
     [headers.map((header) => header.replaceAll('_', ' ')).join(delimiter)].concat(
       jobsToBuild.map((report) =>
         headers.map((header) =>

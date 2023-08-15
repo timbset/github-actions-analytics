@@ -28,6 +28,9 @@ jobs:
       - name: Build jobs report
         run: yarn analytics report jobs_last_days --days=7 --fetch
 
+      - name: Build a list of failures
+        run: yarn analytics report failures_last_days --days=7 --delimiter=';' --fetch
+
       - name: Commit changes
         if: always()
         run: |
