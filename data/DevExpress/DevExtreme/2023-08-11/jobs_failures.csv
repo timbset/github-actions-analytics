@@ -1,0 +1,332 @@
+created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html url
+8/11/23, 9:10:15 PM;15831942380;5836990055;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990055/job/15831942380
+8/11/23, 9:10:15 PM;15831942544;5836990055;1;DevExtreme package tests;Demos visual tests jquery(2/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990055/job/15831942544
+8/11/23, 9:10:16 PM;15831942722;5836990055;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990055/job/15831942722
+8/11/23, 9:10:16 PM;15831942873;5836990055;1;DevExtreme package tests;Demos visual tests jquery(4/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990055/job/15831942873
+8/11/23, 3:19:59 PM;15823380001;5834138542;1;DevExtreme package tests;Demos visual tests jquery(4/4);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138542/job/15823380001
+8/11/23, 3:18:05 PM;15823323439;5834123101;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123101/job/15823323439
+8/11/23, 3:18:05 PM;15823323662;5834123101;1;DevExtreme package tests;Demos visual tests jquery(2/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123101/job/15823323662
+8/11/23, 3:18:06 PM;15823323857;5834123101;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123101/job/15823323857
+8/11/23, 3:18:06 PM;15823324071;5834123101;1;DevExtreme package tests;Demos visual tests jquery(4/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123101/job/15823324071
+8/11/23, 2:17:02 PM;15821467768;5833507491;1;DevExtreme package tests;Demos visual tests jquery(3/4);T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833507491/job/15821467768
+8/11/23, 11:58:48 AM;15817365902;5832134275;1;DevExtreme package tests;Demos visual tests jquery(3/4);T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134275/job/15817365902
+8/11/23, 11:24:26 AM;15816582486;5831964374;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964374/job/15816582486
+8/11/23, 11:24:26 AM;15816582625;5831964374;1;DevExtreme package tests;Demos visual tests jquery(2/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964374/job/15816582625
+8/11/23, 11:24:26 AM;15816582755;5831964374;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964374/job/15816582755
+8/11/23, 11:24:27 AM;15816582872;5831964374;1;DevExtreme package tests;Demos visual tests jquery(4/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964374/job/15816582872
+8/11/23, 7:08:57 AM;15810234738;5829814397;1;DevExtreme package tests;Demos visual tests jquery(3/4);cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814397/job/15810234738
+8/11/23, 7:08:57 AM;15810234865;5829814397;1;DevExtreme package tests;Demos visual tests jquery(4/4);cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814397/job/15810234865
+8/11/23, 8:59:16 PM;15831693125;5836990050;1;Lint;CSS;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990050/job/15831693125
+8/11/23, 8:59:17 PM;15831693469;5836990050;1;Lint;component_exports;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990050/job/15831693469
+8/11/23, 8:59:19 PM;15831693928;5836990050;1;Lint;package_lock;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990050/job/15831693928
+8/11/23, 3:07:05 PM;15822990225;5834123097;1;Lint;component_exports;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123097/job/15822990225
+8/11/23, 3:07:06 PM;15822990986;5834123097;1;Lint;CSS;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123097/job/15822990986
+8/11/23, 3:07:07 PM;15822991498;5834123097;1;Lint;package_lock;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123097/job/15822991498
+8/11/23, 2:51:41 PM;15822521325;5833971338;1;Lint;TS;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833971338/job/15822521325
+8/11/23, 11:39:28 AM;15816936348;5832134278;1;Lint;package_lock;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134278/job/15816936348
+8/11/23, 11:39:30 AM;15816937218;5832134278;1;Lint;component_exports;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134278/job/15816937218
+8/11/23, 11:34:26 AM;15816820856;5832096334;1;Lint;component_exports;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832096334/job/15816820856
+8/11/23, 11:17:25 AM;15816417236;5831964377;1;Lint;component_exports;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964377/job/15816417236
+8/11/23, 11:17:25 AM;15816417405;5831964377;1;Lint;CSS;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964377/job/15816417405
+8/11/23, 11:17:26 AM;15816417601;5831964377;1;Lint;package_lock;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964377/job/15816417601
+8/11/23, 10:54:48 AM;15815849049;5831768459;1;Lint;component_exports;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768459/job/15815849049
+8/11/23, 10:54:49 AM;15815849602;5831768459;1;Lint;JS;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768459/job/15815849602
+8/11/23, 11:18:23 AM;15816440102;5831768459;2;Lint;JS;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768459/job/15816440102
+8/11/23, 8:03:26 AM;15811408487;5830301258;1;Lint;JS;dataGrid_scroll_on_focus_restoring/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830301258/job/15811408487
+8/11/23, 9:07:18 PM;15831880310;5836990052;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990052/job/15831880310
+8/11/23, 9:07:19 PM;15831880473;5836990052;1;Additional QUnit;ui.widgets(2/3)-ios10;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990052/job/15831880473
+8/11/23, 9:07:19 PM;15831880639;5836990052;1;Additional QUnit;ui.widgets(2/3)-android6;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990052/job/15831880639
+8/11/23, 3:17:16 PM;15823299094;5834138541;1;Additional QUnit;viz-ios10;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138541/job/15823299094
+8/11/23, 3:17:17 PM;15823299372;5834138541;1;Additional QUnit;viz-android6;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138541/job/15823299372
+8/11/23, 3:17:24 PM;15823303135;5834138541;1;Additional QUnit;viz-firefox;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138541/job/15823303135
+8/11/23, 3:11:36 PM;15823129874;5834123110;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123110/job/15823129874
+8/11/23, 3:11:36 PM;15823130093;5834123110;1;Additional QUnit;ui.widgets(2/3)-ios10;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123110/job/15823130093
+8/11/23, 3:11:37 PM;15823130369;5834123110;1;Additional QUnit;ui.widgets(2/3)-android6;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123110/job/15823130369
+8/11/23, 2:59:23 PM;15822738895;5833971340;1;Additional QUnit;viz-firefox;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833971340/job/15822738895
+8/11/23, 2:59:38 PM;15822745609;5833971340;1;Additional QUnit;viz-ios10;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833971340/job/15822745609
+8/11/23, 2:59:39 PM;15822745779;5833971340;1;Additional QUnit;viz-android6;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833971340/job/15822745779
+8/11/23, 2:14:21 PM;15821379877;5833507495;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833507495/job/15821379877
+8/11/23, 1:54:14 PM;15820746506;5833341051;1;Additional QUnit;ui.grid(2/2)-firefox;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820746506
+8/11/23, 1:54:25 PM;15820751816;5833341051;1;Additional QUnit;ui.grid(2/2)-shadow-dom;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820751816
+8/11/23, 1:54:25 PM;15820752002;5833341051;1;Additional QUnit;ui.grid(2/2)-ios10;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820752002
+8/11/23, 1:54:26 PM;15820752311;5833341051;1;Additional QUnit;ui.grid(2/2)-android6;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820752311
+8/11/23, 1:54:37 PM;15820757425;5833341051;1;Additional QUnit;ui.grid(2/2)-PST8PDT;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820757425
+8/11/23, 1:54:38 PM;15820757584;5833341051;1;Additional QUnit;ui.grid(2/2)-Japan;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820757584
+8/11/23, 1:54:38 PM;15820757786;5833341051;1;Additional QUnit;ui.grid(2/2)-Australia/ACT;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820757786
+8/11/23, 1:54:38 PM;15820757976;5833341051;1;Additional QUnit;ui.grid(2/2)-Europe/London;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341051/job/15820757976
+8/11/23, 11:53:35 AM;15817249177;5832134277;1;Additional QUnit;ui.grid(1/2)-shadow-dom;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817249177
+8/11/23, 11:53:35 AM;15817249311;5832134277;1;Additional QUnit;ui.grid(1/2)-ios10;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817249311
+8/11/23, 11:53:35 AM;15817249458;5832134277;1;Additional QUnit;ui.grid(1/2)-android6;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817249458
+8/11/23, 11:53:36 AM;15817249577;5832134277;1;Additional QUnit;ui.grid(2/2)-shadow-dom;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817249577
+8/11/23, 11:53:36 AM;15817249718;5832134277;1;Additional QUnit;ui.grid(2/2)-ios10;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817249718
+8/11/23, 11:53:36 AM;15817249873;5832134277;1;Additional QUnit;ui.grid(2/2)-android6;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817249873
+8/11/23, 11:53:42 AM;15817252207;5832134277;1;Additional QUnit;ui.grid(1/2)-firefox;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817252207
+8/11/23, 11:53:43 AM;15817252308;5832134277;1;Additional QUnit;ui.grid(2/2)-firefox;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817252308
+8/11/23, 11:53:53 AM;15817256265;5832134277;1;Additional QUnit;ui.grid(1/2)-PST8PDT;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817256265
+8/11/23, 11:53:54 AM;15817256573;5832134277;1;Additional QUnit;ui.grid(1/2)-Japan;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817256573
+8/11/23, 11:53:54 AM;15817256806;5832134277;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817256806
+8/11/23, 11:53:55 AM;15817256968;5832134277;1;Additional QUnit;ui.grid(1/2)-Europe/London;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817256968
+8/11/23, 11:53:55 AM;15817257174;5832134277;1;Additional QUnit;ui.grid(2/2)-PST8PDT;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817257174
+8/11/23, 11:53:56 AM;15817257298;5832134277;1;Additional QUnit;ui.grid(2/2)-Japan;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817257298
+8/11/23, 11:53:56 AM;15817257460;5832134277;1;Additional QUnit;ui.grid(2/2)-Australia/ACT;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817257460
+8/11/23, 11:53:56 AM;15817257611;5832134277;1;Additional QUnit;ui.grid(2/2)-Europe/London;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134277/job/15817257611
+8/11/23, 11:34:25 AM;15816820486;5832096344;1;Additional QUnit;Build;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832096344/job/15816820486
+8/11/23, 11:34:06 AM;15816813075;5832016188;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816813075
+8/11/23, 11:34:18 AM;15816817834;5832016188;1;Additional QUnit;misc(1/2)-PST8PDT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816817834
+8/11/23, 11:34:20 AM;15816818552;5832016188;1;Additional QUnit;misc(2/2)-Japan;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816818552
+8/11/23, 11:34:21 AM;15816818872;5832016188;1;Additional QUnit;misc(2/2)-Europe/London;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816818872
+8/11/23, 11:34:21 AM;15816819005;5832016188;1;Additional QUnit;ui.editors(1/2)-PST8PDT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816819005
+8/11/23, 11:34:22 AM;15816819299;5832016188;1;Additional QUnit;ui.editors(1/2)-Australia/ACT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816819299
+8/11/23, 11:34:23 AM;15816819565;5832016188;1;Additional QUnit;ui.editors(2/2)-PST8PDT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816819565
+8/11/23, 11:34:23 AM;15816819831;5832016188;1;Additional QUnit;ui.editors(2/2)-Australia/ACT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816819831
+8/11/23, 11:34:24 AM;15816819972;5832016188;1;Additional QUnit;ui.editors(2/2)-Europe/London;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816819972
+8/11/23, 11:34:24 AM;15816820115;5832016188;1;Additional QUnit;ui.grid(1/2)-PST8PDT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816820115
+8/11/23, 11:34:24 AM;15816820227;5832016188;1;Additional QUnit;ui.grid(1/2)-Japan;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816820227
+8/11/23, 11:34:25 AM;15816820356;5832016188;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816820356
+8/11/23, 11:34:25 AM;15816820500;5832016188;1;Additional QUnit;ui.grid(1/2)-Europe/London;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816820500
+8/11/23, 11:34:26 AM;15816820839;5832016188;1;Additional QUnit;ui.grid(2/2)-Japan;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816820839
+8/11/23, 11:34:26 AM;15816820989;5832016188;1;Additional QUnit;ui.grid(2/2)-Australia/ACT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816820989
+8/11/23, 11:34:27 AM;15816821113;5832016188;1;Additional QUnit;ui.grid(2/2)-Europe/London;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816821113
+8/11/23, 11:34:27 AM;15816821241;5832016188;1;Additional QUnit;ui.scheduler(1/3)-PST8PDT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816821241
+8/11/23, 11:34:27 AM;15816821367;5832016188;1;Additional QUnit;ui.scheduler(1/3)-Japan;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816821367
+8/11/23, 11:34:28 AM;15816821541;5832016188;1;Additional QUnit;ui.scheduler(1/3)-Australia/ACT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816821541
+8/11/23, 11:34:28 AM;15816821847;5832016188;1;Additional QUnit;ui.scheduler(2/3)-PST8PDT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816821847
+8/11/23, 11:34:29 AM;15816821987;5832016188;1;Additional QUnit;ui.scheduler(2/3)-Japan;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816821987
+8/11/23, 11:34:29 AM;15816822150;5832016188;1;Additional QUnit;ui.scheduler(2/3)-Australia/ACT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816822150
+8/11/23, 11:34:29 AM;15816822305;5832016188;1;Additional QUnit;ui.scheduler(2/3)-Europe/London;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816822305
+8/11/23, 11:34:30 AM;15816822448;5832016188;1;Additional QUnit;ui.scheduler(3/3)-PST8PDT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816822448
+8/11/23, 11:34:30 AM;15816822571;5832016188;1;Additional QUnit;ui.scheduler(3/3)-Japan;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816822571
+8/11/23, 11:34:31 AM;15816822715;5832016188;1;Additional QUnit;ui.scheduler(3/3)-Australia/ACT;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816822715
+8/11/23, 11:34:31 AM;15816822841;5832016188;1;Additional QUnit;ui.scheduler(3/3)-Europe/London;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15816822841
+8/11/23, 1:38:23 PM;15820290574;5832016188;2;Additional QUnit;ui.widgets(2/3)-shadow-dom;a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016188/job/15820290574
+8/11/23, 11:30:08 AM;15816711706;5831999512;1;Additional QUnit;misc(2/2)-PST8PDT;23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831999512/job/15816711706
+8/11/23, 11:30:08 AM;15816711838;5831999512;1;Additional QUnit;misc(2/2)-Japan;23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831999512/job/15816711838
+8/11/23, 11:30:08 AM;15816711976;5831999512;1;Additional QUnit;misc(2/2)-Australia/ACT;23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831999512/job/15816711976
+8/11/23, 11:30:09 AM;15816712126;5831999512;1;Additional QUnit;misc(2/2)-Europe/London;23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831999512/job/15816712126
+8/11/23, 11:30:25 AM;15816718782;5831999512;1;Additional QUnit;misc(2/2)-no-csp;23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831999512/job/15816718782
+8/11/23, 11:22:44 AM;15816541392;5831964371;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964371/job/15816541392
+8/11/23, 11:22:44 AM;15816541510;5831964371;1;Additional QUnit;ui.widgets(2/3)-ios10;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964371/job/15816541510
+8/11/23, 11:22:45 AM;15816541650;5831964371;1;Additional QUnit;ui.widgets(2/3)-android6;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964371/job/15816541650
+8/11/23, 11:17:04 AM;15816408139;5831897690;1;Additional QUnit;ui.grid(2/2)-Japan;fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897690/job/15816408139
+8/11/23, 11:08:06 AM;15816187533;5831805195;1;Additional QUnit;ui.grid(1/2)-shadow-dom;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15816187533
+8/11/23, 11:08:07 AM;15816188031;5831805195;1;Additional QUnit;ui.grid(2/2)-shadow-dom;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15816188031
+8/11/23, 11:08:12 AM;15816190010;5831805195;1;Additional QUnit;viz-ios10;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15816190010
+8/11/23, 11:08:23 AM;15816195126;5831805195;1;Additional QUnit;ui.scheduler(1/3)-Japan;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15816195126
+8/11/23, 11:08:33 AM;15816199511;5831805195;1;Additional QUnit;ui.grid(2/2)-firefox;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15816199511
+8/11/23, 12:03:27 PM;15817494074;5831805195;2;Additional QUnit;ui.grid(1/2)-shadow-dom;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15817494074
+8/11/23, 12:03:28 PM;15817494534;5831805195;2;Additional QUnit;ui.grid(2/2)-shadow-dom;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15817494534
+8/11/23, 12:03:32 PM;15817495940;5831805195;2;Additional QUnit;viz-ios10;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15817495940
+8/11/23, 12:03:35 PM;15817497525;5831805195;2;Additional QUnit;ui.grid(2/2)-firefox;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805195/job/15817497525
+8/11/23, 11:02:33 AM;15816040226;5831768460;1;Additional QUnit;ui-firefox;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768460/job/15816040226
+8/11/23, 11:02:39 AM;15816043019;5831768460;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768460/job/15816043019
+8/11/23, 11:02:46 AM;15816045880;5831768460;1;Additional QUnit;ui.grid(1/2)-android6;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768460/job/15816045880
+8/11/23, 11:02:56 AM;15816050775;5831768460;1;Additional QUnit;ui.editors(1/2)-Japan;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768460/job/15816050775
+8/11/23, 11:02:56 AM;15816050999;5831768460;1;Additional QUnit;ui.editors(1/2)-Australia/ACT;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768460/job/15816050999
+8/11/23, 11:02:59 AM;15816052496;5831768460;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768460/job/15816052496
+8/11/23, 10:10:53 AM;15814760626;5831353930;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831353930/job/15814760626
+8/11/23, 10:10:53 AM;15814760761;5831353930;1;Additional QUnit;ui.widgets(2/3)-ios10;23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831353930/job/15814760761
+8/11/23, 10:10:54 AM;15814760946;5831353930;1;Additional QUnit;ui.widgets(2/3)-android6;23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831353930/job/15814760946
+8/11/23, 7:06:20 AM;15810175141;5829814402;1;Additional QUnit;misc(1/2)-Australia/ACT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810175141
+8/11/23, 7:06:21 AM;15810175307;5829814402;1;Additional QUnit;misc(1/2)-Europe/London;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810175307
+8/11/23, 7:06:21 AM;15810175467;5829814402;1;Additional QUnit;misc(2/2)-PST8PDT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810175467
+8/11/23, 7:06:22 AM;15810175733;5829814402;1;Additional QUnit;misc(2/2)-Australia/ACT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810175733
+8/11/23, 7:06:22 AM;15810175999;5829814402;1;Additional QUnit;ui.editors(1/2)-PST8PDT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810175999
+8/11/23, 7:06:23 AM;15810176128;5829814402;1;Additional QUnit;ui.editors(1/2)-Japan;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810176128
+8/11/23, 7:06:23 AM;15810176428;5829814402;1;Additional QUnit;ui.editors(1/2)-Europe/London;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810176428
+8/11/23, 7:06:24 AM;15810176552;5829814402;1;Additional QUnit;ui.editors(2/2)-PST8PDT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810176552
+8/11/23, 7:06:24 AM;15810176682;5829814402;1;Additional QUnit;ui.editors(2/2)-Japan;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810176682
+8/11/23, 7:06:25 AM;15810176816;5829814402;1;Additional QUnit;ui.editors(2/2)-Australia/ACT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810176816
+8/11/23, 7:06:25 AM;15810176926;5829814402;1;Additional QUnit;ui.editors(2/2)-Europe/London;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810176926
+8/11/23, 7:06:25 AM;15810177042;5829814402;1;Additional QUnit;ui.grid(1/2)-PST8PDT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177042
+8/11/23, 7:06:26 AM;15810177214;5829814402;1;Additional QUnit;ui.grid(1/2)-Japan;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177214
+8/11/23, 7:06:26 AM;15810177356;5829814402;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177356
+8/11/23, 7:06:27 AM;15810177473;5829814402;1;Additional QUnit;ui.grid(1/2)-Europe/London;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177473
+8/11/23, 7:06:27 AM;15810177587;5829814402;1;Additional QUnit;ui.grid(2/2)-PST8PDT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177587
+8/11/23, 7:06:27 AM;15810177707;5829814402;1;Additional QUnit;ui.grid(2/2)-Japan;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177707
+8/11/23, 7:06:28 AM;15810177836;5829814402;1;Additional QUnit;ui.grid(2/2)-Australia/ACT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177836
+8/11/23, 7:06:28 AM;15810177961;5829814402;1;Additional QUnit;ui.grid(2/2)-Europe/London;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810177961
+8/11/23, 7:06:29 AM;15810178295;5829814402;1;Additional QUnit;ui.scheduler(1/3)-Australia/ACT;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810178295
+8/11/23, 7:06:29 AM;15810178410;5829814402;1;Additional QUnit;ui.scheduler(1/3)-Europe/London;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810178410
+8/11/23, 7:06:31 AM;15810178866;5829814402;1;Additional QUnit;ui.scheduler(2/3)-Europe/London;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810178866
+8/11/23, 7:06:32 AM;15810179084;5829814402;1;Additional QUnit;ui.scheduler(3/3)-Japan;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810179084
+8/11/23, 7:06:33 AM;15810179453;5829814402;1;Additional QUnit;ui-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810179453
+8/11/23, 7:06:33 AM;15810179559;5829814402;1;Additional QUnit;ui-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810179559
+8/11/23, 7:06:33 AM;15810179690;5829814402;1;Additional QUnit;ui.widgets(1/3)-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810179690
+8/11/23, 7:06:34 AM;15810179804;5829814402;1;Additional QUnit;ui.widgets(1/3)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810179804
+8/11/23, 7:06:34 AM;15810179956;5829814402;1;Additional QUnit;ui.widgets(1/3)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810179956
+8/11/23, 7:06:35 AM;15810180074;5829814402;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180074
+8/11/23, 7:06:35 AM;15810180190;5829814402;1;Additional QUnit;ui.widgets(2/3)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180190
+8/11/23, 7:06:35 AM;15810180317;5829814402;1;Additional QUnit;ui.widgets(2/3)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180317
+8/11/23, 7:06:36 AM;15810180415;5829814402;1;Additional QUnit;ui.widgets(3/3)-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180415
+8/11/23, 7:06:36 AM;15810180530;5829814402;1;Additional QUnit;ui.widgets(3/3)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180530
+8/11/23, 7:06:36 AM;15810180652;5829814402;1;Additional QUnit;ui.widgets(3/3)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180652
+8/11/23, 7:06:37 AM;15810180790;5829814402;1;Additional QUnit;ui.editors(1/2)-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180790
+8/11/23, 7:06:37 AM;15810180913;5829814402;1;Additional QUnit;ui.editors(1/2)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810180913
+8/11/23, 7:06:38 AM;15810181054;5829814402;1;Additional QUnit;ui.editors(1/2)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181054
+8/11/23, 7:06:38 AM;15810181162;5829814402;1;Additional QUnit;ui.editors(2/2)-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181162
+8/11/23, 7:06:38 AM;15810181271;5829814402;1;Additional QUnit;ui.editors(2/2)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181271
+8/11/23, 7:06:39 AM;15810181382;5829814402;1;Additional QUnit;ui.editors(2/2)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181382
+8/11/23, 7:06:39 AM;15810181510;5829814402;1;Additional QUnit;ui.htmlEditor-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181510
+8/11/23, 7:06:39 AM;15810181638;5829814402;1;Additional QUnit;ui.htmlEditor-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181638
+8/11/23, 7:06:40 AM;15810181754;5829814402;1;Additional QUnit;ui.htmlEditor-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181754
+8/11/23, 7:06:40 AM;15810181872;5829814402;1;Additional QUnit;ui.grid(1/2)-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810181872
+8/11/23, 7:06:41 AM;15810182132;5829814402;1;Additional QUnit;ui.grid(1/2)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810182132
+8/11/23, 7:06:41 AM;15810182258;5829814402;1;Additional QUnit;ui.grid(2/2)-shadow-dom;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810182258
+8/11/23, 7:06:41 AM;15810182377;5829814402;1;Additional QUnit;ui.grid(2/2)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810182377
+8/11/23, 7:06:42 AM;15810182483;5829814402;1;Additional QUnit;ui.grid(2/2)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810182483
+8/11/23, 7:06:42 AM;15810182625;5829814402;1;Additional QUnit;ui.scheduler(1/3)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810182625
+8/11/23, 7:06:42 AM;15810182748;5829814402;1;Additional QUnit;ui.scheduler(1/3)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810182748
+8/11/23, 7:06:43 AM;15810183016;5829814402;1;Additional QUnit;ui.scheduler(2/3)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183016
+8/11/23, 7:06:43 AM;15810183161;5829814402;1;Additional QUnit;ui.scheduler(2/3)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183161
+8/11/23, 7:06:44 AM;15810183291;5829814402;1;Additional QUnit;ui.scheduler(3/3)-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183291
+8/11/23, 7:06:44 AM;15810183426;5829814402;1;Additional QUnit;ui.scheduler(3/3)-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183426
+8/11/23, 7:06:45 AM;15810183569;5829814402;1;Additional QUnit;viz-ios10;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183569
+8/11/23, 7:06:45 AM;15810183709;5829814402;1;Additional QUnit;viz-android6;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183709
+8/11/23, 7:06:45 AM;15810183844;5829814402;1;Additional QUnit;export-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183844
+8/11/23, 7:06:46 AM;15810183985;5829814402;1;Additional QUnit;misc-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810183985
+8/11/23, 7:06:46 AM;15810184105;5829814402;1;Additional QUnit;ui-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810184105
+8/11/23, 7:06:46 AM;15810184250;5829814402;1;Additional QUnit;ui.editors(1/2)-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810184250
+8/11/23, 7:06:47 AM;15810184402;5829814402;1;Additional QUnit;ui.editors(2/2)-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810184402
+8/11/23, 7:06:47 AM;15810184576;5829814402;1;Additional QUnit;ui.htmlEditor-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810184576
+8/11/23, 7:06:48 AM;15810184746;5829814402;1;Additional QUnit;ui.grid(1/2)-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810184746
+8/11/23, 7:06:48 AM;15810184906;5829814402;1;Additional QUnit;ui.grid(2/2)-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810184906
+8/11/23, 7:06:48 AM;15810185060;5829814402;1;Additional QUnit;ui.scheduler(1/3)-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810185060
+8/11/23, 7:06:49 AM;15810185206;5829814402;1;Additional QUnit;ui.scheduler(2/3)-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810185206
+8/11/23, 7:06:49 AM;15810185325;5829814402;1;Additional QUnit;ui.scheduler(3/3)-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810185325
+8/11/23, 7:06:49 AM;15810185475;5829814402;1;Additional QUnit;viz-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810185475
+8/11/23, 7:06:50 AM;15810185612;5829814402;1;Additional QUnit;renovation-firefox;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810185612
+8/11/23, 7:06:50 AM;15810185767;5829814402;1;Additional QUnit;Performance;cell_screen_reader_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829814402/job/15810185767
+8/11/23, 6:49:34 AM;15809832258;5829732303;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829732303/job/15809832258
+8/11/23, 9:05:34 PM;15831840061;5836990051;1;QUnit tests for renovation;Constel ui.widgets(2/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990051/job/15831840061
+8/11/23, 3:12:24 PM;15823154074;5834138543;1;QUnit tests for renovation;Constel viz;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138543/job/15823154074
+8/11/23, 3:13:49 PM;15823196818;5834123132;1;QUnit tests for renovation;Constel ui.widgets(2/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123132/job/15823196818
+8/11/23, 2:58:12 PM;15822704749;5833971341;1;QUnit tests for renovation;Constel viz;Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833971341/job/15822704749
+8/11/23, 1:53:22 PM;15820722300;5833341050;1;QUnit tests for renovation;Constel ui.grid;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341050/job/15820722300
+8/11/23, 11:45:58 AM;15817077081;5832134273;1;QUnit tests for renovation;Constel ui.grid;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134273/job/15817077081
+8/11/23, 11:28:55 AM;15816685069;5831999514;1;QUnit tests for renovation;Constel misc;23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831999514/job/15816685069
+8/11/23, 11:24:25 AM;15816582299;5831964378;1;QUnit tests for renovation;Constel ui.widgets(2/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964378/job/15816582299
+8/11/23, 11:06:42 AM;15816152170;5831805191;1;QUnit tests for renovation;Constel ui.widgets(1/2);cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805191/job/15816152170
+8/11/23, 11:06:43 AM;15816152536;5831805191;1;QUnit tests for renovation;Constel ui.editors;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805191/job/15816152536
+8/11/23, 11:01:21 AM;15816006979;5831768456;1;QUnit tests for renovation;Constel ui.htmlEditor;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768456/job/15816006979
+8/11/23, 10:12:05 AM;15814792534;5831353936;1;QUnit tests for renovation;Constel ui.widgets(2/2);23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831353936/job/15814792534
+8/11/23, 10:58:54 PM;15833769351;5837726325;1;TestCafe tests;dataGrid (1/2);23_2toolbar_rendering;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5837726325/job/15833769351
+8/11/23, 10:58:54 PM;15833769470;5837726325;1;TestCafe tests;pivotGrid;23_2toolbar_rendering;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5837726325/job/15833769470
+8/11/23, 9:05:44 PM;15831843802;5836990059;1;TestCafe tests;dataGrid (1/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831843802
+8/11/23, 9:05:44 PM;15831843945;5836990059;1;TestCafe tests;dataGrid (2/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831843945
+8/11/23, 9:05:45 PM;15831844345;5836990059;1;TestCafe tests;scheduler (1/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831844345
+8/11/23, 9:05:46 PM;15831844689;5836990059;1;TestCafe tests;scheduler (3/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831844689
+8/11/23, 9:05:46 PM;15831844844;5836990059;1;TestCafe tests;scheduler (4/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831844844
+8/11/23, 9:05:48 PM;15831845515;5836990059;1;TestCafe tests;navigation;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831845515
+8/11/23, 9:05:49 PM;15831846088;5836990059;1;TestCafe tests;editors - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831846088
+8/11/23, 9:05:50 PM;15831846275;5836990059;1;TestCafe tests;navigation - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990059/job/15831846275
+8/11/23, 4:40:50 PM;15825616861;5834913276;1;TestCafe tests;dataGrid (1/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834913276/job/15825616861
+8/11/23, 4:21:17 PM;15825108184;5834750155;1;TestCafe tests;dataGrid (1/2);23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834750155/job/15825108184
+8/11/23, 4:21:18 PM;15825108367;5834750155;1;TestCafe tests;dataGrid (2/2);23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834750155/job/15825108367
+8/11/23, 3:53:00 PM;15824303835;5834511949;1;TestCafe tests;dataGrid (1/2);23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834511949/job/15824303835
+8/11/23, 3:15:36 PM;15823250190;5834138548;1;TestCafe tests;dataGrid (1/2);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138548/job/15823250190
+8/11/23, 3:15:37 PM;15823250418;5834138548;1;TestCafe tests;dataGrid (2/2);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138548/job/15823250418
+8/14/23, 7:21:58 AM;15866156244;5834138548;2;TestCafe tests;dataGrid (1/2);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138548/job/15866156244
+8/14/23, 7:21:59 AM;15866156405;5834138548;2;TestCafe tests;dataGrid (2/2);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138548/job/15866156405
+8/14/23, 7:25:07 AM;15866223285;5834138548;3;TestCafe tests;dataGrid (1/2);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138548/job/15866223285
+8/14/23, 7:25:07 AM;15866223472;5834138548;3;TestCafe tests;dataGrid (2/2);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834138548/job/15866223472
+8/11/23, 3:13:26 PM;15823184980;5834123114;1;TestCafe tests;dataGrid (1/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823184980
+8/11/23, 3:13:26 PM;15823185165;5834123114;1;TestCafe tests;dataGrid (2/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823185165
+8/11/23, 3:13:28 PM;15823185764;5834123114;1;TestCafe tests;scheduler (1/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823185764
+8/11/23, 3:13:28 PM;15823186005;5834123114;1;TestCafe tests;scheduler (2/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823186005
+8/11/23, 3:13:29 PM;15823186209;5834123114;1;TestCafe tests;scheduler (3/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823186209
+8/11/23, 3:13:29 PM;15823186399;5834123114;1;TestCafe tests;scheduler (4/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823186399
+8/11/23, 3:13:29 PM;15823186585;5834123114;1;TestCafe tests;scheduler (5/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823186585
+8/11/23, 3:13:30 PM;15823187169;5834123114;1;TestCafe tests;editors;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823187169
+8/11/23, 3:13:31 PM;15823187363;5834123114;1;TestCafe tests;navigation;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823187363
+8/11/23, 3:13:32 PM;15823188191;5834123114;1;TestCafe tests;editors - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823188191
+8/11/23, 3:13:33 PM;15823188378;5834123114;1;TestCafe tests;navigation - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823188378
+8/11/23, 3:13:33 PM;15823188563;5834123114;1;TestCafe tests;htmlEditor - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123114/job/15823188563
+8/11/23, 2:58:08 PM;15822702835;5833971346;1;TestCafe tests;scheduler (2/5);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833971346/job/15822702835
+8/11/23, 2:12:39 PM;15821326970;5833507507;1;TestCafe tests;dataGrid (1/2);T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833507507/job/15821326970
+8/11/23, 1:53:17 PM;15820719599;5833341048;1;TestCafe tests;pivotGrid;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5833341048/job/15820719599
+8/11/23, 1:14:43 PM;15819587484;5832967468;1;TestCafe tests;dataGrid (1/2);23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832967468/job/15819587484
+8/11/23, 2:39:21 PM;15822165545;5832967468;2;TestCafe tests;dataGrid (1/2);23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832967468/job/15822165545
+8/11/23, 2:58:50 PM;15822722225;5832967468;3;TestCafe tests;dataGrid (1/2);23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832967468/job/15822722225
+8/11/23, 12:40:20 PM;15818557125;5832635294;1;TestCafe tests;dataGrid (1/2);vue-generate-script;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832635294/job/15818557125
+8/14/23, 7:16:55 AM;15866043615;5832635294;2;TestCafe tests;dataGrid (1/2);vue-generate-script;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832635294/job/15866043615
+8/14/23, 7:22:29 AM;15866167662;5832635294;3;TestCafe tests;dataGrid (1/2);vue-generate-script;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832635294/job/15866167662
+8/14/23, 7:28:31 AM;15866296821;5832635294;4;TestCafe tests;dataGrid (1/2);vue-generate-script;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832635294/job/15866296821
+8/11/23, 12:23:50 PM;15818088856;5832467651;1;TestCafe tests;dataGrid (1/2);T1089634_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832467651/job/15818088856
+8/11/23, 12:23:50 PM;15818089027;5832467651;1;TestCafe tests;dataGrid (2/2);T1089634_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832467651/job/15818089027
+8/11/23, 12:25:53 PM;15818147205;5832467085;1;TestCafe tests;dataGrid (1/2);T1089634_23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832467085/job/15818147205
+8/11/23, 12:25:53 PM;15818147333;5832467085;1;TestCafe tests;dataGrid (2/2);T1089634_23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832467085/job/15818147333
+8/11/23, 12:22:04 PM;15818037729;5832466768;1;TestCafe tests;dataGrid (1/2);T1089634_22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832466768/job/15818037729
+8/11/23, 12:22:06 PM;15818038616;5832466768;1;TestCafe tests;scheduler (1/5);T1089634_22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832466768/job/15818038616
+8/11/23, 12:22:08 PM;15818039511;5832466768;1;TestCafe tests;scheduler (5/5);T1089634_22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832466768/job/15818039511
+8/11/23, 11:39:28 AM;15816936406;5832134279;1;TestCafe tests;build;T1178543_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832134279/job/15816936406
+8/11/23, 11:34:26 AM;15816820787;5832096338;1;TestCafe tests;build;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832096338/job/15816820787
+8/11/23, 12:07:49 PM;15817629424;5832096338;2;TestCafe tests;dataGrid (1/2);bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832096338/job/15817629424
+8/11/23, 12:07:49 PM;15817629617;5832096338;2;TestCafe tests;dataGrid (2/2);bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832096338/job/15817629617
+8/11/23, 1:03:06 PM;15819226330;5832096338;3;TestCafe tests;dataGrid (2/2);bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832096338/job/15819226330
+8/11/23, 1:37:30 PM;15820264024;5832096338;4;TestCafe tests;dataGrid (2/2);bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832096338/job/15820264024
+8/11/23, 11:29:25 AM;15816695539;5832016189;1;TestCafe tests;dataGrid (1/2);a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016189/job/15816695539
+8/11/23, 1:39:15 PM;15820316111;5832016189;2;TestCafe tests;dataGrid (1/2);a11y_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5832016189/job/15820316111
+8/11/23, 11:28:51 AM;15816683922;5831999519;1;TestCafe tests;dataGrid (1/2);23_2_vertical_tabs_fix_scrolling;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831999519/job/15816683922
+8/11/23, 11:21:43 AM;15816516898;5831964368;1;TestCafe tests;dataGrid (1/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816516898
+8/11/23, 11:21:43 AM;15816517032;5831964368;1;TestCafe tests;dataGrid (2/2);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816517032
+8/11/23, 11:21:44 AM;15816517466;5831964368;1;TestCafe tests;scheduler (1/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816517466
+8/11/23, 11:21:44 AM;15816517593;5831964368;1;TestCafe tests;scheduler (2/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816517593
+8/11/23, 11:21:45 AM;15816517726;5831964368;1;TestCafe tests;scheduler (3/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816517726
+8/11/23, 11:21:45 AM;15816517856;5831964368;1;TestCafe tests;scheduler (4/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816517856
+8/11/23, 11:21:45 AM;15816517996;5831964368;1;TestCafe tests;scheduler (5/5);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816517996
+8/11/23, 11:21:46 AM;15816518463;5831964368;1;TestCafe tests;editors;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816518463
+8/11/23, 11:21:47 AM;15816518604;5831964368;1;TestCafe tests;navigation;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816518604
+8/11/23, 11:21:48 AM;15816519227;5831964368;1;TestCafe tests;editors - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816519227
+8/11/23, 11:21:49 AM;15816519390;5831964368;1;TestCafe tests;navigation - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816519390
+8/11/23, 11:21:49 AM;15816519583;5831964368;1;TestCafe tests;htmlEditor - material;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964368/job/15816519583
+8/11/23, 11:19:00 AM;15816454825;5831897704;1;TestCafe tests;dataGrid (1/2);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897704/job/15816454825
+8/11/23, 12:48:10 PM;15818773359;5831897704;2;TestCafe tests;dataGrid (1/2);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897704/job/15818773359
+8/11/23, 1:16:21 PM;15819638715;5831897704;3;TestCafe tests;dataGrid (1/2);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897704/job/15819638715
+8/11/23, 1:48:23 PM;15820578172;5831897704;4;TestCafe tests;dataGrid (1/2);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897704/job/15820578172
+8/11/23, 3:17:17 PM;15823299786;5831897704;5;TestCafe tests;dataGrid (1/2);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897704/job/15823299786
+8/11/23, 4:53:18 PM;15825933989;5831897704;6;TestCafe tests;dataGrid (1/2);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897704/job/15825933989
+8/14/23, 1:14:33 PM;15875413331;5831897704;7;TestCafe tests;dataGrid (1/2);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831897704/job/15875413331
+8/11/23, 10:59:59 AM;15815968987;5831805181;1;TestCafe tests;build;cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805181/job/15815968987
+8/11/23, 12:05:25 PM;15817553347;5831805181;2;TestCafe tests;dataGrid (1/2);cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805181/job/15817553347
+8/11/23, 12:54:13 PM;15818952119;5831805181;3;TestCafe tests;dataGrid (1/2);cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805181/job/15818952119
+8/11/23, 1:24:42 PM;15819894562;5831805181;4;TestCafe tests;dataGrid (1/2);cal_select_week__23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831805181/job/15819894562
+8/11/23, 11:01:21 AM;15816006968;5831768466;1;TestCafe tests;treeList;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768466/job/15816006968
+8/11/23, 11:01:22 AM;15816007119;5831768466;1;TestCafe tests;dataGrid (1/2);bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768466/job/15816007119
+8/11/23, 11:01:27 AM;15816009970;5831768466;1;TestCafe tests;htmlEditor;bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768466/job/15816009970
+8/11/23, 11:18:19 AM;15816438403;5831768466;2;TestCafe tests;dataGrid (1/2);bug_T1181910/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831768466/job/15816438403
+8/11/23, 10:11:42 AM;15814782204;5831353923;1;TestCafe tests;dataGrid (1/2);23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831353923/job/15814782204
+8/11/23, 10:11:43 AM;15814782345;5831353923;1;TestCafe tests;dataGrid (2/2);23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831353923/job/15814782345
+8/11/23, 8:54:36 AM;15812747303;5830671396;1;TestCafe tests;dataGrid (1/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830671396/job/15812747303
+8/11/23, 8:54:37 AM;15812747894;5830671396;1;TestCafe tests;scheduler (1/5);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830671396/job/15812747894
+8/11/23, 8:20:48 AM;15811875730;5830376233;1;TestCafe tests;dataGrid (2/2);dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830376233/job/15811875730
+8/11/23, 10:30:37 AM;15815278924;5830376233;2;TestCafe tests;dataGrid (2/2);dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830376233/job/15815278924
+8/13/23, 5:59:41 PM;15856387149;5830376233;3;TestCafe tests;dataGrid (2/2);dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830376233/job/15856387149
+8/11/23, 8:16:13 AM;15811757644;5830306963;1;TestCafe tests;dataGrid (1/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830306963/job/15811757644
+8/11/23, 8:13:01 AM;15811675108;5830300656;1;TestCafe tests;dataGrid (2/2);dataGrid_scroll_on_focus_restoring/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830300656/job/15811675108
+8/11/23, 10:30:18 AM;15815270701;5830300656;2;TestCafe tests;dataGrid (2/2);dataGrid_scroll_on_focus_restoring/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830300656/job/15815270701
+8/13/23, 11:51:18 PM;15859330556;5830300656;3;TestCafe tests;dataGrid (2/2);dataGrid_scroll_on_focus_restoring/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830300656/job/15859330556
+8/11/23, 8:04:29 AM;15811438601;5830241847;1;TestCafe tests;dataGrid (1/2);Charts_refactor_23_2_new;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830241847/job/15811438601
+8/11/23, 8:01:02 AM;15811340322;5830222829;1;TestCafe tests;dataGrid (2/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830222829/job/15811340322
+8/11/23, 7:58:18 AM;15811275274;5830214388;1;TestCafe tests;dataGrid (1/2);grid_accessibility_add_contrasts_tests_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830214388/job/15811275274
+8/11/23, 7:58:18 AM;15811275416;5830214388;1;TestCafe tests;dataGrid (2/2);grid_accessibility_add_contrasts_tests_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830214388/job/15811275416
+8/11/23, 7:54:50 AM;15811201813;5830203577;1;TestCafe tests;treeList;dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830203577/job/15811201813
+8/11/23, 7:54:50 AM;15811201940;5830203577;1;TestCafe tests;dataGrid (1/2);dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830203577/job/15811201940
+8/11/23, 7:54:50 AM;15811202037;5830203577;1;TestCafe tests;dataGrid (2/2);dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830203577/job/15811202037
+8/11/23, 7:54:54 AM;15811203239;5830203577;1;TestCafe tests;editors;dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830203577/job/15811203239
+8/11/23, 7:54:56 AM;15811203808;5830203577;1;TestCafe tests;editors - material;dataGrid_separator_expanded_column/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830203577/job/15811203808
+8/11/23, 7:54:43 AM;15811199762;5830201449;1;TestCafe tests;dataGrid (1/2);dataGrid_separator_expanded_column/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830201449/job/15811199762
+8/11/23, 7:54:43 AM;15811199939;5830201449;1;TestCafe tests;dataGrid (2/2);dataGrid_separator_expanded_column/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830201449/job/15811199939
+8/11/23, 10:29:30 AM;15815249104;5830201449;2;TestCafe tests;dataGrid (1/2);dataGrid_separator_expanded_column/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830201449/job/15815249104
+8/11/23, 10:29:30 AM;15815249311;5830201449;2;TestCafe tests;dataGrid (2/2);dataGrid_separator_expanded_column/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830201449/job/15815249311
+8/13/23, 6:06:27 PM;15856469189;5830201449;3;TestCafe tests;dataGrid (1/2);dataGrid_separator_expanded_column/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830201449/job/15856469189
+8/13/23, 6:06:27 PM;15856469250;5830201449;3;TestCafe tests;dataGrid (2/2);dataGrid_separator_expanded_column/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830201449/job/15856469250
+8/11/23, 7:38:42 AM;15810870154;5830080975;1;TestCafe tests;dataGrid (2/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830080975/job/15810870154
+8/11/23, 7:37:23 AM;15810843413;5830065895;1;TestCafe tests;dataGrid (2/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5830065895/job/15810843413
+8/11/23, 6:48:39 AM;15809816667;5829732302;1;TestCafe tests;scheduler (1/5);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829732302/job/15809816667
+8/11/23, 6:24:18 AM;15809374742;5829572185;1;TestCafe tests;dataGrid (1/2);23_2_monorepo_vertical_tabs_in_material;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829572185/job/15809374742
+8/11/23, 6:24:24 AM;15809376565;5829572185;1;TestCafe tests;navigation - material;23_2_monorepo_vertical_tabs_in_material;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829572185/job/15809376565
+8/11/23, 6:24:23 AM;15809376489;5829560947;1;TestCafe tests;dataGrid (1/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829560947/job/15809376489
+8/11/23, 6:24:24 AM;15809376596;5829560947;1;TestCafe tests;dataGrid (2/2);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5829560947/job/15809376596
+8/11/23, 8:59:16 PM;15831693256;5836990054;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990054/job/15831693256
+8/11/23, 3:07:02 PM;15822989034;5834123105;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123105/job/15822989034
+8/11/23, 11:17:24 AM;15816416724;5831964383;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964383/job/15816416724
