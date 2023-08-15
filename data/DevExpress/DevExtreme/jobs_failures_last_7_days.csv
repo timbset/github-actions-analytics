@@ -200,7 +200,6 @@ created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html 
 8/14/23, 5:27:46 AM;15864067402;5852202101;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5852202101/job/15864067402
 8/14/23, 4:44:23 AM;15863430196;5851930675;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5851930675/job/15863430196
 8/14/23, 6:18:29 AM;15864881144;5852516290;1;TS Declarations;validate-declarations;resetDeclarations;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5852516290/job/15864881144
-
 8/13/23, 11:54:48 PM;15859354831;5850187053;1;DevExtreme package tests;Demos visual tests jquery(3/4);dataGrid_push_load_racing/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5850187053/job/15859354831
 8/13/23, 7:43:32 PM;15857294816;5849188113;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2_dirty_tabs_position_styles_material;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5849188113/job/15857294816
 8/13/23, 7:46:28 PM;15857314040;5849186121;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5849186121/job/15857314040
@@ -282,8 +281,6 @@ created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html 
 8/13/23, 9:03:53 AM;15851611053;5846401784;1;TestCafe tests;navigation - material;23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5846401784/job/15851611053
 8/13/23, 8:43:57 AM;15851445697;5846336135;1;TestCafe tests;navigation;23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5846336135/job/15851445697
 8/13/23, 8:43:59 AM;15851445873;5846336135;1;TestCafe tests;navigation - material;23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5846336135/job/15851445873
-
-
 8/12/23, 9:41:02 PM;15845846193;5843530995;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5843530995/job/15845846193
 8/12/23, 9:41:03 PM;15845846243;5843530995;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5843530995/job/15845846243
 8/12/23, 9:08:50 PM;15845619553;5843410613;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5843410613/job/15845619553
@@ -371,8 +368,6 @@ created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html 
 8/12/23, 9:21:30 PM;15845716900;5843506791;1;Themebuilder and Styles tests;test;23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5843506791/job/15845716900
 8/12/23, 9:01:10 PM;15845540345;5843410614;1;Themebuilder and Styles tests;test;23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5843410614/job/15845540345
 8/12/23, 12:35:36 PM;15841438006;5841335476;1;Themebuilder and Styles tests;test;23_2_dirty_tabs_position_styles_generic;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5841335476/job/15841438006
-
-
 8/11/23, 9:10:15 PM;15831942380;5836990055;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990055/job/15831942380
 8/11/23, 9:10:15 PM;15831942544;5836990055;1;DevExtreme package tests;Demos visual tests jquery(2/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990055/job/15831942544
 8/11/23, 9:10:16 PM;15831942722;5836990055;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990055/job/15831942722
@@ -704,8 +699,6 @@ created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html 
 8/11/23, 8:59:16 PM;15831693256;5836990054;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5836990054/job/15831693256
 8/11/23, 3:07:02 PM;15822989034;5834123105;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5834123105/job/15822989034
 8/11/23, 11:17:24 AM;15816416724;5831964383;1;Themebuilder and Styles tests;test;23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5831964383/job/15816416724
-
-
 8/10/23, 11:40:04 PM;15802724215;5827122866;1;DevExtreme package tests;Demos visual tests jquery(3/4);scheduler_fix_timezone_tests/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5827122866/job/15802724215
 8/11/23, 12:04:09 AM;15803099988;5827122866;2;DevExtreme package tests;Demos visual tests jquery(3/4);scheduler_fix_timezone_tests/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5827122866/job/15803099988
 8/10/23, 11:21:44 PM;15802373179;5827048171;1;DevExtreme package tests;Demos visual tests jquery(3/4);fix_axe_path_23-2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5827048171/job/15802373179
@@ -876,8 +869,6 @@ created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html 
 8/10/23, 8:43:34 AM;15776285196;5818586021;2;Themebuilder and Styles tests;test;23_2_monorepo_vertical_tabs_in_material;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5818586021/job/15776285196
 8/10/23, 7:58:32 AM;15774952002;5818469695;1;Themebuilder and Styles tests;test;23_2_monorepo_vertical_tabs_in_material;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5818469695/job/15774952002
 8/10/23, 7:48:35 AM;15774706551;5818390554;1;TS Declarations;check-ts-bundle;resetDeclarations;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5818390554/job/15774706551
-
-
 8/9/23, 1:31:46 PM;15749096416;5809729909;1;DevExtreme Vue Tests;test;ci/vue-wrapper;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5809729909/job/15749096416
 8/9/23, 4:43:24 PM;15755773990;5811684122;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5811684122/job/15755773990
 8/9/23, 4:43:25 PM;15755774205;5811684122;1;DevExtreme package tests;Demos visual tests jquery(2/4);23_2buttongroup_redesign;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5811684122/job/15755774205
@@ -1246,8 +1237,6 @@ created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html 
 8/9/23, 5:45:05 AM;15736308574;5805332777;1;TestCafe tests;scheduler (4/5);23_2_monorepo_vertical_tabs;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5805332777/job/15736308574
 8/9/23, 5:45:07 AM;15736308937;5805332777;1;TestCafe tests;form (2/2);23_2_monorepo_vertical_tabs;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5805332777/job/15736308937
 8/9/23, 5:45:08 AM;15736309117;5805332777;1;TestCafe tests;navigation;23_2_monorepo_vertical_tabs;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5805332777/job/15736309117
-
-
 8/8/23, 2:46:08 PM;15716250130;5798457937;1;DevExtreme Vue Tests;test;ci/vue-wrapper;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5798457937/job/15716250130
 8/8/23, 1:33:47 PM;15713623162;5797647842;1;DevExtreme Vue Tests;test;ci/vue-wrapper;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5797647842/job/15713623162
 8/8/23, 1:05:55 PM;15712644653;5797327620;1;DevExtreme Vue Tests;test;ci/vue-wrapper;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5797327620/job/15712644653
