@@ -9,6 +9,9 @@ on:
   schedule:
     - cron: '0 3 * * *'
 
+env:
+  GH_AUTH_TOKEN: ${{ matrix.repos.token }}
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -16,9 +19,9 @@ jobs:
     strategy:
       matrix:
         repos:
-          - owner: ${{ secrets.GH_REPO_OWNER }}
-          - name: ${{ secrets.GH_REPO_NAME }}
-          - token: ${{ secrets.GH_AUTH_TOKEN }}
+          - owner: DevExpress
+          - name: DevExtreme
+          - token: ${{ env.GH_AUTH_TOKEN }}
 
     env:
       GH_AUTH_TOKEN: ${{ matrix.repos.token }}
