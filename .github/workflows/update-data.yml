@@ -7,15 +7,23 @@ concurrency:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5 * * *'
+    - cron: '0 3 * * *'
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        repos:
+          - owner: ${{ secrets.GH_REPO_OWNER }}
+          - name: ${{ secrets.GH_REPO_NAME }}
+          - token: ${{ secrets.GH_AUTH_TOKEN }}
+
     env:
-      GH_AUTH_TOKEN: ${{ secrets.GH_AUTH_TOKEN }}
-      GH_REPO_OWNER: ${{ secrets.GH_REPO_OWNER }}
-      GH_REPO_NAME: ${{ secrets.GH_REPO_NAME }}
+      GH_AUTH_TOKEN: ${{ matrix.repos.token }}
+      GH_REPO_OWNER: ${{ matrix.repos.owner }}
+      GH_REPO_NAME: ${{ matrix.repos.name }}
 
     steps:
       - name: Checkout
