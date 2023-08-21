@@ -16,6 +16,7 @@ jobs:
     name: ${{ matrix.repos.owner }}/${{ matrix.repos.name }}
 
     strategy:
+      max-parallel: 1
       matrix:
         repos:
           - owner: DevExpress
@@ -49,6 +50,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull
           git add .
           git commit -m "Update data"
           git push
