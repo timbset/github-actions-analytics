@@ -1,0 +1,41 @@
+created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html url
+8/19/23, 11:37:38 PM;16039045685;5914070017;1;DevExtreme package tests;Demos visual tests jquery(1/4);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070017/job/16039045685
+8/19/23, 11:37:38 PM;16039045721;5914070017;1;DevExtreme package tests;Demos visual tests jquery(2/4);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070017/job/16039045721
+8/19/23, 11:37:39 PM;16039045759;5914070017;1;DevExtreme package tests;Demos visual tests jquery(3/4);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070017/job/16039045759
+8/19/23, 11:37:39 PM;16039045793;5914070017;1;DevExtreme package tests;Demos visual tests jquery(4/4);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070017/job/16039045793
+8/19/23, 1:03:48 PM;16034201882;5911543156;1;DevExtreme package tests;Demos visual tests jquery(4/4);22_2_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911543156/job/16034201882
+8/21/23, 6:58:46 AM;16057922855;5911543156;2;DevExtreme package tests;Demos visual tests jquery(4/4);22_2_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911543156/job/16057922855
+8/21/23, 7:03:01 AM;16058028017;5911543156;3;DevExtreme package tests;Demos visual tests jquery(4/4);22_2_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911543156/job/16058028017
+8/21/23, 7:26:23 AM;16058614202;5911543156;4;DevExtreme package tests;Demos visual tests jquery(4/4);22_2_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911543156/job/16058614202
+8/19/23, 11:23:25 PM;16038954815;5914047197;1;Lint;CSS;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914047197/job/16038954815
+8/19/23, 11:35:58 PM;16039035930;5914070014;1;Additional QUnit;ui.scheduler(1/3)-firefox;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039035930
+8/19/23, 11:35:58 PM;16039035964;5914070014;1;Additional QUnit;ui.scheduler(2/3)-firefox;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039035964
+8/19/23, 11:35:58 PM;16039036005;5914070014;1;Additional QUnit;ui.scheduler(3/3)-firefox;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039036005
+8/19/23, 11:36:08 PM;16039037040;5914070014;1;Additional QUnit;ui.scheduler(1/3)-ios10;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039037040
+8/19/23, 11:36:08 PM;16039037073;5914070014;1;Additional QUnit;ui.scheduler(1/3)-android6;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039037073
+8/19/23, 11:36:09 PM;16039037154;5914070014;1;Additional QUnit;ui.scheduler(3/3)-ios10;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039037154
+8/19/23, 11:36:09 PM;16039037187;5914070014;1;Additional QUnit;ui.scheduler(3/3)-android6;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039037187
+8/19/23, 11:36:18 PM;16039037927;5914070014;1;Additional QUnit;ui.scheduler(1/3)-PST8PDT;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039037927
+8/19/23, 11:36:19 PM;16039037970;5914070014;1;Additional QUnit;ui.scheduler(1/3)-Japan;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039037970
+8/19/23, 11:36:19 PM;16039038005;5914070014;1;Additional QUnit;ui.scheduler(1/3)-Australia/ACT;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038005
+8/19/23, 11:36:19 PM;16039038026;5914070014;1;Additional QUnit;ui.scheduler(1/3)-Europe/London;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038026
+8/19/23, 11:36:20 PM;16039038054;5914070014;1;Additional QUnit;ui.scheduler(2/3)-PST8PDT;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038054
+8/19/23, 11:36:20 PM;16039038096;5914070014;1;Additional QUnit;ui.scheduler(2/3)-Japan;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038096
+8/19/23, 11:36:20 PM;16039038127;5914070014;1;Additional QUnit;ui.scheduler(2/3)-Australia/ACT;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038127
+8/19/23, 11:36:21 PM;16039038152;5914070014;1;Additional QUnit;ui.scheduler(2/3)-Europe/London;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038152
+8/19/23, 11:36:21 PM;16039038187;5914070014;1;Additional QUnit;ui.scheduler(3/3)-PST8PDT;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038187
+8/19/23, 11:36:21 PM;16039038222;5914070014;1;Additional QUnit;ui.scheduler(3/3)-Japan;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038222
+8/19/23, 11:36:22 PM;16039038269;5914070014;1;Additional QUnit;ui.scheduler(3/3)-Australia/ACT;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038269
+8/19/23, 11:36:22 PM;16039038311;5914070014;1;Additional QUnit;ui.scheduler(3/3)-Europe/London;remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070014/job/16039038311
+8/19/23, 11:35:08 PM;16039031099;5914070012;1;QUnit tests for renovation;Constel ui.scheduler(1/2);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070012/job/16039031099
+8/19/23, 11:35:09 PM;16039031129;5914070012;1;QUnit tests for renovation;Constel ui.scheduler(2/2);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070012/job/16039031129
+8/19/23, 11:35:17 PM;16039031913;5914070015;1;TestCafe tests;scheduler (1/5);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070015/job/16039031913
+8/19/23, 11:35:18 PM;16039031940;5914070015;1;TestCafe tests;scheduler (2/5);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070015/job/16039031940
+8/19/23, 11:35:18 PM;16039031974;5914070015;1;TestCafe tests;scheduler (3/5);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070015/job/16039031974
+8/19/23, 11:35:18 PM;16039031996;5914070015;1;TestCafe tests;scheduler (4/5);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070015/job/16039031996
+8/19/23, 11:35:19 PM;16039032031;5914070015;1;TestCafe tests;scheduler (5/5);remove-header-gap;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5914070015/job/16039032031
+8/19/23, 1:00:42 PM;16034165999;5911526215;1;TestCafe tests;dataGrid (2/2);23_1_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911526215/job/16034165999
+8/21/23, 6:58:24 AM;16057915416;5911526215;2;TestCafe tests;dataGrid (2/2);23_1_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911526215/job/16057915416
+8/21/23, 7:02:54 AM;16058024651;5911526215;3;TestCafe tests;dataGrid (2/2);23_1_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911526215/job/16058024651
+8/21/23, 7:26:44 AM;16058623397;5911526215;4;TestCafe tests;dataGrid (2/2);23_1_UploaderEventsFixed;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5911526215/job/16058623397
+8/19/23, 8:21:43 AM;16031931877;5910364902;1;TestCafe tests;scheduler (1/5);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5910364902/job/16031931877
