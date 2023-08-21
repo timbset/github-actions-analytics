@@ -1,0 +1,3 @@
+date;id;workflow name;main success runs;main failure runs;main cancelled runs;main skipped runs;main retries;main min duration;main avg duration;main max duration;pr success runs;pr failure runs;pr cancelled runs;pr skipped runs;pr retries;pr min duration;pr avg duration;pr max duration
+2023-08-20;visual_tests.yml;Visual Tests;20;4;0;0;0;0,01456018519;0,01902150849;0,02337962963;0;0;0;0;0;0;0;0
+2023-08-20;visual_tests_frameworks.yml;Frameworks;1;11;0;0;0;0,03398148148;0,04303722994;0,05547453704;0;0;0;0;0;0;0;0
