@@ -22,6 +22,7 @@ jobs:
     env:
       GH_REPO_OWNER: ${{ matrix.repos.owner }}
       GH_REPO_NAME: ${{ matrix.repos.name }}
+      GH_AUTH_TOKEN: ${{ secrets.GH_AUTH_TOKEN }}
 
     steps:
       - name: Checkout
