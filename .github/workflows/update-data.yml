@@ -18,10 +18,8 @@ jobs:
         repos:
           - owner: DevExpress
             name: DevExtreme
-            token: ${{ env.GH_AUTH_TOKEN }}
 
     env:
-      GH_AUTH_TOKEN: ${{ matrix.repos.token }}
       GH_REPO_OWNER: ${{ matrix.repos.owner }}
       GH_REPO_NAME: ${{ matrix.repos.name }}
 
