@@ -13,11 +13,15 @@ jobs:
   update-data:
     runs-on: ubuntu-latest
 
+    name: ${{ matrix.repos.owner }}/${{ matrix.repos.name }}
+
     strategy:
       matrix:
         repos:
           - owner: DevExpress
             name: DevExtreme
+          - owner: DevExpress
+            name: devextreme-demos
 
     env:
       GH_REPO_OWNER: ${{ matrix.repos.owner }}
