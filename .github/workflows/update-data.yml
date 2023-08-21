@@ -53,5 +53,5 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git pull
           git add .
-          git commit -m "Update data"
+          git commit -m "Update ${{ matrix.repos.owner }}/${{ matrix.repos.name }} data"
           git push
