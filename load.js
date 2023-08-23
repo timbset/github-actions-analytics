@@ -146,15 +146,15 @@ export async function loadWorkflows(date) {
   console.log('Workflows saved');
 }
 
-export async function loadWorkflowRunsFromRange({ from, to }) {
+export async function loadWorkflowRunsFromRange({ from, to, ids }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await loadWorkflowRuns({ date });
+    await loadWorkflowRuns({ date, ids });
   }
 }
 
-export async function loadWorkflowRuns({ date, withFetch = false }) {
+export async function loadWorkflowRuns({ date, ids, withFetch = false }) {
   const created = normalizeDate(date);
   const dataPath = path.join(getRepoPath(), created);
 
@@ -162,7 +162,7 @@ export async function loadWorkflowRuns({ date, withFetch = false }) {
 
   const workflowsPath = path.join(dataPath, 'workflows.json');
 
-  if (!fs.existsSync(workflowsPath)) {
+  if (ids.length === 0 && !fs.existsSync(workflowsPath)) {
     if (withFetch) {
       console.log(`\nWorkflows not found. Loading...`)
       await loadWorkflows(date);
@@ -172,7 +172,9 @@ export async function loadWorkflowRuns({ date, withFetch = false }) {
     }
   }
 
-  const workflowIds = JSON.parse(fs.readFileSync(workflowsPath).toString()).workflows.map(getWorkflowId);
+  const workflowIds = ids.length > 0
+    ? ids
+    : JSON.parse(fs.readFileSync(workflowsPath).toString()).workflows.map(getWorkflowId);
 
   console.log(`${workflowIds.length} workflows will be loaded`);
 

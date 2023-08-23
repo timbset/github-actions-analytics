@@ -31,6 +31,11 @@ const options = {
     default: 'yesterday',
     type: 'string'
   },
+  id: {
+    describe: 'a list of workflow ids to load',
+    default: [],
+    type: 'array'
+  },
   fetch: {
     describe: 'prepares data recursively if some is not ready yet',
     default: false,
@@ -60,12 +65,22 @@ yargs(hideBin(process.argv))
       .command('workflows', 'loads workflows', (yargs) => yargs, async ({ from, to }) => {
         await loadWorkflowsFromRange({ from, to });
       })
-      .command('workflow_runs', 'loads workflow runs', (yargs) => yargs, async ({ from, to }) => {
-        await loadWorkflowRunsFromRange({ from, to });
-      })
-      .command('jobs', 'loads jobs', (yargs) => yargs, async ({ from, to }) => {
-        await loadJobsFromRange({ from, to });
-      })
+      .command(
+        'workflow_runs',
+        'loads workflow runs',
+        (yargs) => yargs.options({ id: options.id }),
+        async ({ from, to, id }) => {
+          await loadWorkflowRunsFromRange({ from, to, ids: id });
+        }
+      )
+      .command(
+        'jobs',
+        'loads jobs',
+        (yargs) => yargs.options({ id: options.id }),
+        async ({ from, to, id }) => {
+          await loadJobsFromRange({ from, to, ids: id });
+        }
+      )
       .options({
         from: options.from,
         to: options.to,

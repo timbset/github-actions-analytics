@@ -238,7 +238,6 @@ export async function buildJobsSummary({ date, withFetch }) {
     const jobs = JSON.parse(fs.readFileSync(path.join(dataPath, 'jobs', name))).jobs;
 
     jobs.forEach((job) => {
-      const date = job.created_at.split('T')[0];
       const key = `${date}/${job.workflow_name}/${job.name}`;
 
       if (!reportMap.has(key)) {
