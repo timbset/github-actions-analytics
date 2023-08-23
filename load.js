@@ -146,7 +146,7 @@ export async function loadWorkflows(date) {
   console.log('Workflows saved');
 }
 
-export async function loadWorkflowRunsFromRange({ from, to, ids = [] }) {
+export async function loadWorkflowRunsFromRange({ from, to, ids }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
@@ -154,7 +154,7 @@ export async function loadWorkflowRunsFromRange({ from, to, ids = [] }) {
   }
 }
 
-export async function loadWorkflowRuns({ date, ids, withFetch = false }) {
+export async function loadWorkflowRuns({ date, ids = [], withFetch = false }) {
   const created = normalizeDate(date);
   const dataPath = path.join(getRepoPath(), created);
 
