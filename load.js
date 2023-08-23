@@ -146,7 +146,7 @@ export async function loadWorkflows(date) {
   console.log('Workflows saved');
 }
 
-export async function loadWorkflowRunsFromRange({ from, to, ids }) {
+export async function loadWorkflowRunsFromRange({ from, to, ids = [] }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
