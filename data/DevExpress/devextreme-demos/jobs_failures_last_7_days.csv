@@ -1,4 +1,30 @@
 created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html url
+8/26/23, 6:17:39 PM;16239309882;5986244179;1;Visual Tests;jquery(3/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5986244179/job/16239309882
+8/26/23, 4:17:11 PM;16238252698;5985736899;1;Visual Tests;jquery(2/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5985736899/job/16238252698
+8/26/23, 1:14:28 PM;16236732919;5984978806;1;Visual Tests;jquery(2/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5984978806/job/16236732919
+8/26/23, 6:04:53 AM;16233106527;5983208689;1;Visual Tests;Build DevExtreme;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5983208689/job/16233106527
+8/26/23, 10:21:34 PM;16241274712;5987184844;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5987184844/job/16241274712
+8/26/23, 10:21:36 PM;16241274898;5987184844;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5987184844/job/16241274898
+8/26/23, 8:20:12 PM;16240330925;5986723161;1;Frameworks;react(4/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5986723161/job/16240330925
+8/26/23, 8:20:15 PM;16240331185;5986723161;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5986723161/job/16240331185
+8/26/23, 6:19:20 PM;16239326323;5986239977;1;Frameworks;vue(4/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5986239977/job/16239326323
+8/26/23, 6:19:21 PM;16239326446;5986239977;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5986239977/job/16239326446
+8/26/23, 4:21:38 PM;16238291418;5985733512;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5985733512/job/16238291418
+8/26/23, 4:21:40 PM;16238291646;5985733512;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5985733512/job/16238291646
+8/26/23, 12:22:04 PM;16236211790;5984652083;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5984652083/job/16236211790
+8/26/23, 12:22:05 PM;16236211836;5984652083;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5984652083/job/16236211836
+8/26/23, 10:21:40 AM;16235245276;5984168873;1;Frameworks;react(4/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5984168873/job/16235245276
+8/26/23, 8:20:37 AM;16234268715;5983687173;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5983687173/job/16234268715
+8/26/23, 8:20:37 AM;16234268739;5983687173;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5983687173/job/16234268739
+8/26/23, 6:20:50 AM;16233281068;5983205343;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5983205343/job/16233281068
+8/26/23, 6:20:52 AM;16233281308;5983205343;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5983205343/job/16233281308
+8/26/23, 4:21:54 AM;16232257955;5982702835;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5982702835/job/16232257955
+8/26/23, 4:21:55 AM;16232257993;5982702835;1;Frameworks;vue(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5982702835/job/16232257993
+8/26/23, 4:21:55 AM;16232258038;5982702835;1;Frameworks;vue(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5982702835/job/16232258038
+8/26/23, 4:21:55 AM;16232258079;5982702835;1;Frameworks;vue(4/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5982702835/job/16232258079
+8/26/23, 4:21:56 AM;16232258136;5982702835;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5982702835/job/16232258136
+8/26/23, 2:25:37 AM;16231247001;5982219190;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5982219190/job/16231247001
+8/26/23, 12:30:24 AM;16229848938;5981561753;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5981561753/job/16229848938
 8/25/23, 2:52:44 AM;16200182497;5971313224;1;Lint;check_generated_demos;temp/convert-editor-demos-to-ts;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5971313224/job/16200182497
 8/25/23, 4:20:27 PM;16219621747;5978025847;1;Visual Tests;jquery(2/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5978025847/job/16219621747
 8/25/23, 5:34:15 PM;16221540754;5978649615;1;Frameworks;react(2/4);js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5978649615/job/16221540754
@@ -246,26 +272,4 @@ created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html 
 8/20/23, 2:27:47 AM;16040716573;5914841586;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5914841586/job/16040716573
 8/20/23, 12:34:15 AM;16039600758;5914251309;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5914251309/job/16039600758
 8/20/23, 12:34:16 AM;16039600820;5914251309;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5914251309/job/16039600820
-8/19/23, 7:15:38 PM;16037178217;5913056564;1;Visual Tests;jquery(3/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5913056564/job/16037178217
-8/19/23, 6:14:46 PM;16036681526;5912809075;1;Visual Tests;jquery(3/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5912809075/job/16036681526
-8/19/23, 11:13:37 AM;16033267580;5911029564;1;Visual Tests;jquery(3/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5911029564/job/16033267580
-8/19/23, 3:18:14 AM;16029455603;5909106252;1;Visual Tests;jquery(3/4)-screenshots;23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5909106252/job/16029455603
-8/19/23, 10:26:03 PM;16038565874;5913722624;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5913722624/job/16038565874
-8/19/23, 8:21:37 PM;16037669892;5913274709;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5913274709/job/16037669892
-8/19/23, 6:25:39 PM;16036779424;5912805806;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5912805806/job/16036779424
-8/19/23, 2:21:54 PM;16034849417;5911831360;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5911831360/job/16034849417
-8/19/23, 2:21:56 PM;16034849601;5911831360;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5911831360/job/16034849601
-8/19/23, 2:21:56 PM;16034849643;5911831360;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5911831360/job/16034849643
-8/19/23, 12:24:54 PM;16033827068;5911255075;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5911255075/job/16033827068
-8/19/23, 10:21:32 AM;16032871411;5910778856;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5910778856/job/16032871411
-8/19/23, 8:22:27 AM;16031938281;5910304910;1;Frameworks;angular(3/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5910304910/job/16031938281
-8/19/23, 6:22:56 AM;16030997521;5909829551;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5909829551/job/16030997521
-8/19/23, 6:22:57 AM;16030997889;5909829551;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5909829551/job/16030997889
-8/19/23, 4:24:58 AM;16030016325;5909341048;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5909341048/job/16030016325
-8/19/23, 2:22:46 AM;16028989510;5908864278;1;Frameworks;vue(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5908864278/job/16028989510
-8/19/23, 2:22:46 AM;16028989548;5908864278;1;Frameworks;vue(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5908864278/job/16028989548
-8/19/23, 2:22:47 AM;16028989686;5908864278;1;Frameworks;angular(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5908864278/job/16028989686
-8/19/23, 2:22:48 AM;16028989723;5908864278;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5908864278/job/16028989723
-8/19/23, 12:36:33 AM;16027692287;5908208573;1;Frameworks;angular(1/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5908208573/job/16027692287
-8/19/23, 12:36:33 AM;16027692382;5908208573;1;Frameworks;angular(2/4);23_2;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5908208573/job/16027692382
 
