@@ -1,0 +1,12 @@
+created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html url
+8/28/23, 2:05:54 PM;16273927870;6000886592;1;Lint;check_generated_demos;js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/6000886592/job/16273927870
+8/28/23, 2:05:54 PM;16273927801;6000886585;1;Visual Tests;Build DevExtreme;js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/6000886585/job/16273927801
+8/28/23, 3:27:15 PM;16276778877;6000886585;2;Visual Tests;Build DevExtreme;js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/6000886585/job/16276778877
+8/28/23, 2:26:01 PM;16274660786;6000886571;1;Frameworks;angular(1/4);js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/6000886571/job/16274660786
+8/28/23, 2:26:02 PM;16274661105;6000886571;1;Frameworks;angular(2/4);js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/6000886571/job/16274661105
+8/28/23, 2:26:02 PM;16274661384;6000886571;1;Frameworks;angular(3/4);js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/6000886571/job/16274661384
+8/28/23, 3:23:57 PM;16276670684;6000886571;2;Frameworks;angular(3/4);js-ts-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/6000886571/job/16276670684
+8/28/23, 12:17:26 PM;16270339785;5999491600;1;Frameworks;react(4/4);react-js-ts-lang-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5999491600/job/16270339785
+8/28/23, 12:21:44 PM;16270471982;5999491600;1;Frameworks;Lint code base;react-js-ts-lang-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5999491600/job/16270471982
+8/28/23, 1:25:05 PM;16272551303;5999491600;2;Frameworks;react(4/4);react-js-ts-lang-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5999491600/job/16272551303
+8/28/23, 3:18:49 PM;16276491722;5999491600;3;Frameworks;react(4/4);react-js-ts-lang-switcher;failure;https://github.com/DevExpress/devextreme-demos/actions/runs/5999491600/job/16276491722
