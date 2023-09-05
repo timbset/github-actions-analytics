@@ -373,7 +373,7 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
       const { jobs } = JSON.parse(fs.readFileSync(path.join(jobsPath, name)).toString());
 
       return acc.concat(
-        jobs.filter((job) => job.conclusion === 'failure')
+        jobs.filter((job) => job.conclusion === 'failure' || step.conclusion === 'cancelled')
       );
     }, []);
 
@@ -401,7 +401,9 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
       }
 
       if (header === 'step') {
-        return report.steps.findLast((step) => step.conclusion === 'failure')?.name ?? '';
+        return report.steps.findLast(
+          (step) => step.conclusion === 'failure' || step.conclusion === 'cancelled'
+        )?.name ?? '';
       }
 
       if (typeof report[header] === 'number' && !header.includes('id')) {
