@@ -373,7 +373,7 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
       const { jobs } = JSON.parse(fs.readFileSync(path.join(jobsPath, name)).toString());
 
       return acc.concat(
-        jobs.filter((job) => job.conclusion === 'failure' || step.conclusion === 'cancelled')
+        jobs.filter((job) => job.conclusion === 'failure' || job.conclusion === 'cancelled')
       );
     }, []);
 
