@@ -401,7 +401,7 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
       }
 
       if (header === 'step') {
-        return report.steps.findLast((step) => step.conclusion === 'failure') ?? '';
+        return report.steps.findLast((step) => step.conclusion === 'failure')?.name ?? '';
       }
 
       if (typeof report[header] === 'number' && !header.includes('id')) {
