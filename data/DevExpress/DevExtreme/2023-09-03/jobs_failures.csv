@@ -1,4 +1,0 @@
-created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
-"03.09.23, 12:36:38",16453037642,6064471386,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2,failure,[object Object],https://github.com/DevExpress/DevExtreme/actions/runs/6064471386/job/16453037642
-"03.09.23, 19:03:11",16456621203,6066212535,1,TestCafe tests,dataGrid (1/2),T1186997-23.1,failure,[object Object],https://github.com/DevExpress/DevExtreme/actions/runs/6066212535/job/16456621203
-"03.09.23, 19:03:11",16456621278,6066212535,1,TestCafe tests,dataGrid (2/2),T1186997-23.1,failure,[object Object],https://github.com/DevExpress/DevExtreme/actions/runs/6066212535/job/16456621278
