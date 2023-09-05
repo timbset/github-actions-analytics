@@ -33,7 +33,7 @@ export async function buildWorkflowRunsSummaryFromRange({ from, to, withFetch })
   }
 }
 
-export async function buildWorkflowRunsSummary({ date, withFetch = false }) {
+export async function buildWorkflowRunsSummary({ date, withFetch = false, delimiter = ',' }) {
   const created = normalizeDate(date);
   const dataPath = path.join(getRepoPath(), created);
 
@@ -347,6 +347,7 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
     'name',
     'head_branch',
     'conclusion',
+    'step',
     'html_url',
   ];
 
@@ -387,20 +388,41 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
     console.warn(`Number formatted with "${locale}" locale contains "${delimiter}" delimiter symbols. Very likely that result CSV will be invalid`);
   }
 
+  const rows = jobsToBuild.map((report) =>
+    headers.map((header) => {
+      if (header.endsWith('_at')) {
+        const date = `${dateFormatter.format(new Date(report[header]))}`;
+
+        if (date.includes(delimiter)) {
+          return `"${date}"`;
+        }
+
+        return date;
+      }
+
+      if (header === 'step') {
+        return report.steps.findLast((step) => step.conclusion === 'failure') ?? '';
+      }
+
+      if (typeof report[header] === 'number' && !header.includes('id')) {
+        const number = `${numberFormatter.format(report[header])}`;
+
+        if (number.includes(delimiter)) {
+          return `"${number}"`;
+        }
+
+        return number;
+      }
+
+      return report[header];
+    }).join(delimiter)
+  );
+
   fs.writeFileSync(
     failuresPath,
-    [headers.map((header) => header.replaceAll('_', ' ')).join(delimiter)].concat(
-      jobsToBuild.map((report) =>
-        headers.map((header) =>
-          header.endsWith('_at')
-            ? dateFormatter.format(new Date(report[header]))
-            // ? new Date(report[header]).toISOString().replace(/\..+/, '')
-            : typeof report[header] === 'number' && !header.includes('id')
-              ? numberFormatter.format(report[header])
-              : report[header]
-        ).join(delimiter)
-      )
-    ).join('\n') + '\n'
+    [headers.map((header) => header.replaceAll('_', ' ')).join(delimiter)]
+      .concat(rows)
+      .join('\n') + '\n'
   );
 }
 
