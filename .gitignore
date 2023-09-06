@@ -2,7 +2,5 @@
 .idea
 node_modules
 .env
-# data/organization/repo name/date/entity type/file.json
-data/*/*/*/*/*.json
-# data/organization/repo name/date/file.json
-data/*/*/*/*.json
+# data/organization/repo name/daily/date/entity type/file.json
+data/*/*/daily/**/*.json
