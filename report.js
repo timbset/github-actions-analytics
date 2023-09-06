@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { URL, fileURLToPath } from 'url';
 
-import { getDatesFromRange, getRepoPath, normalizeDate } from './utils.js';
+import { getDatesFromRange, getRepoPath, normalizeDate, writeCsv } from './utils.js';
 import { loadJobs, loadWorkflowRuns } from './load.js';
 
 const DEFAULT_LOCALE = 'de-DE';
@@ -156,20 +156,22 @@ export async function buildWorkflowRunsSummary({ date, withFetch = false, delimi
     }
   });
 
-  fs.writeFileSync(
-    workflowRunsPath,
-    [headers.map((header) => header.replaceAll('_', ' ')).join(';')].concat(
-      [...reportMap.values()].map((report) =>
-        headers.map((header) =>
-          header.endsWith('_at')
-            ? dateFormatter.format(new Date(report[header]))
-            : typeof report[header] === 'number'
-              ? numberFormatter.format(report[header])
-              : report[header]
-        ).join(';')
-      )
-    ).join('\n') + '\n'
+  const bodyRows = [...reportMap.values()].map((report) =>
+    headers.map((header) => {
+      if (header.endsWith('_at')) {
+        return dateFormatter.format(new Date(report[header]));
+      }
+
+      if (typeof report[header] === 'number') {
+        return numberFormatter.format(report[header]);
+      }
+
+      return report[header];
+    })
   );
+
+  const headerRows = headers.map((header) => header.replaceAll('_', ' '));
+  writeCsv(workflowRunsPath, [headerRows, ...bodyRows]);
 }
 
 export async function buildJobsSummaryFromRange({ from, to, withFetch }) {
@@ -309,20 +311,24 @@ export async function buildJobsSummary({ date, withFetch }) {
     }
   });
 
-  fs.writeFileSync(
-    path.join(dataPath, 'jobs_summary.csv'),
-    [headers.map((header) => header.replaceAll('_', ' ')).join(';')].concat(
-      [...reportMap.values()].map((report) =>
-        headers.map((header) =>
-          header.endsWith('_at')
-            ? dateFormatter.format(new Date(report[header]))
-            : typeof report[header] === 'number'
-              ? numberFormatter.format(report[header])
-              : report[header]
-        ).join(';')
-      )
-    ).join('\n') + '\n'
-  );
+  const rows = [
+    headers.map((header) => header.replaceAll('_', ' ')),
+    ...[...reportMap.values()].map((report) =>
+      headers.map((header) => {
+        if (header.endsWith('_at')) {
+          return dateFormatter.format(new Date(report[header]));
+        }
+
+        if (typeof report[header] === 'number') {
+          return numberFormatter.format(report[header]);
+        }
+
+        return report[header];
+      })
+    )
+  ];
+
+  writeCsv(path.join(dataPath, 'jobs_summary.csv'), rows);
 }
 
 export async function buildFailuresListFromRange({ from, to, ...options }) {
@@ -388,7 +394,7 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
     console.warn(`Number formatted with "${locale}" locale contains "${delimiter}" delimiter symbols. Very likely that result CSV will be invalid`);
   }
 
-  const rows = jobsToBuild.map((report) =>
+  const bodyRows = jobsToBuild.map((report) =>
     headers.map((header) => {
       if (header.endsWith('_at')) {
         const date = `${dateFormatter.format(new Date(report[header]))}`;
@@ -417,15 +423,12 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
       }
 
       return report[header];
-    }).join(delimiter)
+    })
   );
 
-  fs.writeFileSync(
-    failuresPath,
-    [headers.map((header) => header.replaceAll('_', ' ')).join(delimiter)]
-      .concat(rows)
-      .join('\n') + '\n'
-  );
+  const headerRows = headers.map((header) => header.replaceAll('_', ' '));
+
+  writeCsv(failuresPath, [headerRows, ...bodyRows]);
 }
 
 export function mergeCsvFiles(targetPath, sourcePaths) {
@@ -459,11 +462,6 @@ export function mergeCsvFiles(targetPath, sourcePaths) {
       throw new Error(`Headers are different for ${targetPath} and ${sourcePath}`);
     }
 
-    fs.writeFileSync(
-      targetPath,
-      [targetHeader]
-        .concat(targetBodyWithoutEmptyLines, sourceBodyWithoutEmptyLines, '\n')
-        .join('\n')
-    );
+    writeCsv(targetPath, [targetHeader, ...targetBodyWithoutEmptyLines, ...sourceBodyWithoutEmptyLines]);
   }
 }

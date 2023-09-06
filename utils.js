@@ -83,3 +83,31 @@ export function getDateRange(days) {
     to.toISOString().split('T')[0],
   ];
 }
+
+function stringifyColumns(columns) {
+  if (Array.isArray(columns)) {
+    return columns.join(',');
+  }
+
+  return columns;
+}
+
+function stringifyColumnsWithEscape(columns) {
+  if (Array.isArray(columns)) {
+    return columns.map((column) =>
+      column.toString().includes(',')
+        ? `"${column}"`
+        : `${column}`
+    ).join(',');
+  }
+
+  return columns;
+}
+
+export function writeCsv(filePath, rows, { escape = true } = {}) {
+  const columnStringifier = escape
+    ? stringifyColumnsWithEscape
+    : stringifyColumns;
+
+  fs.writeFileSync(filePath, rows.map(columnStringifier).join('\n') + '\n');
+}
