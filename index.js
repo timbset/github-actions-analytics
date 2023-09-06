@@ -144,7 +144,7 @@ yargs(hideBin(process.argv))
 
           const summaryPaths = getDatesFromRange({ from, to })
             .reverse()
-            .map((date) => join(getRepoPath(), date, 'workflow_runs.csv'));
+            .map((date) => join(getRepoPath(), 'daily', date, 'workflow_runs.csv'));
 
           mergeCsvFiles(
             join(getRepoPath(), `workflow_runs_last_${days}_days.csv`),
@@ -161,7 +161,7 @@ yargs(hideBin(process.argv))
         async ({ from, to }) => {
           mergeCsvFiles(
             join(getRepoPath(), 'jobs_summary.csv'),
-            getDatesFromRange({ from, to }).reverse().map((date) => join(getRepoPath(), date, 'jobs_summary.csv'))
+            getDatesFromRange({ from, to }).reverse().map((date) => join(getRepoPath(), 'daily', date, 'jobs_summary.csv'))
           );
         }
       )
@@ -183,7 +183,7 @@ yargs(hideBin(process.argv))
 
           const summaryPaths = getDatesFromRange({ from, to })
             .reverse()
-            .map((date) => join(getRepoPath(), date, 'jobs_summary.csv'));
+            .map((date) => join(getRepoPath(), 'daily', date, 'jobs_summary.csv'));
 
           mergeCsvFiles(
             join(getRepoPath(), `jobs_summary_last_${days}_days.csv`),
@@ -209,7 +209,7 @@ yargs(hideBin(process.argv))
 
           const summaryPaths = getDatesFromRange({ from, to })
             .reverse()
-            .map((date) => join(getRepoPath(), date, 'jobs_failures.csv'));
+            .map((date) => join(getRepoPath(), 'daily', date, 'jobs_failures.csv'));
 
           mergeCsvFiles(
             join(getRepoPath(), `jobs_failures_last_${days}_days.csv`),
@@ -243,7 +243,7 @@ yargs(hideBin(process.argv))
     async ({ from, to }) => {
       mergeCsvFiles(
         join(getRepoPath(), 'jobs_failures.csv'),
-        getDatesFromRange({ from, to }).reverse().map((date) => join(getRepoPath(), date, 'jobs_failures.csv'))
+        getDatesFromRange({ from, to }).reverse().map((date) => join(getRepoPath(), 'daily', date, 'jobs_failures.csv'))
       );
     }
   )

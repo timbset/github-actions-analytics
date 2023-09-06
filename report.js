@@ -157,7 +157,7 @@ export async function buildWorkflowRunsSummary({ date, withFetch = false, delimi
   });
 
   fs.writeFileSync(
-    path.join(dataPath, 'workflow_runs.csv'),
+    workflowRunsPath,
     [headers.map((header) => header.replaceAll('_', ' ')).join(';')].concat(
       [...reportMap.values()].map((report) =>
         headers.map((header) =>
