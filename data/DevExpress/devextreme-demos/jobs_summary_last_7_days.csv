@@ -236,4 +236,3 @@ date;workflow name;job name;main success runs;main failure runs;main cancelled r
 2023-08-30;Frameworks;angular(3/4);0;0;0;0;0;0;0;0;7;0;0;0;4;0,0008680555556;0,007888558201;0,01313657407
 2023-08-30;Frameworks;angular(4/4);0;0;0;0;0;0;0;0;7;0;0;0;4;0,000787037037;0,006873346561;0,01137731481
 2023-08-30;Frameworks;${{ matrix.CONSTEL }};0;0;0;1;0;0;0;0;0;0;1;5;1;0;0;0
-
