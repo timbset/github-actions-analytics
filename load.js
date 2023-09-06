@@ -103,7 +103,7 @@ export async function loadWorkflows(date) {
 
   const created = normalizeDate(date);
   const repoPath = getRepoPath();
-  const dataPath = path.join(repoPath, created);
+  const dataPath = path.join(repoPath, 'daily', created);
 
   ensureDataFolder(repoPath, dataPath);
 
@@ -156,7 +156,7 @@ export async function loadWorkflowRunsFromRange({ from, to, ids }) {
 
 export async function loadWorkflowRuns({ date, ids = [], withFetch = false }) {
   const created = normalizeDate(date);
-  const dataPath = path.join(getRepoPath(), created);
+  const dataPath = path.join(getRepoPath(), 'daily', created);
 
   ensureDataFolder(getRepoPath(), dataPath);
 
@@ -199,7 +199,7 @@ export async function loadJobs({ date, withFetch }) {
   const octokit = getOctokit();
 
   const created = normalizeDate(date);
-  const dataPath = path.join(getRepoPath(), created);
+  const dataPath = path.join(getRepoPath(), 'daily', created);
   const jobsPath = path.join(dataPath, 'jobs');
 
   if (!fs.existsSync(jobsPath)) {

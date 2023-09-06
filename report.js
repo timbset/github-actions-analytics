@@ -35,7 +35,7 @@ export async function buildWorkflowRunsSummaryFromRange({ from, to, withFetch })
 
 export async function buildWorkflowRunsSummary({ date, withFetch = false, delimiter = ',' }) {
   const created = normalizeDate(date);
-  const dataPath = path.join(getRepoPath(), created);
+  const dataPath = path.join(getRepoPath(), 'daily', created);
 
   const workflowRunsPath = path.join(dataPath, 'workflow_runs.csv');
 
@@ -184,7 +184,7 @@ export async function buildJobsSummary({ date, withFetch }) {
   const created = normalizeDate(date);
   const repoDirName = getRepoDirName();
 
-  const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
+  const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, 'daily', created);
 
   const summaryPath = path.join(dataPath, 'jobs_summary.csv');
 
@@ -336,7 +336,7 @@ export async function buildFailuresListFromRange({ from, to, ...options }) {
 export async function buildFailuresList({ date, delimiter, locale, withFetch }) {
   const created = normalizeDate(date);
   const repoDirName = getRepoDirName();
-  const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, created);
+  const dataPath = path.join(fileURLToPath(new URL('.', import.meta.url)), 'data', repoDirName, 'daily', created);
 
   const headers = [
     'created_at',
