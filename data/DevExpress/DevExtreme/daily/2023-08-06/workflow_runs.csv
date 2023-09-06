@@ -1,3 +1,4 @@
-date;id;workflow name;main success runs;main failure runs;main cancelled runs;main skipped runs;main retries;main min duration;main avg duration;main max duration;pr success runs;pr failure runs;pr cancelled runs;pr skipped runs;pr retries;pr min duration;pr avg duration;pr max duration
-2023-08-06;_security-alerts.yml;Send dependabot new vulnerability alerts;1;0;0;0;0;0,0002430555556;0,0002430555556;0,0002430555556;0;0;0;0;0;0;0;0
-2023-08-06;codeql.yml;CodeQL;1;0;0;0;0;0,01383101852;0,01383101852;0,01383101852;0;0;0;0;0;0;0;0
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-08-06,_security-alerts.yml,Send dependabot new vulnerability alerts,1,0,0,0,0,"0,0002430555556","0,0002430555556","0,0002430555556",0,0,0,0,0,0,0,0
+2023-08-06,codeql.yml,CodeQL,1,0,0,0,0,"0,01383101852","0,01383101852","0,01383101852",0,0,0,0,0,0,0,0
+

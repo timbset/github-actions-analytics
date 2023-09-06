@@ -1,226 +1,227 @@
-created at;id;run id;run attempt;workflow name;name;head branch;conclusion;html url
-8/25/23, 8:12:15 AM;16205956384;5973524386;1;DevExtreme Angular Tests;test;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524386/job/16205956384
-8/25/23, 12:31:36 PM;16212752548;5975832411;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975832411/job/16212752548
-8/25/23, 12:30:22 PM;16212717220;5975829409;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975829409/job/16212717220
-8/25/23, 11:37:02 AM;16211311976;5975351528;1;DevExtreme package tests;Demos visual tests jquery(4/4);22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351528/job/16211311976
-8/25/23, 10:44:26 AM;16210043515;5974830120;1;DevExtreme package tests;Demos visual tests jquery(3/4);khd/remove-wrong-common-modules;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974830120/job/16210043515
-8/25/23, 1:10:53 PM;16213920478;5974830120;2;DevExtreme package tests;Demos visual tests jquery(3/4);khd/remove-wrong-common-modules;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974830120/job/16213920478
-8/25/23, 10:31:10 AM;16209718453;5974773316;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974773316/job/16209718453
-8/25/23, 10:23:56 AM;16209523767;5974695715;1;DevExtreme package tests;Demos visual tests jquery(1/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209523767
-8/25/23, 10:23:57 AM;16209523950;5974695715;1;DevExtreme package tests;Demos visual tests jquery(2/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209523950
-8/25/23, 10:23:57 AM;16209524132;5974695715;1;DevExtreme package tests;Demos visual tests jquery(3/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209524132
-8/25/23, 10:23:58 AM;16209524320;5974695715;1;DevExtreme package tests;Demos visual tests jquery(4/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209524320
-8/25/23, 10:18:53 AM;16209388694;5974576204;1;DevExtreme package tests;Demos visual tests jquery(1/4);23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209388694
-8/25/23, 10:18:54 AM;16209388921;5974576204;1;DevExtreme package tests;Demos visual tests jquery(2/4);23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209388921
-8/25/23, 10:18:54 AM;16209389080;5974576204;1;DevExtreme package tests;Demos visual tests jquery(3/4);23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209389080
-8/25/23, 10:18:54 AM;16209389252;5974576204;1;DevExtreme package tests;Demos visual tests jquery(4/4);23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209389252
-8/25/23, 8:12:16 AM;16205956796;5973524375;1;DevExtreme package tests;build;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524375/job/16205956796
-8/25/23, 7:42:35 AM;16205205324;5973217057;1;DevExtreme package tests;Demos visual tests jquery(1/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205324
-8/25/23, 7:42:35 AM;16205205460;5973217057;1;DevExtreme package tests;Demos visual tests jquery(2/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205460
-8/25/23, 7:42:36 AM;16205205622;5973217057;1;DevExtreme package tests;Demos visual tests jquery(3/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205622
-8/25/23, 7:42:36 AM;16205205744;5973217057;1;DevExtreme package tests;Demos visual tests jquery(4/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205744
-8/25/23, 5:56:21 AM;16202949538;5972365434;1;DevExtreme package tests;Demos visual tests jquery(1/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949538
-8/25/23, 5:56:21 AM;16202949620;5972365434;1;DevExtreme package tests;Demos visual tests jquery(2/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949620
-8/25/23, 5:56:22 AM;16202949692;5972365434;1;DevExtreme package tests;Demos visual tests jquery(3/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949692
-8/25/23, 5:56:22 AM;16202949758;5972365434;1;DevExtreme package tests;Demos visual tests jquery(4/4);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949758
-8/25/23, 4:39:27 AM;16201753667;5971899941;1;DevExtreme package tests;Demos visual tests jquery(1/4);bug_T1181442/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5971899941/job/16201753667
-8/25/23, 12:14:18 PM;16212265309;5975734861;1;DevExtreme React Tests;test;T1180492_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975734861/job/16212265309
-8/25/23, 8:12:15 AM;16205956399;5973524390;1;DevExtreme React Tests;test;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524390/job/16205956399
-8/25/23, 8:12:15 AM;16205956448;5973524402;1;DevExtreme Vue Tests;test;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524402/job/16205956448
-8/25/23, 10:04:22 AM;16208988942;5974576217;1;Lint;CSS;23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974576217/job/16208988942
-8/25/23, 8:12:16 AM;16205956810;5973524391;1;Lint;Renovation;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524391/job/16205956810
-8/25/23, 8:12:18 AM;16205957653;5973524391;1;Lint;JS;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524391/job/16205957653
-8/25/23, 8:12:19 AM;16205958280;5973524391;1;Lint;TS;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524391/job/16205958280
-8/25/23, 4:12:36 AM;16201338574;5971780261;1;Lint;JS;bug_T1181442/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5971780261/job/16201338574
-8/25/23, 4:12:39 AM;16201339184;5971780261;1;Lint;TS;bug_T1181442/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5971780261/job/16201339184
-8/25/23, 11:35:48 AM;16211283067;5975353075;1;Additional QUnit;Performance;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211283067
-8/25/23, 11:35:50 AM;16211284284;5975353075;1;Additional QUnit;export-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284284
-8/25/23, 11:35:51 AM;16211284436;5975353075;1;Additional QUnit;misc-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284436
-8/25/23, 11:35:51 AM;16211284588;5975353075;1;Additional QUnit;ui-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284588
-8/25/23, 11:35:52 AM;16211284865;5975353075;1;Additional QUnit;ui.editors(2/2)-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284865
-8/25/23, 11:35:52 AM;16211285127;5975353075;1;Additional QUnit;ui.grid(1/2)-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285127
-8/25/23, 11:35:53 AM;16211285272;5975353075;1;Additional QUnit;ui.grid(2/2)-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285272
-8/25/23, 11:35:53 AM;16211285394;5975353075;1;Additional QUnit;ui.scheduler(1/3)-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285394
-8/25/23, 11:35:54 AM;16211285536;5975353075;1;Additional QUnit;ui.scheduler(2/3)-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285536
-8/25/23, 11:35:55 AM;16211285924;5975353075;1;Additional QUnit;renovation-firefox;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285924
-8/25/23, 11:35:55 AM;16211286071;5975353075;1;Additional QUnit;misc-PST8PDT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286071
-8/25/23, 11:35:55 AM;16211286214;5975353075;1;Additional QUnit;misc-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286214
-8/25/23, 11:35:56 AM;16211286333;5975353075;1;Additional QUnit;misc-Australia/ACT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286333
-8/25/23, 11:35:56 AM;16211286501;5975353075;1;Additional QUnit;misc-Europe/London;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286501
-8/25/23, 11:35:56 AM;16211286636;5975353075;1;Additional QUnit;ui.editors(1/2)-PST8PDT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286636
-8/25/23, 11:35:57 AM;16211286757;5975353075;1;Additional QUnit;ui.editors(1/2)-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286757
-8/25/23, 11:35:57 AM;16211286884;5975353075;1;Additional QUnit;ui.editors(1/2)-Australia/ACT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286884
-8/25/23, 11:35:57 AM;16211287034;5975353075;1;Additional QUnit;ui.editors(1/2)-Europe/London;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287034
-8/25/23, 11:35:58 AM;16211287159;5975353075;1;Additional QUnit;ui.editors(2/2)-PST8PDT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287159
-8/25/23, 11:35:58 AM;16211287299;5975353075;1;Additional QUnit;ui.editors(2/2)-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287299
-8/25/23, 11:35:59 AM;16211287537;5975353075;1;Additional QUnit;ui.editors(2/2)-Europe/London;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287537
-8/25/23, 11:35:59 AM;16211287699;5975353075;1;Additional QUnit;ui.grid(1/2)-PST8PDT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287699
-8/25/23, 11:36:00 AM;16211287847;5975353075;1;Additional QUnit;ui.grid(1/2)-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287847
-8/25/23, 11:36:00 AM;16211287971;5975353075;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287971
-8/25/23, 11:36:01 AM;16211288383;5975353075;1;Additional QUnit;ui.grid(2/2)-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288383
-8/25/23, 11:36:02 AM;16211288571;5975353075;1;Additional QUnit;ui.grid(2/2)-Australia/ACT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288571
-8/25/23, 11:36:02 AM;16211288733;5975353075;1;Additional QUnit;ui.grid(2/2)-Europe/London;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288733
-8/25/23, 11:36:02 AM;16211288881;5975353075;1;Additional QUnit;ui.scheduler(1/3)-PST8PDT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288881
-8/25/23, 11:36:03 AM;16211289041;5975353075;1;Additional QUnit;ui.scheduler(1/3)-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289041
-8/25/23, 11:36:03 AM;16211289182;5975353075;1;Additional QUnit;ui.scheduler(1/3)-Australia/ACT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289182
-8/25/23, 11:36:03 AM;16211289283;5975353075;1;Additional QUnit;ui.scheduler(1/3)-Europe/London;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289283
-8/25/23, 11:36:04 AM;16211289419;5975353075;1;Additional QUnit;ui.scheduler(2/3)-PST8PDT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289419
-8/25/23, 11:36:04 AM;16211289549;5975353075;1;Additional QUnit;ui.scheduler(2/3)-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289549
-8/25/23, 11:36:04 AM;16211289669;5975353075;1;Additional QUnit;ui.scheduler(2/3)-Australia/ACT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289669
-8/25/23, 11:36:05 AM;16211289783;5975353075;1;Additional QUnit;ui.scheduler(2/3)-Europe/London;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289783
-8/25/23, 11:36:05 AM;16211289932;5975353075;1;Additional QUnit;ui.scheduler(3/3)-PST8PDT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289932
-8/25/23, 11:36:05 AM;16211290071;5975353075;1;Additional QUnit;ui.scheduler(3/3)-Japan;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290071
-8/25/23, 11:36:06 AM;16211290187;5975353075;1;Additional QUnit;ui.scheduler(3/3)-Australia/ACT;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290187
-8/25/23, 11:36:07 AM;16211290487;5975353075;1;Additional QUnit;ui-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290487
-8/25/23, 11:36:07 AM;16211290619;5975353075;1;Additional QUnit;ui-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290619
-8/25/23, 11:36:07 AM;16211290722;5975353075;1;Additional QUnit;ui.widgets(1/3)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290722
-8/25/23, 11:36:08 AM;16211290865;5975353075;1;Additional QUnit;ui.widgets(1/3)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290865
-8/25/23, 11:36:08 AM;16211290988;5975353075;1;Additional QUnit;ui.widgets(2/3)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290988
-8/25/23, 11:36:08 AM;16211291133;5975353075;1;Additional QUnit;ui.widgets(2/3)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291133
-8/25/23, 11:36:09 AM;16211291266;5975353075;1;Additional QUnit;ui.widgets(3/3)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291266
-8/25/23, 11:36:09 AM;16211291418;5975353075;1;Additional QUnit;ui.widgets(3/3)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291418
-8/25/23, 11:36:10 AM;16211291825;5975353075;1;Additional QUnit;ui.editors(2/2)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291825
-8/25/23, 11:36:12 AM;16211292326;5975353075;1;Additional QUnit;ui.grid(1/2)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292326
-8/25/23, 11:36:12 AM;16211292456;5975353075;1;Additional QUnit;ui.grid(1/2)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292456
-8/25/23, 11:36:12 AM;16211292588;5975353075;1;Additional QUnit;ui.grid(2/2)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292588
-8/25/23, 11:36:13 AM;16211292719;5975353075;1;Additional QUnit;ui.grid(2/2)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292719
-8/25/23, 11:36:13 AM;16211292860;5975353075;1;Additional QUnit;ui.scheduler(1/3)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292860
-8/25/23, 11:36:13 AM;16211292996;5975353075;1;Additional QUnit;ui.scheduler(1/3)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292996
-8/25/23, 11:36:14 AM;16211293127;5975353075;1;Additional QUnit;ui.scheduler(2/3)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293127
-8/25/23, 11:36:14 AM;16211293271;5975353075;1;Additional QUnit;ui.scheduler(2/3)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293271
-8/25/23, 11:36:14 AM;16211293428;5975353075;1;Additional QUnit;ui.scheduler(3/3)-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293428
-8/25/23, 11:36:15 AM;16211293580;5975353075;1;Additional QUnit;ui.scheduler(3/3)-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293580
-8/25/23, 11:36:15 AM;16211293732;5975353075;1;Additional QUnit;viz-ios10;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293732
-8/25/23, 11:36:16 AM;16211293891;5975353075;1;Additional QUnit;viz-android6;22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293891
-8/25/23, 11:35:31 AM;16211276385;5975351535;1;Additional QUnit;export-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276385
-8/25/23, 11:35:32 AM;16211276538;5975351535;1;Additional QUnit;misc-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276538
-8/25/23, 11:35:32 AM;16211276681;5975351535;1;Additional QUnit;ui-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276681
-8/25/23, 11:35:33 AM;16211276843;5975351535;1;Additional QUnit;ui.editors(1/2)-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276843
-8/25/23, 11:35:33 AM;16211277000;5975351535;1;Additional QUnit;ui.editors(2/2)-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277000
-8/25/23, 11:35:33 AM;16211277140;5975351535;1;Additional QUnit;ui.htmlEditor-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277140
-8/25/23, 11:35:34 AM;16211277297;5975351535;1;Additional QUnit;ui.grid(1/2)-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277297
-8/25/23, 11:35:34 AM;16211277419;5975351535;1;Additional QUnit;ui.grid(2/2)-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277419
-8/25/23, 11:35:35 AM;16211277533;5975351535;1;Additional QUnit;ui.scheduler(1/3)-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277533
-8/25/23, 11:35:35 AM;16211277638;5975351535;1;Additional QUnit;ui.scheduler(2/3)-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277638
-8/25/23, 11:35:35 AM;16211277760;5975351535;1;Additional QUnit;ui.scheduler(3/3)-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277760
-8/25/23, 11:35:36 AM;16211277883;5975351535;1;Additional QUnit;viz-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277883
-8/25/23, 11:35:36 AM;16211278036;5975351535;1;Additional QUnit;renovation-firefox;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278036
-8/25/23, 11:35:36 AM;16211278199;5975351535;1;Additional QUnit;ui-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278199
-8/25/23, 11:35:37 AM;16211278389;5975351535;1;Additional QUnit;ui-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278389
-8/25/23, 11:35:38 AM;16211278836;5975351535;1;Additional QUnit;ui.widgets(1/3)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278836
-8/25/23, 11:35:38 AM;16211279057;5975351535;1;Additional QUnit;ui.widgets(2/3)-shadow-dom;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279057
-8/25/23, 11:35:39 AM;16211279198;5975351535;1;Additional QUnit;ui.widgets(2/3)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279198
-8/25/23, 11:35:39 AM;16211279346;5975351535;1;Additional QUnit;ui.widgets(2/3)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279346
-8/25/23, 11:35:40 AM;16211279509;5975351535;1;Additional QUnit;ui.widgets(3/3)-shadow-dom;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279509
-8/25/23, 11:35:40 AM;16211279647;5975351535;1;Additional QUnit;ui.widgets(3/3)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279647
-8/25/23, 11:35:40 AM;16211279838;5975351535;1;Additional QUnit;ui.widgets(3/3)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279838
-8/25/23, 11:35:41 AM;16211279984;5975351535;1;Additional QUnit;ui.editors(1/2)-shadow-dom;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279984
-8/25/23, 11:35:41 AM;16211280162;5975351535;1;Additional QUnit;ui.editors(1/2)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280162
-8/25/23, 11:35:41 AM;16211280316;5975351535;1;Additional QUnit;ui.editors(1/2)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280316
-8/25/23, 11:35:42 AM;16211280484;5975351535;1;Additional QUnit;ui.editors(2/2)-shadow-dom;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280484
-8/25/23, 11:35:42 AM;16211280643;5975351535;1;Additional QUnit;ui.editors(2/2)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280643
-8/25/23, 11:35:42 AM;16211280798;5975351535;1;Additional QUnit;ui.editors(2/2)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280798
-8/25/23, 11:35:43 AM;16211281003;5975351535;1;Additional QUnit;ui.htmlEditor-shadow-dom;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281003
-8/25/23, 11:35:43 AM;16211281181;5975351535;1;Additional QUnit;ui.htmlEditor-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281181
-8/25/23, 11:35:44 AM;16211281352;5975351535;1;Additional QUnit;ui.htmlEditor-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281352
-8/25/23, 11:35:44 AM;16211281497;5975351535;1;Additional QUnit;ui.grid(1/2)-shadow-dom;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281497
-8/25/23, 11:35:44 AM;16211281629;5975351535;1;Additional QUnit;ui.grid(1/2)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281629
-8/25/23, 11:35:45 AM;16211281803;5975351535;1;Additional QUnit;ui.grid(1/2)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281803
-8/25/23, 11:35:45 AM;16211281978;5975351535;1;Additional QUnit;ui.grid(2/2)-shadow-dom;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281978
-8/25/23, 11:35:45 AM;16211282141;5975351535;1;Additional QUnit;ui.grid(2/2)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282141
-8/25/23, 11:35:46 AM;16211282262;5975351535;1;Additional QUnit;ui.grid(2/2)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282262
-8/25/23, 11:35:46 AM;16211282439;5975351535;1;Additional QUnit;ui.scheduler(1/3)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282439
-8/25/23, 11:35:47 AM;16211282573;5975351535;1;Additional QUnit;ui.scheduler(1/3)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282573
-8/25/23, 11:35:47 AM;16211282729;5975351535;1;Additional QUnit;ui.scheduler(2/3)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282729
-8/25/23, 11:35:47 AM;16211282886;5975351535;1;Additional QUnit;ui.scheduler(2/3)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282886
-8/25/23, 11:35:48 AM;16211283053;5975351535;1;Additional QUnit;ui.scheduler(3/3)-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283053
-8/25/23, 11:35:48 AM;16211283229;5975351535;1;Additional QUnit;ui.scheduler(3/3)-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283229
-8/25/23, 11:35:48 AM;16211283423;5975351535;1;Additional QUnit;viz-ios10;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283423
-8/25/23, 11:35:49 AM;16211283587;5975351535;1;Additional QUnit;viz-android6;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283587
-8/25/23, 11:35:50 AM;16211284350;5975351535;1;Additional QUnit;Performance;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284350
-8/25/23, 11:35:51 AM;16211284565;5975351535;1;Additional QUnit;misc-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284565
-8/25/23, 11:35:51 AM;16211284717;5975351535;1;Additional QUnit;misc-Japan;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284717
-8/25/23, 11:35:52 AM;16211284848;5975351535;1;Additional QUnit;misc-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284848
-8/25/23, 11:35:52 AM;16211284999;5975351535;1;Additional QUnit;misc-Europe/London;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284999
-8/25/23, 11:35:52 AM;16211285158;5975351535;1;Additional QUnit;ui.editors(1/2)-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285158
-8/25/23, 11:35:53 AM;16211285484;5975351535;1;Additional QUnit;ui.editors(1/2)-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285484
-8/25/23, 11:35:54 AM;16211285609;5975351535;1;Additional QUnit;ui.editors(1/2)-Europe/London;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285609
-8/25/23, 11:35:54 AM;16211285732;5975351535;1;Additional QUnit;ui.editors(2/2)-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285732
-8/25/23, 11:35:54 AM;16211285901;5975351535;1;Additional QUnit;ui.editors(2/2)-Japan;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285901
-8/25/23, 11:35:55 AM;16211286049;5975351535;1;Additional QUnit;ui.editors(2/2)-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286049
-8/25/23, 11:35:55 AM;16211286218;5975351535;1;Additional QUnit;ui.editors(2/2)-Europe/London;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286218
-8/25/23, 11:35:56 AM;16211286415;5975351535;1;Additional QUnit;ui.grid(1/2)-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286415
-8/25/23, 11:35:56 AM;16211286566;5975351535;1;Additional QUnit;ui.grid(1/2)-Japan;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286566
-8/25/23, 11:35:57 AM;16211286697;5975351535;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286697
-8/25/23, 11:35:57 AM;16211286855;5975351535;1;Additional QUnit;ui.grid(1/2)-Europe/London;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286855
-8/25/23, 11:35:57 AM;16211286965;5975351535;1;Additional QUnit;ui.grid(2/2)-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286965
-8/25/23, 11:35:58 AM;16211287099;5975351535;1;Additional QUnit;ui.grid(2/2)-Japan;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287099
-8/25/23, 11:35:58 AM;16211287226;5975351535;1;Additional QUnit;ui.grid(2/2)-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287226
-8/25/23, 11:35:58 AM;16211287343;5975351535;1;Additional QUnit;ui.grid(2/2)-Europe/London;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287343
-8/25/23, 11:35:59 AM;16211287503;5975351535;1;Additional QUnit;ui.scheduler(1/3)-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287503
-8/25/23, 11:35:59 AM;16211287666;5975351535;1;Additional QUnit;ui.scheduler(1/3)-Japan;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287666
-8/25/23, 11:36:00 AM;16211287835;5975351535;1;Additional QUnit;ui.scheduler(1/3)-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287835
-8/25/23, 11:36:00 AM;16211288138;5975351535;1;Additional QUnit;ui.scheduler(2/3)-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288138
-8/25/23, 11:36:01 AM;16211288251;5975351535;1;Additional QUnit;ui.scheduler(2/3)-Japan;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288251
-8/25/23, 11:36:01 AM;16211288385;5975351535;1;Additional QUnit;ui.scheduler(2/3)-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288385
-8/25/23, 11:36:02 AM;16211288560;5975351535;1;Additional QUnit;ui.scheduler(2/3)-Europe/London;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288560
-8/25/23, 11:36:02 AM;16211288695;5975351535;1;Additional QUnit;ui.scheduler(3/3)-PST8PDT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288695
-8/25/23, 11:36:02 AM;16211288836;5975351535;1;Additional QUnit;ui.scheduler(3/3)-Japan;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288836
-8/25/23, 11:36:03 AM;16211289017;5975351535;1;Additional QUnit;ui.scheduler(3/3)-Australia/ACT;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211289017
-8/25/23, 11:36:03 AM;16211289192;5975351535;1;Additional QUnit;ui.scheduler(3/3)-Europe/London;22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211289192
-8/25/23, 10:21:52 AM;16209468282;5974695711;1;Additional QUnit;ui.grid(1/2)-firefox;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209468282
-8/25/23, 10:22:04 AM;16209473067;5974695711;1;Additional QUnit;ui.grid(1/2)-shadow-dom;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209473067
-8/25/23, 10:22:05 AM;16209473225;5974695711;1;Additional QUnit;ui.grid(1/2)-ios10;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209473225
-8/25/23, 10:22:05 AM;16209473352;5974695711;1;Additional QUnit;ui.grid(1/2)-android6;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209473352
-8/25/23, 10:22:16 AM;16209477939;5974695711;1;Additional QUnit;ui.grid(1/2)-PST8PDT;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209477939
-8/25/23, 10:22:16 AM;16209478099;5974695711;1;Additional QUnit;ui.grid(1/2)-Japan;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209478099
-8/25/23, 10:22:16 AM;16209478263;5974695711;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209478263
-8/25/23, 10:22:17 AM;16209478431;5974695711;1;Additional QUnit;ui.grid(1/2)-Europe/London;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209478431
-8/25/23, 8:12:16 AM;16205957023;5973524376;1;Additional QUnit;Build;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524376/job/16205957023
-8/25/23, 7:42:33 AM;16205204554;5973217063;1;Additional QUnit;ui.grid(1/2)-shadow-dom;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205204554
-8/25/23, 7:42:34 AM;16205204721;5973217063;1;Additional QUnit;ui.grid(1/2)-ios10;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205204721
-8/25/23, 7:42:34 AM;16205204908;5973217063;1;Additional QUnit;ui.grid(1/2)-android6;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205204908
-8/25/23, 7:42:43 AM;16205208513;5973217063;1;Additional QUnit;ui.grid(1/2)-firefox;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205208513
-8/25/23, 7:42:52 AM;16205211585;5973217063;1;Additional QUnit;ui.grid(1/2)-PST8PDT;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211585
-8/25/23, 7:42:52 AM;16205211741;5973217063;1;Additional QUnit;ui.grid(1/2)-Japan;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211741
-8/25/23, 7:42:53 AM;16205211858;5973217063;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211858
-8/25/23, 7:42:53 AM;16205211977;5973217063;1;Additional QUnit;ui.grid(1/2)-Europe/London;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211977
-8/25/23, 6:37:22 AM;16203772941;5972703642;1;Additional QUnit;ui.editors(1/2)-ios10;skip-unstable;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972703642/job/16203772941
-8/25/23, 5:49:50 AM;16202852637;5972365439;1;Additional QUnit;ui.grid(1/2)-shadow-dom;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202852637
-8/25/23, 5:49:50 AM;16202852718;5972365439;1;Additional QUnit;ui.grid(1/2)-ios10;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202852718
-8/25/23, 5:49:50 AM;16202852805;5972365439;1;Additional QUnit;ui.grid(1/2)-android6;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202852805
-8/25/23, 5:49:59 AM;16202854690;5972365439;1;Additional QUnit;ui.grid(1/2)-firefox;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202854690
-8/25/23, 5:50:08 AM;16202856864;5972365439;1;Additional QUnit;ui.grid(1/2)-PST8PDT;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202856864
-8/25/23, 5:50:08 AM;16202856974;5972365439;1;Additional QUnit;ui.grid(1/2)-Japan;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202856974
-8/25/23, 5:50:09 AM;16202857058;5972365439;1;Additional QUnit;ui.grid(1/2)-Australia/ACT;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202857058
-8/25/23, 5:50:09 AM;16202857142;5972365439;1;Additional QUnit;ui.grid(1/2)-Europe/London;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202857142
-8/25/23, 10:20:57 AM;16209444621;5974695721;1;QUnit tests for renovation;Constel ui.grid;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695721/job/16209444621
-8/25/23, 8:12:16 AM;16205957047;5973524385;1;QUnit tests for renovation;Build;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524385/job/16205957047
-8/25/23, 7:39:59 AM;16205145121;5973217065;1;QUnit tests for renovation;Constel ui.grid;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217065/job/16205145121
-8/25/23, 5:50:41 AM;16202865385;5972365428;1;QUnit tests for renovation;Constel ui.grid;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365428/job/16202865385
-8/25/23, 8:12:16 AM;16205957059;5973524387;1;Renovation;jest-tests;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524387/job/16205957059
-8/25/23, 3:33:06 PM;16218302537;5977679918;1;TestCafe tests;scheduler (1/5);Test_workflow_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5977679918/job/16218302537
-8/25/23, 1:28:45 PM;16214462933;5976471244;1;TestCafe tests;scheduler (4/5);23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5976471244/job/16214462933
-8/25/23, 11:35:19 AM;16211271611;5975353074;1;TestCafe tests;scheduler (3/5);22_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975353074/job/16211271611
-8/25/23, 11:35:00 AM;16211263447;5975351534;1;TestCafe tests;scheduler (3/5);22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5975351534/job/16211263447
-8/25/23, 10:21:09 AM;16209449556;5974695717;1;TestCafe tests;treeList;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209449556
-8/25/23, 10:21:09 AM;16209449721;5974695717;1;TestCafe tests;dataGrid (1/2);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209449721
-8/25/23, 10:21:09 AM;16209449893;5974695717;1;TestCafe tests;dataGrid (2/2);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209449893
-8/25/23, 10:21:16 AM;16209452562;5974695717;1;TestCafe tests;navigation - material;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209452562
-8/25/23, 10:09:24 AM;16209133378;5974586574;1;TestCafe tests;treeList;a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974586574/job/16209133378
-8/25/23, 10:10:37 AM;16209166755;5974576208;1;TestCafe tests;navigation;23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974576208/job/16209166755
-8/25/23, 10:10:39 AM;16209167625;5974576208;1;TestCafe tests;navigation - material;23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974576208/job/16209167625
-8/25/23, 9:32:02 AM;16208143789;5974252459;1;TestCafe tests;pivotGrid - material;bump_23_1_2308250927;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5974252459/job/16208143789
-8/25/23, 8:12:17 AM;16205957250;5973524392;1;TestCafe tests;build;scheduler_ts_part_3_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973524392/job/16205957250
-8/25/23, 8:13:13 AM;16205983807;5973467889;1;TestCafe tests;navigation;23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16205983807
-8/25/23, 8:13:15 AM;16205984651;5973467889;1;TestCafe tests;navigation - material;23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16205984651
-8/25/23, 9:19:54 AM;16207820818;5973467889;2;TestCafe tests;navigation;23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16207820818
-8/25/23, 9:19:56 AM;16207821572;5973467889;2;TestCafe tests;navigation - material;23_2_addUrlForMenuFix;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16207821572
-8/25/23, 8:10:51 AM;16205918100;5973439662;1;TestCafe tests;scheduler (4/5);validation_23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973439662/job/16205918100
-8/25/23, 7:39:58 AM;16205144705;5973217078;1;TestCafe tests;dataGrid (1/2);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217078/job/16205144705
-8/25/23, 7:39:59 AM;16205144857;5973217078;1;TestCafe tests;dataGrid (2/2);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5973217078/job/16205144857
-8/25/23, 5:48:36 AM;16202834132;5972365435;1;TestCafe tests;dataGrid (1/2);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365435/job/16202834132
-8/25/23, 5:48:36 AM;16202834199;5972365435;1;TestCafe tests;dataGrid (2/2);a11y_contrast_group/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5972365435/job/16202834199
-8/25/23, 2:58:10 AM;16200245503;5971317451;1;TestCafe tests;scheduler (4/5);bug_T1181733/22_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5971317451/job/16200245503
-8/25/23, 2:58:18 AM;16200246881;5971317234;1;TestCafe tests;scheduler (4/5);bug_T1181733/23_1;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5971317234/job/16200246881
-8/25/23, 2:54:26 AM;16200203385;5971300351;1;TestCafe tests;scheduler (4/5);bug_T1181733_test/23_2;failure;https://github.com/DevExpress/DevExtreme/actions/runs/5971300351/job/16200203385
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,html url
+"8/25/23, 8:12:15 AM",16205956384,5973524386,1,DevExtreme Angular Tests,test,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524386/job/16205956384
+"8/25/23, 12:31:36 PM",16212752548,5975832411,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975832411/job/16212752548
+"8/25/23, 12:30:22 PM",16212717220,5975829409,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975829409/job/16212717220
+"8/25/23, 11:37:02 AM",16211311976,5975351528,1,DevExtreme package tests,Demos visual tests jquery(4/4),22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351528/job/16211311976
+"8/25/23, 10:44:26 AM",16210043515,5974830120,1,DevExtreme package tests,Demos visual tests jquery(3/4),khd/remove-wrong-common-modules,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974830120/job/16210043515
+"8/25/23, 1:10:53 PM",16213920478,5974830120,2,DevExtreme package tests,Demos visual tests jquery(3/4),khd/remove-wrong-common-modules,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974830120/job/16213920478
+"8/25/23, 10:31:10 AM",16209718453,5974773316,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974773316/job/16209718453
+"8/25/23, 10:23:56 AM",16209523767,5974695715,1,DevExtreme package tests,Demos visual tests jquery(1/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209523767
+"8/25/23, 10:23:57 AM",16209523950,5974695715,1,DevExtreme package tests,Demos visual tests jquery(2/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209523950
+"8/25/23, 10:23:57 AM",16209524132,5974695715,1,DevExtreme package tests,Demos visual tests jquery(3/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209524132
+"8/25/23, 10:23:58 AM",16209524320,5974695715,1,DevExtreme package tests,Demos visual tests jquery(4/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695715/job/16209524320
+"8/25/23, 10:18:53 AM",16209388694,5974576204,1,DevExtreme package tests,Demos visual tests jquery(1/4),23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209388694
+"8/25/23, 10:18:54 AM",16209388921,5974576204,1,DevExtreme package tests,Demos visual tests jquery(2/4),23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209388921
+"8/25/23, 10:18:54 AM",16209389080,5974576204,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209389080
+"8/25/23, 10:18:54 AM",16209389252,5974576204,1,DevExtreme package tests,Demos visual tests jquery(4/4),23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974576204/job/16209389252
+"8/25/23, 8:12:16 AM",16205956796,5973524375,1,DevExtreme package tests,build,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524375/job/16205956796
+"8/25/23, 7:42:35 AM",16205205324,5973217057,1,DevExtreme package tests,Demos visual tests jquery(1/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205324
+"8/25/23, 7:42:35 AM",16205205460,5973217057,1,DevExtreme package tests,Demos visual tests jquery(2/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205460
+"8/25/23, 7:42:36 AM",16205205622,5973217057,1,DevExtreme package tests,Demos visual tests jquery(3/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205622
+"8/25/23, 7:42:36 AM",16205205744,5973217057,1,DevExtreme package tests,Demos visual tests jquery(4/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217057/job/16205205744
+"8/25/23, 5:56:21 AM",16202949538,5972365434,1,DevExtreme package tests,Demos visual tests jquery(1/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949538
+"8/25/23, 5:56:21 AM",16202949620,5972365434,1,DevExtreme package tests,Demos visual tests jquery(2/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949620
+"8/25/23, 5:56:22 AM",16202949692,5972365434,1,DevExtreme package tests,Demos visual tests jquery(3/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949692
+"8/25/23, 5:56:22 AM",16202949758,5972365434,1,DevExtreme package tests,Demos visual tests jquery(4/4),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365434/job/16202949758
+"8/25/23, 4:39:27 AM",16201753667,5971899941,1,DevExtreme package tests,Demos visual tests jquery(1/4),bug_T1181442/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5971899941/job/16201753667
+"8/25/23, 12:14:18 PM",16212265309,5975734861,1,DevExtreme React Tests,test,T1180492_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975734861/job/16212265309
+"8/25/23, 8:12:15 AM",16205956399,5973524390,1,DevExtreme React Tests,test,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524390/job/16205956399
+"8/25/23, 8:12:15 AM",16205956448,5973524402,1,DevExtreme Vue Tests,test,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524402/job/16205956448
+"8/25/23, 10:04:22 AM",16208988942,5974576217,1,Lint,CSS,23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974576217/job/16208988942
+"8/25/23, 8:12:16 AM",16205956810,5973524391,1,Lint,Renovation,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524391/job/16205956810
+"8/25/23, 8:12:18 AM",16205957653,5973524391,1,Lint,JS,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524391/job/16205957653
+"8/25/23, 8:12:19 AM",16205958280,5973524391,1,Lint,TS,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524391/job/16205958280
+"8/25/23, 4:12:36 AM",16201338574,5971780261,1,Lint,JS,bug_T1181442/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5971780261/job/16201338574
+"8/25/23, 4:12:39 AM",16201339184,5971780261,1,Lint,TS,bug_T1181442/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5971780261/job/16201339184
+"8/25/23, 11:35:48 AM",16211283067,5975353075,1,Additional QUnit,Performance,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211283067
+"8/25/23, 11:35:50 AM",16211284284,5975353075,1,Additional QUnit,export-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284284
+"8/25/23, 11:35:51 AM",16211284436,5975353075,1,Additional QUnit,misc-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284436
+"8/25/23, 11:35:51 AM",16211284588,5975353075,1,Additional QUnit,ui-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284588
+"8/25/23, 11:35:52 AM",16211284865,5975353075,1,Additional QUnit,ui.editors(2/2)-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211284865
+"8/25/23, 11:35:52 AM",16211285127,5975353075,1,Additional QUnit,ui.grid(1/2)-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285127
+"8/25/23, 11:35:53 AM",16211285272,5975353075,1,Additional QUnit,ui.grid(2/2)-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285272
+"8/25/23, 11:35:53 AM",16211285394,5975353075,1,Additional QUnit,ui.scheduler(1/3)-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285394
+"8/25/23, 11:35:54 AM",16211285536,5975353075,1,Additional QUnit,ui.scheduler(2/3)-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285536
+"8/25/23, 11:35:55 AM",16211285924,5975353075,1,Additional QUnit,renovation-firefox,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211285924
+"8/25/23, 11:35:55 AM",16211286071,5975353075,1,Additional QUnit,misc-PST8PDT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286071
+"8/25/23, 11:35:55 AM",16211286214,5975353075,1,Additional QUnit,misc-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286214
+"8/25/23, 11:35:56 AM",16211286333,5975353075,1,Additional QUnit,misc-Australia/ACT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286333
+"8/25/23, 11:35:56 AM",16211286501,5975353075,1,Additional QUnit,misc-Europe/London,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286501
+"8/25/23, 11:35:56 AM",16211286636,5975353075,1,Additional QUnit,ui.editors(1/2)-PST8PDT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286636
+"8/25/23, 11:35:57 AM",16211286757,5975353075,1,Additional QUnit,ui.editors(1/2)-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286757
+"8/25/23, 11:35:57 AM",16211286884,5975353075,1,Additional QUnit,ui.editors(1/2)-Australia/ACT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211286884
+"8/25/23, 11:35:57 AM",16211287034,5975353075,1,Additional QUnit,ui.editors(1/2)-Europe/London,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287034
+"8/25/23, 11:35:58 AM",16211287159,5975353075,1,Additional QUnit,ui.editors(2/2)-PST8PDT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287159
+"8/25/23, 11:35:58 AM",16211287299,5975353075,1,Additional QUnit,ui.editors(2/2)-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287299
+"8/25/23, 11:35:59 AM",16211287537,5975353075,1,Additional QUnit,ui.editors(2/2)-Europe/London,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287537
+"8/25/23, 11:35:59 AM",16211287699,5975353075,1,Additional QUnit,ui.grid(1/2)-PST8PDT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287699
+"8/25/23, 11:36:00 AM",16211287847,5975353075,1,Additional QUnit,ui.grid(1/2)-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287847
+"8/25/23, 11:36:00 AM",16211287971,5975353075,1,Additional QUnit,ui.grid(1/2)-Australia/ACT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211287971
+"8/25/23, 11:36:01 AM",16211288383,5975353075,1,Additional QUnit,ui.grid(2/2)-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288383
+"8/25/23, 11:36:02 AM",16211288571,5975353075,1,Additional QUnit,ui.grid(2/2)-Australia/ACT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288571
+"8/25/23, 11:36:02 AM",16211288733,5975353075,1,Additional QUnit,ui.grid(2/2)-Europe/London,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288733
+"8/25/23, 11:36:02 AM",16211288881,5975353075,1,Additional QUnit,ui.scheduler(1/3)-PST8PDT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211288881
+"8/25/23, 11:36:03 AM",16211289041,5975353075,1,Additional QUnit,ui.scheduler(1/3)-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289041
+"8/25/23, 11:36:03 AM",16211289182,5975353075,1,Additional QUnit,ui.scheduler(1/3)-Australia/ACT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289182
+"8/25/23, 11:36:03 AM",16211289283,5975353075,1,Additional QUnit,ui.scheduler(1/3)-Europe/London,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289283
+"8/25/23, 11:36:04 AM",16211289419,5975353075,1,Additional QUnit,ui.scheduler(2/3)-PST8PDT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289419
+"8/25/23, 11:36:04 AM",16211289549,5975353075,1,Additional QUnit,ui.scheduler(2/3)-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289549
+"8/25/23, 11:36:04 AM",16211289669,5975353075,1,Additional QUnit,ui.scheduler(2/3)-Australia/ACT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289669
+"8/25/23, 11:36:05 AM",16211289783,5975353075,1,Additional QUnit,ui.scheduler(2/3)-Europe/London,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289783
+"8/25/23, 11:36:05 AM",16211289932,5975353075,1,Additional QUnit,ui.scheduler(3/3)-PST8PDT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211289932
+"8/25/23, 11:36:05 AM",16211290071,5975353075,1,Additional QUnit,ui.scheduler(3/3)-Japan,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290071
+"8/25/23, 11:36:06 AM",16211290187,5975353075,1,Additional QUnit,ui.scheduler(3/3)-Australia/ACT,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290187
+"8/25/23, 11:36:07 AM",16211290487,5975353075,1,Additional QUnit,ui-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290487
+"8/25/23, 11:36:07 AM",16211290619,5975353075,1,Additional QUnit,ui-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290619
+"8/25/23, 11:36:07 AM",16211290722,5975353075,1,Additional QUnit,ui.widgets(1/3)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290722
+"8/25/23, 11:36:08 AM",16211290865,5975353075,1,Additional QUnit,ui.widgets(1/3)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290865
+"8/25/23, 11:36:08 AM",16211290988,5975353075,1,Additional QUnit,ui.widgets(2/3)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211290988
+"8/25/23, 11:36:08 AM",16211291133,5975353075,1,Additional QUnit,ui.widgets(2/3)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291133
+"8/25/23, 11:36:09 AM",16211291266,5975353075,1,Additional QUnit,ui.widgets(3/3)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291266
+"8/25/23, 11:36:09 AM",16211291418,5975353075,1,Additional QUnit,ui.widgets(3/3)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291418
+"8/25/23, 11:36:10 AM",16211291825,5975353075,1,Additional QUnit,ui.editors(2/2)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211291825
+"8/25/23, 11:36:12 AM",16211292326,5975353075,1,Additional QUnit,ui.grid(1/2)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292326
+"8/25/23, 11:36:12 AM",16211292456,5975353075,1,Additional QUnit,ui.grid(1/2)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292456
+"8/25/23, 11:36:12 AM",16211292588,5975353075,1,Additional QUnit,ui.grid(2/2)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292588
+"8/25/23, 11:36:13 AM",16211292719,5975353075,1,Additional QUnit,ui.grid(2/2)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292719
+"8/25/23, 11:36:13 AM",16211292860,5975353075,1,Additional QUnit,ui.scheduler(1/3)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292860
+"8/25/23, 11:36:13 AM",16211292996,5975353075,1,Additional QUnit,ui.scheduler(1/3)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211292996
+"8/25/23, 11:36:14 AM",16211293127,5975353075,1,Additional QUnit,ui.scheduler(2/3)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293127
+"8/25/23, 11:36:14 AM",16211293271,5975353075,1,Additional QUnit,ui.scheduler(2/3)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293271
+"8/25/23, 11:36:14 AM",16211293428,5975353075,1,Additional QUnit,ui.scheduler(3/3)-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293428
+"8/25/23, 11:36:15 AM",16211293580,5975353075,1,Additional QUnit,ui.scheduler(3/3)-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293580
+"8/25/23, 11:36:15 AM",16211293732,5975353075,1,Additional QUnit,viz-ios10,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293732
+"8/25/23, 11:36:16 AM",16211293891,5975353075,1,Additional QUnit,viz-android6,22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353075/job/16211293891
+"8/25/23, 11:35:31 AM",16211276385,5975351535,1,Additional QUnit,export-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276385
+"8/25/23, 11:35:32 AM",16211276538,5975351535,1,Additional QUnit,misc-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276538
+"8/25/23, 11:35:32 AM",16211276681,5975351535,1,Additional QUnit,ui-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276681
+"8/25/23, 11:35:33 AM",16211276843,5975351535,1,Additional QUnit,ui.editors(1/2)-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211276843
+"8/25/23, 11:35:33 AM",16211277000,5975351535,1,Additional QUnit,ui.editors(2/2)-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277000
+"8/25/23, 11:35:33 AM",16211277140,5975351535,1,Additional QUnit,ui.htmlEditor-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277140
+"8/25/23, 11:35:34 AM",16211277297,5975351535,1,Additional QUnit,ui.grid(1/2)-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277297
+"8/25/23, 11:35:34 AM",16211277419,5975351535,1,Additional QUnit,ui.grid(2/2)-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277419
+"8/25/23, 11:35:35 AM",16211277533,5975351535,1,Additional QUnit,ui.scheduler(1/3)-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277533
+"8/25/23, 11:35:35 AM",16211277638,5975351535,1,Additional QUnit,ui.scheduler(2/3)-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277638
+"8/25/23, 11:35:35 AM",16211277760,5975351535,1,Additional QUnit,ui.scheduler(3/3)-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277760
+"8/25/23, 11:35:36 AM",16211277883,5975351535,1,Additional QUnit,viz-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211277883
+"8/25/23, 11:35:36 AM",16211278036,5975351535,1,Additional QUnit,renovation-firefox,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278036
+"8/25/23, 11:35:36 AM",16211278199,5975351535,1,Additional QUnit,ui-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278199
+"8/25/23, 11:35:37 AM",16211278389,5975351535,1,Additional QUnit,ui-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278389
+"8/25/23, 11:35:38 AM",16211278836,5975351535,1,Additional QUnit,ui.widgets(1/3)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211278836
+"8/25/23, 11:35:38 AM",16211279057,5975351535,1,Additional QUnit,ui.widgets(2/3)-shadow-dom,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279057
+"8/25/23, 11:35:39 AM",16211279198,5975351535,1,Additional QUnit,ui.widgets(2/3)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279198
+"8/25/23, 11:35:39 AM",16211279346,5975351535,1,Additional QUnit,ui.widgets(2/3)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279346
+"8/25/23, 11:35:40 AM",16211279509,5975351535,1,Additional QUnit,ui.widgets(3/3)-shadow-dom,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279509
+"8/25/23, 11:35:40 AM",16211279647,5975351535,1,Additional QUnit,ui.widgets(3/3)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279647
+"8/25/23, 11:35:40 AM",16211279838,5975351535,1,Additional QUnit,ui.widgets(3/3)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279838
+"8/25/23, 11:35:41 AM",16211279984,5975351535,1,Additional QUnit,ui.editors(1/2)-shadow-dom,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211279984
+"8/25/23, 11:35:41 AM",16211280162,5975351535,1,Additional QUnit,ui.editors(1/2)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280162
+"8/25/23, 11:35:41 AM",16211280316,5975351535,1,Additional QUnit,ui.editors(1/2)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280316
+"8/25/23, 11:35:42 AM",16211280484,5975351535,1,Additional QUnit,ui.editors(2/2)-shadow-dom,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280484
+"8/25/23, 11:35:42 AM",16211280643,5975351535,1,Additional QUnit,ui.editors(2/2)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280643
+"8/25/23, 11:35:42 AM",16211280798,5975351535,1,Additional QUnit,ui.editors(2/2)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211280798
+"8/25/23, 11:35:43 AM",16211281003,5975351535,1,Additional QUnit,ui.htmlEditor-shadow-dom,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281003
+"8/25/23, 11:35:43 AM",16211281181,5975351535,1,Additional QUnit,ui.htmlEditor-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281181
+"8/25/23, 11:35:44 AM",16211281352,5975351535,1,Additional QUnit,ui.htmlEditor-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281352
+"8/25/23, 11:35:44 AM",16211281497,5975351535,1,Additional QUnit,ui.grid(1/2)-shadow-dom,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281497
+"8/25/23, 11:35:44 AM",16211281629,5975351535,1,Additional QUnit,ui.grid(1/2)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281629
+"8/25/23, 11:35:45 AM",16211281803,5975351535,1,Additional QUnit,ui.grid(1/2)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281803
+"8/25/23, 11:35:45 AM",16211281978,5975351535,1,Additional QUnit,ui.grid(2/2)-shadow-dom,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211281978
+"8/25/23, 11:35:45 AM",16211282141,5975351535,1,Additional QUnit,ui.grid(2/2)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282141
+"8/25/23, 11:35:46 AM",16211282262,5975351535,1,Additional QUnit,ui.grid(2/2)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282262
+"8/25/23, 11:35:46 AM",16211282439,5975351535,1,Additional QUnit,ui.scheduler(1/3)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282439
+"8/25/23, 11:35:47 AM",16211282573,5975351535,1,Additional QUnit,ui.scheduler(1/3)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282573
+"8/25/23, 11:35:47 AM",16211282729,5975351535,1,Additional QUnit,ui.scheduler(2/3)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282729
+"8/25/23, 11:35:47 AM",16211282886,5975351535,1,Additional QUnit,ui.scheduler(2/3)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211282886
+"8/25/23, 11:35:48 AM",16211283053,5975351535,1,Additional QUnit,ui.scheduler(3/3)-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283053
+"8/25/23, 11:35:48 AM",16211283229,5975351535,1,Additional QUnit,ui.scheduler(3/3)-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283229
+"8/25/23, 11:35:48 AM",16211283423,5975351535,1,Additional QUnit,viz-ios10,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283423
+"8/25/23, 11:35:49 AM",16211283587,5975351535,1,Additional QUnit,viz-android6,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211283587
+"8/25/23, 11:35:50 AM",16211284350,5975351535,1,Additional QUnit,Performance,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284350
+"8/25/23, 11:35:51 AM",16211284565,5975351535,1,Additional QUnit,misc-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284565
+"8/25/23, 11:35:51 AM",16211284717,5975351535,1,Additional QUnit,misc-Japan,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284717
+"8/25/23, 11:35:52 AM",16211284848,5975351535,1,Additional QUnit,misc-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284848
+"8/25/23, 11:35:52 AM",16211284999,5975351535,1,Additional QUnit,misc-Europe/London,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211284999
+"8/25/23, 11:35:52 AM",16211285158,5975351535,1,Additional QUnit,ui.editors(1/2)-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285158
+"8/25/23, 11:35:53 AM",16211285484,5975351535,1,Additional QUnit,ui.editors(1/2)-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285484
+"8/25/23, 11:35:54 AM",16211285609,5975351535,1,Additional QUnit,ui.editors(1/2)-Europe/London,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285609
+"8/25/23, 11:35:54 AM",16211285732,5975351535,1,Additional QUnit,ui.editors(2/2)-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285732
+"8/25/23, 11:35:54 AM",16211285901,5975351535,1,Additional QUnit,ui.editors(2/2)-Japan,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211285901
+"8/25/23, 11:35:55 AM",16211286049,5975351535,1,Additional QUnit,ui.editors(2/2)-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286049
+"8/25/23, 11:35:55 AM",16211286218,5975351535,1,Additional QUnit,ui.editors(2/2)-Europe/London,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286218
+"8/25/23, 11:35:56 AM",16211286415,5975351535,1,Additional QUnit,ui.grid(1/2)-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286415
+"8/25/23, 11:35:56 AM",16211286566,5975351535,1,Additional QUnit,ui.grid(1/2)-Japan,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286566
+"8/25/23, 11:35:57 AM",16211286697,5975351535,1,Additional QUnit,ui.grid(1/2)-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286697
+"8/25/23, 11:35:57 AM",16211286855,5975351535,1,Additional QUnit,ui.grid(1/2)-Europe/London,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286855
+"8/25/23, 11:35:57 AM",16211286965,5975351535,1,Additional QUnit,ui.grid(2/2)-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211286965
+"8/25/23, 11:35:58 AM",16211287099,5975351535,1,Additional QUnit,ui.grid(2/2)-Japan,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287099
+"8/25/23, 11:35:58 AM",16211287226,5975351535,1,Additional QUnit,ui.grid(2/2)-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287226
+"8/25/23, 11:35:58 AM",16211287343,5975351535,1,Additional QUnit,ui.grid(2/2)-Europe/London,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287343
+"8/25/23, 11:35:59 AM",16211287503,5975351535,1,Additional QUnit,ui.scheduler(1/3)-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287503
+"8/25/23, 11:35:59 AM",16211287666,5975351535,1,Additional QUnit,ui.scheduler(1/3)-Japan,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287666
+"8/25/23, 11:36:00 AM",16211287835,5975351535,1,Additional QUnit,ui.scheduler(1/3)-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211287835
+"8/25/23, 11:36:00 AM",16211288138,5975351535,1,Additional QUnit,ui.scheduler(2/3)-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288138
+"8/25/23, 11:36:01 AM",16211288251,5975351535,1,Additional QUnit,ui.scheduler(2/3)-Japan,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288251
+"8/25/23, 11:36:01 AM",16211288385,5975351535,1,Additional QUnit,ui.scheduler(2/3)-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288385
+"8/25/23, 11:36:02 AM",16211288560,5975351535,1,Additional QUnit,ui.scheduler(2/3)-Europe/London,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288560
+"8/25/23, 11:36:02 AM",16211288695,5975351535,1,Additional QUnit,ui.scheduler(3/3)-PST8PDT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288695
+"8/25/23, 11:36:02 AM",16211288836,5975351535,1,Additional QUnit,ui.scheduler(3/3)-Japan,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211288836
+"8/25/23, 11:36:03 AM",16211289017,5975351535,1,Additional QUnit,ui.scheduler(3/3)-Australia/ACT,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211289017
+"8/25/23, 11:36:03 AM",16211289192,5975351535,1,Additional QUnit,ui.scheduler(3/3)-Europe/London,22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351535/job/16211289192
+"8/25/23, 10:21:52 AM",16209468282,5974695711,1,Additional QUnit,ui.grid(1/2)-firefox,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209468282
+"8/25/23, 10:22:04 AM",16209473067,5974695711,1,Additional QUnit,ui.grid(1/2)-shadow-dom,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209473067
+"8/25/23, 10:22:05 AM",16209473225,5974695711,1,Additional QUnit,ui.grid(1/2)-ios10,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209473225
+"8/25/23, 10:22:05 AM",16209473352,5974695711,1,Additional QUnit,ui.grid(1/2)-android6,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209473352
+"8/25/23, 10:22:16 AM",16209477939,5974695711,1,Additional QUnit,ui.grid(1/2)-PST8PDT,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209477939
+"8/25/23, 10:22:16 AM",16209478099,5974695711,1,Additional QUnit,ui.grid(1/2)-Japan,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209478099
+"8/25/23, 10:22:16 AM",16209478263,5974695711,1,Additional QUnit,ui.grid(1/2)-Australia/ACT,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209478263
+"8/25/23, 10:22:17 AM",16209478431,5974695711,1,Additional QUnit,ui.grid(1/2)-Europe/London,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695711/job/16209478431
+"8/25/23, 8:12:16 AM",16205957023,5973524376,1,Additional QUnit,Build,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524376/job/16205957023
+"8/25/23, 7:42:33 AM",16205204554,5973217063,1,Additional QUnit,ui.grid(1/2)-shadow-dom,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205204554
+"8/25/23, 7:42:34 AM",16205204721,5973217063,1,Additional QUnit,ui.grid(1/2)-ios10,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205204721
+"8/25/23, 7:42:34 AM",16205204908,5973217063,1,Additional QUnit,ui.grid(1/2)-android6,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205204908
+"8/25/23, 7:42:43 AM",16205208513,5973217063,1,Additional QUnit,ui.grid(1/2)-firefox,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205208513
+"8/25/23, 7:42:52 AM",16205211585,5973217063,1,Additional QUnit,ui.grid(1/2)-PST8PDT,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211585
+"8/25/23, 7:42:52 AM",16205211741,5973217063,1,Additional QUnit,ui.grid(1/2)-Japan,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211741
+"8/25/23, 7:42:53 AM",16205211858,5973217063,1,Additional QUnit,ui.grid(1/2)-Australia/ACT,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211858
+"8/25/23, 7:42:53 AM",16205211977,5973217063,1,Additional QUnit,ui.grid(1/2)-Europe/London,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217063/job/16205211977
+"8/25/23, 6:37:22 AM",16203772941,5972703642,1,Additional QUnit,ui.editors(1/2)-ios10,skip-unstable,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972703642/job/16203772941
+"8/25/23, 5:49:50 AM",16202852637,5972365439,1,Additional QUnit,ui.grid(1/2)-shadow-dom,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202852637
+"8/25/23, 5:49:50 AM",16202852718,5972365439,1,Additional QUnit,ui.grid(1/2)-ios10,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202852718
+"8/25/23, 5:49:50 AM",16202852805,5972365439,1,Additional QUnit,ui.grid(1/2)-android6,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202852805
+"8/25/23, 5:49:59 AM",16202854690,5972365439,1,Additional QUnit,ui.grid(1/2)-firefox,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202854690
+"8/25/23, 5:50:08 AM",16202856864,5972365439,1,Additional QUnit,ui.grid(1/2)-PST8PDT,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202856864
+"8/25/23, 5:50:08 AM",16202856974,5972365439,1,Additional QUnit,ui.grid(1/2)-Japan,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202856974
+"8/25/23, 5:50:09 AM",16202857058,5972365439,1,Additional QUnit,ui.grid(1/2)-Australia/ACT,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202857058
+"8/25/23, 5:50:09 AM",16202857142,5972365439,1,Additional QUnit,ui.grid(1/2)-Europe/London,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365439/job/16202857142
+"8/25/23, 10:20:57 AM",16209444621,5974695721,1,QUnit tests for renovation,Constel ui.grid,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695721/job/16209444621
+"8/25/23, 8:12:16 AM",16205957047,5973524385,1,QUnit tests for renovation,Build,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524385/job/16205957047
+"8/25/23, 7:39:59 AM",16205145121,5973217065,1,QUnit tests for renovation,Constel ui.grid,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217065/job/16205145121
+"8/25/23, 5:50:41 AM",16202865385,5972365428,1,QUnit tests for renovation,Constel ui.grid,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365428/job/16202865385
+"8/25/23, 8:12:16 AM",16205957059,5973524387,1,Renovation,jest-tests,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524387/job/16205957059
+"8/25/23, 3:33:06 PM",16218302537,5977679918,1,TestCafe tests,scheduler (1/5),Test_workflow_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5977679918/job/16218302537
+"8/25/23, 1:28:45 PM",16214462933,5976471244,1,TestCafe tests,scheduler (4/5),23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5976471244/job/16214462933
+"8/25/23, 11:35:19 AM",16211271611,5975353074,1,TestCafe tests,scheduler (3/5),22_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975353074/job/16211271611
+"8/25/23, 11:35:00 AM",16211263447,5975351534,1,TestCafe tests,scheduler (3/5),22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5975351534/job/16211263447
+"8/25/23, 10:21:09 AM",16209449556,5974695717,1,TestCafe tests,treeList,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209449556
+"8/25/23, 10:21:09 AM",16209449721,5974695717,1,TestCafe tests,dataGrid (1/2),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209449721
+"8/25/23, 10:21:09 AM",16209449893,5974695717,1,TestCafe tests,dataGrid (2/2),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209449893
+"8/25/23, 10:21:16 AM",16209452562,5974695717,1,TestCafe tests,navigation - material,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974695717/job/16209452562
+"8/25/23, 10:09:24 AM",16209133378,5974586574,1,TestCafe tests,treeList,a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974586574/job/16209133378
+"8/25/23, 10:10:37 AM",16209166755,5974576208,1,TestCafe tests,navigation,23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974576208/job/16209166755
+"8/25/23, 10:10:39 AM",16209167625,5974576208,1,TestCafe tests,navigation - material,23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974576208/job/16209167625
+"8/25/23, 9:32:02 AM",16208143789,5974252459,1,TestCafe tests,pivotGrid - material,bump_23_1_2308250927,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5974252459/job/16208143789
+"8/25/23, 8:12:17 AM",16205957250,5973524392,1,TestCafe tests,build,scheduler_ts_part_3_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973524392/job/16205957250
+"8/25/23, 8:13:13 AM",16205983807,5973467889,1,TestCafe tests,navigation,23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16205983807
+"8/25/23, 8:13:15 AM",16205984651,5973467889,1,TestCafe tests,navigation - material,23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16205984651
+"8/25/23, 9:19:54 AM",16207820818,5973467889,2,TestCafe tests,navigation,23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16207820818
+"8/25/23, 9:19:56 AM",16207821572,5973467889,2,TestCafe tests,navigation - material,23_2_addUrlForMenuFix,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973467889/job/16207821572
+"8/25/23, 8:10:51 AM",16205918100,5973439662,1,TestCafe tests,scheduler (4/5),validation_23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973439662/job/16205918100
+"8/25/23, 7:39:58 AM",16205144705,5973217078,1,TestCafe tests,dataGrid (1/2),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217078/job/16205144705
+"8/25/23, 7:39:59 AM",16205144857,5973217078,1,TestCafe tests,dataGrid (2/2),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5973217078/job/16205144857
+"8/25/23, 5:48:36 AM",16202834132,5972365435,1,TestCafe tests,dataGrid (1/2),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365435/job/16202834132
+"8/25/23, 5:48:36 AM",16202834199,5972365435,1,TestCafe tests,dataGrid (2/2),a11y_contrast_group/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5972365435/job/16202834199
+"8/25/23, 2:58:10 AM",16200245503,5971317451,1,TestCafe tests,scheduler (4/5),bug_T1181733/22_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5971317451/job/16200245503
+"8/25/23, 2:58:18 AM",16200246881,5971317234,1,TestCafe tests,scheduler (4/5),bug_T1181733/23_1,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5971317234/job/16200246881
+"8/25/23, 2:54:26 AM",16200203385,5971300351,1,TestCafe tests,scheduler (4/5),bug_T1181733_test/23_2,failure,https://github.com/DevExpress/DevExtreme/actions/runs/5971300351/job/16200203385
+
