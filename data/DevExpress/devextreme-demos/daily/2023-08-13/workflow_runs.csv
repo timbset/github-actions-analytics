@@ -1,3 +1,4 @@
-date;id;workflow name;main success runs;main failure runs;main cancelled runs;main skipped runs;main retries;main min duration;main avg duration;main max duration;pr success runs;pr failure runs;pr cancelled runs;pr skipped runs;pr retries;pr min duration;pr avg duration;pr max duration
-2023-08-13;visual_tests.yml;Visual Tests;22;2;0;0;0;0,01381944444;0,0165933642;0,01899305556;0;0;0;0;0;0;0;0
-2023-08-13;visual_tests_frameworks.yml;Frameworks;0;12;0;0;0;0,03075231481;0,03624035494;0,04184027778;0;0;0;0;0;0;0;0
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-08-13,visual_tests.yml,Visual Tests,22,2,0,0,0,"0,01381944444","0,0165933642","0,01899305556",0,0,0,0,0,0,0,0
+2023-08-13,visual_tests_frameworks.yml,Frameworks,0,12,0,0,0,"0,03075231481","0,03624035494","0,04184027778",0,0,0,0,0,0,0,0
+

@@ -1,7 +1,8 @@
-date;id;workflow name;main success runs;main failure runs;main cancelled runs;main skipped runs;main retries;main min duration;main avg duration;main max duration;pr success runs;pr failure runs;pr cancelled runs;pr skipped runs;pr retries;pr min duration;pr avg duration;pr max duration
-2023-08-17;codeql-analysis.yml;CodeQL;2;0;0;0;0;0,004363425926;0,00490162037;0,005439814815;7;0;0;0;0;0,003402777778;0,004173280423;0,004652777778
-2023-08-17;lint.yml;Lint;2;0;0;0;0;0,0006828703704;0,0007928240741;0,0009027777778;6;0;1;0;2;0,000462962963;0,0009060846561;0,002175925926
-2023-08-17;renovate_autoapprove.yml;Auto approve renovate bot PR;0;0;0;0;0;0;0;0;7;0;0;0;0;0,0001157407407;0,0001372354497;0,0001967592593
-2023-08-17;unit_tests.yml;Unit tests;2;0;0;0;0;0,0005324074074;0,0005671296296;0,0006018518519;6;0;1;0;0;0,0003819444444;0,0006266534392;0,000775462963
-2023-08-17;visual_tests.yml;Visual Tests;2;0;0;0;0;0,01498842593;0,01639467593;0,01780092593;5;1;1;0;1;0,0004861111111;0,01162533069;0,02186342593
-2023-08-17;visual_tests_frameworks.yml;Frameworks;0;2;0;0;0;0,0434837963;0,04952546296;0,05556712963;2;4;1;0;3;0,0003125;0,01485780423;0,03853009259
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-08-17,codeql-analysis.yml,CodeQL,2,0,0,0,0,"0,004363425926","0,00490162037","0,005439814815",7,0,0,0,0,"0,003402777778","0,004173280423","0,004652777778"
+2023-08-17,lint.yml,Lint,2,0,0,0,0,"0,0006828703704","0,0007928240741","0,0009027777778",6,0,1,0,2,"0,000462962963","0,0009060846561","0,002175925926"
+2023-08-17,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,0001157407407","0,0001372354497","0,0001967592593"
+2023-08-17,unit_tests.yml,Unit tests,2,0,0,0,0,"0,0005324074074","0,0005671296296","0,0006018518519",6,0,1,0,0,"0,0003819444444","0,0006266534392","0,000775462963"
+2023-08-17,visual_tests.yml,Visual Tests,2,0,0,0,0,"0,01498842593","0,01639467593","0,01780092593",5,1,1,0,1,"0,0004861111111","0,01162533069","0,02186342593"
+2023-08-17,visual_tests_frameworks.yml,Frameworks,0,2,0,0,0,"0,0434837963","0,04952546296","0,05556712963",2,4,1,0,3,"0,0003125","0,01485780423","0,03853009259"
+

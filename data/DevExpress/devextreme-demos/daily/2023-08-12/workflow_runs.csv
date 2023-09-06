@@ -1,4 +1,5 @@
-date;id;workflow name;main success runs;main failure runs;main cancelled runs;main skipped runs;main retries;main min duration;main avg duration;main max duration;pr success runs;pr failure runs;pr cancelled runs;pr skipped runs;pr retries;pr min duration;pr avg duration;pr max duration
-2023-08-12;codeql-analysis.yml;CodeQL;1;0;0;0;0;0,005358796296;0,005358796296;0,005358796296;0;0;0;0;0;0;0;0
-2023-08-12;visual_tests.yml;Visual Tests;20;4;0;0;0;0,01430555556;0,01686197917;0,01871527778;0;0;0;0;0;0;0;0
-2023-08-12;visual_tests_frameworks.yml;Frameworks;0;12;0;0;0;0,02946759259;0,03639756944;0,04234953704;0;0;0;0;0;0;0;0
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-08-12,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,005358796296","0,005358796296","0,005358796296",0,0,0,0,0,0,0,0
+2023-08-12,visual_tests.yml,Visual Tests,20,4,0,0,0,"0,01430555556","0,01686197917","0,01871527778",0,0,0,0,0,0,0,0
+2023-08-12,visual_tests_frameworks.yml,Frameworks,0,12,0,0,0,"0,02946759259","0,03639756944","0,04234953704",0,0,0,0,0,0,0,0
+

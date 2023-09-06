@@ -1,6 +1,7 @@
-date;id;workflow name;main success runs;main failure runs;main cancelled runs;main skipped runs;main retries;main min duration;main avg duration;main max duration;pr success runs;pr failure runs;pr cancelled runs;pr skipped runs;pr retries;pr min duration;pr avg duration;pr max duration
-2023-09-03;codeql-analysis.yml;CodeQL;1;0;0;0;0;0,005972222222;0,005972222222;0,005972222222;0;0;0;0;0;0;0;0
-2023-09-03;lint.yml;Lint;1;0;0;0;0;0,001851851852;0,001851851852;0,001851851852;0;0;0;0;0;0;0;0
-2023-09-03;unit_tests.yml;Unit tests;1;0;0;0;0;0,0006018518519;0,0006018518519;0,0006018518519;0;0;0;0;0;0;0;0
-2023-09-03;visual_tests.yml;Visual Tests;20;5;0;0;0;0,01590277778;0,0193462963;0,02930555556;0;0;0;0;0;0;0;0
-2023-09-03;visual_tests_frameworks.yml;Frameworks;0;13;0;0;0;0,03920138889;0,04423611111;0,05393518519;0;0;0;0;0;0;0;0
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-09-03,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,005972222222","0,005972222222","0,005972222222",0,0,0,0,0,0,0,0
+2023-09-03,lint.yml,Lint,1,0,0,0,0,"0,001851851852","0,001851851852","0,001851851852",0,0,0,0,0,0,0,0
+2023-09-03,unit_tests.yml,Unit tests,1,0,0,0,0,"0,0006018518519","0,0006018518519","0,0006018518519",0,0,0,0,0,0,0,0
+2023-09-03,visual_tests.yml,Visual Tests,20,5,0,0,0,"0,01590277778","0,0193462963","0,02930555556",0,0,0,0,0,0,0,0
+2023-09-03,visual_tests_frameworks.yml,Frameworks,0,13,0,0,0,"0,03920138889","0,04423611111","0,05393518519",0,0,0,0,0,0,0,0
+
