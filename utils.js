@@ -1,5 +1,6 @@
 import { join } from 'path';
 import { fileURLToPath, URL } from 'url';
+import fs from 'fs';
 
 export const DATA_FOLDER_NAME = 'data';
 
