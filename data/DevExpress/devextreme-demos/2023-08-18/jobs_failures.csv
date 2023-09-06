@@ -1,33 +1,33 @@
-created at,id,run id,run attempt,workflow name,name,head branch,conclusion,html url
-"8/18/23, 7:43:01 PM",16022591799,5906484417,1,Lint,check_generated_demos,23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5906484417/job/16022591799
-"8/18/23, 4:00:31 PM",16017193394,5904648907,1,Lint,check_generated_demos,23_2_editors_composition_api_wip,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5904648907/job/16017193394
-"8/18/23, 3:59:18 PM",16017161056,5904638720,1,Lint,check_generated_demos,23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638720/job/16017161056
-"8/18/23, 10:57:11 AM",16008706966,5901826594,1,Lint,check_generated_demos,23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826594/job/16008706966
-"8/18/23, 12:03:02 PM",16010260788,5902279941,1,Visual Tests,jquery(3/4)-screenshots,wrappers-from-monorepo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5902279941/job/16010260788
-"8/18/23, 12:04:17 PM",16010298482,5902271367,1,Visual Tests,jquery(3/4)-accessibility,23_2_editors_composition_api_wip,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5902271367/job/16010298482
-"8/18/23, 10:57:29 AM",16008713634,5901826600,1,Visual Tests,Build DevExtreme,23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826600/job/16008713634
-"8/18/23, 9:30:22 AM",16006531175,5900986389,1,Visual Tests,jquery(4/4)-screenshots,wrappers-from-monorepo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5900986389/job/16006531175
-"8/18/23, 9:29:22 AM",16006506194,5900960887,1,Visual Tests,jquery(3/4)-screenshots,23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960887/job/16006506194
-"8/18/23, 8:24:05 PM",16023513126,5906623974,1,Frameworks,Lint code base,23_2_editors_composition_api_wip,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5906623974/job/16023513126
-"8/18/23, 8:24:09 PM",16023514466,5906623974,1,Frameworks,angular(2/4),23_2_editors_composition_api_wip,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5906623974/job/16023514466
-"8/18/23, 8:24:09 PM",16023514571,5906623974,1,Frameworks,angular(3/4),23_2_editors_composition_api_wip,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5906623974/job/16023514571
-"8/18/23, 8:04:17 PM",16023048520,5906484409,1,Frameworks,angular(3/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5906484409/job/16023048520
-"8/18/23, 4:16:43 PM",16017649029,5904648917,1,Frameworks,Build Demos,23_2_editors_composition_api_wip,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5904648917/job/16017649029
-"8/18/23, 4:18:14 PM",16017691041,5904638717,1,Frameworks,angular(2/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638717/job/16017691041
-"8/18/23, 4:18:15 PM",16017691244,5904638717,1,Frameworks,angular(3/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638717/job/16017691244
-"8/18/23, 4:18:15 PM",16017691660,5904638717,1,Frameworks,Lint code base,23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638717/job/16017691660
-"8/18/23, 2:05:42 PM",16013818245,5903390738,1,Frameworks,react(4/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5903390738/job/16013818245
-"8/18/23, 2:05:44 PM",16013819553,5903390738,1,Frameworks,angular(2/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5903390738/job/16013819553
-"8/18/23, 1:57:59 PM",16013571143,5903340822,1,Frameworks,vue(3/4),wrappers-from-monorepo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5903340822/job/16013571143
-"8/18/23, 12:11:36 PM",16010510483,5902271370,1,Frameworks,angular(2/4),23_2_editors_composition_api_wip,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5902271370/job/16010510483
-"8/18/23, 11:40:51 AM",16009747295,5902192788,1,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5902192788/job/16009747295
-"8/18/23, 11:16:06 AM",16009181141,5901826605,1,Frameworks,react(4/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826605/job/16009181141
-"8/18/23, 11:16:06 AM",16009181286,5901826605,1,Frameworks,vue(1/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826605/job/16009181286
-"8/18/23, 11:16:08 AM",16009182130,5901826605,1,Frameworks,angular(2/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826605/job/16009182130
-"8/18/23, 10:31:09 AM",16008108857,5901617191,1,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5901617191/job/16008108857
-"8/18/23, 10:50:57 AM",16008567308,5901617191,2,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5901617191/job/16008567308
-"8/18/23, 9:20:22 AM",16006277332,5900986400,1,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5900986400/job/16006277332
-"8/18/23, 9:39:36 AM",16006771256,5900960879,1,Frameworks,vue(1/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006771256
-"8/18/23, 9:39:36 AM",16006771374,5900960879,1,Frameworks,vue(2/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006771374
-"8/18/23, 9:39:38 AM",16006771968,5900960879,1,Frameworks,angular(3/4),23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006771968
-"8/18/23, 9:39:39 AM",16006772259,5900960879,1,Frameworks,Lint code base,23_2_datagrid_composition_api,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006772259
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"8/18/23, 7:43:01 PM",16022591799,5906484417,1,Lint,check_generated_demos,23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5906484417/job/16022591799
+"8/18/23, 4:00:31 PM",16017193394,5904648907,1,Lint,check_generated_demos,23_2_editors_composition_api_wip,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5904648907/job/16017193394
+"8/18/23, 3:59:18 PM",16017161056,5904638720,1,Lint,check_generated_demos,23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638720/job/16017161056
+"8/18/23, 10:57:11 AM",16008706966,5901826594,1,Lint,check_generated_demos,23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826594/job/16008706966
+"8/18/23, 12:03:02 PM",16010260788,5902279941,1,Visual Tests,jquery(3/4)-screenshots,wrappers-from-monorepo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5902279941/job/16010260788
+"8/18/23, 12:04:17 PM",16010298482,5902271367,1,Visual Tests,jquery(3/4)-accessibility,23_2_editors_composition_api_wip,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5902271367/job/16010298482
+"8/18/23, 10:57:29 AM",16008713634,5901826600,1,Visual Tests,Build DevExtreme,23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826600/job/16008713634
+"8/18/23, 9:30:22 AM",16006531175,5900986389,1,Visual Tests,jquery(4/4)-screenshots,wrappers-from-monorepo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5900986389/job/16006531175
+"8/18/23, 9:29:22 AM",16006506194,5900960887,1,Visual Tests,jquery(3/4)-screenshots,23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960887/job/16006506194
+"8/18/23, 8:24:05 PM",16023513126,5906623974,1,Frameworks,Lint code base,23_2_editors_composition_api_wip,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5906623974/job/16023513126
+"8/18/23, 8:24:09 PM",16023514466,5906623974,1,Frameworks,angular(2/4),23_2_editors_composition_api_wip,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5906623974/job/16023514466
+"8/18/23, 8:24:09 PM",16023514571,5906623974,1,Frameworks,angular(3/4),23_2_editors_composition_api_wip,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5906623974/job/16023514571
+"8/18/23, 8:04:17 PM",16023048520,5906484409,1,Frameworks,angular(3/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5906484409/job/16023048520
+"8/18/23, 4:16:43 PM",16017649029,5904648917,1,Frameworks,Build Demos,23_2_editors_composition_api_wip,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5904648917/job/16017649029
+"8/18/23, 4:18:14 PM",16017691041,5904638717,1,Frameworks,angular(2/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638717/job/16017691041
+"8/18/23, 4:18:15 PM",16017691244,5904638717,1,Frameworks,angular(3/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638717/job/16017691244
+"8/18/23, 4:18:15 PM",16017691660,5904638717,1,Frameworks,Lint code base,23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5904638717/job/16017691660
+"8/18/23, 2:05:42 PM",16013818245,5903390738,1,Frameworks,react(4/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5903390738/job/16013818245
+"8/18/23, 2:05:44 PM",16013819553,5903390738,1,Frameworks,angular(2/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5903390738/job/16013819553
+"8/18/23, 1:57:59 PM",16013571143,5903340822,1,Frameworks,vue(3/4),wrappers-from-monorepo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5903340822/job/16013571143
+"8/18/23, 12:11:36 PM",16010510483,5902271370,1,Frameworks,angular(2/4),23_2_editors_composition_api_wip,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5902271370/job/16010510483
+"8/18/23, 11:40:51 AM",16009747295,5902192788,1,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5902192788/job/16009747295
+"8/18/23, 11:16:06 AM",16009181141,5901826605,1,Frameworks,react(4/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826605/job/16009181141
+"8/18/23, 11:16:06 AM",16009181286,5901826605,1,Frameworks,vue(1/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826605/job/16009181286
+"8/18/23, 11:16:08 AM",16009182130,5901826605,1,Frameworks,angular(2/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5901826605/job/16009182130
+"8/18/23, 10:31:09 AM",16008108857,5901617191,1,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5901617191/job/16008108857
+"8/18/23, 10:50:57 AM",16008567308,5901617191,2,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5901617191/job/16008567308
+"8/18/23, 9:20:22 AM",16006277332,5900986400,1,Frameworks,Build DevExtreme,wrappers-from-monorepo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5900986400/job/16006277332
+"8/18/23, 9:39:36 AM",16006771256,5900960879,1,Frameworks,vue(1/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006771256
+"8/18/23, 9:39:36 AM",16006771374,5900960879,1,Frameworks,vue(2/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006771374
+"8/18/23, 9:39:38 AM",16006771968,5900960879,1,Frameworks,angular(3/4),23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006771968
+"8/18/23, 9:39:39 AM",16006772259,5900960879,1,Frameworks,Lint code base,23_2_datagrid_composition_api,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5900960879/job/16006772259

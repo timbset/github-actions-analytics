@@ -1,44 +1,44 @@
-created at,id,run id,run attempt,workflow name,name,head branch,conclusion,html url
-"9/4/23, 9:14:26 PM",16487699869,6077659897,1,CodeQL,Analyze (javascript),Update-Scheduler-Angular-Template-With-Pipes,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659897/job/16487699869
-"9/4/23, 9:14:27 PM",16487699968,6077659886,1,Lint,check_generated_demos,Update-Scheduler-Angular-Template-With-Pipes,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659886/job/16487699968
-"9/5/23, 6:57:30 AM",16496486456,6077659886,2,Lint,check_generated_demos,Update-Scheduler-Angular-Template-With-Pipes,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659886/job/16496486456
-"9/4/23, 2:04:32 PM",16478605468,6074480844,1,Lint,check_generated_demos,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480844/job/16478605468
-"9/4/23, 1:43:34 PM",16477863109,6074266510,1,Lint,check_generated_demos,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266510/job/16477863109
-"9/4/23, 1:43:34 PM",16477863369,6074266510,1,Lint,package_lock,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266510/job/16477863369
-"9/4/23, 9:14:27 PM",16487699940,6077659885,1,Unit tests,Run unit tests,Update-Scheduler-Angular-Template-With-Pipes,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659885/job/16487699940
-"9/4/23, 9:14:27 PM",16487699969,6077659887,1,Visual Tests,Build DevExtreme,Update-Scheduler-Angular-Template-With-Pipes,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659887/job/16487699969
-"9/4/23, 2:16:51 PM",16479068711,6074480852,1,Visual Tests,jquery(1/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480852/job/16479068711
-"9/4/23, 2:16:51 PM",16479069037,6074480852,1,Visual Tests,jquery(2/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480852/job/16479069037
-"9/4/23, 2:16:53 PM",16479070156,6074480852,1,Visual Tests,jquery(2/4)-accessibility,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480852/job/16479070156
-"9/4/23, 1:55:43 PM",16478285153,6074266527,1,Visual Tests,jquery(1/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285153
-"9/4/23, 1:55:44 PM",16478285419,6074266527,1,Visual Tests,jquery(2/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285419
-"9/4/23, 1:55:44 PM",16478285623,6074266527,1,Visual Tests,jquery(3/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285623
-"9/4/23, 1:55:45 PM",16478285851,6074266527,1,Visual Tests,jquery(4/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285851
-"9/4/23, 1:55:45 PM",16478286301,6074266527,1,Visual Tests,jquery(2/4)-accessibility,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478286301
-"9/4/23, 1:37:16 PM",16477646125,6074063064,1,Visual Tests,jquery(3/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063064/job/16477646125
-"9/4/23, 11:13:20 PM",16489288619,6078204802,1,Frameworks,react(2/4),create-typestat-cfg,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6078204802/job/16489288619
-"9/4/23, 11:13:23 PM",16489289304,6078204802,1,Frameworks,angular(2/4),create-typestat-cfg,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6078204802/job/16489289304
-"9/4/23, 9:28:02 PM",16487903844,6077659889,1,Frameworks,Build Demos,Update-Scheduler-Angular-Template-With-Pipes,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659889/job/16487903844
-"9/5/23, 6:57:14 AM",16496481313,6077659889,2,Frameworks,Build Demos,Update-Scheduler-Angular-Template-With-Pipes,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659889/job/16496481313
-"9/4/23, 8:53:42 PM",16487362666,6077442024,1,Frameworks,react(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16487362666
-"9/4/23, 8:53:43 PM",16487363025,6077442024,1,Frameworks,vue(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16487363025
-"9/4/23, 8:53:45 PM",16487363577,6077442024,1,Frameworks,angular(3/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16487363577
-"9/5/23, 7:50:25 AM",16497978619,6077442024,2,Frameworks,react(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16497978619
-"9/5/23, 7:50:27 AM",16497979288,6077442024,2,Frameworks,vue(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16497979288
-"9/5/23, 7:50:29 AM",16497980272,6077442024,2,Frameworks,angular(3/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16497980272
-"9/5/23, 8:28:32 AM",16499213727,6077442024,3,Frameworks,react(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16499213727
-"9/5/23, 8:28:34 AM",16499215084,6077442024,3,Frameworks,vue(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16499215084
-"9/5/23, 9:16:53 AM",16500842343,6077442024,4,Frameworks,react(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16500842343
-"9/5/23, 9:16:55 AM",16500843593,6077442024,4,Frameworks,vue(1/4),23_1-pr-2712,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16500843593
-"9/4/23, 2:04:33 PM",16478605511,6074480853,1,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480853/job/16478605511
-"9/4/23, 2:01:04 PM",16478468285,6074438197,1,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074438197/job/16478468285
-"9/4/23, 1:43:50 PM",16477872363,6074266519,1,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266519/job/16477872363
-"9/4/23, 1:59:22 PM",16478406059,6074266519,2,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266519/job/16478406059
-"9/4/23, 1:33:47 PM",16477516020,6074063066,1,Frameworks,Build Demos,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063066/job/16477516020
-"9/4/23, 1:33:47 PM",16477516360,6074063066,1,Frameworks,Build Documentation Metadata,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063066/job/16477516360
-"9/4/23, 1:37:26 PM",16477651538,6074063066,2,Frameworks,Build Demos,23_2_mvc_core_reset_form_demo,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063066/job/16477651538
-"9/4/23, 6:00:59 AM",16464466412,6069579927,1,Frameworks,react(1/4),fix-ci-failures_23_1,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16464466412
-"9/4/23, 6:01:01 AM",16464466875,6069579927,1,Frameworks,vue(1/4),fix-ci-failures_23_1,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16464466875
-"9/4/23, 6:01:03 AM",16464467560,6069579927,1,Frameworks,angular(3/4),fix-ci-failures_23_1,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16464467560
-"9/4/23, 10:06:17 AM",16471157838,6069579927,2,Frameworks,react(1/4),fix-ci-failures_23_1,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16471157838
-"9/4/23, 10:06:19 AM",16471158713,6069579927,2,Frameworks,vue(1/4),fix-ci-failures_23_1,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16471158713
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"9/4/23, 9:14:26 PM",16487699869,6077659897,1,CodeQL,Analyze (javascript),Update-Scheduler-Angular-Template-With-Pipes,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659897/job/16487699869
+"9/4/23, 9:14:27 PM",16487699968,6077659886,1,Lint,check_generated_demos,Update-Scheduler-Angular-Template-With-Pipes,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659886/job/16487699968
+"9/5/23, 6:57:30 AM",16496486456,6077659886,2,Lint,check_generated_demos,Update-Scheduler-Angular-Template-With-Pipes,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659886/job/16496486456
+"9/4/23, 2:04:32 PM",16478605468,6074480844,1,Lint,check_generated_demos,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480844/job/16478605468
+"9/4/23, 1:43:34 PM",16477863109,6074266510,1,Lint,check_generated_demos,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266510/job/16477863109
+"9/4/23, 1:43:34 PM",16477863369,6074266510,1,Lint,package_lock,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266510/job/16477863369
+"9/4/23, 9:14:27 PM",16487699940,6077659885,1,Unit tests,Run unit tests,Update-Scheduler-Angular-Template-With-Pipes,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659885/job/16487699940
+"9/4/23, 9:14:27 PM",16487699969,6077659887,1,Visual Tests,Build DevExtreme,Update-Scheduler-Angular-Template-With-Pipes,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659887/job/16487699969
+"9/4/23, 2:16:51 PM",16479068711,6074480852,1,Visual Tests,jquery(1/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480852/job/16479068711
+"9/4/23, 2:16:51 PM",16479069037,6074480852,1,Visual Tests,jquery(2/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480852/job/16479069037
+"9/4/23, 2:16:53 PM",16479070156,6074480852,1,Visual Tests,jquery(2/4)-accessibility,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480852/job/16479070156
+"9/4/23, 1:55:43 PM",16478285153,6074266527,1,Visual Tests,jquery(1/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285153
+"9/4/23, 1:55:44 PM",16478285419,6074266527,1,Visual Tests,jquery(2/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285419
+"9/4/23, 1:55:44 PM",16478285623,6074266527,1,Visual Tests,jquery(3/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285623
+"9/4/23, 1:55:45 PM",16478285851,6074266527,1,Visual Tests,jquery(4/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478285851
+"9/4/23, 1:55:45 PM",16478286301,6074266527,1,Visual Tests,jquery(2/4)-accessibility,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266527/job/16478286301
+"9/4/23, 1:37:16 PM",16477646125,6074063064,1,Visual Tests,jquery(3/4)-screenshots,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063064/job/16477646125
+"9/4/23, 11:13:20 PM",16489288619,6078204802,1,Frameworks,react(2/4),create-typestat-cfg,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6078204802/job/16489288619
+"9/4/23, 11:13:23 PM",16489289304,6078204802,1,Frameworks,angular(2/4),create-typestat-cfg,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6078204802/job/16489289304
+"9/4/23, 9:28:02 PM",16487903844,6077659889,1,Frameworks,Build Demos,Update-Scheduler-Angular-Template-With-Pipes,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659889/job/16487903844
+"9/5/23, 6:57:14 AM",16496481313,6077659889,2,Frameworks,Build Demos,Update-Scheduler-Angular-Template-With-Pipes,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077659889/job/16496481313
+"9/4/23, 8:53:42 PM",16487362666,6077442024,1,Frameworks,react(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16487362666
+"9/4/23, 8:53:43 PM",16487363025,6077442024,1,Frameworks,vue(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16487363025
+"9/4/23, 8:53:45 PM",16487363577,6077442024,1,Frameworks,angular(3/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16487363577
+"9/5/23, 7:50:25 AM",16497978619,6077442024,2,Frameworks,react(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16497978619
+"9/5/23, 7:50:27 AM",16497979288,6077442024,2,Frameworks,vue(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16497979288
+"9/5/23, 7:50:29 AM",16497980272,6077442024,2,Frameworks,angular(3/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16497980272
+"9/5/23, 8:28:32 AM",16499213727,6077442024,3,Frameworks,react(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16499213727
+"9/5/23, 8:28:34 AM",16499215084,6077442024,3,Frameworks,vue(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16499215084
+"9/5/23, 9:16:53 AM",16500842343,6077442024,4,Frameworks,react(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16500842343
+"9/5/23, 9:16:55 AM",16500843593,6077442024,4,Frameworks,vue(1/4),23_1-pr-2712,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6077442024/job/16500843593
+"9/4/23, 2:04:33 PM",16478605511,6074480853,1,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074480853/job/16478605511
+"9/4/23, 2:01:04 PM",16478468285,6074438197,1,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074438197/job/16478468285
+"9/4/23, 1:43:50 PM",16477872363,6074266519,1,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266519/job/16477872363
+"9/4/23, 1:59:22 PM",16478406059,6074266519,2,Frameworks,Build DevExtreme,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074266519/job/16478406059
+"9/4/23, 1:33:47 PM",16477516020,6074063066,1,Frameworks,Build Demos,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063066/job/16477516020
+"9/4/23, 1:33:47 PM",16477516360,6074063066,1,Frameworks,Build Documentation Metadata,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063066/job/16477516360
+"9/4/23, 1:37:26 PM",16477651538,6074063066,2,Frameworks,Build Demos,23_2_mvc_core_reset_form_demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6074063066/job/16477651538
+"9/4/23, 6:00:59 AM",16464466412,6069579927,1,Frameworks,react(1/4),fix-ci-failures_23_1,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16464466412
+"9/4/23, 6:01:01 AM",16464466875,6069579927,1,Frameworks,vue(1/4),fix-ci-failures_23_1,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16464466875
+"9/4/23, 6:01:03 AM",16464467560,6069579927,1,Frameworks,angular(3/4),fix-ci-failures_23_1,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16464467560
+"9/4/23, 10:06:17 AM",16471157838,6069579927,2,Frameworks,react(1/4),fix-ci-failures_23_1,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16471157838
+"9/4/23, 10:06:19 AM",16471158713,6069579927,2,Frameworks,vue(1/4),fix-ci-failures_23_1,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6069579927/job/16471158713

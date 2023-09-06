@@ -1,22 +1,22 @@
-created at,id,run id,run attempt,workflow name,name,head branch,conclusion,html url
-"8/27/23, 8:12:00 AM",16246344780,5989776663,1,Lint,check_generated_demos,renovate/23_2-babel-eslint-replacement,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989776663/job/16246344780
-"8/27/23, 11:17:29 PM",16254494970,5993682114,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5993682114/job/16254494970
-"8/27/23, 4:17:37 PM",16250918354,5991921077,1,Visual Tests,jquery(3/4)-screenshots,23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5991921077/job/16250918354
-"8/27/23, 2:14:12 PM",16249799143,5991379896,1,Visual Tests,jquery(2/4)-screenshots,23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5991379896/job/16249799143
-"8/27/23, 12:17:50 PM",16248596908,5990767853,1,Visual Tests,jquery(3/4)-screenshots,23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5990767853/job/16248596908
-"8/27/23, 10:18:58 PM",16254005321,5993424980,1,Frameworks,angular(2/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5993424980/job/16254005321
-"8/27/23, 6:24:07 PM",16252028615,5992432693,1,Frameworks,vue(1/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5992432693/job/16252028615
-"8/27/23, 6:24:09 PM",16252028982,5992432693,1,Frameworks,angular(2/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5992432693/job/16252028982
-"8/27/23, 4:19:06 PM",16250931816,5991918052,1,Frameworks,angular(3/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5991918052/job/16250931816
-"8/27/23, 10:21:06 AM",16247545754,5990249813,1,Frameworks,react(2/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5990249813/job/16247545754
-"8/27/23, 10:21:09 AM",16247546316,5990249813,1,Frameworks,angular(2/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5990249813/job/16247546316
-"8/27/23, 8:32:09 AM",16246555794,5989776669,1,Frameworks,angular(2/4),renovate/23_2-babel-eslint-replacement,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989776669/job/16246555794
-"8/27/23, 8:36:19 AM",16246605120,5989776669,1,Frameworks,Lint code base,renovate/23_2-babel-eslint-replacement,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989776669/job/16246605120
-"8/27/23, 8:22:50 AM",16246457267,5989735962,1,Frameworks,angular(2/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989735962/job/16246457267
-"8/27/23, 6:18:13 AM",16245378425,5989246808,1,Frameworks,vue(1/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378425
-"8/27/23, 6:18:14 AM",16245378496,5989246808,1,Frameworks,vue(2/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378496
-"8/27/23, 6:18:14 AM",16245378551,5989246808,1,Frameworks,vue(3/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378551
-"8/27/23, 6:18:14 AM",16245378624,5989246808,1,Frameworks,vue(4/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378624
-"8/27/23, 6:18:15 AM",16245378749,5989246808,1,Frameworks,angular(2/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378749
-"8/27/23, 4:23:01 AM",16244461499,5988769867,1,Frameworks,angular(1/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5988769867/job/16244461499
-"8/27/23, 2:24:45 AM",16243546658,5988325382,1,Frameworks,vue(3/4),23_2,failure,https://github.com/DevExpress/devextreme-demos/actions/runs/5988325382/job/16243546658
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"8/27/23, 8:12:00 AM",16246344780,5989776663,1,Lint,check_generated_demos,renovate/23_2-babel-eslint-replacement,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989776663/job/16246344780
+"8/27/23, 11:17:29 PM",16254494970,5993682114,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5993682114/job/16254494970
+"8/27/23, 4:17:37 PM",16250918354,5991921077,1,Visual Tests,jquery(3/4)-screenshots,23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5991921077/job/16250918354
+"8/27/23, 2:14:12 PM",16249799143,5991379896,1,Visual Tests,jquery(2/4)-screenshots,23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5991379896/job/16249799143
+"8/27/23, 12:17:50 PM",16248596908,5990767853,1,Visual Tests,jquery(3/4)-screenshots,23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5990767853/job/16248596908
+"8/27/23, 10:18:58 PM",16254005321,5993424980,1,Frameworks,angular(2/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5993424980/job/16254005321
+"8/27/23, 6:24:07 PM",16252028615,5992432693,1,Frameworks,vue(1/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5992432693/job/16252028615
+"8/27/23, 6:24:09 PM",16252028982,5992432693,1,Frameworks,angular(2/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5992432693/job/16252028982
+"8/27/23, 4:19:06 PM",16250931816,5991918052,1,Frameworks,angular(3/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5991918052/job/16250931816
+"8/27/23, 10:21:06 AM",16247545754,5990249813,1,Frameworks,react(2/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5990249813/job/16247545754
+"8/27/23, 10:21:09 AM",16247546316,5990249813,1,Frameworks,angular(2/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5990249813/job/16247546316
+"8/27/23, 8:32:09 AM",16246555794,5989776669,1,Frameworks,angular(2/4),renovate/23_2-babel-eslint-replacement,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989776669/job/16246555794
+"8/27/23, 8:36:19 AM",16246605120,5989776669,1,Frameworks,Lint code base,renovate/23_2-babel-eslint-replacement,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989776669/job/16246605120
+"8/27/23, 8:22:50 AM",16246457267,5989735962,1,Frameworks,angular(2/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989735962/job/16246457267
+"8/27/23, 6:18:13 AM",16245378425,5989246808,1,Frameworks,vue(1/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378425
+"8/27/23, 6:18:14 AM",16245378496,5989246808,1,Frameworks,vue(2/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378496
+"8/27/23, 6:18:14 AM",16245378551,5989246808,1,Frameworks,vue(3/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378551
+"8/27/23, 6:18:14 AM",16245378624,5989246808,1,Frameworks,vue(4/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378624
+"8/27/23, 6:18:15 AM",16245378749,5989246808,1,Frameworks,angular(2/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5989246808/job/16245378749
+"8/27/23, 4:23:01 AM",16244461499,5988769867,1,Frameworks,angular(1/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5988769867/job/16244461499
+"8/27/23, 2:24:45 AM",16243546658,5988325382,1,Frameworks,vue(3/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/5988325382/job/16243546658
