@@ -397,13 +397,7 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
   const bodyRows = jobsToBuild.map((report) =>
     headers.map((header) => {
       if (header.endsWith('_at')) {
-        const date = `${dateFormatter.format(new Date(report[header]))}`;
-
-        if (date.includes(delimiter)) {
-          return `"${date}"`;
-        }
-
-        return date;
+        return dateFormatter.format(new Date(report[header]));
       }
 
       if (header === 'step') {
@@ -413,13 +407,7 @@ export async function buildFailuresList({ date, delimiter, locale, withFetch }) 
       }
 
       if (typeof report[header] === 'number' && !header.includes('id')) {
-        const number = `${numberFormatter.format(report[header])}`;
-
-        if (number.includes(delimiter)) {
-          return `"${number}"`;
-        }
-
-        return number;
+        return numberFormatter.format(report[header]);
       }
 
       return report[header];
