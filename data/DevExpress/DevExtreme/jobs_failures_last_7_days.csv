@@ -1,4 +1,6 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"09.09.23, 07:10:55",16637828658,6129545425,1,TestCafe tests,editors,23_2fluent-editors,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6129545425/job/16637828658
+"09.09.23, 07:10:57",16637828818,6129545425,1,TestCafe tests,editors - material,23_2fluent-editors,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6129545425/job/16637828818
 "08.09.23, 19:28:34",16628151776,6125682699,1,DevExtreme Angular Tests,test,khd/update-react-gen,failure,Generate wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/6125682699/job/16628151776
 "08.09.23, 16:08:34",16622997271,6123963422,1,DevExtreme Angular Tests,test,scheduler-day-length_update-d-ts,failure,Check generated code,https://github.com/DevExpress/DevExtreme/actions/runs/6123963422/job/16622997271
 "08.09.23, 14:09:47",16619235756,6122761459,1,DevExtreme Angular Tests,test,renovate/23_2-pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/6122761459/job/16619235756
@@ -4649,4 +4651,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "03.09.23, 12:36:38",16453037642,6064471386,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6064471386/job/16453037642
 "03.09.23, 19:03:11",16456621203,6066212535,1,TestCafe tests,dataGrid (1/2),T1186997-23.1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6066212535/job/16456621203
 "03.09.23, 19:03:11",16456621278,6066212535,1,TestCafe tests,dataGrid (2/2),T1186997-23.1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6066212535/job/16456621278
-"02.09.23, 16:26:53",16442430869,6059338811,1,TestCafe tests,dataGrid (1/2),23_2_tabpanel_icon_position,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6059338811/job/16442430869
