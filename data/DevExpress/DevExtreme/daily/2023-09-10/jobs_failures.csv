@@ -1,0 +1,44 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"10.09.23, 08:52:23",16650720627,6136163354,1,DevExtreme Angular Tests,test,renovate/23_2-pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/6136163354/job/16650720627
+"10.09.23, 13:05:38",16653081133,6137347292,1,DevExtreme package tests,build,23_2fluent-slider,cancelled,Build devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/6137347292/job/16653081133
+"10.09.23, 13:13:31",16653173977,6137347292,1,DevExtreme package tests,Bundlers tests,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347292/job/16653173977
+"10.09.23, 13:13:31",16653174053,6137347292,1,DevExtreme package tests,Demos visual tests ${{ matrix.CONSTEL }},23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347292/job/16653174053
+"10.09.23, 13:13:31",16653174124,6137347292,1,DevExtreme package tests,Send notifications,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347292/job/16653174124
+"10.09.23, 08:52:25",16650720879,6136163359,1,DevExtreme package tests,build,renovate/23_2-pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/6136163359/job/16650720879
+"10.09.23, 08:52:23",16650720666,6136163361,1,DevExtreme React Tests,test,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163361/job/16650720666
+"10.09.23, 08:52:23",16650720654,6136163353,1,DevExtreme Vue Tests,test,renovate/23_2-pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/6136163353/job/16650720654
+"10.09.23, 13:05:40",16653081407,6137347306,1,Lint,JS,23_2fluent-slider,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6137347306/job/16653081407
+"10.09.23, 13:05:41",16653081685,6137347306,1,Lint,TS,23_2fluent-slider,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6137347306/job/16653081685
+"10.09.23, 13:13:31",16653174077,6137347306,1,Lint,Send notifications,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347306/job/16653174077
+"10.09.23, 08:52:25",16650720895,6136163366,1,Lint,Renovation,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163366/job/16650720895
+"10.09.23, 08:52:25",16650720968,6136163366,1,Lint,CSS,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163366/job/16650720968
+"10.09.23, 08:52:26",16650721047,6136163366,1,Lint,JS,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163366/job/16650721047
+"10.09.23, 08:52:27",16650721281,6136163366,1,Lint,texts,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163366/job/16650721281
+"10.09.23, 08:52:27",16650721346,6136163366,1,Lint,TS,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163366/job/16650721346
+"10.09.23, 08:52:28",16650721414,6136163366,1,Lint,component_exports,renovate/23_2-pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/6136163366/job/16650721414
+"10.09.23, 08:52:28",16650721481,6136163366,1,Lint,package_lock,renovate/23_2-pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/6136163366/job/16650721481
+"10.09.23, 13:05:39",16653081204,6137347302,1,Additional QUnit,Build,23_2fluent-slider,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6137347302/job/16653081204
+"10.09.23, 13:13:30",16653173824,6137347302,1,Additional QUnit,${{ matrix.constel }}-firefox,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347302/job/16653173824
+"10.09.23, 13:13:30",16653173896,6137347302,1,Additional QUnit,${{ matrix.constel }}-${{ matrix.kind }},23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347302/job/16653173896
+"10.09.23, 13:13:30",16653173966,6137347302,1,Additional QUnit,Performance,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347302/job/16653173966
+"10.09.23, 13:13:31",16653174032,6137347302,1,Additional QUnit,${{ matrix.constel }}-no-csp,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347302/job/16653174032
+"10.09.23, 13:13:31",16653174109,6137347302,1,Additional QUnit,${{ matrix.constel }}-${{ matrix.timezone }},23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347302/job/16653174109
+"10.09.23, 13:13:32",16653174190,6137347302,1,Additional QUnit,Send notifications,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347302/job/16653174190
+"10.09.23, 08:52:24",16650720813,6136163350,1,Additional QUnit,Build,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163350/job/16650720813
+"10.09.23, 13:05:38",16653081003,6137347298,1,QUnit tests for renovation,Build,23_2fluent-slider,cancelled,Upload build artifacts,https://github.com/DevExpress/DevExtreme/actions/runs/6137347298/job/16653081003
+"10.09.23, 13:13:18",16653171238,6137347298,1,QUnit tests for renovation,Constel ${{ matrix.CONSTEL }},23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347298/job/16653171238
+"10.09.23, 13:13:18",16653171341,6137347298,1,QUnit tests for renovation,Send notifications,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347298/job/16653171341
+"10.09.23, 08:52:24",16650720749,6136163351,1,QUnit tests for renovation,Build,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163351/job/16650720749
+"10.09.23, 08:52:24",16650720820,6136163357,1,Renovation,jest-tests,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163357/job/16650720820
+"10.09.23, 08:52:25",16650720938,6136163360,1,Styles tests,Tests,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163360/job/16650720938
+"10.09.23, 13:17:18",16653216768,6137393307,1,TestCafe tests,pivotGrid,23_2fluent-slider,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6137393307/job/16653216768
+"10.09.23, 13:05:39",16653081219,6137347291,1,TestCafe tests,build,23_2fluent-slider,cancelled,Post Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/6137347291/job/16653081219
+"10.09.23, 13:13:22",16653172214,6137347291,1,TestCafe tests,${{ matrix.ARGS.name }},23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347291/job/16653172214
+"10.09.23, 13:13:22",16653172323,6137347291,1,TestCafe tests,Send notifications,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347291/job/16653172323
+"10.09.23, 08:52:25",16650720978,6136163386,1,TestCafe tests,build,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163386/job/16650720978
+"10.09.23, 13:05:39",16653081138,6137347295,1,Themebuilder and Styles tests,test,23_2fluent-slider,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6137347295/job/16653081138
+"10.09.23, 13:13:32",16653174153,6137347295,1,Themebuilder and Styles tests,Send notifications,23_2fluent-slider,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6137347295/job/16653174153
+"10.09.23, 08:52:24",16650720849,6136163352,1,Themebuilder and Styles tests,test,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163352/job/16650720849
+"10.09.23, 08:52:24",16650720801,6136163355,1,TS Declarations,check-ts-bundle,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163355/job/16650720801
+"10.09.23, 08:52:25",16650720953,6136163355,1,TS Declarations,check-ts-compilation,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163355/job/16650720953
+"10.09.23, 08:52:26",16650721045,6136163355,1,TS Declarations,validate-declarations,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6136163355/job/16650721045
