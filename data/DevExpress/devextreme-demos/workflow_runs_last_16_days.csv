@@ -1,4 +1,11 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-09-11,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,1,8,0,0,0,"0,0004166666667","0,002840792181","0,01369212963"
+2023-09-11,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,15,0,0,0,0,"0,003576388889","0,004752314815","0,01489583333"
+2023-09-11,lint.yml,Lint,0,0,0,0,0,0,0,0,13,1,1,0,0,"0,0008333333333","0,0028125","0,01354166667"
+2023-09-11,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,15,0,0,0,0,"0,0001157407407","0,000888117284","0,01115740741"
+2023-09-11,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,14,0,1,0,0,"0,000462962963","0,001375","0,01175925926"
+2023-09-11,visual_tests.yml,Visual Tests,0,0,0,0,0,0,0,0,4,5,6,0,1,"0,0008333333333","0,009888117284","0,01835648148"
+2023-09-11,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,0,6,9,0,0,"0,0007060185185","0,02784876543","0,06387731481"
 2023-09-10,visual_tests.yml,Visual Tests,17,7,0,0,0,"0,0152662037","0,01821084105","0,02232638889",0,0,0,0,0,0,0,0
 2023-09-10,visual_tests_frameworks.yml,Frameworks,0,12,0,0,0,"0,0521412037","0,05352044753","0,05523148148",0,0,0,0,0,0,0,0
 2023-09-09,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,004641203704","0,004641203704","0,004641203704",0,0,0,0,0,0,0,0
@@ -82,6 +89,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2023-08-27,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0006481481481","0,0006481481481","0,0006481481481"
 2023-08-27,visual_tests.yml,Visual Tests,20,4,0,0,0,"0,01453703704","0,01940007716","0,02377314815",1,0,0,0,0,"0,02071759259","0,02071759259","0,02071759259"
 2023-08-27,visual_tests_frameworks.yml,Frameworks,4,8,0,0,0,"0,03876157407","0,04494020062","0,05375",0,1,0,0,0,"0,04010416667","0,04010416667","0,04010416667"
-2023-08-26,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,00556712963","0,00556712963","0,00556712963",0,0,0,0,0,0,0,0
-2023-08-26,visual_tests.yml,Visual Tests,20,4,0,0,0,"0,010625","0,01858603395","0,02172453704",0,0,0,0,0,0,0,0
-2023-08-26,visual_tests_frameworks.yml,Frameworks,1,11,0,0,0,"0,04273148148","0,0475318287","0,05240740741",0,0,0,0,0,0,0,0
