@@ -1,0 +1,25 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"16.09.23, 18:15:32",16855569675,6208875514,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2fluent-icons,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208875514/job/16855569675
+"16.09.23, 18:28:15",16855689794,6208875514,1,DevExtreme package tests,Send notifications,23_2fluent-icons,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6208875514/job/16855689794
+"16.09.23, 17:58:18",16855377408,6208793926,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2fluent-icons,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793926/job/16855377408
+"16.09.23, 18:08:54",16855500360,6208793926,1,DevExtreme package tests,Send notifications,23_2fluent-icons,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6208793926/job/16855500360
+"16.09.23, 11:10:41",16851794129,6206997116,1,Styles tests,Tests,23_2fluent-icons,failure,Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206997116/job/16851794129
+"16.09.23, 10:37:02",16851517972,6206863007,1,Styles tests,Tests,23_2fluent-icons,failure,Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206863007/job/16851517972
+"16.09.23, 18:12:45",16855540715,6208875507,1,TestCafe tests,common - fluent,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208875507/job/16855540715
+"16.09.23, 17:55:20",16855358777,6208793918,1,TestCafe tests,common,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855358777
+"16.09.23, 17:55:21",16855358947,6208793918,1,TestCafe tests,common - fluent,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855358947
+"16.09.23, 17:55:23",16855359195,6208793918,1,TestCafe tests,dataGrid (2/2),23_2fluent-icons,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359195
+"16.09.23, 17:55:24",16855359253,6208793918,1,TestCafe tests,pivotGrid,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359253
+"16.09.23, 17:55:26",16855359518,6208793918,1,TestCafe tests,scheduler (2/5),23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359518
+"16.09.23, 17:55:27",16855359685,6208793918,1,TestCafe tests,form (1/2),23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359685
+"16.09.23, 17:55:28",16855359724,6208793918,1,TestCafe tests,form (2/2),23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359724
+"16.09.23, 17:55:28",16855359765,6208793918,1,TestCafe tests,editors,23_2fluent-icons,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359765
+"16.09.23, 17:55:29",16855359804,6208793918,1,TestCafe tests,navigation,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359804
+"16.09.23, 17:55:29",16855359843,6208793918,1,TestCafe tests,htmlEditor,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855359843
+"16.09.23, 18:08:53",16855500038,6208793918,1,TestCafe tests,Send notifications,23_2fluent-icons,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/6208793918/job/16855500038
+"16.09.23, 11:14:33",16851832568,6206997126,1,TestCafe tests,common,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206997126/job/16851832568
+"16.09.23, 11:14:33",16851832752,6206997126,1,TestCafe tests,common - material,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206997126/job/16851832752
+"16.09.23, 11:14:35",16851833096,6206997126,1,TestCafe tests,common - fluent,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206997126/job/16851833096
+"16.09.23, 10:44:50",16851574310,6206863013,1,TestCafe tests,common,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206863013/job/16851574310
+"16.09.23, 10:44:50",16851574351,6206863013,1,TestCafe tests,common - material,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206863013/job/16851574351
+"16.09.23, 10:44:51",16851574411,6206863013,1,TestCafe tests,common - fluent,23_2fluent-icons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6206863013/job/16851574411
