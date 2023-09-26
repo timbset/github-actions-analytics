@@ -1,4 +1,10 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-09-25,codeql-analysis.yml,CodeQL,3,0,0,0,0,"0,003831018519","0,004467592593","0,004803240741",8,0,0,0,0,"0,003680555556","0,004143518519","0,005243055556"
+2023-09-25,lint.yml,Lint,3,0,0,0,0,"0,0006828703704","0,001678240741","0,002395833333",7,1,0,0,0,"0,0006944444444","0,002029803241","0,0028125"
+2023-09-25,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,0001157407407","0,0001461226852","0,0001851851852"
+2023-09-25,unit_tests.yml,Unit tests,3,0,0,0,0,"0,0005092592593","0,0005594135802","0,0006597222222",8,0,0,0,0,"0,0004976851852","0,0006206597222","0,0008564814815"
+2023-09-25,visual_tests.yml,Visual Tests,0,3,0,0,0,"0,01453703704","0,01645061728","0,01993055556",3,5,0,0,0,"0,007986111111","0,01528645833","0,02506944444"
+2023-09-25,visual_tests_frameworks.yml,Frameworks,0,3,0,0,0,"0,03697916667","0,04455246914","0,05405092593",3,4,1,0,0,"0,01480324074","0,0364771412","0,05491898148"
 2023-09-24,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,004594907407","0,004681712963","0,004768518519"
 2023-09-24,lint.yml,Lint,0,0,0,0,0,0,0,0,0,1,1,0,0,"0,00003472222222","0,001018518519","0,002002314815"
 2023-09-24,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0001157407407","0,0001157407407","0,0001157407407"
@@ -89,6 +95,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2023-09-11,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,0,6,9,0,0,"0,0007060185185","0,02784876543","0,06387731481"
 2023-09-10,visual_tests.yml,Visual Tests,17,7,0,0,0,"0,0152662037","0,01821084105","0,02232638889",0,0,0,0,0,0,0,0
 2023-09-10,visual_tests_frameworks.yml,Frameworks,0,12,0,0,0,"0,0521412037","0,05352044753","0,05523148148",0,0,0,0,0,0,0,0
-2023-09-09,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,004641203704","0,004641203704","0,004641203704",0,0,0,0,0,0,0,0
-2023-09-09,visual_tests.yml,Visual Tests,18,6,0,0,0,"0,0149537037","0,01827498071","0,02194444444",0,0,0,0,0,0,0,0
-2023-09-09,visual_tests_frameworks.yml,Frameworks,0,12,0,0,0,"0,05219907407","0,0531876929","0,05509259259",0,0,0,0,0,0,0,0
