@@ -1,0 +1,17 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-10-07,_security-alerts.yml,Send dependabot new vulnerability alerts,1,0,0,0,0,"0,0004398148148","0,0004398148148","0,0004398148148",0,0,0,0,0,0,0,0
+2023-10-07,codeql.yml,CodeQL,1,0,0,0,0,"0,01537037037","0,01537037037","0,01537037037",0,0,0,0,0,0,0,0
+2023-10-07,devextreme_angular_tests.yml,DevExtreme Angular Tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,008703703704","0,009027777778","0,009351851852"
+2023-10-07,devextreme_npm_tests.yml,DevExtreme package tests,0,0,0,0,0,0,0,0,2,1,0,0,0,"0,02130787037","0,02347222222","0,02752314815"
+2023-10-07,devextreme_react_tests.yml,DevExtreme React Tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,00724537037","0,008883101852","0,01052083333"
+2023-10-07,devextreme_vue_tests.yml,DevExtreme Vue Tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,006886574074","0,007685185185","0,008483796296"
+2023-10-07,lint.yml,Lint,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,01123842593","0,01228395062","0,01314814815"
+2023-10-07,paths.yml,Paths length check,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0009837962963","0,001186342593","0,001388888889"
+2023-10-07,qunit_tests-additional-renovation.yml,Additional QUnit,0,0,0,0,0,0,0,0,0,3,0,0,0,"0,01177083333","0,01567515432","0,02140046296"
+2023-10-07,qunit_tests-renovation.yml,QUnit tests for renovation,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,0112037037","0,01189814815","0,01274305556"
+2023-10-07,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,000162037037","0,0002739197531","0,0004166666667"
+2023-10-07,renovation.yml,Renovation,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004039351852","0,004332561728","0,004513888889"
+2023-10-07,styles.yml,Styles tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001296296296","0,002291666667","0,002986111111"
+2023-10-07,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,2,1,0,0,0,"0,01350694444","0,0143132716","0,01498842593"
+2023-10-07,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,003715277778","0,004197530864","0,004594907407"
+2023-10-07,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,2,1,0,0,0,"0,002175925926","0,00274691358","0,003078703704"
