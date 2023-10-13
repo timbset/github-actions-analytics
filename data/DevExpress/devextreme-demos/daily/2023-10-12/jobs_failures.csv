@@ -1,0 +1,28 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"12.10.23, 18:35:17",17653232149,6499592109,1,Lint,check_generated_demos,23_2_dlgs_and_ntficts_to_ts,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6499592109/job/17653232149
+"12.10.23, 17:19:12",17651072069,6498867498,1,Lint,check_generated_demos,kipchatov/create-build-for-publish,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6498867498/job/17651072069
+"12.10.23, 17:00:31",17650508117,6498669425,1,Lint,check_generated_demos,ts-file-management,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6498669425/job/17650508117
+"12.10.23, 15:57:41",17648498421,6498037811,1,Lint,check_generated_demos,ts-charts,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6498037811/job/17648498421
+"12.10.23, 15:42:44",17648002691,6497895305,1,Lint,check_generated_demos,kipchatov/create-build-for-publish,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6497895305/job/17648002691
+"12.10.23, 13:19:35",17642721231,6496230268,1,Lint,check_generated_demos,feature/tooltip-arrow,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6496230268/job/17642721231
+"12.10.23, 13:49:46",17643819172,6496230268,2,Lint,check_generated_demos,feature/tooltip-arrow,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6496230268/job/17643819172
+"12.10.23, 08:04:25",17632883964,6492946263,1,Lint,check_generated_demos,ts-file-management,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6492946263/job/17632883964
+"12.10.23, 07:41:54",17632246467,6492735047,1,Lint,check_generated_demos,23_2uitg_tabs_in_toolbar,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6492735047/job/17632246467
+"12.10.23, 06:58:53",17631083078,6492329956,1,Lint,check_generated_demos,ts-forms,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6492329956/job/17631083078
+"12.10.23, 09:52:53",17636308726,6493959784,1,Visual Tests,jquery(3/4)-screenshots,feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959784/job/17636308726
+"12.10.23, 09:58:20",17636466518,6493959784,2,Visual Tests,jquery(3/4)-screenshots,feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959784/job/17636466518
+"12.10.23, 12:33:50",17641124494,6493959784,3,Visual Tests,jquery(3/4)-screenshots,feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959784/job/17641124494
+"12.10.23, 12:49:04",17641628225,6493959784,4,Visual Tests,jquery(1/4)-screenshots,feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959784/job/17641628225
+"12.10.23, 06:47:11",17630832254,6492166584,1,Visual Tests,jquery(3/4)-screenshots,23_2uitg_tabs_in_toolbar,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6492166584/job/17630832254
+"12.10.23, 16:18:50",17649232609,6498037816,1,Frameworks,react(2/4),ts-charts,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6498037816/job/17649232609
+"12.10.23, 10:00:47",17636542948,6493959796,1,Frameworks,react(3/4),feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959796/job/17636542948
+"12.10.23, 10:00:49",17636544130,6493959796,1,Frameworks,vue(3/4),feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959796/job/17636544130
+"12.10.23, 10:00:52",17636545394,6493959796,1,Frameworks,angular(3/4),feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959796/job/17636545394
+"12.10.23, 12:55:39",17641850184,6493959796,2,Frameworks,Lint code base,feature/tooltip-arrow,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959796/job/17641850184
+"12.10.23, 12:55:40",17641850676,6493959796,2,Frameworks,react(1/4),feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959796/job/17641850676
+"12.10.23, 12:55:41",17641851988,6493959796,2,Frameworks,vue(1/4),feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959796/job/17641851988
+"12.10.23, 12:55:43",17641853239,6493959796,2,Frameworks,angular(1/4),feature/tooltip-arrow,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6493959796/job/17641853239
+"12.10.23, 08:18:59",17633347228,6492946266,1,Frameworks,Build Demos,ts-file-management,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6492946266/job/17633347228
+"12.10.23, 07:17:33",17631596447,6492329954,1,Frameworks,react(2/4),ts-forms,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6492329954/job/17631596447
+"12.10.23, 07:17:33",17631596655,6492329954,1,Frameworks,react(3/4),ts-forms,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6492329954/job/17631596655
+"12.10.23, 06:48:37",17630863414,6492166585,1,Frameworks,Build Demos,23_2uitg_tabs_in_toolbar,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6492166585/job/17630863414
