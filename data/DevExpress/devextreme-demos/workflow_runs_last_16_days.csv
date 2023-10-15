@@ -1,4 +1,7 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-10-14,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,006122685185","0,006122685185","0,006122685185",0,0,0,0,0,0,0,0
+2023-10-14,visual_tests.yml,Visual Tests,23,1,0,0,0,"0,01674768519","0,0186646412","0,02188657407",0,0,0,0,0,0,0,0
+2023-10-14,visual_tests_frameworks.yml,Frameworks,10,2,0,0,0,"0,01318287037","0,04417920525","0,05835648148",0,0,0,0,0,0,0,0
 2023-10-13,codeql-analysis.yml,CodeQL,4,0,0,0,0,"0,004444444444","0,00533275463","0,00625",10,0,0,0,0,"0,004375","0,004673611111","0,005092592593"
 2023-10-13,lint.yml,Lint,3,1,0,0,0,"0,0006712962963","0,001449652778","0,002395833333",2,8,0,0,0,"0,0007060185185","0,002115740741","0,003483796296"
 2023-10-13,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,10,0,0,0,0,"0,0001157407407","0,0001400462963","0,0001736111111"
@@ -78,9 +81,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2023-09-29,unit_tests.yml,Unit tests,3,0,0,0,0,"0,0004976851852","0,0006018518519","0,0006828703704",13,0,0,0,0,"0,0004861111111","0,000588497151","0,000787037037"
 2023-09-29,visual_tests.yml,Visual Tests,3,0,0,0,0,"0,01671296296","0,01738811728","0,01780092593",7,6,0,0,1,"0,00556712963","0,01694088319","0,02418981481"
 2023-09-29,visual_tests_frameworks.yml,Frameworks,0,3,0,0,0,"0,0406712963","0,04485339506","0,05175925926",2,10,1,0,3,"0,0144212963","0,03720530627","0,05355324074"
-2023-09-28,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,12,0,0,0,0,"0,004560185185","0,004962384259","0,005925925926"
-2023-09-28,lint.yml,Lint,0,0,0,0,0,0,0,0,8,4,0,0,0,"0,001689814815","0,00231095679","0,003240740741"
-2023-09-28,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,12,0,0,0,0,"0,0001273148148","0,0001543209877","0,0001851851852"
-2023-09-28,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,12,0,0,0,0,"0,0004861111111","0,0006336805556","0,0007523148148"
-2023-09-28,visual_tests.yml,Visual Tests,0,0,0,0,0,0,0,0,9,2,1,0,0,"0,004236111111","0,01511188272","0,02239583333"
-2023-09-28,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,0,8,4,0,2,"0,002384259259","0,03188175154","0,04703703704"

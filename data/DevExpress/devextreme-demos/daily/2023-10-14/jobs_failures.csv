@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"14.10.23, 17:14:54",17704961414,6518917451,1,Visual Tests,jquery(3/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6518917451/job/17704961414
+"14.10.23, 14:22:14",17703415109,6518108126,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6518108126/job/17703415109
+"14.10.23, 02:19:43",17696923621,6514950329,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6514950329/job/17696923621
