@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"15.10.23, 17:10:10",17718061595,6525403202,1,Lint,check_generated_demos,renovate/23_2-babel-eslint-replacement,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6525403202/job/17718061595
+"15.10.23, 17:30:09",17718253829,6525403208,1,Frameworks,Lint code base,renovate/23_2-babel-eslint-replacement,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6525403208/job/17718253829
+"15.10.23, 10:27:33",17714236919,6523396979,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6523396979/job/17714236919
