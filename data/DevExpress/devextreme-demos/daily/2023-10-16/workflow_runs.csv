@@ -1,0 +1,11 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-10-16,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,005578703704","0,005578703704","0,005578703704",16,0,0,0,0,"0,004097222222","0,00464916088","0,005868055556"
+2023-10-16,esbuild-tests.yml,ESbuild Tests,0,0,0,0,0,0,0,0,2,2,2,0,1,0,"0,005403439153","0,0112037037"
+2023-10-16,lint.yml,Lint,1,0,0,0,0,"0,002048611111","0,002048611111","0,002048611111",5,9,2,0,0,"0,001608796296","0,003189380787","0,009930555556"
+2023-10-16,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,20,0,0,0,0,"0,0001157407407","0,0001545138889","0,0002314814815"
+2023-10-16,unit_tests.yml,Unit tests,1,0,0,0,0,"0,0006134259259","0,0006134259259","0,0006134259259",9,0,0,0,0,"0,0004976851852","0,0006121399177","0,0007060185185"
+2023-10-16,unit_tests.yml,.github/workflows/unit_tests.yml,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0
+2023-10-16,visual_tests.yml,Visual Tests,1,0,0,0,0,"0,02131944444","0,02131944444","0,02131944444",8,0,1,0,0,"0,008854166667","0,01189814815","0,01734953704"
+2023-10-16,visual_tests.yml,.github/workflows/visual_tests.yml,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0
+2023-10-16,visual_tests_frameworks.yml,Frameworks,1,0,0,0,0,"0,06210648148","0,06210648148","0,06210648148",1,7,1,0,1,"0,008981481481","0,04446502058","0,05672453704"
+2023-10-16,visual_tests_frameworks.yml,.github/workflows/visual_tests_frameworks.yml,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0
