@@ -1,0 +1,9 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"21.10.23, 09:21:31",17922674937,6596527052,1,Lint,check_generated_demos,23_2_update_tabs_tabpanel_overview,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6596527052/job/17922674937
+"21.10.23, 14:21:54",17925365650,6597806744,1,Frameworks,Lint code base,23_2,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6597806744/job/17925365650
+"21.10.23, 12:25:57",17924234237,6597201024,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6597201024/job/17924234237
+"21.10.23, 09:42:51",17922832819,6596527048,1,Frameworks,Lint code base,23_2_update_tabs_tabpanel_overview,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6596527048/job/17922832819
+"21.10.23, 09:42:53",17922833052,6596527048,1,Frameworks,vue(1/4),23_2_update_tabs_tabpanel_overview,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6596527048/job/17922833052
+"21.10.23, 09:42:53",17922833102,6596527048,1,Frameworks,vue(2/4),23_2_update_tabs_tabpanel_overview,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6596527048/job/17922833102
+"21.10.23, 09:42:55",17922833331,6596527048,1,Frameworks,angular(2/4),23_2_update_tabs_tabpanel_overview,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6596527048/job/17922833331
+"21.10.23, 08:22:44",17922147783,6596169081,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6596169081/job/17922147783
