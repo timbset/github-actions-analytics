@@ -1,0 +1,13 @@
+date,workflow name,job name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-10-29,Send dependabot new vulnerability alerts,Fetch analysis,1,0,0,0,0,"0,00001157407407","0,00001157407407","0,00001157407407",0,0,0,0,0,0,0,0
+2023-10-29,Send dependabot new vulnerability alerts,Send notifications,1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (22_1, csharp)",1,0,0,0,0,"0,002650462963","0,002650462963","0,002650462963",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (22_1, javascript)",1,0,0,0,0,"0,01027777778","0,01027777778","0,01027777778",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (22_2, csharp)",1,0,0,0,0,"0,002604166667","0,002604166667","0,002604166667",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (22_2, javascript)",1,0,0,0,0,"0,01065972222","0,01065972222","0,01065972222",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (23_1, csharp)",1,0,0,0,0,"0,002546296296","0,002546296296","0,002546296296",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (23_1, javascript)",1,0,0,0,0,"0,0105787037","0,0105787037","0,0105787037",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (23_2, csharp)",1,0,0,0,0,"0,002604166667","0,002604166667","0,002604166667",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,"Analyze (23_2, javascript)",1,0,0,0,0,"0,01309027778","0,01309027778","0,01309027778",0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,Fetch analysis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2023-10-29,CodeQL,Send notifications,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
