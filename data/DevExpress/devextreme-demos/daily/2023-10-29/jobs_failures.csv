@@ -1,0 +1,9 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"29.10.23, 21:14:02",18164526677,6685770214,1,Visual Tests,jquery(2/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6685770214/job/18164526677
+"29.10.23, 20:14:48",18163984719,6685502035,1,Visual Tests,jquery(2/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6685502035/job/18163984719
+"29.10.23, 14:15:43",18160610594,6683837832,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6683837832/job/18160610594
+"29.10.23, 05:14:12",18155535910,6681360034,1,Visual Tests,jquery(2/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6681360034/job/18155535910
+"29.10.23, 04:17:08",18155047785,6681115896,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6681115896/job/18155047785
+"29.10.23, 22:27:47",18165207958,6686026838,1,Frameworks,react(4/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6686026838/job/18165207958
+"29.10.23, 20:22:55",18164065482,6685497720,1,Frameworks,angular(4/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6685497720/job/18164065482
+"29.10.23, 10:22:58",18158299307,6682666001,1,Frameworks,react(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6682666001/job/18158299307
