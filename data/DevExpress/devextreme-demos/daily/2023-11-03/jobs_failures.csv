@@ -1,0 +1,44 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"03.11.23, 18:49:48",18349027791,6749101548,1,Visual Tests,jquery(1/4)-screenshots,23_2_menu_template,failure,Get sources,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101548/job/18349027791
+"03.11.23, 18:49:49",18349027939,6749101548,1,Visual Tests,jquery(2/4)-screenshots,23_2_menu_template,failure,Get sources,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101548/job/18349027939
+"03.11.23, 18:49:50",18349028174,6749101548,1,Visual Tests,jquery(4/4)-screenshots,23_2_menu_template,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101548/job/18349028174
+"03.11.23, 18:49:50",18349028274,6749101548,1,Visual Tests,jquery(1/4)-accessibility,23_2_menu_template,failure,Get sources,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101548/job/18349028274
+"03.11.23, 18:49:51",18349028379,6749101548,1,Visual Tests,jquery(2/4)-accessibility,23_2_menu_template,failure,Get sources,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101548/job/18349028379
+"03.11.23, 09:00:06",18330537262,6743081286,1,Visual Tests,jquery(4/4)-screenshots,chore/add-date-range-box,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6743081286/job/18330537262
+"03.11.23, 22:37:18",18353972399,6750858780,1,Frameworks,Build DevExtreme,23_2_menu_template,failure,Install packages to devextreme-documentation,https://github.com/DevExpress/devextreme-demos/actions/runs/6750858780/job/18353972399
+"03.11.23, 20:24:31",18351073695,6749785064,1,Frameworks,Build Demos,23_2_menu_template,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6749785064/job/18351073695
+"03.11.23, 20:24:31",18351073939,6749785064,1,Frameworks,Lint code base (excluding demos),23_2_menu_template,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6749785064/job/18351073939
+"03.11.23, 18:49:47",18349027655,6749101537,1,Frameworks,Build Demos,23_2_menu_template,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101537/job/18349027655
+"03.11.23, 18:49:48",18349027782,6749101537,1,Frameworks,Lint code base (excluding demos),23_2_menu_template,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101537/job/18349027782
+"03.11.23, 18:49:49",18349027917,6749101537,1,Frameworks,Lint demos (1/4),23_2_menu_template,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101537/job/18349027917
+"03.11.23, 18:49:49",18349028062,6749101537,1,Frameworks,Lint demos (2/4),23_2_menu_template,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101537/job/18349028062
+"03.11.23, 18:49:50",18349028176,6749101537,1,Frameworks,Lint demos (3/4),23_2_menu_template,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101537/job/18349028176
+"03.11.23, 18:49:50",18349028288,6749101537,1,Frameworks,Lint demos (4/4),23_2_menu_template,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/6749101537/job/18349028288
+"03.11.23, 16:19:33",18344508568,6747610783,1,Frameworks,Build Demos,23_2_menu_template,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6747610783/job/18344508568
+"03.11.23, 15:50:51",18343490139,6747297186,1,Frameworks,Build Demos,23_2_menu_template,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6747297186/job/18343490139
+"03.11.23, 15:50:51",18343490507,6747297186,1,Frameworks,Lint code base (excluding demos),23_2_menu_template,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6747297186/job/18343490507
+"03.11.23, 15:50:52",18343490792,6747297186,1,Frameworks,Lint demos (1/4),23_2_menu_template,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/6747297186/job/18343490792
+"03.11.23, 15:50:53",18343491281,6747297186,1,Frameworks,Lint demos (3/4),23_2_menu_template,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6747297186/job/18343491281
+"03.11.23, 15:50:53",18343491575,6747297186,1,Frameworks,Lint demos (4/4),23_2_menu_template,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6747297186/job/18343491575
+"03.11.23, 15:31:34",18342817581,6747120643,1,Frameworks,Build Demos,khd/license-check,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6747120643/job/18342817581
+"03.11.23, 15:06:34",18341886846,6746810713,1,Frameworks,Build Demos,23_2_demos_improvements,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6746810713/job/18341886846
+"03.11.23, 10:52:38",18333770684,6744158722,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6744158722/job/18333770684
+"03.11.23, 09:58:10",18332156568,6743618795,1,Frameworks,Build Demos,fix-lint-task,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6743618795/job/18332156568
+"03.11.23, 09:30:22",18331387820,6743358676,1,Frameworks,Build Demos,chore/add-date-range-box,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6743358676/job/18331387820
+"03.11.23, 09:28:22",18331335147,6743254808,1,Frameworks,Build Demos,fix-lint-task,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6743254808/job/18331335147
+"03.11.23, 09:28:23",18331335389,6743254808,1,Frameworks,Lint code base (excluding demos),fix-lint-task,failure,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/6743254808/job/18331335389
+"03.11.23, 09:28:23",18331335575,6743254808,1,Frameworks,Lint demos (1/4),fix-lint-task,failure,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/6743254808/job/18331335575
+"03.11.23, 09:28:24",18331335748,6743254808,1,Frameworks,Lint demos (2/4),fix-lint-task,failure,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/6743254808/job/18331335748
+"03.11.23, 09:28:24",18331335928,6743254808,1,Frameworks,Lint demos (3/4),fix-lint-task,failure,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/6743254808/job/18331335928
+"03.11.23, 09:28:24",18331336104,6743254808,1,Frameworks,Lint demos (4/4),fix-lint-task,failure,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/6743254808/job/18331336104
+"03.11.23, 09:07:31",18330759398,6743081282,1,Frameworks,Build Demos,chore/add-date-range-box,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6743081282/job/18330759398
+"03.11.23, 08:34:57",18329924171,6742766428,1,Frameworks,react(2/4),update-ng-version,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742766428/job/18329924171
+"03.11.23, 08:34:59",18329925117,6742766428,1,Frameworks,react(4/4),update-ng-version,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742766428/job/18329925117
+"03.11.23, 08:35:05",18329927931,6742766428,1,Frameworks,angular(1/4),update-ng-version,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742766428/job/18329927931
+"03.11.23, 08:35:05",18329928104,6742766428,1,Frameworks,angular(2/4),update-ng-version,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742766428/job/18329928104
+"03.11.23, 08:35:06",18329928271,6742766428,1,Frameworks,angular(3/4),update-ng-version,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742766428/job/18329928271
+"03.11.23, 08:07:19",18329253623,6742625223,1,Frameworks,Build Demos,23_2_demos_improvements,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6742625223/job/18329253623
+"03.11.23, 08:04:03",18329168025,6742606606,1,Frameworks,Build Demos,23_2_drb,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6742606606/job/18329168025
+"03.11.23, 07:06:18",18328064918,6742129991,1,Frameworks,angular(1/4),update-ng-version,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742129991/job/18328064918
+"03.11.23, 07:06:18",18328065071,6742129991,1,Frameworks,angular(2/4),update-ng-version,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742129991/job/18328065071
+"03.11.23, 07:06:19",18328065209,6742129991,1,Frameworks,angular(3/4),update-ng-version,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6742129991/job/18328065209
