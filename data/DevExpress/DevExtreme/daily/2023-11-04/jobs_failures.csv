@@ -1,0 +1,40 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"04.11.23, 12:42:40",18362841219,6754900828,1,DevExtreme Angular Tests,test,renovate/23_2-lock-file-maintenance,failure,Build wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/6754900828/job/18362841219
+"04.11.23, 12:39:49",18362812304,6754883874,1,DevExtreme Angular Tests,test,renovate/23_2-del-7.x,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/6754883874/job/18362812304
+"04.11.23, 12:39:20",18362808137,6754882054,1,DevExtreme Angular Tests,test,renovate/23_2-pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/6754882054/job/18362808137
+"04.11.23, 12:39:50",18362812445,6754883879,1,DevExtreme package tests,build,renovate/23_2-del-7.x,failure,Build devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/6754883879/job/18362812445
+"04.11.23, 12:39:21",18362808349,6754882053,1,DevExtreme package tests,build,renovate/23_2-pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/6754882053/job/18362808349
+"04.11.23, 12:42:39",18362841168,6754900827,1,DevExtreme React Tests,test,renovate/23_2-lock-file-maintenance,failure,Run tests with React,https://github.com/DevExpress/DevExtreme/actions/runs/6754900827/job/18362841168
+"04.11.23, 12:40:18",18362818675,6754887537,1,DevExtreme React Tests,test,renovate/23_2-major-jest-monorepo,failure,Run tests with React,https://github.com/DevExpress/DevExtreme/actions/runs/6754887537/job/18362818675
+"04.11.23, 12:39:49",18362812272,6754883873,1,DevExtreme React Tests,test,renovate/23_2-del-7.x,failure,Generate wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/6754883873/job/18362812272
+"04.11.23, 12:39:20",18362808132,6754882055,1,DevExtreme React Tests,test,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882055/job/18362808132
+"04.11.23, 12:40:18",18362818655,6754887531,1,DevExtreme Vue Tests,test,renovate/23_2-major-jest-monorepo,failure,Run tests with Vue,https://github.com/DevExpress/DevExtreme/actions/runs/6754887531/job/18362818655
+"04.11.23, 12:39:48",18362812254,6754883871,1,DevExtreme Vue Tests,test,renovate/23_2-del-7.x,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/6754883871/job/18362812254
+"04.11.23, 12:39:21",18362808184,6754882061,1,DevExtreme Vue Tests,test,renovate/23_2-pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/6754882061/job/18362808184
+"04.11.23, 12:39:50",18362812444,6754883870,1,Lint,JS,renovate/23_2-del-7.x,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6754883870/job/18362812444
+"04.11.23, 12:39:53",18362813078,6754883870,1,Lint,TS,renovate/23_2-del-7.x,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6754883870/job/18362813078
+"04.11.23, 12:39:22",18362808449,6754882056,1,Lint,TS,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882056/job/18362808449
+"04.11.23, 12:39:23",18362808700,6754882056,1,Lint,Renovation,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882056/job/18362808700
+"04.11.23, 12:39:23",18362808836,6754882056,1,Lint,CSS,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882056/job/18362808836
+"04.11.23, 12:39:24",18362808935,6754882056,1,Lint,JS,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882056/job/18362808935
+"04.11.23, 12:39:24",18362809020,6754882056,1,Lint,texts,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882056/job/18362809020
+"04.11.23, 12:39:24",18362809109,6754882056,1,Lint,package_lock,renovate/23_2-pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/6754882056/job/18362809109
+"04.11.23, 12:39:25",18362809200,6754882056,1,Lint,component_exports,renovate/23_2-pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/6754882056/job/18362809200
+"04.11.23, 12:39:50",18362812560,6754883877,1,Additional QUnit,Build,renovate/23_2-del-7.x,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6754883877/job/18362812560
+"04.11.23, 12:39:22",18362808607,6754882048,1,Additional QUnit,Build,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882048/job/18362808607
+"04.11.23, 12:39:50",18362812522,6754883872,1,QUnit tests for renovation,Build,renovate/23_2-del-7.x,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6754883872/job/18362812522
+"04.11.23, 12:39:22",18362808550,6754882059,1,QUnit tests for renovation,Build,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882059/job/18362808550
+"04.11.23, 12:40:20",18362818855,6754887539,1,Renovation,jest-tests,renovate/23_2-major-jest-monorepo,failure,Jest test,https://github.com/DevExpress/DevExtreme/actions/runs/6754887539/job/18362818855
+"04.11.23, 12:39:50",18362812603,6754883869,1,Renovation,jest-tests,renovate/23_2-del-7.x,failure,Build localization,https://github.com/DevExpress/DevExtreme/actions/runs/6754883869/job/18362812603
+"04.11.23, 12:39:21",18362808335,6754882044,1,Renovation,jest-tests,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882044/job/18362808335
+"04.11.23, 12:39:23",18362808707,6754882070,1,Styles tests,Tests,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882070/job/18362808707
+"04.11.23, 12:46:40",18362878379,6754887536,1,TestCafe tests,scheduler (2/5),renovate/23_2-major-jest-monorepo,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6754887536/job/18362878379
+"04.11.23, 12:39:51",18362812681,6754883868,1,TestCafe tests,build,renovate/23_2-del-7.x,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/6754883868/job/18362812681
+"04.11.23, 12:39:21",18362808343,6754882045,1,TestCafe tests,build,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882045/job/18362808343
+"04.11.23, 12:40:19",18362818783,6754887542,1,Themebuilder and Styles tests,test,renovate/23_2-major-jest-monorepo,failure,"Run themebuilder tests (full set, node)",https://github.com/DevExpress/DevExtreme/actions/runs/6754887542/job/18362818783
+"04.11.23, 12:39:49",18362812418,6754883875,1,Themebuilder and Styles tests,test,renovate/23_2-del-7.x,failure,Build etalon bundles,https://github.com/DevExpress/DevExtreme/actions/runs/6754883875/job/18362812418
+"04.11.23, 12:39:22",18362808598,6754882062,1,Themebuilder and Styles tests,test,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882062/job/18362808598
+"04.11.23, 12:39:51",18362812740,6754883878,1,TS Declarations,check-ts-compilation,renovate/23_2-del-7.x,failure,Check sources compilation,https://github.com/DevExpress/DevExtreme/actions/runs/6754883878/job/18362812740
+"04.11.23, 12:39:21",18362808366,6754882052,1,TS Declarations,check-ts-bundle,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882052/job/18362808366
+"04.11.23, 12:39:22",18362808603,6754882052,1,TS Declarations,check-ts-compilation,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882052/job/18362808603
+"04.11.23, 12:39:23",18362808730,6754882052,1,TS Declarations,validate-declarations,renovate/23_2-pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6754882052/job/18362808730
