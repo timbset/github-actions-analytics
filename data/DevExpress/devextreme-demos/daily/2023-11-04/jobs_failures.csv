@@ -1,0 +1,14 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"04.11.23, 19:12:11",18366477729,6756666842,1,Visual Tests,jquery(3/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6756666842/job/18366477729
+"04.11.23, 22:14:38",18368034985,6757403383,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6757403383/job/18368034985
+"04.11.23, 20:14:30",18366990415,6756909033,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6756909033/job/18366990415
+"04.11.23, 18:16:48",18365947134,6756388517,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6756388517/job/18365947134
+"04.11.23, 16:16:05",18364812836,6755845340,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6755845340/job/18364812836
+"04.11.23, 14:15:41",18363719727,6755292015,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6755292015/job/18363719727
+"04.11.23, 12:17:27",18362574173,6754690435,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6754690435/job/18362574173
+"04.11.23, 10:11:46",18361481239,6754173222,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6754173222/job/18361481239
+"04.11.23, 08:12:02",18360452164,6753660872,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6753660872/job/18360452164
+"04.11.23, 06:14:51",18359463798,6753165927,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6753165927/job/18359463798
+"04.11.23, 04:11:59",18358337703,6752647735,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6752647735/job/18358337703
+"04.11.23, 02:17:31",18357234954,6752138948,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6752138948/job/18357234954
+"04.11.23, 00:28:35",18355742235,6751434225,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6751434225/job/18355742235
