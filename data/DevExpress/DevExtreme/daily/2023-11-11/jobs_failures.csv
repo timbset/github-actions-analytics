@@ -1,0 +1,5 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"11.11.23, 17:58:14",18589860738,6835720328,1,DevExtreme package tests,Demos visual tests jquery(1/4),23_2-ko-model,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6835720328/job/18589860738
+"11.11.23, 17:58:14",18589860772,6835720328,1,DevExtreme package tests,Demos visual tests jquery(2/4),23_2-ko-model,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6835720328/job/18589860772
+"11.11.23, 17:58:15",18589860837,6835720328,1,DevExtreme package tests,Demos visual tests jquery(3/4),23_2-ko-model,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6835720328/job/18589860837
+"11.11.23, 17:58:15",18589860875,6835720328,1,DevExtreme package tests,Demos visual tests jquery(4/4),23_2-ko-model,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6835720328/job/18589860875
