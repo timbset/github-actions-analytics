@@ -1,4 +1,51 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"12.11.23, 09:12:51",18598353783,6839741719,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6839741719/job/18598353783
+"12.11.23, 07:14:46",18597260877,6839227972,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6839227972/job/18597260877
+"12.11.23, 22:17:30",18606042461,6843365166,1,Frameworks,Check generated demos (1/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6843365166/job/18606042461
+"12.11.23, 22:17:33",18606042976,6843365166,1,Frameworks,Check generated demos (5/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6843365166/job/18606042976
+"12.11.23, 21:40:30",18605675936,6843240202,1,Frameworks,Lint code base (excluding demos),new-scheduler-demo,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605675936
+"12.11.23, 21:40:31",18605676080,6843240202,1,Frameworks,Lint demos (4/4),new-scheduler-demo,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605676080
+"12.11.23, 21:46:19",18605725875,6843240202,1,Frameworks,Check generated demos (1/5),new-scheduler-demo,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605725875
+"12.11.23, 21:46:20",18605726035,6843240202,1,Frameworks,Check generated demos (2/5),new-scheduler-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605726035
+"12.11.23, 21:46:21",18605726137,6843240202,1,Frameworks,Check generated demos (3/5),new-scheduler-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605726137
+"12.11.23, 21:46:22",18605726265,6843240202,1,Frameworks,Check generated demos (4/5),new-scheduler-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605726265
+"12.11.23, 21:46:23",18605726370,6843240202,1,Frameworks,Check generated demos (5/5),new-scheduler-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605726370
+"12.11.23, 21:46:25",18605726885,6843240202,1,Frameworks,angular(3/4),new-scheduler-demo,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6843240202/job/18605726885
+"12.11.23, 20:17:49",18604893470,6842823284,1,Frameworks,Check generated demos (1/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842823284/job/18604893470
+"12.11.23, 20:17:50",18604893530,6842823284,1,Frameworks,Check generated demos (2/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842823284/job/18604893530
+"12.11.23, 20:17:52",18604893904,6842823284,1,Frameworks,Check generated demos (5/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842823284/job/18604893904
+"12.11.23, 18:37:04",18603944429,6842406748,1,Frameworks,Lint code base (excluding demos),new-scheduler-demo,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6842406748/job/18603944429
+"12.11.23, 18:37:05",18603944614,6842406748,1,Frameworks,Lint demos (4/4),new-scheduler-demo,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6842406748/job/18603944614
+"12.11.23, 18:44:17",18604003287,6842406748,1,Frameworks,Check generated demos (2/5),new-scheduler-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842406748/job/18604003287
+"12.11.23, 18:44:19",18604003621,6842406748,1,Frameworks,Check generated demos (3/5),new-scheduler-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842406748/job/18604003621
+"12.11.23, 18:44:19",18604003748,6842406748,1,Frameworks,Check generated demos (4/5),new-scheduler-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842406748/job/18604003748
+"12.11.23, 18:44:20",18604003808,6842406748,1,Frameworks,vue(3/4),new-scheduler-demo,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6842406748/job/18604003808
+"12.11.23, 18:44:22",18604004117,6842406748,1,Frameworks,angular(3/4),new-scheduler-demo,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6842406748/job/18604004117
+"12.11.23, 18:21:00",18603786771,6842283753,1,Frameworks,Check generated demos (1/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842283753/job/18603786771
+"12.11.23, 18:21:02",18603786974,6842283753,1,Frameworks,Check generated demos (2/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842283753/job/18603786974
+"12.11.23, 18:21:02",18603787052,6842283753,1,Frameworks,Check generated demos (3/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6842283753/job/18603787052
+"12.11.23, 16:20:24",18602604214,6841720616,1,Frameworks,react(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6841720616/job/18602604214
+"12.11.23, 16:20:24",18602604278,6841720616,1,Frameworks,Check generated demos (2/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6841720616/job/18602604278
+"12.11.23, 16:20:25",18602604395,6841720616,1,Frameworks,Check generated demos (3/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6841720616/job/18602604395
+"12.11.23, 14:32:04",18601481379,6841200471,1,Frameworks,Check generated demos (2/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6841200471/job/18601481379
+"12.11.23, 14:32:05",18601481612,6841200471,1,Frameworks,Check generated demos (3/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6841200471/job/18601481612
+"12.11.23, 14:32:06",18601481680,6841200471,1,Frameworks,Check generated demos (4/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6841200471/job/18601481680
+"12.11.23, 14:32:07",18601481837,6841200471,1,Frameworks,Check generated demos (5/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6841200471/job/18601481837
+"12.11.23, 12:23:36",18600156446,6840540989,1,Frameworks,Check generated demos (1/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6840540989/job/18600156446
+"12.11.23, 12:23:37",18600156601,6840540989,1,Frameworks,Check generated demos (2/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6840540989/job/18600156601
+"12.11.23, 12:23:37",18600156758,6840540989,1,Frameworks,Check generated demos (3/5),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6840540989/job/18600156758
+"12.11.23, 12:23:39",18600157089,6840540989,1,Frameworks,Check generated demos (5/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6840540989/job/18600157089
+"12.11.23, 10:19:18",18598977082,6840001919,1,Frameworks,Check generated demos (2/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6840001919/job/18598977082
+"12.11.23, 08:20:55",18597851848,6839470354,1,Frameworks,Check generated demos (2/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6839470354/job/18597851848
+"12.11.23, 08:20:55",18597851900,6839470354,1,Frameworks,Check generated demos (3/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6839470354/job/18597851900
+"12.11.23, 06:21:03",18596810961,6838971820,1,Frameworks,Check generated demos (3/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6838971820/job/18596810961
+"12.11.23, 06:21:03",18596811079,6838971820,1,Frameworks,Check generated demos (4/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6838971820/job/18596811079
+"12.11.23, 06:21:04",18596811185,6838971820,1,Frameworks,Check generated demos (5/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6838971820/job/18596811185
+"12.11.23, 04:18:08",18595741508,6838471104,1,Frameworks,react(4/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6838471104/job/18595741508
+"12.11.23, 04:18:08",18595741617,6838471104,1,Frameworks,Check generated demos (5/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6838471104/job/18595741617
+"12.11.23, 02:36:29",18594883166,6838011790,1,Frameworks,Check generated demos (3/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6838011790/job/18594883166
+"12.11.23, 00:32:15",18593521885,6837381142,1,Frameworks,Check generated demos (2/5),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/6837381142/job/18593521885
+"12.11.23, 00:32:17",18593522327,6837381142,1,Frameworks,Check generated demos (5/5),23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/6837381142/job/18593522327
 "11.11.23, 21:12:48",18591684112,6836545569,1,Visual Tests,jquery(1/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6836545569/job/18591684112
 "11.11.23, 19:11:43",18590605329,6836043785,1,Visual Tests,jquery(2/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6836043785/job/18590605329
 "11.11.23, 18:12:02",18590024827,6835772097,1,Visual Tests,jquery(1/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6835772097/job/18590024827
@@ -722,21 +769,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "06.11.23, 06:17:26",18389043530,6766933176,1,Frameworks,Lint demos (2/4),renovate/23_2-babel-eslint-replacement,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6766933176/job/18389043530
 "06.11.23, 06:17:26",18389043659,6766933176,1,Frameworks,Lint demos (3/4),renovate/23_2-babel-eslint-replacement,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6766933176/job/18389043659
 "06.11.23, 06:17:27",18389043817,6766933176,1,Frameworks,Lint demos (4/4),renovate/23_2-babel-eslint-replacement,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6766933176/job/18389043817
-"05.11.23, 13:15:53",18376567264,6761504173,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6761504173/job/18376567264
-"05.11.23, 09:13:08",18373512556,6760078179,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6760078179/job/18373512556
-"05.11.23, 06:14:51",18372494164,6759580147,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6759580147/job/18372494164
-"05.11.23, 01:41:42",18370098075,6758395980,1,Visual Tests,jquery(4/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6758395980/job/18370098075
-"05.11.23, 23:43:50",18382820227,6764437128,1,Frameworks,Build Demos,treeList_vue_ts/23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6764437128/job/18382820227
-"05.11.23, 23:43:51",18382820330,6764437128,1,Frameworks,Lint demos (3/4),treeList_vue_ts/23_2,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/6764437128/job/18382820330
-"05.11.23, 22:11:33",18381886316,6764003848,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6764003848/job/18381886316
-"05.11.23, 20:11:34",18380707458,6763461009,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6763461009/job/18380707458
-"05.11.23, 18:17:06",18379586334,6762917056,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6762917056/job/18379586334
-"05.11.23, 16:12:02",18378320700,6762351381,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6762351381/job/18378320700
-"05.11.23, 14:15:46",18377161867,6761781746,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6761781746/job/18377161867
-"05.11.23, 12:12:36",18375828353,6761152370,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6761152370/job/18375828353
-"05.11.23, 10:13:56",18374680476,6760600355,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6760600355/job/18374680476
-"05.11.23, 09:12:35",18373506935,6760075694,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6760075694/job/18373506935
-"05.11.23, 06:12:09",18372467268,6759578385,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6759578385/job/18372467268
-"05.11.23, 04:15:50",18371479784,6759082046,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6759082046/job/18371479784
-"05.11.23, 02:20:49",18370517222,6758621886,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6758621886/job/18370517222
-"05.11.23, 00:27:22",18369264860,6757987124,1,Frameworks,Build Demos,23_2,failure,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/6757987124/job/18369264860
