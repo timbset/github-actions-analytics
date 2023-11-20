@@ -1,0 +1,12 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"19.11.23, 23:11:09",18831504041,6923479755,1,Visual Tests,jquery(1/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6923479755/job/18831504041
+"19.11.23, 22:04:19",18830800551,6923140247,1,Frameworks,react(1/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6923140247/job/18830800551
+"19.11.23, 22:04:22",18830801453,6923140247,1,Frameworks,vue(1/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6923140247/job/18830801453
+"19.11.23, 22:04:23",18830801612,6923140247,1,Frameworks,vue(2/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6923140247/job/18830801612
+"19.11.23, 22:04:24",18830801846,6923140247,1,Frameworks,vue(3/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6923140247/job/18830801846
+"19.11.23, 22:04:25",18830801997,6923140247,1,Frameworks,vue(4/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6923140247/job/18830801997
+"19.11.23, 20:16:28",18829762667,6922649143,1,Frameworks,react(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6922649143/job/18829762667
+"19.11.23, 16:25:50",18827486950,6921585623,1,Frameworks,vue(1/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6921585623/job/18827486950
+"19.11.23, 16:25:51",18827487035,6921585623,1,Frameworks,vue(2/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6921585623/job/18827487035
+"19.11.23, 16:25:51",18827487134,6921585623,1,Frameworks,vue(3/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6921585623/job/18827487134
+"19.11.23, 16:25:51",18827487199,6921585623,1,Frameworks,vue(4/4),23_2_test_wip,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/6921585623/job/18827487199
