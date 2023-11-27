@@ -1,0 +1,21 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"26.11.23, 23:46:41",19037162349,6998761493,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/6998761493/job/19037162349
+"26.11.23, 23:46:39",19037162125,6998761483,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162125
+"26.11.23, 23:46:40",19037162287,6998761483,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162287
+"26.11.23, 23:46:41",19037162388,6998761483,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162388
+"26.11.23, 23:46:42",19037162512,6998761483,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162512
+"26.11.23, 23:46:42",19037162577,6998761483,1,Lint,package_lock,renovate/pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162577
+"26.11.23, 23:46:43",19037162652,6998761483,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162652
+"26.11.23, 23:46:43",19037162721,6998761483,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162721
+"26.11.23, 23:46:44",19037162814,6998761483,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/6998761483/job/19037162814
+"26.11.23, 23:46:40",19037162218,6998761487,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761487/job/19037162218
+"26.11.23, 23:46:40",19037162229,6998761488,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761488/job/19037162229
+"26.11.23, 23:46:41",19037162298,6998761489,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761489/job/19037162298
+"26.11.23, 23:46:41",19037162295,6998761492,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761492/job/19037162295
+"26.11.23, 23:46:40",19037162270,6998761491,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761491/job/19037162270
+"26.11.23, 23:50:08",19037192429,6998753958,1,TestCafe tests,form - material (1/2),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/6998753958/job/19037192429
+"26.11.23, 23:46:40",19037162214,6998761490,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761490/job/19037162214
+"26.11.23, 23:46:40",19037162176,6998761485,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761485/job/19037162176
+"26.11.23, 23:46:41",19037162339,6998761485,1,TS Declarations,check-ts-compilation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761485/job/19037162339
+"26.11.23, 23:46:41",19037162448,6998761485,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/6998761485/job/19037162448
+"26.11.23, 23:46:38",19037161975,6998761480,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/6998761480/job/19037161975
