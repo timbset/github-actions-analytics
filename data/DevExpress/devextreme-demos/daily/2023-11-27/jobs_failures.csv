@@ -1,0 +1,15 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"27.11.23, 11:07:15",19051237505,7004045711,1,Visual Tests,jquery(1/4)-screenshots,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7004045711/job/19051237505
+"27.11.23, 08:06:27",19045554616,7002140413,1,Visual Tests,jquery(4/4)-screenshots,23_2_tabpanel_remove_shownavbuttons_prop,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7002140413/job/19045554616
+"27.11.23, 08:06:29",19045555691,7002140413,1,Visual Tests,jquery(4/4)-accessibility,23_2_tabpanel_remove_shownavbuttons_prop,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7002140413/job/19045555691
+"27.11.23, 21:08:57",19071567681,7010494566,1,Frameworks,react(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7010494566/job/19071567681
+"27.11.23, 21:09:03",19071571335,7010494566,1,Frameworks,vue(4/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7010494566/job/19071571335
+"27.11.23, 17:25:34",19065182975,7008479032,1,Frameworks,Lint demos (4/4),23_2_fix_vue_demos_isues,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7008479032/job/19065182975
+"27.11.23, 17:30:58",19065377917,7008479032,1,Frameworks,vue(2/4),23_2_fix_vue_demos_isues,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7008479032/job/19065377917
+"27.11.23, 13:10:27",19055281411,7005302106,1,Frameworks,vue(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7005302106/job/19055281411
+"27.11.23, 13:10:19",19055276773,7005300331,1,Frameworks,vue(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7005300331/job/19055276773
+"27.11.23, 11:13:50",19051454531,7004045707,1,Frameworks,vue(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7004045707/job/19051454531
+"27.11.23, 08:12:16",19045713140,7002140421,1,Frameworks,react(1/4),23_2_tabpanel_remove_shownavbuttons_prop,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7002140421/job/19045713140
+"27.11.23, 08:12:21",19045715403,7002140421,1,Frameworks,vue(2/4),23_2_tabpanel_remove_shownavbuttons_prop,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7002140421/job/19045715403
+"27.11.23, 08:12:23",19045716508,7002140421,1,Frameworks,angular(3/4),23_2_tabpanel_remove_shownavbuttons_prop,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7002140421/job/19045716508
+"27.11.23, 06:55:34",19044006167,7001582684,1,Frameworks,Lint code base (excluding demos),warning_fix/height/23_2,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7001582684/job/19044006167
