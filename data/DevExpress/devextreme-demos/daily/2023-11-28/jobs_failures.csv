@@ -1,0 +1,10 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"28.11.23, 11:43:07",19093201270,7018176737,1,Visual Tests,jquery(2/4)-screenshots,incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7018176737/job/19093201270
+"28.11.23, 13:33:03",19097169770,7018176737,2,Visual Tests,jquery(2/4)-screenshots,incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7018176737/job/19097169770
+"28.11.23, 13:21:45",19096739165,7019245342,1,Frameworks,Check generated demos (5/5),update-appointment-layout-in-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/7019245342/job/19096739165
+"28.11.23, 12:49:02",19095493165,7018846131,1,Frameworks,Check generated demos (5/5),update-appointment-layout-in-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/7018846131/job/19095493165
+"28.11.23, 11:48:52",19093380039,7018176740,1,Frameworks,react(2/4),incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7018176740/job/19093380039
+"28.11.23, 11:48:56",19093381747,7018176740,1,Frameworks,vue(2/4),incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7018176740/job/19093381747
+"28.11.23, 11:48:58",19093383019,7018176740,1,Frameworks,angular(2/4),incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7018176740/job/19093383019
+"28.11.23, 10:59:13",19091714726,7017754562,1,Frameworks,Build DevExtreme,charts_round_values_23_2,failure,Make Descriptions.json,https://github.com/DevExpress/devextreme-demos/actions/runs/7017754562/job/19091714726
+"28.11.23, 11:05:34",19091958952,7017754562,2,Frameworks,Build DevExtreme,charts_round_values_23_2,failure,Make Descriptions.json,https://github.com/DevExpress/devextreme-demos/actions/runs/7017754562/job/19091958952
