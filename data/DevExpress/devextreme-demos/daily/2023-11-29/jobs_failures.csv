@@ -1,0 +1,10 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"29.11.23, 17:05:49",19147679122,7035913597,1,Visual Tests,jquery(2/4)-screenshots,incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7035913597/job/19147679122
+"29.11.23, 18:37:25",19150946294,7035913597,2,Visual Tests,jquery(2/4)-screenshots,incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7035913597/job/19150946294
+"29.11.23, 17:11:09",19147887799,7035913575,1,Frameworks,react(2/4),incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7035913575/job/19147887799
+"29.11.23, 17:11:13",19147890678,7035913575,1,Frameworks,vue(2/4),incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7035913575/job/19147890678
+"29.11.23, 17:11:16",19147892049,7035913575,1,Frameworks,angular(2/4),incorrect-icon-size-long-appointment,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7035913575/job/19147892049
+"29.11.23, 14:29:48",19141144062,7033861200,1,Frameworks,Check generated demos (2/5),reporting-dashboard23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/7033861200/job/19141144062
+"29.11.23, 14:29:50",19141145786,7033861200,1,Frameworks,Check generated demos (4/5),reporting-dashboard23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/7033861200/job/19141145786
+"29.11.23, 14:29:52",19141147126,7033861200,1,Frameworks,Check generated demos (5/5),reporting-dashboard23_2,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/7033861200/job/19141147126
+"29.11.23, 08:52:10",19129069597,7030001776,1,Frameworks,Check generated demos (5/5),update-appointment-layout-in-demo,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/7030001776/job/19129069597
