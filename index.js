@@ -117,7 +117,7 @@ yargs(hideBin(process.argv))
         }),
         async ({ from, to, fetch: withFetch }) => {
           const dates = getDatesFromRange({ from, to }).reverse();
-          const summaryPaths = dates.map((date) => join(getRepoPath(), date, 'workflow_runs.csv'));
+          const summaryPaths = dates.map((date) => join(getRepoPath(), 'daily', date, 'workflow_runs.csv'));
 
           await buildWorkflowRunsSummaryFromRange({ from, to, withFetch, isEnsure: true });
 
