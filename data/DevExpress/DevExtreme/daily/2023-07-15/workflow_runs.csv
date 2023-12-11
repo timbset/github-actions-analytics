@@ -1,0 +1,4 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-07-15,_security-alerts.yml,Send dependabot new vulnerability alerts,1,0,0,0,0,"0,0003125","0,0003125","0,0003125",0,0,0,0,0,0,0,0
+2023-07-15,codeql.yml,CodeQL,1,0,0,0,0,"0,01523148148","0,01523148148","0,01523148148",0,0,0,0,0,0,0,0
+2023-07-15,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0001041666667","0,000111882716","0,0001157407407"

@@ -1,0 +1,13 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-07-01,_security-alerts.yml,Send dependabot new vulnerability alerts,1,0,0,0,0,"0,0003125","0,0003125","0,0003125",0,0,0,0,0,0,0,0
+2023-07-01,codeql.yml,CodeQL,1,0,0,0,0,"0,01421296296","0,01421296296","0,01421296296",0,0,0,0,0,0,0,0
+2023-07-01,devextreme_npm_tests.yml,DevExtreme package tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,01422453704","0,01527777778","0,0166087963"
+2023-07-01,lint.yml,Lint,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,01332175926","0,01545138889","0,01947916667"
+2023-07-01,qunit_tests-additional-renovation.yml,Additional QUnit,0,0,0,0,0,0,0,0,3,0,0,0,1,"0,003530092593","0,009760802469","0,01365740741"
+2023-07-01,qunit_tests-renovation.yml,QUnit tests for renovation,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,01032407407","0,01344521605","0,01519675926"
+2023-07-01,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0001157407407","0,0001234567901","0,0001273148148"
+2023-07-01,renovation.yml,Renovation,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,002048611111","0,003541666667","0,004293981481"
+2023-07-01,styles.yml,Styles tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0009143518519","0,002226080247","0,002893518519"
+2023-07-01,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,3,0,0,0,2,"0,005011574074","0,009602623457","0,01700231481"
+2023-07-01,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,003784722222","0,005308641975","0,006296296296"
+2023-07-01,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001238425926","0,002469135802","0,003090277778"
