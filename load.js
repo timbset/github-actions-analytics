@@ -187,15 +187,15 @@ export async function loadWorkflowRuns({ date, ids = [], withFetch = false }) {
   }
 }
 
-export async function loadJobsFromRange({ from, to }) {
+export async function loadJobsFromRange({ from, to, ids }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await loadJobs({ date });
+    await loadJobs({ date, ids });
   }
 }
 
-export async function loadJobs({ date, withFetch }) {
+export async function loadJobs({ date, ids, withFetch }) {
   const octokit = getOctokit();
 
   const created = normalizeDate(date);
@@ -217,7 +217,12 @@ export async function loadJobs({ date, withFetch }) {
   }
 
   const runFiles = fs.readdirSync(runsPath);
-  const runIds = runFiles.map((name) => name.replace('.json', ''));
+
+  const runIdFiler = Array.isArray(ids)
+    ? (runId) => ids.includes(runId)
+    : () => true;
+
+  const runIds = runFiles.map((name) => name.replace('.json', '')).filter(runIdFiler);
 
   for (const runId of runIds) {
     const jobsPath = path.join(dataPath, 'jobs', `${runId}.json`);
