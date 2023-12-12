@@ -1,0 +1,4 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-07-08,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,004930555556","0,004930555556","0,004930555556",0,0,0,0,0,0,0,0
+2023-07-08,visual_tests.yml,Visual Tests,20,4,0,0,0,"0,01234953704","0,01387490355","0,01672453704",0,0,0,0,0,0,0,0
+2023-07-08,visual_tests_frameworks.yml,Frameworks,1,11,0,0,0,"0,02885416667","0,04225501543","0,05553240741",0,0,0,0,0,0,0,0

@@ -1,0 +1,7 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-07-04,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,005486111111","0,005486111111","0,005486111111",5,0,0,0,0,"0,003449074074","0,003770833333","0,00431712963"
+2023-07-04,lint.yml,Lint,1,0,0,0,0,"0,0009259259259","0,0009259259259","0,0009259259259",5,0,0,0,0,"0,0006828703704","0,0007615740741","0,0009722222222"
+2023-07-04,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,5,0,0,0,0,"0,0001273148148","0,000150462963","0,0001736111111"
+2023-07-04,unit_tests.yml,Unit tests,1,0,0,0,0,"0,0006365740741","0,0006365740741","0,0006365740741",5,0,0,0,0,"0,0004861111111","0,0005810185185","0,0007986111111"
+2023-07-04,visual_tests.yml,Visual Tests,1,0,0,0,0,"0,0159375","0,0159375","0,0159375",3,0,2,0,0,"0,005393518519","0,01156712963","0,0153587963"
+2023-07-04,visual_tests_frameworks.yml,Frameworks,0,1,0,0,0,"0,03425925926","0,03425925926","0,03425925926",1,2,2,0,1,"0,005381944444","0,0110162037","0,01684027778"
