@@ -1,0 +1,27 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"12.12.23, 00:02:02",19537284982,7174861406,1,Visual Tests,jquery(1/4)-accessibility,cal_mobile__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861406/job/19537284982
+"12.12.23, 00:02:02",19537285181,7174861406,1,Visual Tests,jquery(2/4)-accessibility,cal_mobile__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861406/job/19537285181
+"11.12.23, 13:29:32",19515709403,7168072419,1,Visual Tests,jquery(2/4)-screenshots,23_2_fix/treeview_aria,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7168072419/job/19515709403
+"11.12.23, 13:39:33",19516089847,7168072419,2,Visual Tests,jquery(2/4)-screenshots,23_2_fix/treeview_aria,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7168072419/job/19516089847
+"12.12.23, 00:06:59",19537424124,7174861418,1,Frameworks,Check generated demos (1/5),cal_mobile__23_2,cancelled,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537424124
+"12.12.23, 00:07:00",19537424425,7174861418,1,Frameworks,react(1/4),cal_mobile__23_2,cancelled,Run Web Server,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537424425
+"12.12.23, 00:07:01",19537424629,7174861418,1,Frameworks,Check generated demos (2/5),cal_mobile__23_2,cancelled,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537424629
+"12.12.23, 00:07:01",19537424823,7174861418,1,Frameworks,react(2/4),cal_mobile__23_2,cancelled,Run Web Server,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537424823
+"12.12.23, 00:07:02",19537425010,7174861418,1,Frameworks,Check generated demos (3/5),cal_mobile__23_2,cancelled,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537425010
+"12.12.23, 00:07:02",19537425200,7174861418,1,Frameworks,react(3/4),cal_mobile__23_2,cancelled,Run Web Server,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537425200
+"12.12.23, 00:07:02",19537425411,7174861418,1,Frameworks,Check generated demos (4/5),cal_mobile__23_2,cancelled,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537425411
+"12.12.23, 00:07:03",19537425614,7174861418,1,Frameworks,react(4/4),cal_mobile__23_2,cancelled,Prepare JS,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537425614
+"12.12.23, 00:07:03",19537425811,7174861418,1,Frameworks,Check generated demos (5/5),cal_mobile__23_2,cancelled,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537425811
+"12.12.23, 00:07:04",19537426045,7174861418,1,Frameworks,vue(1/4),cal_mobile__23_2,cancelled,Prepare JS,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537426045
+"12.12.23, 00:07:04",19537426255,7174861418,1,Frameworks,vue(2/4),cal_mobile__23_2,cancelled,Prepare JS,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537426255
+"12.12.23, 00:07:05",19537426460,7174861418,1,Frameworks,vue(3/4),cal_mobile__23_2,cancelled,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537426460
+"12.12.23, 00:07:05",19537426648,7174861418,1,Frameworks,vue(4/4),cal_mobile__23_2,cancelled,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537426648
+"12.12.23, 00:07:06",19537426856,7174861418,1,Frameworks,angular(1/4),cal_mobile__23_2,cancelled,Run Web Server,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537426856
+"12.12.23, 00:07:06",19537427062,7174861418,1,Frameworks,angular(2/4),cal_mobile__23_2,cancelled,Unpack artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537427062
+"12.12.23, 00:07:06",19537427276,7174861418,1,Frameworks,angular(3/4),cal_mobile__23_2,cancelled,Run Web Server,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537427276
+"12.12.23, 00:07:07",19537427445,7174861418,1,Frameworks,angular(4/4),cal_mobile__23_2,cancelled,Update bundles config,https://github.com/DevExpress/devextreme-demos/actions/runs/7174861418/job/19537427445
+"11.12.23, 13:35:21",19515938128,7168072374,1,Frameworks,react(2/4),23_2_fix/treeview_aria,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7168072374/job/19515938128
+"11.12.23, 13:35:24",19515939443,7168072374,1,Frameworks,vue(2/4),23_2_fix/treeview_aria,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7168072374/job/19515939443
+"11.12.23, 13:35:26",19515940058,7168072374,1,Frameworks,angular(2/4),23_2_fix/treeview_aria,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7168072374/job/19515940058
+"11.12.23, 13:27:38",19515640482,7167962703,1,Frameworks,Check generated demos (5/5),23_2_fix_handle_move_react,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/7167962703/job/19515640482
+"11.12.23, 07:48:30",19504382065,7164301302,1,Frameworks,vue(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7164301302/job/19504382065
