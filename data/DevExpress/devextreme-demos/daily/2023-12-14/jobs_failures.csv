@@ -1,0 +1,15 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"14.12.23, 12:56:20",19639571550,7209169192,1,Visual Tests,Build DevExtreme,23_2_refactor_types_ng_p1,cancelled,DevExtreme - Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7209169192/job/19639571550
+"14.12.23, 12:58:10",19639635654,7209169192,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7209169192/job/19639635654
+"14.12.23, 14:05:41",19642104608,7209832086,1,Frameworks,angular(1/4),23_2_refactor_types_ng_p1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7209832086/job/19642104608
+"14.12.23, 14:05:42",19642105270,7209832086,1,Frameworks,angular(3/4),23_2_refactor_types_ng_p1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7209832086/job/19642105270
+"14.12.23, 13:22:47",19640541517,7209329664,1,Frameworks,angular(1/4),23_2_refactor_types_ng_p1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7209329664/job/19640541517
+"14.12.23, 13:05:52",19639921052,7209188429,1,Frameworks,Build Demos,23_2_refactor_types_ng_p1,cancelled,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/7209188429/job/19639921052
+"14.12.23, 13:05:54",19639922508,7209188429,1,Frameworks,Lint demos (4/4),23_2_refactor_types_ng_p1,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7209188429/job/19639922508
+"14.12.23, 13:09:34",19640058733,7209188429,1,Frameworks,${{ matrix.CONSTEL }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7209188429/job/19640058733
+"14.12.23, 13:09:34",19640059012,7209188429,1,Frameworks,${{ matrix.name }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7209188429/job/19640059012
+"14.12.23, 12:56:20",19639571539,7209169199,1,Frameworks,Build DevExtreme,23_2_refactor_types_ng_p1,cancelled,Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7209169199/job/19639571539
+"14.12.23, 12:58:08",19639634529,7209169199,1,Frameworks,Build Demos,23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7209169199/job/19639634529
+"14.12.23, 12:58:08",19639634830,7209169199,1,Frameworks,${{ matrix.name }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7209169199/job/19639634830
+"14.12.23, 12:58:09",19639635162,7209169199,1,Frameworks,${{ matrix.CONSTEL }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7209169199/job/19639635162
+"14.12.23, 12:58:10",19639635594,7209169199,1,Frameworks,${{ matrix.name }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7209169199/job/19639635594
