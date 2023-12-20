@@ -2,11 +2,13 @@ import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
 import dotenv from 'dotenv';
 import { join } from 'path';
+import { SingleBar } from 'cli-progress';
 
 import {
   loadWorkflowsFromRange,
   loadWorkflowRunsFromRange,
   loadJobsFromRange,
+  loadLogs,
 } from './load.js';
 
 import {
@@ -16,7 +18,7 @@ import {
   buildFailuresListFromRange,
 } from './report.js';
 
-import { getRepoPath, getDatesFromRange, getDateRange } from './utils.js';
+import { getRepoPath, getDatesFromRange, getDateRange, writeCsv } from './utils.js';
 
 dotenv.config();
 
@@ -35,6 +37,11 @@ const options = {
     describe: 'a list of workflow ids to load',
     default: [],
     type: 'array'
+  },
+  jobName: {
+    describe: 'a list of job name',
+    default: [],
+    type: 'array',
   },
   fetch: {
     describe: 'prepares data recursively if some is not ready yet',
@@ -245,6 +252,104 @@ yargs(hideBin(process.argv))
         join(getRepoPath(), 'jobs_failures.csv'),
         getDatesFromRange({ from, to }).reverse().map((date) => join(getRepoPath(), 'daily', date, 'jobs_failures.csv'))
       );
+    }
+  )
+  .command(
+    'unstable_tests',
+    'Builds unstable tests statistics based on reading job logs',
+    yargs => yargs.options({
+      from: options.from,
+      to: options.to,
+      id: options.id,
+      jobName: options.jobName,
+    }),
+    async ({ from, to, id, jobName: jobNames }) => {
+      const dates = getDatesFromRange({ from, to });
+
+      const workflowIds = ['testcafe_tests.yml'];
+
+      for (const date of dates) {
+        console.log(date);
+        const { default: jobsData } = await import(`./data/DevExpress/DevExtreme/daily/${date}/jobs/${workflowIds[0]}.json`, {
+          assert: {
+            type: 'json',
+          },
+        });
+
+        let rows = [];
+
+        const csvHeaders = [
+          'date',
+          'job_name',
+          'test_name',
+          'status',
+          'count',
+        ];
+
+        for (const jobName of jobNames) {
+          const jobs = jobsData.jobs.filter((job) => job.name === jobName);
+          const testByStatusMap = new Map();
+
+          const progressBar = new SingleBar();
+          progressBar.start(jobs.length, 0);
+
+          for (const { id, name } of jobs) {
+            const result = await loadLogs({ jobId: id });
+
+            const succeedSymbol = '✓';
+            const failureSymbol = '✖';
+
+            const testCases = result.data
+              .split('\n')
+              .filter((line) => line.includes('(unstable)') || line.includes(failureSymbol))
+              .map((line) => [
+                line
+                  .replaceAll(/\u001b\[\d*m/g, '') // Remove styling spec symbols
+                  .replace(/\s*(\(unstable\)\s*)?\(screenshots: .+\)$/, '')
+                  .replace(/^\d{4}(-\d{2}){2}T\d{2}(:\d{2}){2}\.\d+Z\s*/, '')
+                  .replace(`${succeedSymbol} `, '')
+                  .replace(`${failureSymbol} `, ''),
+                line.includes(failureSymbol) ? 'failure' : line.includes(succeedSymbol) ? 'succeed' : 'unknown',
+              ]);
+
+            testCases.forEach(([name, status]) => {
+              if (!testByStatusMap.has(status)) {
+                testByStatusMap.set(status, new Map());
+              }
+
+              const testNameMap = testByStatusMap.get(status);
+              testNameMap.set(name, (testNameMap.get(name) ?? 0) + 1);
+            });
+
+            progressBar.increment();
+          }
+
+          progressBar.stop();
+
+          rows = rows.concat(
+            [...testByStatusMap.entries()]
+              .reduce((acc, [status, testNameMap]) => acc.concat(
+                [...testNameMap.entries()]
+                  .map(([name, count]) => ({
+                    date,
+                    job_name: jobName,
+                    status,
+                    test_name: name,
+                    count,
+                  }))
+              ), [])
+          );
+        }
+
+        const reportPath = join(getRepoPath(), 'daily', date, `${workflowIds[0]}_unstable_tests.csv`);
+
+        writeCsv(
+          reportPath,
+          [csvHeaders].concat(
+            rows.map((row) => csvHeaders.map((name) => row[name]))
+          )
+        );
+      }
     }
   )
   .parse();

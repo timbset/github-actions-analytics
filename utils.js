@@ -95,11 +95,23 @@ function stringifyColumns(columns) {
 
 function stringifyColumnsWithEscape(columns) {
   if (Array.isArray(columns)) {
-    return columns.map((column) =>
-      column.toString().includes(',')
-        ? `"${column}"`
-        : `${column}`
-    ).join(',');
+    return columns.map((column) => {
+      let columnStr = column.toString();
+      let result = column;
+
+      let shouldBeEscaped = false;
+
+      if (columnStr.includes('"')) {
+        result = result.replaceAll('"', '""');
+        shouldBeEscaped = true;
+      }
+
+      if (columnStr.includes(',')) {
+        shouldBeEscaped = true;
+      }
+
+      return shouldBeEscaped ? `"${result}"` : `${result}`;
+    }).join(',');
   }
 
   return columns;

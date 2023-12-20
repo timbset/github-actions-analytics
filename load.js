@@ -273,3 +273,16 @@ export async function loadJobs({ date, ids, withFetch }) {
     console.log(`"${runId}" workflow jobs saved`);
   }
 }
+
+export async function loadLogs({ jobId }) {
+  const octokit = getOctokit();
+
+  return await octokit.request('GET /repos/{owner}/{repo}/actions/jobs/{job_id}/logs', {
+    owner: getEnv('GH_REPO_OWNER'),
+    repo: getEnv('GH_REPO_NAME'),
+    job_id: jobId,
+    headers: {
+      'X-GitHub-Api-Version': '2022-11-28'
+    },
+  });
+}
