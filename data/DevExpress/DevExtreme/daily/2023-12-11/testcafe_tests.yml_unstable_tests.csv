@@ -1,0 +1,27 @@
+date,job_name,test_name,status,count
+2023-12-11,dataGrid (1/2),Editing - Rollback changes on a click on a revert button  when startEditAction is dblclick,succeed,1
+2023-12-11,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),succeed,34
+2023-12-11,dataGrid (1/2),Scrolling - New row should be rendered at the top when grid is scrolled in virtual scrolling,succeed,1
+2023-12-11,dataGrid (1/2),Keyboard Navigation - common - All rows should be focused on arrow-up/down when virtual scrolling enabled with group summary (T1014612),succeed,4
+2023-12-11,dataGrid (1/2),Editing - Cells should be focused correctly on click when cell editing mode is used with enabled showEditorAlways (T1037019) (unstable),succeed,9
+2023-12-11,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""text"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,6
+2023-12-11,dataGrid (1/2),Column reordering - The separator should display correctly when dragging column,succeed,6
+2023-12-11,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""number"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,1
+2023-12-11,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""text"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":true,""isAdding"":false}",succeed,2
+2023-12-11,dataGrid (1/2),"Master detail - The master detail row should display correctly when renderAsync, virtual scrolling and column fixing features are enabled",succeed,5
+2023-12-11,dataGrid (1/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),succeed,1
+2023-12-11,dataGrid (1/2),Remote Scrolling - Warning should be thrown if scrolling is virtual and height is not specified,succeed,3
+2023-12-11,dataGrid (1/2),Focused row - new rows T1162227 - It should fire row changed event and change page if focusedRowKey on another page,succeed,1
+2023-12-11,dataGrid (1/2),Keyboard Navigation - common - The last cell should be focused after changing the page size (T1063530),succeed,1
+2023-12-11,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),failure,3
+2023-12-11,dataGrid (1/2),Column reordering - The separator should display correctly when dragging column,failure,1
+2023-12-11,dataGrid (1/2),and scrollTop is 0,unknown,1
+2023-12-11,dataGrid (1/2),and scrollTop is 162,unknown,1
+2023-12-11,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,succeed,24
+2023-12-11,scheduler (2/5),Scheduler loading panel - Save appointment loading panel screenshot,succeed,1
+2023-12-11,scheduler (2/5),Drag-and-drop appointments in the Scheduler basic views - Drag-n-drop when browser has horizontal scroll,succeed,1
+2023-12-11,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,failure,6
+2023-12-11,scheduler (2/5),Scheduler: Current Time Indication - ,failure,9
+2023-12-11,editors - fluent (1/2),NumberBox_Label - Label for dxNumberBox stylingMode=underlined,succeed,28
+2023-12-11,editors - fluent (1/2),"NumberBox_Label - NumberBox with buttons container, isValid=true",succeed,58
+2023-12-11,editors - fluent (1/2),Toast - Toasts,failure,4

@@ -1,0 +1,31 @@
+date,job_name,test_name,status,count
+2023-12-15,dataGrid (1/2),Keyboard Navigation - common - All rows should be focused on arrow-up/down when virtual scrolling enabled with group summary (T1014612),succeed,2
+2023-12-15,dataGrid (1/2),"Master detail - The master detail row should display correctly when renderAsync, virtual scrolling and column fixing features are enabled",succeed,15
+2023-12-15,dataGrid (1/2),Keyboard Navigation - editOnKeyPress - Editing should start by pressing enter after scrolling content with scrolling.mode=virtual,succeed,4
+2023-12-15,dataGrid (1/2),Editing - Empty rows should not appear after rows are updated in batch editing mode when paging and validation are enabled and remoteOperations=false,succeed,1
+2023-12-15,dataGrid (1/2),Remote Scrolling - Warning should be thrown if scrolling is virtual and height is not specified,succeed,6
+2023-12-15,dataGrid (1/2),Keyboard Navigation - common - The last cell should be focused after changing the page size (T1063530),succeed,1
+2023-12-15,dataGrid (1/2),Remote Scrolling - infinite scrolling - the markup should be correct for continuous scrolling when there is a fixed column with cellTemplate (React),succeed,1
+2023-12-15,dataGrid (1/2),Validation - Validation popup screenshot,succeed,1
+2023-12-15,dataGrid (1/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),succeed,4
+2023-12-15,dataGrid (1/2),FixedColumns - Fixed to the right columns should appear when any column has undefined or 0 width,succeed,2
+2023-12-15,dataGrid (1/2),Row dragging - The placeholder should have correct position after dragging the row to the end when there is free space in grid and dataRowTemplate is set,succeed,2
+2023-12-15,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),succeed,15
+2023-12-15,dataGrid (1/2),Column reordering - The separator should display correctly when dragging column,succeed,5
+2023-12-15,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""text"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,6
+2023-12-15,dataGrid (1/2),Editing - The disabled state should be correct for a custom button when given as a SVG image (generic.light),succeed,3
+2023-12-15,dataGrid (1/2),"Editing - Update cell value {""mode"":""row"",""dataField"":""calculated"",""repaintChangesOnly"":false,""useKeyboard"":false,""useMask"":false,""isAdding"":false}",succeed,1
+2023-12-15,dataGrid (1/2),Editing - Cells should be focused correctly on click when cell editing mode is used with enabled showEditorAlways (T1037019) (unstable),succeed,4
+2023-12-15,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""number"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,1
+2023-12-15,dataGrid (1/2),Remote Scrolling - Warning should be thrown if scrolling is virtual and height is not specified,failure,2
+2023-12-15,dataGrid (1/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),failure,1
+2023-12-15,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),failure,3
+2023-12-15,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""text"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":true,""isAdding"":true}",failure,1
+2023-12-15,dataGrid (1/2),and scrollTop is 162,unknown,2
+2023-12-15,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,succeed,21
+2023-12-15,scheduler (2/5),Appointment tooltip behavior during scrolling in the Scheduler (T755449) - The tooltip screenshot,succeed,7
+2023-12-15,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,failure,6
+2023-12-15,scheduler (2/5),Scheduler: Current Time Indication - ,failure,18
+2023-12-15,scheduler (2/5),Scheduler: Current Time Indication: Shader - Shader should be displayed correctly when crossScrollingEnabled=true,failure,2
+2023-12-15,editors - fluent (1/2),NumberBox_Label - Label for dxNumberBox stylingMode=underlined,succeed,6
+2023-12-15,editors - fluent (1/2),"NumberBox_Label - NumberBox with buttons container, isValid=true",succeed,9
