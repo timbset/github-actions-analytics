@@ -1,0 +1,30 @@
+date,job_name,test_name,status,count
+2023-12-19,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""text"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,3
+2023-12-19,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),succeed,11
+2023-12-19,dataGrid (1/2),Keyboard Navigation - common - DataGrid - Cell focus works incorrectly if the command column has a disabled native button element (T1179207),succeed,6
+2023-12-19,dataGrid (1/2),Editing - Cells should be focused correctly on click when cell editing mode is used with enabled showEditorAlways (T1037019) (unstable),succeed,2
+2023-12-19,dataGrid (1/2),Column reordering - The separator should display correctly when dragging column,succeed,2
+2023-12-19,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""number"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,1
+2023-12-19,dataGrid (1/2),Row dragging - The placeholder should have correct position after dragging the row to the end when there is free space in grid and dataRowTemplate is set,succeed,2
+2023-12-19,dataGrid (1/2),Validation - Validation popup screenshot,succeed,1
+2023-12-19,dataGrid (1/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),succeed,2
+2023-12-19,dataGrid (1/2),"Master detail - The master detail row should display correctly when renderAsync, virtual scrolling and column fixing features are enabled",succeed,18
+2023-12-19,dataGrid (1/2),Remote Scrolling - Warning should be thrown if scrolling is virtual and height is not specified,succeed,4
+2023-12-19,dataGrid (1/2),Editing - The disabled state should be correct for a custom button when given as a SVG image (generic.light),succeed,2
+2023-12-19,dataGrid (1/2),Keyboard Navigation - editOnKeyPress - Editing should start by pressing enter after scrolling content with scrolling.mode=virtual,succeed,1
+2023-12-19,dataGrid (1/2),Editing - Empty rows should not appear after rows are updated in batch editing mode when paging and validation are enabled and remoteOperations=false,succeed,1
+2023-12-19,dataGrid (1/2),FixedColumns - Fixed to the right columns should appear when any column has undefined or 0 width,succeed,1
+2023-12-19,dataGrid (1/2),Scrolling - New row should be rendered at the top when grid is scrolled in virtual scrolling,succeed,1
+2023-12-19,dataGrid (1/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),failure,2
+2023-12-19,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),failure,2
+2023-12-19,dataGrid (1/2),and scrollTop is 162,unknown,1
+2023-12-19,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,succeed,14
+2023-12-19,scheduler (2/5),Appointment tooltip behavior during scrolling in the Scheduler (T755449) - The tooltip screenshot,succeed,8
+2023-12-19,scheduler (2/5),"Scheduler: Adaptive layout in themes - Adaptive views layout test in fluent theme, crossScrollingEnabled=true",failure,1
+2023-12-19,scheduler (2/5),"Scheduler: Adaptive layout in themes - Adaptive views layout test in fluent theme, crossScrollingEnabled=false when vertical grouping and RTL are used",failure,1
+2023-12-19,scheduler (2/5),Scheduler: Workspace - Check cell hover state in material.blue.light,failure,1
+2023-12-19,scheduler (2/5),Scheduler: Workspace - Check header panel cells when the scheduler is small in fluent.blue.light,failure,1
+2023-12-19,scheduler (2/5),Scheduler: Workspace - Check cell active state in generic.dark,failure,1
+2023-12-19,scheduler (2/5),Scheduler: Workspace - Check cell hover state in fluent.blue.dark,failure,1
+2023-12-19,scheduler (2/5),Scheduler: Workspace - Check header panel cells when the scheduler is small in fluent.saas.dark,failure,1
+2023-12-19,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,failure,1
