@@ -1,0 +1,46 @@
+date,job_name,test_name,status,count
+2023-12-20,dataGrid (1/2),"Master detail - The master detail row should display correctly when renderAsync, virtual scrolling and column fixing features are enabled",succeed,21
+2023-12-20,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""text"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,4
+2023-12-20,dataGrid (1/2),Column reordering - The separator should display correctly when dragging column,succeed,3
+2023-12-20,dataGrid (1/2),"Editing - Update cell value {""mode"":""cell"",""dataField"":""number"",""repaintChangesOnly"":false,""useKeyboard"":true,""useMask"":false,""isAdding"":false}",succeed,2
+2023-12-20,dataGrid (1/2),Editing - Cells should be focused correctly on click when cell editing mode is used with enabled showEditorAlways (T1037019) (unstable),succeed,2
+2023-12-20,dataGrid (1/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),succeed,8
+2023-12-20,dataGrid (1/2),Remote Scrolling - Warning should be thrown if scrolling is virtual and height is not specified,succeed,7
+2023-12-20,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),succeed,4
+2023-12-20,dataGrid (1/2),Keyboard Navigation - common - DataGrid - Cell focus works incorrectly if the command column has a disabled native button element (T1179207),succeed,3
+2023-12-20,dataGrid (1/2),FixedColumns - Fixed to the right columns should appear when any column has undefined or 0 width,succeed,4
+2023-12-20,dataGrid (1/2),Validation - Validation popup screenshot,succeed,3
+2023-12-20,dataGrid (1/2),Scrolling - Header container should have padding-right if grid has max-height and scrollbar is shown,succeed,1
+2023-12-20,dataGrid (1/2),Scrolling - Rows are rendered properly when window content is scrolled (T1070388),succeed,1
+2023-12-20,dataGrid (1/2),Scrolling - The scroll position of a fixed table should be synchronized with the main table when fast scrolling to the end,succeed,1
+2023-12-20,dataGrid (1/2),Remote Scrolling - New virtual mode. Virtual rows should not be in view port after switching to the last page with row numbers less than page size (useNative = true) (T1085775) (unstable),succeed,1
+2023-12-20,dataGrid (1/2),Editing - Empty rows should not appear after rows are updated in batch editing mode when paging and validation are enabled and remoteOperations=false,succeed,1
+2023-12-20,dataGrid (1/2),Row dragging - The placeholder should have correct position after dragging the row to the end when there is free space in grid and dataRowTemplate is set,succeed,2
+2023-12-20,dataGrid (1/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),failure,2
+2023-12-20,dataGrid (1/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),failure,1
+2023-12-20,dataGrid (1/2),Remote Scrolling - New virtual mode. Navigation to the last row if new row is added (T1069849),failure,1
+2023-12-20,dataGrid (1/2),Row dragging - The placeholder should have correct position after dragging the row to the end when there is free space in grid and dataRowTemplate is set,failure,1
+2023-12-20,dataGrid (1/2),and scrollTop is 162,unknown,1
+2023-12-20,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,succeed,10
+2023-12-20,scheduler (2/5),Scheduler loading panel - Save appointment loading panel screenshot,succeed,1
+2023-12-20,scheduler (2/5),Appointment tooltip behavior during scrolling in the Scheduler (T755449) - The tooltip screenshot,succeed,15
+2023-12-20,scheduler (2/5),Delete appointments - Recurrence appointments should be deleted by press 'delete' key,failure,5
+2023-12-20,editors - fluent (1/2),NumberBox_Label - Label for dxNumberBox stylingMode=underlined,succeed,2
+2023-12-20,dataGrid (2/2),Editing - Cell mode(setCellValue) with async validation - The value of an invalid dependent cell should be updated in a modified row(T872751),succeed,8
+2023-12-20,dataGrid (2/2),Row dragging - Dragging with scrolling should be prevented by e.cancel (T1179555),succeed,10
+2023-12-20,dataGrid (2/2),Editing - Empty rows should not appear after rows are updated in batch editing mode when paging and validation are enabled and remoteOperations=false,succeed,4
+2023-12-20,dataGrid (2/2),Focused row - It is possible to focus row that was added via push method if previously row with same index was focused (T1202646),succeed,7
+2023-12-20,dataGrid (2/2),Validation - Validation popup screenshot,succeed,10
+2023-12-20,dataGrid (2/2),Row dragging - The placeholder should have correct position after dragging the row to the end when there is free space in grid and dataRowTemplate is set,succeed,7
+2023-12-20,dataGrid (2/2),Keyboard Navigation - common - DataGrid - Cell focus works incorrectly if the command column has a disabled native button element (T1179207),succeed,4
+2023-12-20,dataGrid (2/2),Editing - Cells should be focused correctly on click when cell editing mode is used with enabled showEditorAlways (T1037019) (unstable),succeed,1
+2023-12-20,dataGrid (2/2),Remote Scrolling - New virtual mode. Virtual rows should not be in view port after scrolling large data (T1043156),succeed,1
+2023-12-20,dataGrid (2/2),"Master detail - The master detail row should display correctly when renderAsync, virtual scrolling and column fixing features are enabled",succeed,10
+2023-12-20,dataGrid (2/2),Remote Scrolling - Warning should be thrown if scrolling is virtual and height is not specified,succeed,3
+2023-12-20,dataGrid (2/2),Focused row - markup - Invalid cells in a focused row should have the correct background color (T1197268) - fluent.blue.light,succeed,1
+2023-12-20,dataGrid (2/2),Column reordering - column separator should work properly with expand columns,succeed,1
+2023-12-20,dataGrid (2/2),Focused row - It is possible to focus row that was added via push method if previously row with same index was focused (T1202646),failure,4
+2023-12-20,dataGrid (2/2),Common tests with axe - Column chooser with the 'dragAndDrop' mode in generic.light,failure,1
+2023-12-20,dataGrid (2/2),Row dragging - The placeholder should have correct position after dragging the row to the end when there is free space in grid and dataRowTemplate is set,failure,1
+2023-12-20,dataGrid (2/2),Keyboard Navigation - common - Next cell should be focused immediately on a single Enter key press if showEditorAlways is enabled in cell mode (T1196539),failure,3
+2023-12-20,dataGrid (2/2),Remote Scrolling - Warning should be thrown if scrolling is virtual and height is not specified,failure,1
