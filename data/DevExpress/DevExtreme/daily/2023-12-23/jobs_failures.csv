@@ -1,0 +1,3 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"23.12.23, 00:42:31",19908196757,7305079214,1,Lint,Renovation,renovate/react-monorepo,failure,Compile renovation,https://github.com/DevExpress/DevExtreme/actions/runs/7305079214/job/19908196757
+"23.12.23, 00:42:28",19908196270,7305079216,1,DevExtreme Wrappers Tests,test,renovate/react-monorepo,failure,React - Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/7305079216/job/19908196270
