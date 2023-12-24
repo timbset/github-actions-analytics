@@ -1,0 +1,6 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"23.12.23, 18:17:04",19917753414,7309718684,1,Frameworks,vue(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7309718684/job/19917753414
+"23.12.23, 08:16:55",19912559735,7307081933,1,Frameworks,vue(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7307081933/job/19912559735
+"23.12.23, 04:17:23",19910513447,7306068854,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7306068854/job/19910513447
+"23.12.23, 02:22:52",19909452492,7305579923,1,Frameworks,vue(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7305579923/job/19909452492
+"23.12.23, 02:22:53",19909452575,7305579923,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7305579923/job/19909452575
