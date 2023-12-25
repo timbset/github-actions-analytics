@@ -1,4 +1,6 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2023-12-24,visual_tests.yml,Visual Tests,10,14,0,0,0,"0,01042824074","0,01351321373","0,01608796296",0,0,0,0,0,0,0,0
+2023-12-24,visual_tests_frameworks.yml,Frameworks,3,9,0,0,0,"0,02599537037","0,02777874228","0,02984953704",0,0,0,0,0,0,0,0
 2023-12-23,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,003958333333","0,003958333333","0,003958333333",0,0,0,0,0,0,0,0
 2023-12-23,visual_tests.yml,Visual Tests,24,0,0,0,0,"0,01020833333","0,01064525463","0,01119212963",0,0,0,0,0,0,0,0
 2023-12-23,visual_tests_frameworks.yml,Frameworks,8,4,0,0,0,"0,02576388889","0,02617283951","0,02662037037",0,0,0,0,0,0,0,0
@@ -86,10 +88,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2023-12-09,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,004050925926","0,004050925926","0,004050925926",0,0,0,0,0,0,0,0
 2023-12-09,visual_tests.yml,Visual Tests,19,5,0,0,0,"0,01009259259","0,01166907793","0,01549768519",0,0,0,0,0,0,0,0
 2023-12-09,visual_tests_frameworks.yml,Frameworks,7,5,0,0,0,"0,02572916667","0,02725597994","0,02953703704",0,0,0,0,0,0,0,0
-2023-12-08,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,0000462962963","0,0000462962963"
-2023-12-08,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003009259259","0,003009259259","0,003009259259"
-2023-12-08,lint.yml,Lint,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0005787037037","0,0005787037037","0,0005787037037"
-2023-12-08,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,000150462963","0,000150462963","0,000150462963"
-2023-12-08,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0004861111111","0,0004861111111","0,0004861111111"
-2023-12-08,visual_tests.yml,Visual Tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006585648148","0,006585648148","0,006585648148"
-2023-12-08,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01289351852","0,01289351852","0,01289351852"
