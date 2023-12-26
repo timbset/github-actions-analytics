@@ -1,0 +1,24 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"25.12.23, 11:10:28",19941609121,7321342755,1,Build aspnet demos,Build aspnet demos,dependabot/npm_and_yarn/npm_and_yarn-security-group-f4e71bc59b,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7321342755/job/19941609121
+"25.12.23, 11:05:29",19941540505,7321311624,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/7321311624/job/19941540505
+"25.12.23, 09:54:22",19940620522,7320902887,1,Lint,package_lock,branch_24_1,failure,Check package-lock,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902887/job/19940620522
+"25.12.23, 09:52:13",19940597642,7320892968,1,Lint,package_lock,branch_24_1,failure,Check package-lock,https://github.com/DevExpress/devextreme-demos/actions/runs/7320892968/job/19940597642
+"25.12.23, 09:54:22",19940620498,7320902888,1,Visual Tests,Build DevExtreme,branch_24_1,cancelled,DevExtreme - Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902888/job/19940620498
+"25.12.23, 09:58:36",19940661651,7320902888,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902888/job/19940661651
+"25.12.23, 18:41:06",19946516970,7323664556,1,Frameworks,Lint demos (3/4),23_2_refactor_types_ng_p1,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7323664556/job/19946516970
+"25.12.23, 18:41:07",19946517046,7323664556,1,Frameworks,Lint demos (4/4),23_2_refactor_types_ng_p1,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7323664556/job/19946517046
+"25.12.23, 12:50:20",19942791224,7321851668,1,Frameworks,Lint demos (3/4),23_2_refactor_types_ng_p1,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7321851668/job/19942791224
+"25.12.23, 12:50:20",19942791307,7321851668,1,Frameworks,Lint demos (4/4),23_2_refactor_types_ng_p1,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7321851668/job/19942791307
+"25.12.23, 11:18:44",19941709946,7321342762,1,Frameworks,Lint code base (excluding demos),dependabot/npm_and_yarn/npm_and_yarn-security-group-f4e71bc59b,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7321342762/job/19941709946
+"25.12.23, 09:58:37",19940661886,7320918244,1,Frameworks,Build DevExtreme,branch_24_1,failure,Clone devextreme-documentation repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7320918244/job/19940661886
+"25.12.23, 10:16:30",19940931646,7320918244,2,Frameworks,Build DevExtreme,branch_24_1,cancelled,Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7320918244/job/19940931646
+"25.12.23, 10:20:13",19940982295,7320918244,2,Frameworks,Build Demos,branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320918244/job/19940982295
+"25.12.23, 10:20:14",19940982381,7320918244,2,Frameworks,${{ matrix.name }},branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320918244/job/19940982381
+"25.12.23, 10:20:14",19940982485,7320918244,2,Frameworks,${{ matrix.CONSTEL }},branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320918244/job/19940982485
+"25.12.23, 10:20:15",19940982591,7320918244,2,Frameworks,${{ matrix.name }},branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320918244/job/19940982591
+"25.12.23, 09:54:22",19940620569,7320902895,1,Frameworks,Build DevExtreme,branch_24_1,cancelled,Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902895/job/19940620569
+"25.12.23, 09:58:36",19940661740,7320902895,1,Frameworks,Build Demos,branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902895/job/19940661740
+"25.12.23, 09:58:37",19940661815,7320902895,1,Frameworks,${{ matrix.name }},branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902895/job/19940661815
+"25.12.23, 09:58:37",19940661879,7320902895,1,Frameworks,${{ matrix.name }},branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902895/job/19940661879
+"25.12.23, 09:58:37",19940661954,7320902895,1,Frameworks,${{ matrix.CONSTEL }},branch_24_1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7320902895/job/19940661954
+"25.12.23, 09:52:13",19940597735,7320892972,1,Frameworks,Build DevExtreme,branch_24_1,failure,Clone devextreme-documentation repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7320892972/job/19940597735
