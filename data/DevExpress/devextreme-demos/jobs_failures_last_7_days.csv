@@ -380,9 +380,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "23.12.23, 04:17:23",19910513447,7306068854,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7306068854/job/19910513447
 "23.12.23, 02:22:52",19909452492,7305579923,1,Frameworks,vue(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7305579923/job/19909452492
 "23.12.23, 02:22:53",19909452575,7305579923,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7305579923/job/19909452575
-"22.12.23, 09:10:48",19888660806,7298105307,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7298105307/job/19888660806
-"22.12.23, 11:29:16",19892065586,7299319886,1,Frameworks,Lint demos (4/4),23_2_refactor_types_ng_p2,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7299319886/job/19892065586
-"22.12.23, 09:10:48",19888661086,7298105310,1,Frameworks,${{ matrix.name }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7298105310/job/19888661086
-"22.12.23, 09:10:49",19888661246,7298105310,1,Frameworks,Build Demos,23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7298105310/job/19888661246
-"22.12.23, 09:10:49",19888661404,7298105310,1,Frameworks,${{ matrix.name }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7298105310/job/19888661404
-"22.12.23, 09:10:50",19888661576,7298105310,1,Frameworks,${{ matrix.CONSTEL }},23_2_refactor_types_ng_p1,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7298105310/job/19888661576
