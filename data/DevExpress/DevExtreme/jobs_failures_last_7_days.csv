@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"30.12.23, 02:12:59",20038771803,7361445640,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7361445640/job/20038771803
 "29.12.23, 16:52:11",20031517189,7358367372,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7358367372/job/20031517189
 "29.12.23, 16:11:04",20030852089,7358070558,1,DevExtreme package tests,Demos visual tests jquery(1/4),fluent-borders_refactoring_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/7358070558/job/20030852089
 "29.12.23, 16:11:04",20030852212,7358070558,1,DevExtreme package tests,Demos visual tests jquery(2/4),fluent-borders_refactoring_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/7358070558/job/20030852212
@@ -2286,5 +2287,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "25.12.23, 11:30:45",19941831214,7321445769,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7321445769/job/19941831214
 "25.12.23, 08:06:54",19939165351,7320275033,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7320275033/job/19939165351
 "25.12.23, 07:52:41",19938965834,7320192615,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7320192615/job/19938965834
-"23.12.23, 00:42:31",19908196757,7305079214,1,Lint,Renovation,renovate/react-monorepo,failure,Compile renovation,https://github.com/DevExpress/DevExtreme/actions/runs/7305079214/job/19908196757
-"23.12.23, 00:42:28",19908196270,7305079216,1,DevExtreme Wrappers Tests,test,renovate/react-monorepo,failure,React - Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/7305079216/job/19908196270
