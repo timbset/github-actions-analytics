@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"31.12.23, 02:16:12",20051448929,7367810155,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7367810155/job/20051448929
 "30.12.23, 02:12:59",20038771803,7361445640,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7361445640/job/20038771803
 "29.12.23, 16:52:11",20031517189,7358367372,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7358367372/job/20031517189
 "29.12.23, 16:11:04",20030852089,7358070558,1,DevExtreme package tests,Demos visual tests jquery(1/4),fluent-borders_refactoring_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/7358070558/job/20030852089
