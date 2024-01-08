@@ -6,9 +6,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "07.01.24, 04:16:22",20231942166,7435926466,1,Frameworks,vue(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7435926466/job/20231942166
 "07.01.24, 04:16:22",20231942276,7435926466,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7435926466/job/20231942276
 "07.01.24, 04:16:22",20231942357,7435926466,1,Frameworks,vue(4/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7435926466/job/20231942357
-"06.01.24, 18:16:52",20225940782,7433140955,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7433140955/job/20225940782
-"06.01.24, 16:15:50",20224687466,7432580871,1,Frameworks,vue(1/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7432580871/job/20224687466
-"06.01.24, 16:15:51",20224687632,7432580871,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7432580871/job/20224687632
-"06.01.24, 06:16:37",20219060792,7429860871,1,Frameworks,react(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7429860871/job/20219060792
-"06.01.24, 06:16:39",20219061169,7429860871,1,Frameworks,vue(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7429860871/job/20219061169
-"06.01.24, 06:16:40",20219061272,7429860871,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7429860871/job/20219061272
