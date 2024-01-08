@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"07.01.24, 02:17:51",20230807114,7435457075,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7435457075/job/20230807114
 "06.01.24, 02:13:45",20216579482,7428800220,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7428800220/job/20216579482
 "05.01.24, 02:15:13",20183361371,7417215194,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7417215194/job/20183361371
 "05.01.24, 18:01:51",20206186316,7425132323,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7425132323/job/20206186316
@@ -693,4 +694,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "02.01.24, 11:21:57",20089504003,7385203856,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7385203856/job/20089504003
 "02.01.24, 11:21:54",20089503135,7385203873,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7385203873/job/20089503135
 "01.01.24, 02:18:10",20064430981,7374256579,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7374256579/job/20064430981
-"31.12.23, 02:16:12",20051448929,7367810155,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7367810155/job/20051448929
