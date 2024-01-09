@@ -1,4 +1,9 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"08.01.24, 20:05:57",20276215346,7452514053,1,Frameworks,Lint demos (2/4),23_2_refactor_types_ng_p2,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7452514053/job/20276215346
+"08.01.24, 19:49:11",20275694842,7452359580,1,Frameworks,Lint demos (3/4),23_2_refactor_types_ng_p1,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7452359580/job/20275694842
+"08.01.24, 19:49:12",20275695030,7452359580,1,Frameworks,Lint demos (4/4),23_2_refactor_types_ng_p1,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7452359580/job/20275695030
+"08.01.24, 10:39:22",20256234305,7446218655,1,Frameworks,Build Documentation Metadata,update-etalons-diagram,failure,Update topics,https://github.com/DevExpress/devextreme-demos/actions/runs/7446218655/job/20256234305
+"08.01.24, 10:46:18",20256453696,7446218655,1,Frameworks,angular(2/4),update-etalons-diagram,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7446218655/job/20256453696
 "07.01.24, 20:16:45",20241561545,7440426562,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7440426562/job/20241561545
 "07.01.24, 16:16:40",20239149530,7439284107,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7439284107/job/20239149530
 "07.01.24, 12:17:45",20236590850,7438066241,1,Frameworks,vue(4/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7438066241/job/20236590850
