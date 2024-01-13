@@ -1,4 +1,11 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"12.01.24, 08:46:40",20417450497,7499792122,1,Frameworks,Lint demos (4/4),vue-form-updateItems-cherry,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7499792122/job/20417450497
+"12.01.24, 08:21:03",20416745616,7499502884,1,Frameworks,vue(1/4),fix-form-update-items,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7499502884/job/20416745616
+"12.01.24, 07:48:34",20415930020,7499282689,1,Frameworks,Lint demos (1/4),fix-form-update-items,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7499282689/job/20415930020
+"12.01.24, 07:48:01",20415918198,7499275187,1,Frameworks,Lint demos (1/4),fix-form-update-items,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20415918198
+"12.01.24, 07:48:03",20415918635,7499275187,1,Frameworks,Lint demos (4/4),fix-form-update-items,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20415918635
+"12.01.24, 07:53:42",20416040560,7499275187,1,Frameworks,vue(2/4),fix-form-update-items,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20416040560
+"12.01.24, 07:53:44",20416041219,7499275187,1,Frameworks,angular(3/4),fix-form-update-items,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20416041219
 "11.01.24, 02:50:48",20369151766,7483620592,1,Build aspnet demos,Build aspnet demos,dependabot/npm_and_yarn/follow-redirects-and-axios-1.15.4,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7483620592/job/20369151766
 "11.01.24, 03:02:18",20369336442,7483620593,1,Frameworks,vue(3/4),dependabot/npm_and_yarn/follow-redirects-and-axios-1.15.4,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7483620593/job/20369336442
 "09.01.24, 20:53:50",20318853672,7466703924,1,Visual Tests,jquery(1/4)-screenshots,23_2_refactor_types_ng_p3,cancelled,Download devextreme sources,https://github.com/DevExpress/devextreme-demos/actions/runs/7466703924/job/20318853672
