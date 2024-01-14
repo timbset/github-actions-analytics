@@ -783,4 +783,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "08.01.24, 11:30:37",20257843341,7446814921,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7446814921/job/20257843341
 "08.01.24, 05:20:28",20248528703,7443522278,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7443522278/job/20248528703
 "07.01.24, 02:17:51",20230807114,7435457075,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7435457075/job/20230807114
-"06.01.24, 02:13:45",20216579482,7428800220,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7428800220/job/20216579482
