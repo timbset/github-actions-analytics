@@ -782,4 +782,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "08.01.24, 11:30:55",20257851808,7446817457,1,DevExtreme Wrappers Tests,test,renovate/axe-core-4.x,failure,React - Check packing,https://github.com/DevExpress/DevExtreme/actions/runs/7446817457/job/20257851808
 "08.01.24, 11:30:37",20257843341,7446814921,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7446814921/job/20257843341
 "08.01.24, 05:20:28",20248528703,7443522278,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7443522278/job/20248528703
-"07.01.24, 02:17:51",20230807114,7435457075,1,Send dependabot new vulnerability alerts,Send notifications,24_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/7435457075/job/20230807114
