@@ -59,6 +59,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2024-01-03,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01313657407","0,01313657407","0,01313657407"
 2023-12-31,visual_tests.yml,Visual Tests,24,0,0,0,0,"0,009976851852","0,01063657407","0,01128472222",0,0,0,0,0,0,0,0
 2023-12-31,visual_tests_frameworks.yml,Frameworks,10,2,0,0,0,"0,02546296296","0,02620081019","0,02739583333",0,0,0,0,0,0,0,0
-2023-12-30,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,003888888889","0,003888888889","0,003888888889",0,0,0,0,0,0,0,0
-2023-12-30,visual_tests.yml,Visual Tests,24,0,0,0,0,"0,01024305556","0,01079957562","0,01175925926",0,0,0,0,0,0,0,0
-2023-12-30,visual_tests_frameworks.yml,Frameworks,7,5,0,0,0,"0,02523148148","0,02630594136","0,02741898148",0,0,0,0,0,0,0,0
