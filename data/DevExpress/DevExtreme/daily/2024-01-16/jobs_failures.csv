@@ -1,0 +1,117 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"16.01.24, 12:46:12",20529204441,7541780611,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7541780611/job/20529204441
+"16.01.24, 11:26:03",20526495661,7540909354,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7540909354/job/20526495661
+"16.01.24, 11:17:34",20526212612,7540819180,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7540819180/job/20526212612
+"16.01.24, 11:24:08",20526432761,7540813918,1,DevExtreme package tests,Demos visual tests jquery(4/4),23_2lookup_placeholder,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7540813918/job/20526432761
+"16.01.24, 10:58:12",20525519272,7540592627,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7540592627/job/20525519272
+"16.01.24, 09:03:53",20521417562,7539261327,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/7539261327/job/20521417562
+"16.01.24, 12:46:12",20529204737,7541780612,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529204737
+"16.01.24, 12:46:13",20529205283,7541780612,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529205283
+"16.01.24, 12:46:14",20529205776,7541780612,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529205776
+"16.01.24, 12:46:15",20529206329,7541780612,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529206329
+"16.01.24, 12:46:15",20529206638,7541780612,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529206638
+"16.01.24, 12:46:15",20529206899,7541780612,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529206899
+"16.01.24, 12:46:16",20529207141,7541780612,1,Lint,package_lock,renovate/pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529207141
+"16.01.24, 12:46:16",20529207465,7541780612,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7541780612/job/20529207465
+"16.01.24, 11:26:02",20526495249,7540909351,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526495249
+"16.01.24, 11:26:04",20526496012,7540909351,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526496012
+"16.01.24, 11:26:04",20526496255,7540909351,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526496255
+"16.01.24, 11:26:05",20526496587,7540909351,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526496587
+"16.01.24, 11:26:05",20526496831,7540909351,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526496831
+"16.01.24, 11:26:06",20526497024,7540909351,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526497024
+"16.01.24, 11:26:06",20526497264,7540909351,1,Lint,package_lock,renovate/pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526497264
+"16.01.24, 11:26:07",20526497465,7540909351,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7540909351/job/20526497465
+"16.01.24, 11:17:35",20526213057,7540819183,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526213057
+"16.01.24, 11:17:36",20526213835,7540819183,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526213835
+"16.01.24, 11:17:37",20526214287,7540819183,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526214287
+"16.01.24, 11:17:38",20526214910,7540819183,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526214910
+"16.01.24, 11:17:38",20526215108,7540819183,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526215108
+"16.01.24, 11:17:38",20526215333,7540819183,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526215333
+"16.01.24, 11:17:39",20526215628,7540819183,1,Lint,package_lock,renovate/pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526215628
+"16.01.24, 11:17:39",20526215854,7540819183,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7540819183/job/20526215854
+"16.01.24, 10:58:14",20525520009,7540592637,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525520009
+"16.01.24, 10:58:14",20525520365,7540592637,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525520365
+"16.01.24, 10:58:15",20525520872,7540592637,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525520872
+"16.01.24, 10:58:16",20525521297,7540592637,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525521297
+"16.01.24, 10:58:16",20525521621,7540592637,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525521621
+"16.01.24, 10:58:17",20525522303,7540592637,1,Lint,package_lock,renovate/pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525522303
+"16.01.24, 10:58:19",20525522979,7540592637,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525522979
+"16.01.24, 10:58:19",20525523284,7540592637,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7540592637/job/20525523284
+"16.01.24, 09:03:53",20521417792,7539261325,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521417792
+"16.01.24, 09:03:54",20521418431,7539261325,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521418431
+"16.01.24, 09:03:55",20521418794,7539261325,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521418794
+"16.01.24, 09:03:57",20521419727,7539261325,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521419727
+"16.01.24, 09:03:57",20521420023,7539261325,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521420023
+"16.01.24, 09:03:58",20521420305,7539261325,1,Lint,package_lock,renovate/pin-dependencies,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521420305
+"16.01.24, 09:03:58",20521420538,7539261325,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521420538
+"16.01.24, 09:03:58",20521420817,7539261325,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/7539261325/job/20521420817
+"16.01.24, 08:28:12",20520279313,7538888037,1,Lint,TS,T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888037/job/20520279313
+"16.01.24, 08:14:12",20519863630,7538743400,1,Lint,component_exports,playgrounds/24_1,failure,Check generated component reexports,https://github.com/DevExpress/DevExtreme/actions/runs/7538743400/job/20519863630
+"16.01.24, 08:14:13",20519864004,7538743400,1,Lint,package_lock,playgrounds/24_1,failure,Check package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/7538743400/job/20519864004
+"16.01.24, 00:20:15",20511099733,7535315305,1,Schedule daily publishing to GitHub Packages,Run Packages Publishing workflow (23_2),24_1,failure,Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/7535315305/job/20511099733
+"16.01.24, 00:20:15",20511099930,7535315305,1,Schedule daily publishing to GitHub Packages,Run Packages Publishing workflow (24_1),24_1,failure,Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/7535315305/job/20511099930
+"16.01.24, 08:14:08",20519862001,7538743388,1,Playgrounds tests,React,playgrounds/24_1,failure,Check sources compilation,https://github.com/DevExpress/DevExtreme/actions/runs/7538743388/job/20519862001
+"16.01.24, 12:46:13",20529205047,7541780607,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780607/job/20529205047
+"16.01.24, 11:26:03",20526495899,7540909372,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909372/job/20526495899
+"16.01.24, 11:17:36",20526213795,7540819164,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819164/job/20526213795
+"16.01.24, 10:58:13",20525519543,7540592633,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592633/job/20525519543
+"16.01.24, 09:03:54",20521418276,7539261326,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261326/job/20521418276
+"16.01.24, 08:31:24",20520376653,7538888031,1,Additional QUnit,misc(2/2)-no-csp,T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888031/job/20520376653
+"16.01.24, 08:17:25",20519956336,7538712613,1,Additional QUnit,viz-android6,23_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/7538712613/job/20519956336
+"16.01.24, 12:46:11",20529203824,7541780602,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780602/job/20529203824
+"16.01.24, 11:26:03",20526495520,7540909348,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909348/job/20526495520
+"16.01.24, 11:17:35",20526213385,7540819171,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819171/job/20526213385
+"16.01.24, 10:58:12",20525519286,7540592638,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592638/job/20525519286
+"16.01.24, 09:03:54",20521418349,7539261338,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261338/job/20521418349
+"16.01.24, 08:31:03",20520365655,7538888032,1,QUnit tests for renovation,Constel ui.grid,T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888032/job/20520365655
+"16.01.24, 08:31:04",20520366432,7538888032,1,QUnit tests for renovation,Constel viz,T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888032/job/20520366432
+"16.01.24, 12:46:12",20529204363,7541780606,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780606/job/20529204363
+"16.01.24, 11:26:03",20526495613,7540909349,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909349/job/20526495613
+"16.01.24, 11:17:34",20526212636,7540819174,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819174/job/20526212636
+"16.01.24, 10:58:14",20525520371,7540592625,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592625/job/20525520371
+"16.01.24, 09:03:53",20521417529,7539261323,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261323/job/20521417529
+"16.01.24, 12:46:11",20529204290,7541780608,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780608/job/20529204290
+"16.01.24, 11:26:02",20526494926,7540909365,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909365/job/20526494926
+"16.01.24, 11:17:34",20526212660,7540819176,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819176/job/20526212660
+"16.01.24, 10:58:13",20525519535,7540592640,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592640/job/20525519535
+"16.01.24, 09:03:53",20521417596,7539261328,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261328/job/20521417596
+"16.01.24, 17:26:27",20540529420,7545233943,1,TestCafe tests,dataGrid (1/2),23_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/7545233943/job/20540529420
+"16.01.24, 12:46:12",20529204616,7541780625,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780625/job/20529204616
+"16.01.24, 11:26:04",20526495925,7540909350,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909350/job/20526495925
+"16.01.24, 11:17:35",20526213434,7540819179,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819179/job/20526213434
+"16.01.24, 10:58:13",20525519666,7540592630,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592630/job/20525519666
+"16.01.24, 09:03:55",20521418815,7539261320,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261320/job/20521418815
+"16.01.24, 08:31:11",20520370377,7538888021,1,TestCafe tests,dataGrid (2/2),T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888021/job/20520370377
+"16.01.24, 08:31:12",20520370771,7538888021,1,TestCafe tests,pivotGrid - material,T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888021/job/20520370771
+"16.01.24, 08:31:15",20520371985,7538888021,1,TestCafe tests,form (1/2),T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888021/job/20520371985
+"16.01.24, 08:31:15",20520372436,7538888021,1,TestCafe tests,editors,T1207161__23_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/7538888021/job/20520372436
+"16.01.24, 08:31:17",20520373259,7538888021,1,TestCafe tests,form - material (2/2),T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888021/job/20520373259
+"16.01.24, 08:31:18",20520373697,7538888021,1,TestCafe tests,navigation - material,T1207161__23_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/7538888021/job/20520373697
+"16.01.24, 08:57:20",20521193583,7538888021,2,TestCafe tests,editors,T1207161__23_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/7538888021/job/20521193583
+"16.01.24, 08:17:44",20519965519,7538743390,1,TestCafe tests,editors - fluent (1/2),playgrounds/24_1,failure,Setup Chrome,https://github.com/DevExpress/DevExtreme/actions/runs/7538743390/job/20519965519
+"16.01.24, 08:17:44",20519965705,7538743390,1,TestCafe tests,editors - fluent (2/2),playgrounds/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/7538743390/job/20519965705
+"16.01.24, 12:46:11",20529203986,7541780598,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780598/job/20529203986
+"16.01.24, 11:26:03",20526495626,7540909359,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909359/job/20526495626
+"16.01.24, 11:17:35",20526212988,7540819172,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819172/job/20526212988
+"16.01.24, 10:58:13",20525519525,7540592648,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592648/job/20525519525
+"16.01.24, 09:03:54",20521418152,7539261330,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261330/job/20521418152
+"16.01.24, 12:46:11",20529203648,7541780597,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780597/job/20529203648
+"16.01.24, 12:46:11",20529204297,7541780597,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780597/job/20529204297
+"16.01.24, 12:46:13",20529205116,7541780597,1,TS Declarations,check-ts-compilation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7541780597/job/20529205116
+"16.01.24, 11:26:02",20526495163,7540909373,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909373/job/20526495163
+"16.01.24, 11:26:04",20526495955,7540909373,1,TS Declarations,check-ts-compilation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909373/job/20526495955
+"16.01.24, 11:26:04",20526496183,7540909373,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540909373/job/20526496183
+"16.01.24, 11:17:36",20526213692,7540819182,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819182/job/20526213692
+"16.01.24, 11:17:36",20526214045,7540819182,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819182/job/20526214045
+"16.01.24, 11:17:38",20526214821,7540819182,1,TS Declarations,check-ts-compilation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540819182/job/20526214821
+"16.01.24, 10:58:13",20525519754,7540592623,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592623/job/20525519754
+"16.01.24, 10:58:14",20525520368,7540592623,1,TS Declarations,check-ts-compilation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592623/job/20525520368
+"16.01.24, 10:58:15",20525520901,7540592623,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7540592623/job/20525520901
+"16.01.24, 09:03:54",20521418005,7539261332,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261332/job/20521418005
+"16.01.24, 09:03:55",20521418558,7539261332,1,TS Declarations,check-ts-compilation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261332/job/20521418558
+"16.01.24, 09:03:56",20521419258,7539261332,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/7539261332/job/20521419258
+"16.01.24, 12:46:10",20529203255,7541780603,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7541780603/job/20529203255
+"16.01.24, 11:26:01",20526494514,7540909367,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7540909367/job/20526494514
+"16.01.24, 11:17:33",20526212238,7540819173,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7540819173/job/20526212238
+"16.01.24, 10:58:11",20525518855,7540592639,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7540592639/job/20525518855
+"16.01.24, 09:03:52",20521417064,7539261319,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/7539261319/job/20521417064
