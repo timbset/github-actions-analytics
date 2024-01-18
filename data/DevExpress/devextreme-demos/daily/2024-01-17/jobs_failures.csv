@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"17.01.24, 04:54:57",20558134920,7551223811,1,Build aspnet demos,Build aspnet demos,23_2_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551223811/job/20558134920
+"17.01.24, 04:49:32",20558048952,7551192082,1,Build aspnet demos,Build aspnet demos,24_1_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551192082/job/20558048952
+"17.01.24, 04:52:12",20558092829,7551192082,2,Build aspnet demos,Build aspnet demos,24_1_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551192082/job/20558092829

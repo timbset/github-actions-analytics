@@ -1,0 +1,10 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"16.01.24, 17:24:44",20540467223,7545261137,1,Build aspnet demos,Build aspnet demos,24_1,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7545261137/job/20540467223
+"16.01.24, 17:24:40",20540465152,7545260583,1,Build aspnet demos,Build aspnet demos,23_2,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7545260583/job/20540465152
+"16.01.24, 10:54:32",20525397297,7540557685,1,Build aspnet demos,Build aspnet demos,renovate/23_2-prettier-2.x,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7540557685/job/20525397297
+"16.01.24, 10:51:16",20525291111,7540524975,1,Build aspnet demos,Build aspnet demos,24_1,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7540524975/job/20525291111
+"16.01.24, 10:51:07",20525286620,7540523567,1,Build aspnet demos,Build aspnet demos,23_2,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7540523567/job/20525286620
+"16.01.24, 17:37:05",20540917937,7545261136,1,Frameworks,react(1/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7545261136/job/20540917937
+"16.01.24, 17:37:10",20540920727,7545261136,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7545261136/job/20540920727
+"16.01.24, 11:06:39",20525831767,7540557683,1,Frameworks,vue(2/4),renovate/23_2-prettier-2.x,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7540557683/job/20525831767
+"16.01.24, 11:03:02",20525694879,7540523561,1,Frameworks,vue(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7540523561/job/20525694879
