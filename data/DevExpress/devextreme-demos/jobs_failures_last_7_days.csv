@@ -1,4 +1,8 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"19.01.24, 08:07:58",20648036039,7581007103,1,Visual Tests,jquery(4/4)-screenshots,bug_T1207099/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7581007103/job/20648036039
+"19.01.24, 08:14:11",20648209410,7581007111,1,Frameworks,react(4/4),bug_T1207099/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7581007111/job/20648209410
+"19.01.24, 08:14:13",20648210452,7581007111,1,Frameworks,vue(4/4),bug_T1207099/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7581007111/job/20648210452
+"19.01.24, 08:14:15",20648211232,7581007111,1,Frameworks,angular(4/4),bug_T1207099/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7581007111/job/20648211232
 "17.01.24, 04:54:57",20558134920,7551223811,1,Build aspnet demos,Build aspnet demos,23_2_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551223811/job/20558134920
 "17.01.24, 04:49:32",20558048952,7551192082,1,Build aspnet demos,Build aspnet demos,24_1_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551192082/job/20558048952
 "17.01.24, 04:52:12",20558092829,7551192082,2,Build aspnet demos,Build aspnet demos,24_1_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551192082/job/20558092829
@@ -17,10 +21,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "13.01.24, 10:16:57",20451843891,7511754464,1,Frameworks,vue(1/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7511754464/job/20451843891
 "13.01.24, 06:16:22",20449579455,7510701632,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7510701632/job/20449579455
 "13.01.24, 04:16:09",20448350803,7510154709,1,Frameworks,vue(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7510154709/job/20448350803
-"12.01.24, 08:46:40",20417450497,7499792122,1,Frameworks,Lint demos (4/4),vue-form-updateItems-cherry,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7499792122/job/20417450497
-"12.01.24, 08:21:03",20416745616,7499502884,1,Frameworks,vue(1/4),fix-form-update-items,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7499502884/job/20416745616
-"12.01.24, 07:48:34",20415930020,7499282689,1,Frameworks,Lint demos (1/4),fix-form-update-items,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7499282689/job/20415930020
-"12.01.24, 07:48:01",20415918198,7499275187,1,Frameworks,Lint demos (1/4),fix-form-update-items,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20415918198
-"12.01.24, 07:48:03",20415918635,7499275187,1,Frameworks,Lint demos (4/4),fix-form-update-items,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20415918635
-"12.01.24, 07:53:42",20416040560,7499275187,1,Frameworks,vue(2/4),fix-form-update-items,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20416040560
-"12.01.24, 07:53:44",20416041219,7499275187,1,Frameworks,angular(3/4),fix-form-update-items,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7499275187/job/20416041219
