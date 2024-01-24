@@ -1,0 +1,10 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"23.01.24, 10:59:08",20767420019,7624700680,1,Visual Tests,Build DevExtreme,24_1_fix/autocomplete_axe_reports,cancelled,Copy build artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700680/job/20767420019
+"23.01.24, 11:06:02",20767686549,7624700680,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},24_1_fix/autocomplete_axe_reports,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700680/job/20767686549
+"23.01.24, 11:06:02",20767686759,7624686729,1,Visual Tests,jquery(1/4)-screenshots,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7624686729/job/20767686759
+"23.01.24, 10:59:08",20767420154,7624700665,1,Frameworks,Build DevExtreme,24_1_fix/autocomplete_axe_reports,cancelled,Pack devextreme-vue,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700665/job/20767420154
+"23.01.24, 11:06:08",20767690269,7624700665,1,Frameworks,Build Demos,24_1_fix/autocomplete_axe_reports,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700665/job/20767690269
+"23.01.24, 11:06:09",20767690518,7624700665,1,Frameworks,${{ matrix.name }},24_1_fix/autocomplete_axe_reports,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700665/job/20767690518
+"23.01.24, 11:06:09",20767690863,7624700665,1,Frameworks,${{ matrix.CONSTEL }},24_1_fix/autocomplete_axe_reports,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700665/job/20767690863
+"23.01.24, 11:06:10",20767691182,7624700665,1,Frameworks,${{ matrix.name }},24_1_fix/autocomplete_axe_reports,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700665/job/20767691182
+"23.01.24, 07:46:07",20760794986,7622436500,1,Frameworks,react(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7622436500/job/20760794986
