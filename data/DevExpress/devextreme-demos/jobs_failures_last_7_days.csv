@@ -1,4 +1,13 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"24.01.24, 08:17:13",20805993498,7637332976,1,Visual Tests,Build DevExtreme,24_1_test/force_all_tests,cancelled,DevExtreme - Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332976/job/20805993498
+"24.01.24, 08:19:46",20806068522,7637332976,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332976/job/20806068522
+"24.01.24, 08:32:10",20806450741,7637356185,1,Frameworks,vue(1/4),24_1_test/force_all_tests,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7637356185/job/20806450741
+"24.01.24, 08:17:14",20805993842,7637332981,1,Frameworks,Build DevExtreme,24_1_test/force_all_tests,cancelled,Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20805993842
+"24.01.24, 08:19:46",20806068285,7637332981,1,Frameworks,Build Demos,24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068285
+"24.01.24, 08:19:46",20806068528,7637332981,1,Frameworks,${{ matrix.name }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068528
+"24.01.24, 08:19:47",20806068748,7637332981,1,Frameworks,${{ matrix.name }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068748
+"24.01.24, 08:19:47",20806068934,7637332981,1,Frameworks,${{ matrix.CONSTEL }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068934
+"24.01.24, 07:25:17",20804625706,7636744695,1,Frameworks,vue(1/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7636744695/job/20804625706
 "23.01.24, 10:59:08",20767420019,7624700680,1,Visual Tests,Build DevExtreme,24_1_fix/autocomplete_axe_reports,cancelled,Copy build artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700680/job/20767420019
 "23.01.24, 11:06:02",20767686549,7624700680,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},24_1_fix/autocomplete_axe_reports,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7624700680/job/20767686549
 "23.01.24, 11:06:02",20767686759,7624686729,1,Visual Tests,jquery(1/4)-screenshots,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7624686729/job/20767686759
@@ -22,6 +31,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "19.01.24, 08:14:11",20648209410,7581007111,1,Frameworks,react(4/4),bug_T1207099/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7581007111/job/20648209410
 "19.01.24, 08:14:13",20648210452,7581007111,1,Frameworks,vue(4/4),bug_T1207099/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7581007111/job/20648210452
 "19.01.24, 08:14:15",20648211232,7581007111,1,Frameworks,angular(4/4),bug_T1207099/24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7581007111/job/20648211232
-"17.01.24, 04:54:57",20558134920,7551223811,1,Build aspnet demos,Build aspnet demos,23_2_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551223811/job/20558134920
-"17.01.24, 04:49:32",20558048952,7551192082,1,Build aspnet demos,Build aspnet demos,24_1_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551192082/job/20558048952
-"17.01.24, 04:52:12",20558092829,7551192082,2,Build aspnet demos,Build aspnet demos,24_1_fix/tabpanel_asp_template_demo,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/7551192082/job/20558092829

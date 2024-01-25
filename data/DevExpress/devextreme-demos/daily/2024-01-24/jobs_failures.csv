@@ -1,0 +1,10 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"24.01.24, 08:17:13",20805993498,7637332976,1,Visual Tests,Build DevExtreme,24_1_test/force_all_tests,cancelled,DevExtreme - Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332976/job/20805993498
+"24.01.24, 08:19:46",20806068522,7637332976,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332976/job/20806068522
+"24.01.24, 08:32:10",20806450741,7637356185,1,Frameworks,vue(1/4),24_1_test/force_all_tests,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7637356185/job/20806450741
+"24.01.24, 08:17:14",20805993842,7637332981,1,Frameworks,Build DevExtreme,24_1_test/force_all_tests,cancelled,Build,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20805993842
+"24.01.24, 08:19:46",20806068285,7637332981,1,Frameworks,Build Demos,24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068285
+"24.01.24, 08:19:46",20806068528,7637332981,1,Frameworks,${{ matrix.name }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068528
+"24.01.24, 08:19:47",20806068748,7637332981,1,Frameworks,${{ matrix.name }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068748
+"24.01.24, 08:19:47",20806068934,7637332981,1,Frameworks,${{ matrix.CONSTEL }},24_1_test/force_all_tests,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/7637332981/job/20806068934
+"24.01.24, 07:25:17",20804625706,7636744695,1,Frameworks,vue(1/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7636744695/job/20804625706
