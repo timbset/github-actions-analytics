@@ -1,0 +1,8 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2024-01-28,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,1,0,0,1,0,"0,005983796296","0,003003472222","0,005983796296"
+2024-01-28,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,003159722222","0,003252314815","0,003344907407"
+2024-01-28,lint.yml,Lint,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0005555555556","0,0005671296296","0,0005787037037"
+2024-01-28,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0001041666667","0,0001273148148","0,000150462963"
+2024-01-28,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0004513888889","0,0004976851852","0,0005439814815"
+2024-01-28,visual_tests.yml,Visual Tests,24,0,0,0,0,"0,01023148148","0,01071084105","0,01164351852",1,0,0,0,0,0,"0,005109953704","0,01021990741"
+2024-01-28,visual_tests_frameworks.yml,Frameworks,8,4,0,0,0,"0,02527777778","0,02622010031","0,02711805556",1,1,0,0,0,"0,02260416667","0,02380208333","0,025"
