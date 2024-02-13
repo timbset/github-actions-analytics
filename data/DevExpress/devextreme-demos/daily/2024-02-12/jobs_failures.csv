@@ -1,0 +1,3 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"12.02.24, 14:08:06",21479278888,7872955041,1,Publish Demos to GH Pages,publish,23_2,failure,Prepare React demo bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/7872955041/job/21479278888
+"12.02.24, 15:45:20",21483420871,7874160663,1,Frameworks,Lint demos (1/4),23_2-wrong-imports-types,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7874160663/job/21483420871
