@@ -1,4 +1,43 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"18.02.24, 23:12:06",21706886606,7952323644,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7952323644/job/21706886606
+"18.02.24, 22:11:41",21706187621,7952004932,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7952004932/job/21706187621
+"18.02.24, 21:11:10",21705525580,7951698656,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7951698656/job/21705525580
+"18.02.24, 20:11:40",21704857515,7951390305,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7951390305/job/21704857515
+"18.02.24, 19:11:18",21704224960,7951095403,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7951095403/job/21704224960
+"18.02.24, 18:11:51",21703558573,7950777276,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7950777276/job/21703558573
+"18.02.24, 17:12:12",21702909360,7950466423,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7950466423/job/21702909360
+"18.02.24, 16:11:47",21702240370,7950158455,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7950158455/job/21702240370
+"18.02.24, 15:11:49",21701568563,7949845014,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7949845014/job/21701568563
+"18.02.24, 14:11:20",21700893488,7949521768,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7949521768/job/21700893488
+"18.02.24, 13:11:57",21700203392,7949213259,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7949213259/job/21700203392
+"18.02.24, 12:12:55",21699397166,7948818063,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7948818063/job/21699397166
+"18.02.24, 11:11:16",21698721776,7948521754,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7948521754/job/21698721776
+"18.02.24, 10:11:40",21698064585,7948210801,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7948210801/job/21698064585
+"18.02.24, 09:11:57",21697395783,7947909010,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7947909010/job/21697395783
+"18.02.24, 08:12:37",21696710052,7947592446,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7947592446/job/21696710052
+"18.02.24, 07:12:37",21696060678,7947308628,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7947308628/job/21696060678
+"18.02.24, 06:12:38",21695470934,7947021797,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7947021797/job/21695470934
+"18.02.24, 05:11:32",21694884567,7946736615,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7946736615/job/21694884567
+"18.02.24, 04:11:48",21694288560,7946455710,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7946455710/job/21694288560
+"18.02.24, 03:12:07",21693718602,7946170924,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7946170924/job/21693718602
+"18.02.24, 02:18:44",21693176657,7945911379,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7945911379/job/21693176657
+"18.02.24, 01:34:46",21692637410,7945652930,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7945652930/job/21692637410
+"18.02.24, 00:26:44",21691716461,7945213292,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7945213292/job/21691716461
+"18.02.24, 22:16:34",21706250028,7952000066,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7952000066/job/21706250028
+"18.02.24, 20:16:17",21704916833,7951386022,1,Frameworks,react(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7951386022/job/21704916833
+"18.02.24, 20:16:20",21704917486,7951386022,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7951386022/job/21704917486
+"18.02.24, 18:17:29",21703633608,7950775040,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7950775040/job/21703633608
+"18.02.24, 16:16:36",21702300430,7950155064,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7950155064/job/21702300430
+"18.02.24, 14:16:37",21700959823,7949520235,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7949520235/job/21700959823
+"18.02.24, 12:17:46",21699467594,7948814379,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7948814379/job/21699467594
+"18.02.24, 10:16:18",21698122358,7948206521,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7948206521/job/21698122358
+"18.02.24, 08:16:28",21696758710,7947587946,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7947587946/job/21696758710
+"18.02.24, 06:17:47",21695532936,7947018018,1,Frameworks,vue(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7947018018/job/21695532936
+"18.02.24, 06:17:48",21695533154,7947018018,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7947018018/job/21695533154
+"18.02.24, 04:17:03",21694350229,7946452595,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7946452595/job/21694350229
+"18.02.24, 04:17:04",21694350439,7946452595,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7946452595/job/21694350439
+"18.02.24, 02:23:40",21693237653,7945908604,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7945908604/job/21693237653
+"18.02.24, 00:30:16",21691769759,7945199181,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7945199181/job/21691769759
 "17.02.24, 23:11:26",21690850121,7944828363,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7944828363/job/21690850121
 "17.02.24, 22:12:08",21690260475,7944538484,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7944538484/job/21690260475
 "17.02.24, 21:11:35",21689657230,7944261527,1,Visual Tests,jquery(3/4)-accessibility,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7944261527/job/21689657230
@@ -42,19 +81,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "14.02.24, 16:01:36",21573053205,7903790305,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7903790305/job/21573053205
 "12.02.24, 14:08:06",21479278888,7872955041,1,Publish Demos to GH Pages,publish,23_2,failure,Prepare React demo bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/7872955041/job/21479278888
 "12.02.24, 15:45:20",21483420871,7874160663,1,Frameworks,Lint demos (1/4),23_2-wrong-imports-types,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/7874160663/job/21483420871
-"11.02.24, 22:16:19",21457494894,7864950536,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7864950536/job/21457494894
-"11.02.24, 20:16:47",21456186193,7864360386,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7864360386/job/21456186193
-"11.02.24, 18:17:53",21454902206,7863750310,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7863750310/job/21454902206
-"11.02.24, 16:16:46",21453524319,7863119412,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7863119412/job/21453524319
-"11.02.24, 14:16:57",21452205634,7862493426,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7862493426/job/21452205634
-"11.02.24, 12:17:16",21450748478,7861795623,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7861795623/job/21450748478
-"11.02.24, 10:16:53",21449466180,7861206510,1,Frameworks,vue(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7861206510/job/21449466180
-"11.02.24, 10:16:55",21449466378,7861206510,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7861206510/job/21449466378
-"11.02.24, 08:16:35",21448168881,7860628705,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7860628705/job/21448168881
-"11.02.24, 08:16:36",21448169152,7860628705,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7860628705/job/21448169152
-"11.02.24, 06:17:14",21447031669,7860083039,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7860083039/job/21447031669
-"11.02.24, 04:16:41",21445868242,7859538063,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7859538063/job/21445868242
-"11.02.24, 02:23:59",21444804955,7859020747,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7859020747/job/21444804955
-"11.02.24, 00:30:38",21443376974,7858322970,1,Frameworks,vue(1/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7858322970/job/21443376974
-"11.02.24, 00:30:39",21443377158,7858322970,1,Frameworks,vue(3/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7858322970/job/21443377158
-"11.02.24, 00:30:40",21443377398,7858322970,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7858322970/job/21443377398
