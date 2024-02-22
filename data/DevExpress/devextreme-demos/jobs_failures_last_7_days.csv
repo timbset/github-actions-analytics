@@ -97,5 +97,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "17.02.24, 04:17:36",21679177389,7939200873,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7939200873/job/21679177389
 "17.02.24, 02:22:18",21677853798,7938616057,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7938616057/job/21677853798
 "17.02.24, 00:16:15",21675561260,7937765526,1,Frameworks,Build DevExtreme,24_1,failure,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/7937765526/job/21675561260
-"14.02.24, 16:01:33",21573051226,7903790305,1,Frameworks,react(4/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7903790305/job/21573051226
-"14.02.24, 16:01:36",21573053205,7903790305,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/7903790305/job/21573053205
