@@ -1,0 +1,13 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"27.02.24, 12:00:27",22028016927,8064261906,1,Visual Tests,jquery(4/4)-accessibility,23_2_unifyToast,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261906/job/22028016927
+"27.02.24, 12:15:54",22028654723,8064361127,1,Frameworks,vue(3/4),23_2_unifyToast,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8064361127/job/22028654723
+"27.02.24, 12:00:39",22028024369,8064261898,1,Frameworks,Build Demos,23_2_unifyToast,cancelled,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028024369
+"27.02.24, 12:00:39",22028024636,8064261898,1,Frameworks,Lint code base (excluding demos),23_2_unifyToast,cancelled,Run npm install,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028024636
+"27.02.24, 12:00:40",22028024880,8064261898,1,Frameworks,Lint demos (1/4),23_2_unifyToast,cancelled,Run actions/setup-dotnet@v3,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028024880
+"27.02.24, 12:00:40",22028025098,8064261898,1,Frameworks,Lint demos (2/4),23_2_unifyToast,cancelled,Run actions/setup-dotnet@v3,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028025098
+"27.02.24, 12:00:40",22028025401,8064261898,1,Frameworks,Lint demos (3/4),23_2_unifyToast,cancelled,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028025401
+"27.02.24, 12:00:41",22028025628,8064261898,1,Frameworks,Lint demos (4/4),23_2_unifyToast,cancelled,Run actions/setup-dotnet@v3,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028025628
+"27.02.24, 12:02:25",22028099184,8064261898,1,Frameworks,${{ matrix.CONSTEL }},23_2_unifyToast,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028099184
+"27.02.24, 12:02:26",22028099495,8064261898,1,Frameworks,${{ matrix.name }},23_2_unifyToast,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028099495
+"27.02.24, 11:25:05",22026819009,8063878168,1,Frameworks,Lint code base (excluding demos),23_2_unifyToast,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8063878168/job/22026819009
+"27.02.24, 11:01:01",22025898553,8063567550,1,Frameworks,Lint code base (excluding demos),23_2_unifyToast,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8063567550/job/22025898553

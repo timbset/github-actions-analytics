@@ -1,4 +1,11 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2024-02-27,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,0,0,0,8,0,0,"0,00003616898148","0,0000462962963"
+2024-02-27,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,00130787037","0,002983217593","0,003402777778"
+2024-02-27,lint.yml,Lint,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,0005787037037","0,000658275463","0,0007523148148"
+2024-02-27,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,0001157407407","0,0001273148148","0,000150462963"
+2024-02-27,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,0004513888889","0,0005770502646","0,0008680555556"
+2024-02-27,visual_tests.yml,Visual Tests,0,0,0,0,0,0,0,0,6,0,1,0,0,"0,005798611111","0,00658234127","0,007615740741"
+2024-02-27,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,3,3,1,0,0,"0,006122685185","0,01205191799","0,01506944444"
 2024-02-25,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006643518519","0,006643518519","0,006643518519"
 2024-02-25,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003206018519","0,003206018519","0,003206018519"
 2024-02-25,lint.yml,Lint,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0006018518519","0,0006018518519","0,0006018518519"
@@ -52,5 +59,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2024-02-12,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0005092592593","0,0005439814815","0,0005787037037"
 2024-02-12,visual_tests.yml,Visual Tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,006134259259","0,00619212963","0,00625"
 2024-02-12,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,1,1,0,0,0,"0,011875","0,01213541667","0,01239583333"
-2024-02-11,visual_tests.yml,Visual Tests,24,0,0,0,0,"0,00912037037","0,009487847222","0,01012731481",0,0,0,0,0,0,0,0
-2024-02-11,visual_tests_frameworks.yml,Frameworks,0,12,0,0,0,"0,02530092593","0,02616512346","0,02694444444",0,0,0,0,0,0,0,0
