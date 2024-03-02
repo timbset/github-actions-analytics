@@ -1,4 +1,7 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"01.03.24, 10:03:32",22165344501,8109666342,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8109666342/job/22165344501
+"01.03.24, 10:02:59",22165320579,8109658102,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8109658102/job/22165320579
+"01.03.24, 07:44:01",22160823097,8108144230,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8108144230/job/22160823097
 "29.02.24, 10:53:10",22120377572,8094847771,1,Build aspnet demos,Build aspnet demos,24_1,failure,Update repository.config.json,https://github.com/DevExpress/devextreme-demos/actions/runs/8094847771/job/22120377572
 "29.02.24, 06:52:23",22112385329,8092154242,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run npm install,https://github.com/DevExpress/devextreme-demos/actions/runs/8092154242/job/22112385329
 "29.02.24, 10:11:06",22118803763,8094218614,1,Visual Tests,jquery(2/4)-screenshots,23_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8094218614/job/22118803763
@@ -163,4 +166,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "24.02.24, 04:17:42",21933041579,8028093194,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8028093194/job/21933041579
 "24.02.24, 02:22:45",21931759649,8027494531,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8027494531/job/21931759649
 "24.02.24, 00:29:40",21929849108,8026651965,1,Frameworks,angular(2/4),24_1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8026651965/job/21929849108
-"23.02.24, 10:43:53",21903139940,8017900767,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8017900767/job/21903139940
