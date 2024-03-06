@@ -1,4 +1,18 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"05.03.24, 11:55:23",22292063344,8155797833,1,Lint,package_lock,publishing-demo-gh-pages,failure,Check package-lock,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797833/job/22292063344
+"05.03.24, 12:53:44",22294422495,8156482159,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8156482159/job/22294422495
+"05.03.24, 12:02:26",22292316475,8155797825,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797825/job/22292316475
+"05.03.24, 12:59:22",22294662459,8156482150,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8156482150/job/22294662459
+"05.03.24, 12:02:23",22292314015,8155797826,1,Frameworks,Lint code base (excluding demos),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314015
+"05.03.24, 12:02:23",22292314298,8155797826,1,Frameworks,Lint demos (1/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314298
+"05.03.24, 12:02:24",22292314576,8155797826,1,Frameworks,Lint demos (2/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314576
+"05.03.24, 12:02:24",22292314854,8155797826,1,Frameworks,Lint demos (3/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314854
+"05.03.24, 12:02:25",22292315209,8155797826,1,Frameworks,Lint demos (4/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292315209
+"05.03.24, 12:08:20",22292573711,8155797826,1,Frameworks,Check generated demos (4/5),publishing-demo-gh-pages,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292573711
+"05.03.24, 12:08:23",22292575227,8155797826,1,Frameworks,angular(1/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575227
+"05.03.24, 12:08:23",22292575499,8155797826,1,Frameworks,angular(2/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575499
+"05.03.24, 12:08:23",22292575712,8155797826,1,Frameworks,angular(3/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575712
+"05.03.24, 12:08:24",22292575998,8155797826,1,Frameworks,angular(4/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575998
 "04.03.24, 12:25:10",22244678028,8140115102,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8140115102/job/22244678028
 "04.03.24, 09:57:48",22239076034,8138385272,1,Build aspnet demos,Build aspnet demos,fix-aspnet-demos-test,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8138385272/job/22239076034
 "04.03.24, 07:25:25",22234185393,8136928809,1,Build aspnet demos,Build aspnet demos,fix-aspnet-demos-test,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8136928809/job/22234185393
@@ -61,15 +75,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "28.02.24, 06:06:47",22063875211,8075736298,2,Frameworks,react(4/4),23_2_stripsUpdateText,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8075736298/job/22063875211
 "28.02.24, 06:06:49",22063875913,8075736298,2,Frameworks,vue(4/4),23_2_stripsUpdateText,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8075736298/job/22063875913
 "28.02.24, 06:06:51",22063876507,8075736298,2,Frameworks,angular(4/4),23_2_stripsUpdateText,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8075736298/job/22063876507
-"27.02.24, 12:00:27",22028016927,8064261906,1,Visual Tests,jquery(4/4)-accessibility,23_2_unifyToast,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261906/job/22028016927
-"27.02.24, 12:15:54",22028654723,8064361127,1,Frameworks,vue(3/4),23_2_unifyToast,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8064361127/job/22028654723
-"27.02.24, 12:00:39",22028024369,8064261898,1,Frameworks,Build Demos,23_2_unifyToast,cancelled,Prepare bundles,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028024369
-"27.02.24, 12:00:39",22028024636,8064261898,1,Frameworks,Lint code base (excluding demos),23_2_unifyToast,cancelled,Run npm install,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028024636
-"27.02.24, 12:00:40",22028024880,8064261898,1,Frameworks,Lint demos (1/4),23_2_unifyToast,cancelled,Run actions/setup-dotnet@v3,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028024880
-"27.02.24, 12:00:40",22028025098,8064261898,1,Frameworks,Lint demos (2/4),23_2_unifyToast,cancelled,Run actions/setup-dotnet@v3,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028025098
-"27.02.24, 12:00:40",22028025401,8064261898,1,Frameworks,Lint demos (3/4),23_2_unifyToast,cancelled,Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028025401
-"27.02.24, 12:00:41",22028025628,8064261898,1,Frameworks,Lint demos (4/4),23_2_unifyToast,cancelled,Run actions/setup-dotnet@v3,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028025628
-"27.02.24, 12:02:25",22028099184,8064261898,1,Frameworks,${{ matrix.CONSTEL }},23_2_unifyToast,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028099184
-"27.02.24, 12:02:26",22028099495,8064261898,1,Frameworks,${{ matrix.name }},23_2_unifyToast,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8064261898/job/22028099495
-"27.02.24, 11:25:05",22026819009,8063878168,1,Frameworks,Lint code base (excluding demos),23_2_unifyToast,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8063878168/job/22026819009
-"27.02.24, 11:01:01",22025898553,8063567550,1,Frameworks,Lint code base (excluding demos),23_2_unifyToast,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8063567550/job/22025898553

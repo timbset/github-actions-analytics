@@ -1,0 +1,15 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"05.03.24, 11:55:23",22292063344,8155797833,1,Lint,package_lock,publishing-demo-gh-pages,failure,Check package-lock,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797833/job/22292063344
+"05.03.24, 12:53:44",22294422495,8156482159,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8156482159/job/22294422495
+"05.03.24, 12:02:26",22292316475,8155797825,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797825/job/22292316475
+"05.03.24, 12:59:22",22294662459,8156482150,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8156482150/job/22294662459
+"05.03.24, 12:02:23",22292314015,8155797826,1,Frameworks,Lint code base (excluding demos),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314015
+"05.03.24, 12:02:23",22292314298,8155797826,1,Frameworks,Lint demos (1/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314298
+"05.03.24, 12:02:24",22292314576,8155797826,1,Frameworks,Lint demos (2/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314576
+"05.03.24, 12:02:24",22292314854,8155797826,1,Frameworks,Lint demos (3/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292314854
+"05.03.24, 12:02:25",22292315209,8155797826,1,Frameworks,Lint demos (4/4),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292315209
+"05.03.24, 12:08:20",22292573711,8155797826,1,Frameworks,Check generated demos (4/5),publishing-demo-gh-pages,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292573711
+"05.03.24, 12:08:23",22292575227,8155797826,1,Frameworks,angular(1/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575227
+"05.03.24, 12:08:23",22292575499,8155797826,1,Frameworks,angular(2/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575499
+"05.03.24, 12:08:23",22292575712,8155797826,1,Frameworks,angular(3/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575712
+"05.03.24, 12:08:24",22292575998,8155797826,1,Frameworks,angular(4/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575998
