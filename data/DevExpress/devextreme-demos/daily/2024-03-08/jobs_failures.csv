@@ -1,0 +1,21 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"08.03.24, 10:53:19",22432680575,8202184482,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8202184482/job/22432680575
+"08.03.24, 09:17:30",22429483413,8201133436,1,Visual Tests,jquery(1/4)-screenshots,23_2-LDMLFormatting,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8201133436/job/22429483413
+"08.03.24, 09:01:39",22428937864,8200941420,1,Visual Tests,jquery(1/4)-screenshots,23_2-LDMLFormatting,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941420/job/22428937864
+"08.03.24, 02:15:13",22420218125,8197691918,1,Visual Tests,jquery(4/4)-screenshots,23_2-WGDropDownButton,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8197691918/job/22420218125
+"08.03.24, 02:15:15",22420218783,8197691918,1,Visual Tests,jquery(4/4)-accessibility,23_2-WGDropDownButton,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8197691918/job/22420218783
+"08.03.24, 10:58:16",22432832043,8202184477,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8202184477/job/22432832043
+"08.03.24, 09:17:58",22429498334,8201133440,1,Frameworks,Build Demos,23_2-LDMLFormatting,cancelled,Copy build artifacts,https://github.com/DevExpress/devextreme-demos/actions/runs/8201133440/job/22429498334
+"08.03.24, 09:23:03",22429668381,8201133440,1,Frameworks,${{ matrix.name }},23_2-LDMLFormatting,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8201133440/job/22429668381
+"08.03.24, 09:23:03",22429668599,8201133440,1,Frameworks,${{ matrix.CONSTEL }},23_2-LDMLFormatting,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8201133440/job/22429668599
+"08.03.24, 09:06:56",22429127324,8200941427,1,Frameworks,Check generated demos (1/5),23_2-LDMLFormatting,cancelled,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429127324
+"08.03.24, 09:06:57",22429127660,8200941427,1,Frameworks,react(1/4),23_2-LDMLFormatting,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429127660
+"08.03.24, 09:06:57",22429127871,8200941427,1,Frameworks,Check generated demos (2/5),23_2-LDMLFormatting,cancelled,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429127871
+"08.03.24, 09:06:58",22429128358,8200941427,1,Frameworks,Check generated demos (3/5),23_2-LDMLFormatting,cancelled,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429128358
+"08.03.24, 09:06:59",22429128794,8200941427,1,Frameworks,Check generated demos (4/5),23_2-LDMLFormatting,cancelled,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429128794
+"08.03.24, 09:07:00",22429129241,8200941427,1,Frameworks,Check generated demos (5/5),23_2-LDMLFormatting,cancelled,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429129241
+"08.03.24, 09:07:00",22429129504,8200941427,1,Frameworks,vue(1/4),23_2-LDMLFormatting,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429129504
+"08.03.24, 09:07:03",22429130988,8200941427,1,Frameworks,angular(1/4),23_2-LDMLFormatting,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8200941427/job/22429130988
+"08.03.24, 02:20:37",22420335352,8197691914,1,Frameworks,react(1/4),23_2-WGDropDownButton,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8197691914/job/22420335352
+"08.03.24, 02:20:42",22420336845,8197691914,1,Frameworks,vue(2/4),23_2-WGDropDownButton,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8197691914/job/22420336845
+"08.03.24, 02:20:43",22420337474,8197691914,1,Frameworks,angular(3/4),23_2-WGDropDownButton,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8197691914/job/22420337474
