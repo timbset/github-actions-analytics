@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"11.03.24, 14:08:42",22515492467,8234110639,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8234110639/job/22515492467
+"11.03.24, 07:30:16",22499804820,8229082772,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8229082772/job/22499804820
+"11.03.24, 14:13:49",22515754021,8234110644,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8234110644/job/22515754021
+"11.03.24, 15:31:35",22519735948,8234110644,2,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8234110644/job/22519735948
+"11.03.24, 07:35:01",22499942788,8229082774,1,Frameworks,angular(2/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8229082774/job/22499942788
+"11.03.24, 07:35:02",22499942940,8229082774,1,Frameworks,angular(3/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8229082774/job/22499942940

@@ -1,4 +1,10 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"11.03.24, 14:08:42",22515492467,8234110639,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8234110639/job/22515492467
+"11.03.24, 07:30:16",22499804820,8229082772,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8229082772/job/22499804820
+"11.03.24, 14:13:49",22515754021,8234110644,1,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8234110644/job/22515754021
+"11.03.24, 15:31:35",22519735948,8234110644,2,Frameworks,angular(2/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8234110644/job/22519735948
+"11.03.24, 07:35:01",22499942788,8229082774,1,Frameworks,angular(2/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8229082774/job/22499942788
+"11.03.24, 07:35:02",22499942940,8229082774,1,Frameworks,angular(3/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8229082774/job/22499942940
 "09.03.24, 17:27:43",22470311067,8216084049,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8216084049/job/22470311067
 "09.03.24, 17:27:30",22470307710,8216084052,1,Frameworks,Lint code base (excluding demos),publishing-demo-gh-pages,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8216084052/job/22470307710
 "09.03.24, 17:33:15",22470375357,8216084052,1,Frameworks,angular(1/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8216084052/job/22470375357
@@ -186,8 +192,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "05.03.24, 12:08:23",22292575499,8155797826,1,Frameworks,angular(2/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575499
 "05.03.24, 12:08:23",22292575712,8155797826,1,Frameworks,angular(3/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575712
 "05.03.24, 12:08:24",22292575998,8155797826,1,Frameworks,angular(4/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8155797826/job/22292575998
-"04.03.24, 12:25:10",22244678028,8140115102,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8140115102/job/22244678028
-"04.03.24, 09:57:48",22239076034,8138385272,1,Build aspnet demos,Build aspnet demos,fix-aspnet-demos-test,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8138385272/job/22239076034
-"04.03.24, 07:25:25",22234185393,8136928809,1,Build aspnet demos,Build aspnet demos,fix-aspnet-demos-test,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8136928809/job/22234185393
-"04.03.24, 07:10:47",22233852384,8136814519,1,Build aspnet demos,Build aspnet demos,fix-aspnet-demos-test,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8136814519/job/22233852384
-"04.03.24, 07:02:59",22233665175,8136749074,1,Build aspnet demos,Build aspnet demos,fix-aspnet-demos-test,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8136749074/job/22233665175
