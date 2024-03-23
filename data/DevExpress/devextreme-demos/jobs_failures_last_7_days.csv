@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"21.03.24, 13:43:50",22934608560,8375862412,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8375862412/job/22934608560
 "20.03.24, 12:35:10",22881438820,8358876862,1,Visual Tests,jquery(1/4)-accessibility,renovate/23_2-babel-eslint-replacement,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8358876862/job/22881438820
 "20.03.24, 12:36:36",22881498941,8358876856,1,Frameworks,Lint code base (excluding demos),renovate/23_2-babel-eslint-replacement,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8358876856/job/22881498941
 "20.03.24, 12:36:36",22881499494,8358876856,1,Frameworks,Lint demos (1/4),renovate/23_2-babel-eslint-replacement,failure,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8358876856/job/22881499494
@@ -15,12 +16,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "18.03.24, 06:58:15",22770383435,8322419138,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8322419138/job/22770383435
 "18.03.24, 06:48:01",22770171488,8322351607,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8322351607/job/22770171488
 "18.03.24, 06:55:59",22770338377,8322351599,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8322351599/job/22770338377
-"15.03.24, 07:18:54",22694351148,8292586509,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8292586509/job/22694351148
-"15.03.24, 07:08:52",22694095393,8292570036,1,Visual Tests,Build DevExtreme,publishing-demo-gh-pages,cancelled,DevExtreme - Install packages,https://github.com/DevExpress/devextreme-demos/actions/runs/8292570036/job/22694095393
-"15.03.24, 07:10:52",22694148112,8292570036,1,Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }},publishing-demo-gh-pages,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8292570036/job/22694148112
-"15.03.24, 07:25:11",22694497850,8292586500,1,Frameworks,angular(2/4),publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8292586500/job/22694497850
-"15.03.24, 07:08:52",22694095605,8292570044,1,Frameworks,Build DevExtreme,publishing-demo-gh-pages,cancelled,Build,https://github.com/DevExpress/devextreme-demos/actions/runs/8292570044/job/22694095605
-"15.03.24, 07:10:51",22694147268,8292570044,1,Frameworks,Build Demos,publishing-demo-gh-pages,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8292570044/job/22694147268
-"15.03.24, 07:10:51",22694147469,8292570044,1,Frameworks,${{ matrix.name }},publishing-demo-gh-pages,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8292570044/job/22694147469
-"15.03.24, 07:10:52",22694147665,8292570044,1,Frameworks,${{ matrix.name }},publishing-demo-gh-pages,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8292570044/job/22694147665
-"15.03.24, 07:10:52",22694147848,8292570044,1,Frameworks,${{ matrix.CONSTEL }},publishing-demo-gh-pages,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8292570044/job/22694147848
