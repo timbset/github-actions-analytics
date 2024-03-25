@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"24.03.24, 09:01:13",23024036787,8408157446,1,Playgrounds tests,angular,fix/ci/stabilize_playgrounds_tests/24_1,failure,Run test,https://github.com/DevExpress/DevExtreme/actions/runs/8408157446/job/23024036787
+"24.03.24, 09:32:03",23024400237,8408157446,2,Playgrounds tests,vue,fix/ci/stabilize_playgrounds_tests/24_1,failure,Run test,https://github.com/DevExpress/DevExtreme/actions/runs/8408157446/job/23024400237
+"24.03.24, 09:01:21",23024038160,8408157444,1,Additional QUnit,Performance,fix/ci/stabilize_playgrounds_tests/24_1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8408157444/job/23024038160
