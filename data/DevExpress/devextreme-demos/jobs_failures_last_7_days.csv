@@ -24,6 +24,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "20.03.24, 12:42:10",22881737914,8358876856,1,Frameworks,Check generated demos (5/5),renovate/23_2-babel-eslint-replacement,failure,Check generated JS demos,https://github.com/DevExpress/devextreme-demos/actions/runs/8358876856/job/22881737914
 "20.03.24, 12:42:11",22881738121,8358876856,1,Frameworks,react(3/4),renovate/23_2-babel-eslint-replacement,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8358876856/job/22881738121
 "19.03.24, 10:40:10",22827905877,8341580778,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run npm install in monorepo,https://github.com/DevExpress/devextreme-demos/actions/runs/8341580778/job/22827905877
-"18.03.24, 06:58:15",22770383435,8322419138,1,Visual Tests,jquery(1/4)-accessibility,publishing-demo-gh-pages,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8322419138/job/22770383435
-"18.03.24, 06:48:01",22770171488,8322351607,1,Visual Tests,jquery(1/4)-accessibility,23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8322351607/job/22770171488
-"18.03.24, 06:55:59",22770338377,8322351599,1,Frameworks,vue(3/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8322351599/job/22770338377
