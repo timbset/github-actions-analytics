@@ -1,0 +1,8 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"27.03.24, 13:37:15",23153710525,8452605249,1,Visual Tests,jquery(2/4)-screenshots,renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605249/job/23153710525
+"27.03.24, 13:35:51",23153646529,8452601188,1,Visual Tests,jquery(1/4)-accessibility,renovate/23_2-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452601188/job/23153646529
+"27.03.24, 13:43:02",23153969953,8452605253,1,Frameworks,react(2/4),renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605253/job/23153969953
+"27.03.24, 13:43:03",23153970640,8452605253,1,Frameworks,react(3/4),renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605253/job/23153970640
+"27.03.24, 13:43:05",23153971865,8452605253,1,Frameworks,vue(1/4),renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605253/job/23153971865
+"27.03.24, 13:43:06",23153972525,8452605253,1,Frameworks,vue(2/4),renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605253/job/23153972525
+"27.03.24, 13:43:08",23153974171,8452605253,1,Frameworks,angular(2/4),renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605253/job/23153974171
