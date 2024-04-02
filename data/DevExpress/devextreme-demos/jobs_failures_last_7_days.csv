@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"01.04.24, 07:20:23",23293337306,8505090312,1,Frameworks,vue(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8505090312/job/23293337306
 "27.03.24, 13:37:15",23153710525,8452605249,1,Visual Tests,jquery(2/4)-screenshots,renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605249/job/23153710525
 "27.03.24, 13:35:51",23153646529,8452601188,1,Visual Tests,jquery(1/4)-accessibility,renovate/23_2-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452601188/job/23153646529
 "27.03.24, 13:43:02",23153969953,8452605253,1,Frameworks,react(2/4),renovate/23_1-npm-express-vulnerability,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8452605253/job/23153969953
