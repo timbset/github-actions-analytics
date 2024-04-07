@@ -1,4 +1,5 @@
 date,workflow name,job name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2024-04-06,CodeQL,Analyze (javascript),1,0,0,0,0,"0,001087962963","0,001087962963","0,001087962963",0,0,0,0,0,0,0,0
 2024-04-05,Build aspnet demos,Build aspnet demos,2,0,0,0,0,"0,005555555556","0,00787037037","0,01018518519",0,0,0,2,0,0,0,0
 2024-04-05,CodeQL,Analyze (javascript),2,0,0,0,0,"0,000775462963","0,001903935185","0,003032407407",2,0,0,0,0,"0,000787037037","0,001956018519","0,003125"
 2024-04-05,Lint,package_lock,2,0,0,0,0,"0,0004976851852","0,0005960648148","0,0006944444444",2,0,0,0,0,"0,0005324074074","0,0006018518519","0,0006712962963"
@@ -116,4 +117,3 @@ date,workflow name,job name,main success runs,main failure runs,main cancelled r
 2024-04-01,Frameworks,angular(2/4),2,0,0,0,0,"0,008148148148","0,008153935185","0,008159722222",1,0,0,0,0,"0,008101851852","0,008101851852","0,008101851852"
 2024-04-01,Frameworks,angular(3/4),2,0,0,0,0,"0,01152777778","0,01153356481","0,01153935185",1,0,0,0,0,"0,01133101852","0,01133101852","0,01133101852"
 2024-04-01,Frameworks,angular(4/4),2,0,0,0,0,"0,007291666667","0,007372685185","0,007453703704",1,0,0,0,0,"0,007314814815","0,007314814815","0,007314814815"
-2024-03-30,CodeQL,Analyze (javascript),1,0,0,0,0,"0,0008449074074","0,0008449074074","0,0008449074074",0,0,0,0,0,0,0,0
