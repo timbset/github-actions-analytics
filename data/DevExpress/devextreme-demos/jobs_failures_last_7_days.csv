@@ -18,4 +18,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "03.04.24, 13:57:34",23395990613,8539905180,1,Frameworks,${{ matrix.name }},23_2_devextreme_showdown2,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8539905180/job/23395990613
 "03.04.24, 13:57:34",23395990958,8539905180,1,Frameworks,${{ matrix.CONSTEL }},23_2_devextreme_showdown2,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/8539905180/job/23395990958
 "03.04.24, 13:17:47",23394056512,8539293204,1,Frameworks,Lint demos (3/4),23_2,failure,,https://github.com/DevExpress/devextreme-demos/actions/runs/8539293204/job/23394056512
-"01.04.24, 07:20:23",23293337306,8505090312,1,Frameworks,vue(1/4),23_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8505090312/job/23293337306
