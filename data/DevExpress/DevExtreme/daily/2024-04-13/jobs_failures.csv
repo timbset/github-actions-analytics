@@ -1,0 +1,75 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"13.04.24, 05:42:19",23780578428,8671429534,1,DevExtreme package tests,build,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429534/job/23780578428
+"13.04.24, 05:44:33",23780595552,8671429534,1,DevExtreme package tests,Angular wrapper tests,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429534/job/23780595552
+"13.04.24, 05:44:33",23780595634,8671429534,1,DevExtreme package tests,Bundlers tests,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429534/job/23780595634
+"13.04.24, 05:44:34",23780595709,8671429534,1,DevExtreme package tests,Demos visual tests ${{ matrix.CONSTEL }},23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429534/job/23780595709
+"13.04.24, 05:44:34",23780595784,8671429534,1,DevExtreme package tests,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429534/job/23780595784
+"13.04.24, 05:42:20",23780578478,8671429531,1,Lint,component_exports,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578478
+"13.04.24, 05:42:20",23780578508,8671429531,1,Lint,CSS,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578508
+"13.04.24, 05:42:20",23780578537,8671429531,1,Lint,JS,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578537
+"13.04.24, 05:42:21",23780578568,8671429531,1,Lint,package_lock,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578568
+"13.04.24, 05:42:21",23780578601,8671429531,1,Lint,package_lock_npm_6,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578601
+"13.04.24, 05:42:21",23780578628,8671429531,1,Lint,Renovation,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578628
+"13.04.24, 05:42:22",23780578661,8671429531,1,Lint,texts,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578661
+"13.04.24, 05:42:22",23780578696,8671429531,1,Lint,TS,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780578696
+"13.04.24, 05:44:34",23780595731,8671429531,1,Lint,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429531/job/23780595731
+"13.04.24, 11:08:00",23784043011,8673007761,1,Playgrounds tests,vue,24_1_Menu_RootItem,failure,Run test,https://github.com/DevExpress/DevExtreme/actions/runs/8673007761/job/23784043011
+"13.04.24, 05:49:35",23780637816,8671436725,1,Additional QUnit,misc-firefox,23_1_T1222629_CP,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/8671436725/job/23780637816
+"13.04.24, 05:49:51",23780639509,8671436725,1,Additional QUnit,ui.editors(2/2)-android6,23_1_T1222629_CP,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8671436725/job/23780639509
+"13.04.24, 05:42:19",23780578443,8671429533,1,Additional QUnit,Build,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429533/job/23780578443
+"13.04.24, 05:44:33",23780595541,8671429533,1,Additional QUnit,${{ matrix.constel }}-firefox,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429533/job/23780595541
+"13.04.24, 05:44:33",23780595628,8671429533,1,Additional QUnit,${{ matrix.constel }}-${{ matrix.kind }},23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429533/job/23780595628
+"13.04.24, 05:44:33",23780595692,8671429533,1,Additional QUnit,${{ matrix.constel }}-no-csp,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429533/job/23780595692
+"13.04.24, 05:44:34",23780595739,8671429533,1,Additional QUnit,Performance,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429533/job/23780595739
+"13.04.24, 05:44:34",23780595793,8671429533,1,Additional QUnit,${{ matrix.constel }}-${{ matrix.timezone }},23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429533/job/23780595793
+"13.04.24, 05:44:35",23780595848,8671429533,1,Additional QUnit,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429533/job/23780595848
+"13.04.24, 05:42:19",23780578356,8671429536,1,QUnit tests for renovation,Build,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429536/job/23780578356
+"13.04.24, 05:44:32",23780595440,8671429536,1,QUnit tests for renovation,Constel ${{ matrix.CONSTEL }},23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429536/job/23780595440
+"13.04.24, 05:44:33",23780595622,8671429536,1,QUnit tests for renovation,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429536/job/23780595622
+"13.04.24, 05:42:19",23780578445,8671429539,1,Renovation,jest-tests,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429539/job/23780578445
+"13.04.24, 05:44:32",23780595468,8671429539,1,Renovation,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429539/job/23780595468
+"13.04.24, 05:42:19",23780578387,8671429537,1,Styles tests,Tests,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429537/job/23780578387
+"13.04.24, 05:44:32",23780595439,8671429537,1,Styles tests,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429537/job/23780595439
+"13.04.24, 11:06:19",23784019232,8673007771,1,TestCafe tests,accessibility (1/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784019232
+"13.04.24, 11:06:21",23784019788,8673007771,1,TestCafe tests,accessibility (5/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784019788
+"13.04.24, 11:06:22",23784019962,8673007771,1,TestCafe tests,accessibility - material (2/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784019962
+"13.04.24, 11:06:22",23784020058,8673007771,1,TestCafe tests,accessibility - material (3/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784020058
+"13.04.24, 11:06:23",23784020165,8673007771,1,TestCafe tests,accessibility - material (4/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784020165
+"13.04.24, 11:06:23",23784020337,8673007771,1,TestCafe tests,accessibility - material (6/7),24_1_Menu_RootItem,cancelled,Post Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784020337
+"13.04.24, 11:06:24",23784020401,8673007771,1,TestCafe tests,accessibility - material (7/7),24_1_Menu_RootItem,cancelled,Post Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784020401
+"13.04.24, 11:06:25",23784020696,8673007771,1,TestCafe tests,accessibility - fluent (5/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784020696
+"13.04.24, 11:06:28",23784021269,8673007771,1,TestCafe tests,dataGrid (1/2),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784021269
+"13.04.24, 11:06:28",23784021347,8673007771,1,TestCafe tests,dataGrid (2/2),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784021347
+"13.04.24, 11:06:30",23784021886,8673007771,1,TestCafe tests,scheduler (3/5),24_1_Menu_RootItem,cancelled,Post Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784021886
+"13.04.24, 11:21:08",23784182192,8673007771,1,TestCafe tests,Send notifications,24_1_Menu_RootItem,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8673007771/job/23784182192
+"13.04.24, 08:51:45",23782646093,8672344673,1,TestCafe tests,accessibility (2/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646093
+"13.04.24, 08:51:45",23782646139,8672344673,1,TestCafe tests,accessibility (3/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646139
+"13.04.24, 08:51:45",23782646201,8672344673,1,TestCafe tests,accessibility (4/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646201
+"13.04.24, 08:51:48",23782646549,8672344673,1,TestCafe tests,accessibility - material (1/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646549
+"13.04.24, 08:51:48",23782646592,8672344673,1,TestCafe tests,accessibility - material (2/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646592
+"13.04.24, 08:51:48",23782646654,8672344673,1,TestCafe tests,accessibility - material (3/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646654
+"13.04.24, 08:51:49",23782646709,8672344673,1,TestCafe tests,accessibility - material (4/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646709
+"13.04.24, 08:51:49",23782646797,8672344673,1,TestCafe tests,accessibility - material (5/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646797
+"13.04.24, 08:51:49",23782646859,8672344673,1,TestCafe tests,accessibility - material (6/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646859
+"13.04.24, 08:51:50",23782646924,8672344673,1,TestCafe tests,accessibility - material (7/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646924
+"13.04.24, 08:51:50",23782646983,8672344673,1,TestCafe tests,accessibility - fluent (1/7),24_1_Menu_RootItem,cancelled,Post Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782646983
+"13.04.24, 08:51:50",23782647036,8672344673,1,TestCafe tests,accessibility - fluent (2/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782647036
+"13.04.24, 08:51:51",23782647179,8672344673,1,TestCafe tests,accessibility - fluent (4/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782647179
+"13.04.24, 08:51:52",23782647323,8672344673,1,TestCafe tests,accessibility - fluent (6/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782647323
+"13.04.24, 08:51:52",23782647409,8672344673,1,TestCafe tests,accessibility - fluent (7/7),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782647409
+"13.04.24, 08:51:54",23782647794,8672344673,1,TestCafe tests,dataGrid (1/2),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782647794
+"13.04.24, 08:51:54",23782647864,8672344673,1,TestCafe tests,dataGrid (2/2),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782647864
+"13.04.24, 08:51:55",23782648098,8672344673,1,TestCafe tests,scheduler (1/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782648098
+"13.04.24, 08:51:56",23782648256,8672344673,1,TestCafe tests,scheduler (4/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782648256
+"13.04.24, 08:51:57",23782648314,8672344673,1,TestCafe tests,scheduler (5/5),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782648314
+"13.04.24, 08:52:01",23782648995,8672344673,1,TestCafe tests,editors - fluent (2/2),24_1_Menu_RootItem,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782648995
+"13.04.24, 09:04:20",23782772900,8672344673,1,TestCafe tests,Send notifications,24_1_Menu_RootItem,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8672344673/job/23782772900
+"13.04.24, 05:42:19",23780578360,8671429532,1,TestCafe tests,build,23_1_T1222629_CP,cancelled,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/8671429532/job/23780578360
+"13.04.24, 05:44:39",23780596297,8671429532,1,TestCafe tests,${{ matrix.ARGS.name }},23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429532/job/23780596297
+"13.04.24, 05:44:40",23780596331,8671429532,1,TestCafe tests,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429532/job/23780596331
+"13.04.24, 05:42:19",23780578352,8671429530,1,Themebuilder and Styles tests,test,23_1_T1222629_CP,cancelled,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/8671429530/job/23780578352
+"13.04.24, 05:44:37",23780596108,8671429530,1,Themebuilder and Styles tests,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429530/job/23780596108
+"13.04.24, 05:42:19",23780578422,8671429538,1,TS Declarations,check-ts-bundle,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429538/job/23780578422
+"13.04.24, 05:42:20",23780578503,8671429538,1,TS Declarations,check-ts-compilation,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429538/job/23780578503
+"13.04.24, 05:42:20",23780578530,8671429538,1,TS Declarations,validate-declarations,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429538/job/23780578530
+"13.04.24, 05:44:32",23780595461,8671429538,1,TS Declarations,Send notifications,23_1_T1222629_CP,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8671429538/job/23780595461
