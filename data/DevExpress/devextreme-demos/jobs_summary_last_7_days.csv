@@ -1,4 +1,8 @@
 date,workflow name,job name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2024-04-23,Build aspnet demos,Build aspnet demos,1,0,0,0,0,"0,01085648148","0,01085648148","0,01085648148",0,0,0,1,0,0,0,0
+2024-04-23,CodeQL,Analyze (javascript),1,0,0,0,0,"0,0006712962963","0,0006712962963","0,0006712962963",1,0,0,0,0,"0,0008912037037","0,0008912037037","0,0008912037037"
+2024-04-23,Lint,package_lock,1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",1,0,0,0,0,"0,0005555555556","0,0005555555556","0,0005555555556"
+2024-04-23,Auto approve renovate bot PR,auto-approve,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
 2024-04-22,Build aspnet demos,Build aspnet demos,1,0,0,0,0,"0,01091435185","0,01091435185","0,01091435185",0,0,0,3,0,0,0,0
 2024-04-22,CodeQL,Analyze (javascript),1,0,0,0,0,"0,000625","0,000625","0,000625",3,0,0,0,0,"0,0006597222222","0,0007021604938","0,0007523148148"
 2024-04-22,Lint,package_lock,1,0,0,0,0,"0,0004976851852","0,0004976851852","0,0004976851852",3,0,0,0,0,"0,000474537037","0,0004861111111","0,0004976851852"
