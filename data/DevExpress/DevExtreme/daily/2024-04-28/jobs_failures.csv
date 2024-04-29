@@ -1,0 +1,87 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"28.04.24, 17:26:43",24349702431,8869248445,1,Default Workflow,main,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248445/job/24349702431
+"28.04.24, 19:20:04",24350985937,8869839284,1,Demos Visual Tests,jquery(2/4)-screenshots-material.blue.light,scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869839284/job/24350985937
+"28.04.24, 17:26:44",24349702506,8869248438,1,Demos Visual Tests,Build devextreme,scheduler_dst-fix,cancelled,DevExtreme - Build,https://github.com/DevExpress/DevExtreme/actions/runs/8869248438/job/24349702506
+"28.04.24, 17:28:32",24349719999,8869248438,1,Demos Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }}-${{ matrix.THEME }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248438/job/24349719999
+"28.04.24, 19:29:05",24351077268,8869850192,1,Demos Frameworks,Lint code base (excluding demos),T1225772_24-1,failure,Install packages,https://github.com/DevExpress/DevExtreme/actions/runs/8869850192/job/24351077268
+"28.04.24, 17:26:44",24349702501,8869248433,1,Demos Frameworks,Build DevExtreme,scheduler_dst-fix,cancelled,DevExtreme - Build-all,https://github.com/DevExpress/DevExtreme/actions/runs/8869248433/job/24349702501
+"28.04.24, 17:28:34",24349720353,8869248433,1,Demos Frameworks,${{ matrix.name }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248433/job/24349720353
+"28.04.24, 17:28:34",24349720402,8869248433,1,Demos Frameworks,Build Demos,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248433/job/24349720402
+"28.04.24, 17:28:34",24349720464,8869248433,1,Demos Frameworks,${{ matrix.name }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248433/job/24349720464
+"28.04.24, 17:28:35",24349720524,8869248433,1,Demos Frameworks,testcafe-${{ matrix.CONSTEL }}-${{ matrix.THEME }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248433/job/24349720524
+"28.04.24, 20:51:12",24351968395,8870262183,1,DevExtreme package tests,Demos visual tests jquery(3/4),T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870262183/job/24351968395
+"28.04.24, 17:26:43",24349702375,8869248428,1,DevExtreme package tests,build,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248428/job/24349702375
+"28.04.24, 17:28:17",24349717480,8869248428,1,DevExtreme package tests,Bundlers tests,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248428/job/24349717480
+"28.04.24, 17:28:18",24349717675,8869248428,1,DevExtreme package tests,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248428/job/24349717675
+"28.04.24, 18:50:17",24350646194,8869693232,1,Lint,TS,T1225772_24-1,failure,Lint Testcafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869693232/job/24350646194
+"28.04.24, 17:26:44",24349702527,8869248440,1,Lint,Renovation,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702527
+"28.04.24, 17:26:45",24349702620,8869248440,1,Lint,component_exports,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702620
+"28.04.24, 17:26:45",24349702683,8869248440,1,Lint,CSS,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702683
+"28.04.24, 17:26:46",24349702731,8869248440,1,Lint,JS,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702731
+"28.04.24, 17:26:46",24349702772,8869248440,1,Lint,package_lock,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702772
+"28.04.24, 17:26:46",24349702845,8869248440,1,Lint,texts,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702845
+"28.04.24, 17:26:47",24349702902,8869248440,1,Lint,TS,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702902
+"28.04.24, 17:26:47",24349702943,8869248440,1,Lint,wrappers,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349702943
+"28.04.24, 17:28:19",24349717825,8869248440,1,Lint,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248440/job/24349717825
+"28.04.24, 17:26:44",24349702461,8869248430,1,Paths length check,checks,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248430/job/24349702461
+"28.04.24, 17:28:18",24349717604,8869248430,1,Paths length check,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248430/job/24349717604
+"28.04.24, 17:26:44",24349702543,8869248427,1,Playgrounds tests,build,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248427/job/24349702543
+"28.04.24, 17:28:18",24349717609,8869248427,1,Playgrounds tests,${{ matrix.ARGS.platform }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248427/job/24349717609
+"28.04.24, 20:47:44",24351933024,8870262180,1,Additional QUnit,ui.widgets(2/3)-shadow-dom,T1225772_23-1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870262180/job/24351933024
+"28.04.24, 17:26:43",24349702372,8869248421,1,Additional QUnit,Build,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349702372
+"28.04.24, 17:28:17",24349717580,8869248421,1,Additional QUnit,${{ matrix.constel }}-firefox,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349717580
+"28.04.24, 17:28:18",24349717661,8869248421,1,Additional QUnit,${{ matrix.constel }}-${{ matrix.kind }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349717661
+"28.04.24, 17:28:18",24349717732,8869248421,1,Additional QUnit,Performance,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349717732
+"28.04.24, 17:28:19",24349717793,8869248421,1,Additional QUnit,${{ matrix.constel }}-${{ matrix.timezone }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349717793
+"28.04.24, 17:28:19",24349717863,8869248421,1,Additional QUnit,${{ matrix.constel }}-chrome,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349717863
+"28.04.24, 17:28:20",24349717960,8869248421,1,Additional QUnit,${{ matrix.constel }}-no-csp,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349717960
+"28.04.24, 17:28:21",24349718098,8869248421,1,Additional QUnit,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248421/job/24349718098
+"28.04.24, 08:25:14",24343524632,8866225876,1,Additional QUnit,ui.scheduler(3/3)-firefox,T1225772_24-1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866225876/job/24343524632
+"28.04.24, 08:25:30",24343527821,8866225876,1,Additional QUnit,ui.scheduler(3/3)-PST8PDT,T1225772_24-1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866225876/job/24343527821
+"28.04.24, 08:25:31",24343527939,8866225876,1,Additional QUnit,ui.scheduler(3/3)-Japan,T1225772_24-1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866225876/job/24343527939
+"28.04.24, 08:25:32",24343528021,8866225876,1,Additional QUnit,ui.scheduler(3/3)-Australia/ACT,T1225772_24-1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866225876/job/24343528021
+"28.04.24, 08:25:32",24343528177,8866225876,1,Additional QUnit,ui.scheduler(3/3)-Europe/London,T1225772_24-1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866225876/job/24343528177
+"28.04.24, 08:25:33",24343528352,8866225876,1,Additional QUnit,ui.scheduler(3/3)-shadow-dom,T1225772_24-1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866225876/job/24343528352
+"28.04.24, 17:26:43",24349702426,8869248431,1,QUnit tests for renovation,Build,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248431/job/24349702426
+"28.04.24, 17:28:17",24349717555,8869248431,1,QUnit tests for renovation,Constel ${{ matrix.CONSTEL }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248431/job/24349717555
+"28.04.24, 17:28:18",24349717717,8869248431,1,QUnit tests for renovation,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248431/job/24349717717
+"28.04.24, 17:26:43",24349702406,8869248432,1,Renovation,jest-tests,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248432/job/24349702406
+"28.04.24, 17:28:17",24349717497,8869248432,1,Renovation,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248432/job/24349717497
+"28.04.24, 17:26:43",24349702427,8869248426,1,Styles tests,Tests,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248426/job/24349702427
+"28.04.24, 17:28:18",24349717631,8869248426,1,Styles tests,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248426/job/24349717631
+"28.04.24, 20:43:48",24351893444,8870262181,1,TestCafe tests,scheduler (1/5),T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870262181/job/24351893444
+"28.04.24, 20:43:49",24351893500,8870262181,1,TestCafe tests,scheduler (2/5),T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870262181/job/24351893500
+"28.04.24, 20:43:49",24351893553,8870262181,1,TestCafe tests,scheduler (3/5),T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870262181/job/24351893553
+"28.04.24, 20:43:49",24351893600,8870262181,1,TestCafe tests,scheduler (4/5),T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870262181/job/24351893600
+"28.04.24, 20:43:50",24351893669,8870262181,1,TestCafe tests,scheduler (5/5),T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870262181/job/24351893669
+"28.04.24, 20:43:57",24351894864,8870258301,1,TestCafe tests,dataGrid (2/2),T1225772_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870258301/job/24351894864
+"28.04.24, 20:43:59",24351895173,8870258301,1,TestCafe tests,scheduler (2/5),T1225772_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870258301/job/24351895173
+"28.04.24, 20:04:56",24351437877,8870038992,1,TestCafe tests,scheduler (1/5),scheduler_dst-fix_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870038992/job/24351437877
+"28.04.24, 20:04:56",24351437943,8870038992,1,TestCafe tests,scheduler (2/5),scheduler_dst-fix_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870038992/job/24351437943
+"28.04.24, 20:04:56",24351438000,8870038992,1,TestCafe tests,scheduler (3/5),scheduler_dst-fix_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870038992/job/24351438000
+"28.04.24, 20:04:57",24351438077,8870038992,1,TestCafe tests,scheduler (4/5),scheduler_dst-fix_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870038992/job/24351438077
+"28.04.24, 20:04:57",24351438144,8870038992,1,TestCafe tests,scheduler (5/5),scheduler_dst-fix_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870038992/job/24351438144
+"28.04.24, 20:04:57",24351438217,8870038992,1,TestCafe tests,scheduler (Europe/Berlin),scheduler_dst-fix_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870038992/job/24351438217
+"28.04.24, 20:04:58",24351438299,8870038992,1,TestCafe tests,scheduler (America/Los_Angeles),scheduler_dst-fix_23-2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8870038992/job/24351438299
+"28.04.24, 19:22:49",24351014738,8869839270,1,TestCafe tests,dataGrid (1/2),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869839270/job/24351014738
+"28.04.24, 18:57:23",24350709374,8869693230,1,TestCafe tests,scheduler (2/5),T1225772_24-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869693230/job/24350709374
+"28.04.24, 18:57:23",24350709443,8869693230,1,TestCafe tests,scheduler (3/5),T1225772_24-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869693230/job/24350709443
+"28.04.24, 18:57:24",24350709496,8869693230,1,TestCafe tests,scheduler (4/5),T1225772_24-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869693230/job/24350709496
+"28.04.24, 18:57:24",24350709581,8869693230,1,TestCafe tests,scheduler (5/5),T1225772_24-1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869693230/job/24350709581
+"28.04.24, 18:20:45",24350321089,8869484478,1,TestCafe tests,dataGrid (1/2),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869484478/job/24350321089
+"28.04.24, 18:20:49",24350321536,8869484478,1,TestCafe tests,scheduler (Europe/Berlin),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869484478/job/24350321536
+"28.04.24, 18:20:49",24350321591,8869484478,1,TestCafe tests,scheduler (America/Los_Angeles),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869484478/job/24350321591
+"28.04.24, 17:37:10",24349819427,8869255227,1,TestCafe tests,scheduler (Europe/Berlin),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869255227/job/24349819427
+"28.04.24, 17:37:10",24349819477,8869255227,1,TestCafe tests,scheduler (America/Los_Angeles),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8869255227/job/24349819477
+"28.04.24, 17:26:44",24349702534,8869248429,1,TestCafe tests,build,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248429/job/24349702534
+"28.04.24, 17:28:18",24349717662,8869248429,1,TestCafe tests,${{ matrix.ARGS.name }},scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248429/job/24349717662
+"28.04.24, 17:28:19",24349717803,8869248429,1,TestCafe tests,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248429/job/24349717803
+"28.04.24, 09:55:39",24344570349,8866714364,1,TestCafe tests,pivotGrid - material,scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866714364/job/24344570349
+"28.04.24, 09:55:42",24344570690,8866714364,1,TestCafe tests,scheduler (Europe/Berlin),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866714364/job/24344570690
+"28.04.24, 09:55:43",24344570730,8866714364,1,TestCafe tests,scheduler (America/Los_Angeles),scheduler_dst-fix,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/8866714364/job/24344570730
+"28.04.24, 17:26:43",24349702373,8869248435,1,Themebuilder and Styles tests,test,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248435/job/24349702373
+"28.04.24, 17:28:17",24349717518,8869248435,1,Themebuilder and Styles tests,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248435/job/24349717518
+"28.04.24, 17:26:43",24349702365,8869248420,1,TS Declarations,check-ts-bundle,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248420/job/24349702365
+"28.04.24, 17:26:45",24349702582,8869248420,1,TS Declarations,check-ts-compilation,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248420/job/24349702582
+"28.04.24, 17:26:45",24349702632,8869248420,1,TS Declarations,validate-declarations,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248420/job/24349702632
+"28.04.24, 17:28:17",24349717557,8869248420,1,TS Declarations,Send notifications,scheduler_dst-fix,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/8869248420/job/24349717557
