@@ -1,0 +1,10 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"28.04.24, 20:44:24",24351898518,8870252193,1,Visual Tests,jquery(3/4)-screenshots,T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252193/job/24351898518
+"28.04.24, 20:49:08",24351948779,8870252191,1,Frameworks,Lint code base (excluding demos),T1225772_23-1,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351948779
+"28.04.24, 20:49:10",24351948944,8870252191,1,Frameworks,Lint demos (1/4),T1225772_23-1,cancelled,Prepare dotnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351948944
+"28.04.24, 20:49:10",24351949064,8870252191,1,Frameworks,Lint demos (2/4),T1225772_23-1,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351949064
+"28.04.24, 20:49:11",24351949128,8870252191,1,Frameworks,react(3/4),T1225772_23-1,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351949128
+"28.04.24, 20:49:11",24351949181,8870252191,1,Frameworks,Lint demos (3/4),T1225772_23-1,cancelled,Run lint,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351949181
+"28.04.24, 20:49:12",24351949268,8870252191,1,Frameworks,Lint demos (4/4),T1225772_23-1,cancelled,Prepare dotnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351949268
+"28.04.24, 20:49:13",24351949409,8870252191,1,Frameworks,vue(3/4),T1225772_23-1,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351949409
+"28.04.24, 20:49:14",24351949577,8870252191,1,Frameworks,angular(3/4),T1225772_23-1,cancelled,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/8870252191/job/24351949577
