@@ -1,6 +1,2 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
 "06.05.24, 10:00:26",24624611716,8967314856,1,Build aspnet demos,Build aspnet demos,add-option-on-splitter-demo,failure,Run npm install in monorepo,https://github.com/DevExpress/devextreme-demos/actions/runs/8967314856/job/24624611716
-"02.05.24, 11:58:24",24507591693,8923406360,1,Build aspnet demos,Build aspnet demos,mvc-demo-context-menu,cancelled,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8923406360/job/24507591693
-"02.05.24, 07:27:03",24497748322,8920190667,1,Build aspnet demos,Build aspnet demos,angular-publish-upd-node,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8920190667/job/24497748322
-"02.05.24, 08:20:12",24499569671,8920190667,2,Build aspnet demos,Build aspnet demos,angular-publish-upd-node,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8920190667/job/24499569671
-"02.05.24, 10:31:58",24504549408,8920190667,3,Build aspnet demos,Build aspnet demos,angular-publish-upd-node,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/8920190667/job/24504549408
