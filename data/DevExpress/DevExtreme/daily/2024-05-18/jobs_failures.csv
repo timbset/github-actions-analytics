@@ -1,0 +1,19 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"18.05.24, 09:07:36",25130343470,9138737321,1,Additional QUnit,ui.widgets(1/3)-shadow-dom,24_2_buttonGroup_inferno,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737321/job/25130343470
+"18.05.24, 09:07:37",25130343596,9138737321,1,Additional QUnit,ui.widgets(1/3)-ios10,24_2_buttonGroup_inferno,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737321/job/25130343596
+"18.05.24, 09:07:37",25130343668,9138737321,1,Additional QUnit,ui.widgets(1/3)-android6,24_2_buttonGroup_inferno,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737321/job/25130343668
+"18.05.24, 08:45:20",25130098448,9138617720,1,Additional QUnit,ui.widgets(2/3)-android6,24_2_buttonGroup_inferno,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138617720/job/25130098448
+"18.05.24, 09:02:42",25130273082,9138617720,1,Additional QUnit,Send notifications,24_2_buttonGroup_inferno,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/9138617720/job/25130273082
+"18.05.24, 09:06:41",25130333310,9138737325,1,QUnit tests for renovation,Constel ui.widgets(1/2),24_2_buttonGroup_inferno,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737325/job/25130333310
+"18.05.24, 09:09:16",25130362371,9138737306,1,TestCafe tests,accessibility (1/5),24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737306/job/25130362371
+"18.05.24, 09:09:34",25130366417,9138737306,1,TestCafe tests,navigation,24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737306/job/25130366417
+"18.05.24, 09:09:35",25130366466,9138737306,1,TestCafe tests,navigation - material,24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737306/job/25130366466
+"18.05.24, 09:09:35",25130366523,9138737306,1,TestCafe tests,navigation - fluent,24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138737306/job/25130366523
+"18.05.24, 08:43:25",25130081294,9138617716,1,TestCafe tests,accessibility - material (1/7),24_2_buttonGroup_inferno,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130081294
+"18.05.24, 08:43:25",25130081381,9138617716,1,TestCafe tests,accessibility - material (2/7),24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130081381
+"18.05.24, 08:43:31",25130082211,9138617716,1,TestCafe tests,accessibility - fluent (3/7),24_2_buttonGroup_inferno,cancelled,Post Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130082211
+"18.05.24, 08:43:34",25130082652,9138617716,1,TestCafe tests,dataGrid (2/2),24_2_buttonGroup_inferno,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130082652
+"18.05.24, 08:43:44",25130083850,9138617716,1,TestCafe tests,navigation,24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130083850
+"18.05.24, 08:43:44",25130083898,9138617716,1,TestCafe tests,navigation - material,24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130083898
+"18.05.24, 08:43:45",25130083950,9138617716,1,TestCafe tests,navigation - fluent,24_2_buttonGroup_inferno,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130083950
+"18.05.24, 09:03:09",25130280360,9138617716,1,TestCafe tests,Send notifications,24_2_buttonGroup_inferno,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/9138617716/job/25130280360
