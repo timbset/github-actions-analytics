@@ -1,4 +1,8 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2024-05-20,build-aspnet.yml,Build aspnet demos,0,1,0,0,0,"0,03291666667","0,03291666667","0,03291666667",0,1,0,0,0,"0,03247685185","0,03247685185","0,03247685185"
+2024-05-20,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,0008564814815","0,0008564814815","0,0008564814815",1,0,0,0,0,"0,000775462963","0,000775462963","0,000775462963"
+2024-05-20,lint.yml,Lint,1,0,0,0,0,"0,0005671296296","0,0005671296296","0,0005671296296",1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037"
+2024-05-20,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0001157407407","0,0001157407407","0,0001157407407"
 2024-05-18,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,0008101851852","0,0008101851852","0,0008101851852",0,0,0,0,0,0,0,0
 2024-05-16,build-aspnet.yml,Build aspnet demos,0,1,0,0,0,"0,03241898148","0,03241898148","0,03241898148",0,0,0,0,0,0,0,0
 2024-05-16,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,000787037037","0,000787037037","0,000787037037",0,0,0,0,0,0,0,0
@@ -32,4 +36,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2024-05-06,codeql-analysis.yml,CodeQL,2,0,0,0,0,"0,001747685185","0,001828703704","0,001909722222",4,0,0,0,0,"0,001122685185","0,001241319444","0,001296296296"
 2024-05-06,lint.yml,Lint,2,0,0,0,0,"0,001724537037","0,00181712963","0,001909722222",4,0,0,0,0,"0,0005902777778","0,0006394675926","0,0006944444444"
 2024-05-06,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,4,0,0,0,0,"0,0001041666667","0,0001273148148","0,000150462963"
-2024-05-04,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,001111111111","0,001111111111","0,001111111111",0,0,0,0,0,0,0,0
