@@ -1,4 +1,7 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"22.05.24, 10:33:37",25272403331,9189729853,1,Build aspnet demos,Build aspnet demos,context-menu-and-menu-additional-changes,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9189729853/job/25272403331
+"22.05.24, 10:29:17",25272211640,9189673088,1,Build aspnet demos,Build aspnet demos,context-menu-and-menu-additional-changes,cancelled,Run npm install in monorepo,https://github.com/DevExpress/devextreme-demos/actions/runs/9189673088/job/25272211640
+"22.05.24, 05:59:19",25261182480,9186095218,1,Build aspnet demos,Build aspnet demos,context-menu-and-menu-additional-changes,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9186095218/job/25261182480
 "21.05.24, 11:32:32",25223793346,9173964547,1,Build aspnet demos,Build aspnet demos,23_2,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9173964547/job/25223793346
 "21.05.24, 08:11:53",25215034430,9171099698,1,Visual Tests,jquery(1/4),fix/validating_race/22_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/9171099698/job/25215034430
 "21.05.24, 08:11:53",25215034733,9171099698,1,Visual Tests,jquery(2/4),fix/validating_race/22_2,failure,Run TestCafe tests,https://github.com/DevExpress/devextreme-demos/actions/runs/9171099698/job/25215034733
@@ -27,12 +30,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "20.05.24, 15:24:36",25185061303,9161055163,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9161055163/job/25185061303
 "20.05.24, 05:45:40",25164157527,9154129890,1,Build aspnet demos,Build aspnet demos,tagbox-add-alt-in-templates,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9154129890/job/25164157527
 "16.05.24, 13:57:26",25055635723,9113634177,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9113634177/job/25055635723
-"15.05.24, 11:20:45",24996480241,9094748597,1,Build aspnet demos,Build aspnet demos,bargauge-palette,failure,Run npm install in monorepo,https://github.com/DevExpress/devextreme-demos/actions/runs/9094748597/job/24996480241
-"15.05.24, 11:30:48",24996876348,9094748597,2,Build aspnet demos,Build aspnet demos,bargauge-palette,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9094748597/job/24996876348
-"15.05.24, 11:20:20",24996463414,9094743284,1,Build aspnet demos,Build aspnet demos,bargauge-palette,cancelled,Get version,https://github.com/DevExpress/devextreme-demos/actions/runs/9094743284/job/24996463414
-"15.05.24, 08:27:07",24989159964,9092440990,1,Build aspnet demos,Build aspnet demos,24_1,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9092440990/job/24989159964
-"15.05.24, 05:41:23",24983640206,9090589945,1,Build aspnet demos,Build aspnet demos,new-data,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9090589945/job/24983640206
-"15.05.24, 05:23:10",24983233149,9090431374,1,Build aspnet demos,Build aspnet demos,new-data,cancelled,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9090431374/job/24983233149
-"15.05.24, 05:21:15",24983189854,9090413077,1,Build aspnet demos,Build aspnet demos,new-data,cancelled,Run npm install in monorepo,https://github.com/DevExpress/devextreme-demos/actions/runs/9090413077/job/24983189854
-"15.05.24, 05:20:07",24983163969,9090402717,1,Build aspnet demos,Build aspnet demos,new-data,cancelled,Run npm install in monorepo,https://github.com/DevExpress/devextreme-demos/actions/runs/9090402717/job/24983163969
-"15.05.24, 11:20:20",24996463403,9094743282,1,Lint,package_lock,bargauge-palette,cancelled,Check package-lock,https://github.com/DevExpress/devextreme-demos/actions/runs/9094743282/job/24996463403

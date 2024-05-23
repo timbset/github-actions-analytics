@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"22.05.24, 10:33:37",25272403331,9189729853,1,Build aspnet demos,Build aspnet demos,context-menu-and-menu-additional-changes,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9189729853/job/25272403331
+"22.05.24, 10:29:17",25272211640,9189673088,1,Build aspnet demos,Build aspnet demos,context-menu-and-menu-additional-changes,cancelled,Run npm install in monorepo,https://github.com/DevExpress/devextreme-demos/actions/runs/9189673088/job/25272211640
+"22.05.24, 05:59:19",25261182480,9186095218,1,Build aspnet demos,Build aspnet demos,context-menu-and-menu-additional-changes,failure,Run prepare-aspnet,https://github.com/DevExpress/devextreme-demos/actions/runs/9186095218/job/25261182480
