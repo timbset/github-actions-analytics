@@ -1,0 +1,31 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"23.06.24, 06:34:38",26563275895,9631430232,1,Demos Visual Tests,jquery(2/4)-screenshots-material.blue.light,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430232/job/26563275895
+"23.06.24, 06:41:52",26563359191,9631430239,1,TestCafe tests,common,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359191
+"23.06.24, 06:41:52",26563359248,9631430239,1,TestCafe tests,common - material,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359248
+"23.06.24, 06:41:53",26563359307,9631430239,1,TestCafe tests,common - fluent,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359307
+"23.06.24, 06:41:53",26563359369,9631430239,1,TestCafe tests,treeList,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359369
+"23.06.24, 06:41:53",26563359465,9631430239,1,TestCafe tests,dataGrid (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359465
+"23.06.24, 06:41:54",26563359541,9631430239,1,TestCafe tests,dataGrid (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359541
+"23.06.24, 06:41:55",26563359756,9631430239,1,TestCafe tests,scheduler (1/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359756
+"23.06.24, 06:41:55",26563359810,9631430239,1,TestCafe tests,scheduler (2/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359810
+"23.06.24, 06:41:56",26563359857,9631430239,1,TestCafe tests,scheduler (3/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359857
+"23.06.24, 06:41:56",26563359893,9631430239,1,TestCafe tests,scheduler (4/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359893
+"23.06.24, 06:41:56",26563359938,9631430239,1,TestCafe tests,scheduler (5/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359938
+"23.06.24, 06:41:57",26563360081,9631430239,1,TestCafe tests,form (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360081
+"23.06.24, 06:41:58",26563360135,9631430239,1,TestCafe tests,form (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360135
+"23.06.24, 06:41:58",26563360185,9631430239,1,TestCafe tests,form - material (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360185
+"23.06.24, 06:41:58",26563360245,9631430239,1,TestCafe tests,form - material (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360245
+"23.06.24, 06:41:58",26563360285,9631430239,1,TestCafe tests,form - fluent (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360285
+"23.06.24, 06:41:59",26563360361,9631430239,1,TestCafe tests,form - fluent (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360361
+"23.06.24, 06:41:59",26563360419,9631430239,1,TestCafe tests,editors (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360419
+"23.06.24, 06:41:59",26563360488,9631430239,1,TestCafe tests,editors (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360488
+"23.06.24, 06:42:00",26563360541,9631430239,1,TestCafe tests,editors - material (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360541
+"23.06.24, 06:42:00",26563360621,9631430239,1,TestCafe tests,editors - material (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360621
+"23.06.24, 06:42:00",26563360709,9631430239,1,TestCafe tests,editors - fluent (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360709
+"23.06.24, 06:42:01",26563360801,9631430239,1,TestCafe tests,editors - fluent (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360801
+"23.06.24, 06:42:01",26563360886,9631430239,1,TestCafe tests,htmlEditor,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360886
+"23.06.24, 06:42:01",26563360951,9631430239,1,TestCafe tests,htmlEditor - material,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360951
+"23.06.24, 06:42:02",26563361020,9631430239,1,TestCafe tests,htmlEditor - fluent,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361020
+"23.06.24, 06:42:02",26563361086,9631430239,1,TestCafe tests,navigation,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361086
+"23.06.24, 06:42:02",26563361138,9631430239,1,TestCafe tests,navigation - material,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361138
+"23.06.24, 06:42:03",26563361193,9631430239,1,TestCafe tests,navigation - fluent,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361193

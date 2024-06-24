@@ -1,4 +1,34 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"23.06.24, 06:34:38",26563275895,9631430232,1,Demos Visual Tests,jquery(2/4)-screenshots-material.blue.light,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430232/job/26563275895
+"23.06.24, 06:41:52",26563359191,9631430239,1,TestCafe tests,common,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359191
+"23.06.24, 06:41:52",26563359248,9631430239,1,TestCafe tests,common - material,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359248
+"23.06.24, 06:41:53",26563359307,9631430239,1,TestCafe tests,common - fluent,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359307
+"23.06.24, 06:41:53",26563359369,9631430239,1,TestCafe tests,treeList,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359369
+"23.06.24, 06:41:53",26563359465,9631430239,1,TestCafe tests,dataGrid (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359465
+"23.06.24, 06:41:54",26563359541,9631430239,1,TestCafe tests,dataGrid (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359541
+"23.06.24, 06:41:55",26563359756,9631430239,1,TestCafe tests,scheduler (1/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359756
+"23.06.24, 06:41:55",26563359810,9631430239,1,TestCafe tests,scheduler (2/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359810
+"23.06.24, 06:41:56",26563359857,9631430239,1,TestCafe tests,scheduler (3/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359857
+"23.06.24, 06:41:56",26563359893,9631430239,1,TestCafe tests,scheduler (4/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359893
+"23.06.24, 06:41:56",26563359938,9631430239,1,TestCafe tests,scheduler (5/5),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563359938
+"23.06.24, 06:41:57",26563360081,9631430239,1,TestCafe tests,form (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360081
+"23.06.24, 06:41:58",26563360135,9631430239,1,TestCafe tests,form (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360135
+"23.06.24, 06:41:58",26563360185,9631430239,1,TestCafe tests,form - material (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360185
+"23.06.24, 06:41:58",26563360245,9631430239,1,TestCafe tests,form - material (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360245
+"23.06.24, 06:41:58",26563360285,9631430239,1,TestCafe tests,form - fluent (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360285
+"23.06.24, 06:41:59",26563360361,9631430239,1,TestCafe tests,form - fluent (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360361
+"23.06.24, 06:41:59",26563360419,9631430239,1,TestCafe tests,editors (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360419
+"23.06.24, 06:41:59",26563360488,9631430239,1,TestCafe tests,editors (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360488
+"23.06.24, 06:42:00",26563360541,9631430239,1,TestCafe tests,editors - material (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360541
+"23.06.24, 06:42:00",26563360621,9631430239,1,TestCafe tests,editors - material (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360621
+"23.06.24, 06:42:00",26563360709,9631430239,1,TestCafe tests,editors - fluent (1/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360709
+"23.06.24, 06:42:01",26563360801,9631430239,1,TestCafe tests,editors - fluent (2/2),ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360801
+"23.06.24, 06:42:01",26563360886,9631430239,1,TestCafe tests,htmlEditor,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360886
+"23.06.24, 06:42:01",26563360951,9631430239,1,TestCafe tests,htmlEditor - material,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563360951
+"23.06.24, 06:42:02",26563361020,9631430239,1,TestCafe tests,htmlEditor - fluent,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361020
+"23.06.24, 06:42:02",26563361086,9631430239,1,TestCafe tests,navigation,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361086
+"23.06.24, 06:42:02",26563361138,9631430239,1,TestCafe tests,navigation - material,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361138
+"23.06.24, 06:42:03",26563361193,9631430239,1,TestCafe tests,navigation - fluent,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361193
 "22.06.24, 10:20:09",26548902889,9624702528,1,TestCafe tests,treeList,T1221037_24_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9624702528/job/26548902889
 "21.06.24, 14:39:09",26522490141,9615409710,1,Default Workflow,main,fix-react-treelist-memory-leak,cancelled,Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9615409710/job/26522490141
 "21.06.24, 12:12:11",26516037949,9613389803,1,Default Workflow,main,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9613389803/job/26516037949
@@ -4755,26 +4785,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "17.06.24, 11:10:38",26309942480,9546641489,1,DevExtreme Wrappers Tests,test,23_2_migrate_to_TS,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/9546641489/job/26309942480
 "17.06.24, 10:59:11",26309464204,9546485024,1,DevExtreme Wrappers Tests,test,23_2_migrate_to_TS,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/9546485024/job/26309464204
 "17.06.24, 04:56:24",26296518063,9542165242,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/9542165242/job/26296518063
-"16.06.24, 19:54:22",26287794806,9538506363,1,Default Workflow,main,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506363/job/26287794806
-"16.06.24, 19:54:22",26287794825,9538506367,1,Demos unit tests,Run unit tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506367/job/26287794825
-"16.06.24, 19:54:24",26287795125,9538506365,1,Demos Visual Tests,Build devextreme,renovate/pin-dependencies,failure,DevExtreme - Install packages,https://github.com/DevExpress/DevExtreme/actions/runs/9538506365/job/26287795125
-"16.06.24, 19:54:23",26287795017,9538506361,1,Demos Frameworks,Build DevExtreme,renovate/pin-dependencies,failure,DevExtreme - Install packages,https://github.com/DevExpress/DevExtreme/actions/runs/9538506361/job/26287795017
-"16.06.24, 19:54:23",26287794970,9538506366,1,DevExtreme package tests,build,renovate/pin-dependencies,failure,Install packages in devextreme repo,https://github.com/DevExpress/DevExtreme/actions/runs/9538506366/job/26287794970
-"16.06.24, 19:54:24",26287795046,9538506358,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795046
-"16.06.24, 19:54:24",26287795147,9538506358,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795147
-"16.06.24, 19:54:25",26287795200,9538506358,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795200
-"16.06.24, 19:54:25",26287795249,9538506358,1,Lint,package_lock,renovate/pin-dependencies,failure,Update package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795249
-"16.06.24, 19:54:25",26287795299,9538506358,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795299
-"16.06.24, 19:54:26",26287795342,9538506358,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795342
-"16.06.24, 19:54:26",26287795386,9538506358,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795386
-"16.06.24, 19:54:26",26287795441,9538506358,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/9538506358/job/26287795441
-"16.06.24, 19:54:23",26287795015,9538506359,1,Playgrounds tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506359/job/26287795015
-"16.06.24, 19:54:23",26287795005,9538506355,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506355/job/26287795005
-"16.06.24, 19:54:23",26287795006,9538506364,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506364/job/26287795006
-"16.06.24, 19:54:22",26287794822,9538506362,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506362/job/26287794822
-"16.06.24, 19:54:22",26287794823,9538506357,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506357/job/26287794823
-"16.06.24, 19:54:24",26287795068,9538506368,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506368/job/26287795068
-"16.06.24, 19:54:22",26287794904,9538506356,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506356/job/26287794904
-"16.06.24, 19:54:23",26287794966,9538506370,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506370/job/26287794966
-"16.06.24, 19:54:24",26287795119,9538506370,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9538506370/job/26287795119
-"16.06.24, 19:54:21",26287794769,9538506369,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/9538506369/job/26287794769
