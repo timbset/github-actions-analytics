@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"29.06.24, 19:58:49",26845141179,9726451811,1,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.1.4-build-24181-1937),24_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/9726451811/job/26845141179
 "28.06.24, 09:44:37",26802283178,9710816626,1,Default Workflow,main,24_2-selectbox-bug-double-keydown-exec,cancelled,Post Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/9710816626/job/26802283178
 "28.06.24, 09:13:18",26801073557,9710414674,1,Default Workflow,main,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9710414674/job/26801073557
 "28.06.24, 06:19:50",26795110582,9708383759,1,Default Workflow,main,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9708383759/job/26795110582
@@ -2495,4 +2496,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "23.06.24, 06:42:02",26563361086,9631430239,1,TestCafe tests,navigation,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361086
 "23.06.24, 06:42:02",26563361138,9631430239,1,TestCafe tests,navigation - material,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361138
 "23.06.24, 06:42:03",26563361193,9631430239,1,TestCafe tests,navigation - fluent,ci/e2e-inputs,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9631430239/job/26563361193
-"22.06.24, 10:20:09",26548902889,9624702528,1,TestCafe tests,treeList,T1221037_24_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9624702528/job/26548902889
