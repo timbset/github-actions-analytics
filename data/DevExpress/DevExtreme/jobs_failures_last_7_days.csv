@@ -1,4 +1,72 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"07.07.24, 11:57:29",27129284477,9827051347,1,Default Workflow,main,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051347/job/27129284477
+"07.07.24, 11:57:31",27129284728,9827051344,1,Demos unit tests,Run unit tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051344/job/27129284728
+"07.07.24, 11:57:29",27129284478,9827051341,1,Demos Visual Tests,Build devextreme,renovate/pin-dependencies,failure,DevExtreme - Install packages,https://github.com/DevExpress/DevExtreme/actions/runs/9827051341/job/27129284478
+"07.07.24, 18:27:06",27134480616,9829323974,1,Demos Frameworks,testcafe-react(3/4)-material.blue.light,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9829323974/job/27134480616
+"07.07.24, 18:27:10",27134481244,9829323974,1,Demos Frameworks,testcafe-vue(1/4)-fluent.blue.light,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9829323974/job/27134481244
+"07.07.24, 18:27:11",27134481420,9829323974,1,Demos Frameworks,testcafe-vue(2/4)-fluent.blue.light,24_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9829323974/job/27134481420
+"07.07.24, 11:57:30",27129284629,9827051342,1,Demos Frameworks,Build DevExtreme,renovate/pin-dependencies,failure,DevExtreme - Install packages,https://github.com/DevExpress/DevExtreme/actions/runs/9827051342/job/27129284629
+"07.07.24, 12:08:28",27129467637,9827030546,1,Demos Frameworks,testcafe-react(3/4)-material.blue.light,24_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827030546/job/27129467637
+"07.07.24, 12:08:34",27129469437,9827030546,1,Demos Frameworks,testcafe-vue(4/4)-material.blue.light,24_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827030546/job/27129469437
+"07.07.24, 11:57:30",27129284680,9827051339,1,Lint,component_exports,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129284680
+"07.07.24, 11:57:31",27129284808,9827051339,1,Lint,CSS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129284808
+"07.07.24, 11:57:32",27129284915,9827051339,1,Lint,JS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129284915
+"07.07.24, 11:57:32",27129285017,9827051339,1,Lint,package_lock,renovate/pin-dependencies,failure,Update package-lock,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129285017
+"07.07.24, 11:57:33",27129285095,9827051339,1,Lint,texts,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129285095
+"07.07.24, 11:57:33",27129285189,9827051339,1,Lint,Renovation,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129285189
+"07.07.24, 11:57:33",27129285246,9827051339,1,Lint,TS,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129285246
+"07.07.24, 11:57:34",27129285320,9827051339,1,Lint,wrappers,renovate/pin-dependencies,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/9827051339/job/27129285320
+"07.07.24, 11:57:29",27129284401,9827051338,1,Playgrounds tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051338/job/27129284401
+"07.07.24, 18:16:54",27134351153,9829323965,1,Additional QUnit,ui.grid(2/2)-firefox,24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323965/job/27134351153
+"07.07.24, 18:16:56",27134351458,9829323965,1,Additional QUnit,ui.scheduler(1/3)-firefox,24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323965/job/27134351458
+"07.07.24, 18:16:56",27134351612,9829323965,1,Additional QUnit,misc(2/2)-Europe/London,24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323965/job/27134351612
+"07.07.24, 18:16:57",27134351684,9829323965,1,Additional QUnit,ui.scheduler(2/3)-firefox,24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323965/job/27134351684
+"07.07.24, 18:16:59",27134352386,9829323965,1,Additional QUnit,ui.editors(1/2)-Australia/ACT,24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323965/job/27134352386
+"07.07.24, 11:57:30",27129284544,9827051345,1,Additional QUnit,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051345/job/27129284544
+"07.07.24, 11:59:37",27129304693,9827030544,1,Additional QUnit,misc-firefox,24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9827030544/job/27129304693
+"07.07.24, 11:59:45",27129305672,9827030544,1,Additional QUnit,ui.grid(2/2)-firefox,24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9827030544/job/27129305672
+"07.07.24, 11:59:50",27129306300,9827030544,1,Additional QUnit,viz-firefox,24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9827030544/job/27129306300
+"07.07.24, 10:27:32",27128217869,9826523503,1,Additional QUnit,ui.editors(2/2)-firefox,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128217869
+"07.07.24, 10:27:43",27128220485,9826523503,1,Additional QUnit,ui.editors(2/2)-US/Pacific,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128220485
+"07.07.24, 10:27:44",27128220572,9826523503,1,Additional QUnit,ui.editors(2/2)-Japan,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128220572
+"07.07.24, 10:27:44",27128220629,9826523503,1,Additional QUnit,ui.editors(2/2)-shadow-dom,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128220629
+"07.07.24, 10:27:45",27128220675,9826523503,1,Additional QUnit,ui.editors(2/2)-Australia/ACT,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128220675
+"07.07.24, 10:27:45",27128220726,9826523503,1,Additional QUnit,ui.editors(2/2)-ios10,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128220726
+"07.07.24, 10:27:45",27128220775,9826523503,1,Additional QUnit,ui.editors(2/2)-Europe/London,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128220775
+"07.07.24, 10:27:46",27128220823,9826523503,1,Additional QUnit,ui.editors(2/2)-android6,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523503/job/27128220823
+"07.07.24, 18:15:09",27134327707,9829323947,1,QUnit tests for renovation,Constel ui.scheduler(2/2),24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323947/job/27134327707
+"07.07.24, 11:57:31",27129284726,9827051346,1,QUnit tests for renovation,Build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051346/job/27129284726
+"07.07.24, 10:26:43",27128208288,9826523506,1,QUnit tests for renovation,Constel ui.editors,fixT1216113__24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523506/job/27128208288
+"07.07.24, 11:57:31",27129284760,9827051351,1,Renovation,jest-tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051351/job/27129284760
+"07.07.24, 11:57:29",27129284423,9827051337,1,Styles tests,Tests,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051337/job/27129284423
+"07.07.24, 18:17:21",27134356864,9829323972,1,TestCafe tests,accessibility (1/5),24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323972/job/27134356864
+"07.07.24, 18:17:32",27134359259,9829323972,1,TestCafe tests,pivotGrid,24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323972/job/27134359259
+"07.07.24, 18:17:35",27134359988,9829323972,1,TestCafe tests,scheduler (America/Los_Angeles),24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323972/job/27134359988
+"07.07.24, 18:17:35",27134360080,9829323972,1,TestCafe tests,form (1/2),24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323972/job/27134360080
+"07.07.24, 18:17:40",27134361252,9829323972,1,TestCafe tests,navigation,24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9829323972/job/27134361252
+"07.07.24, 13:53:21",27131002750,9827813684,1,TestCafe tests,dataGrid (2/2),T1235403__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827813684/job/27131002750
+"07.07.24, 12:58:42",27130211164,9827452247,1,TestCafe tests,pivotGrid - material,T1235403__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827452247/job/27130211164
+"07.07.24, 12:02:58",27129364040,9827057546,1,TestCafe tests,pivotGrid - material,T1235403__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827057546/job/27129364040
+"07.07.24, 12:02:58",27129364115,9827057546,1,TestCafe tests,pivotGrid - fluent,T1235403__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827057546/job/27129364115
+"07.07.24, 12:03:06",27129366399,9827057546,1,TestCafe tests,navigation,T1235403__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827057546/job/27129366399
+"07.07.24, 12:03:06",27129366485,9827057546,1,TestCafe tests,navigation - material,T1235403__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827057546/job/27129366485
+"07.07.24, 12:03:07",27129366575,9827057546,1,TestCafe tests,navigation - fluent,T1235403__23_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9827057546/job/27129366575
+"07.07.24, 11:57:30",27129284646,9827051336,1,TestCafe tests,build,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051336/job/27129284646
+"07.07.24, 12:06:09",27129423177,9827038071,1,TestCafe tests,form - material (1/2),T1235403__24_1,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9827038071/job/27129423177
+"07.07.24, 12:00:39",27129320288,9827030551,1,TestCafe tests,accessibility (3/5),24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9827030551/job/27129320288
+"07.07.24, 12:00:46",27129323059,9827030551,1,TestCafe tests,common,24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9827030551/job/27129323059
+"07.07.24, 12:00:47",27129323151,9827030551,1,TestCafe tests,common - material,24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9827030551/job/27129323151
+"07.07.24, 10:28:41",27128232458,9826523495,1,TestCafe tests,accessibility - material (7/7),fixT1216113__24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9826523495/job/27128232458
+"07.07.24, 10:28:47",27128233658,9826523495,1,TestCafe tests,pivotGrid - material,fixT1216113__24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9826523495/job/27128233658
+"07.07.24, 10:28:48",27128233895,9826523495,1,TestCafe tests,scheduler (2/5),fixT1216113__24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9826523495/job/27128233895
+"07.07.24, 10:28:53",27128235224,9826523495,1,TestCafe tests,editors (2/2),fixT1216113__24_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523495/job/27128235224
+"07.07.24, 10:28:54",27128235386,9826523495,1,TestCafe tests,editors - material (2/2),fixT1216113__24_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523495/job/27128235386
+"07.07.24, 10:28:54",27128235482,9826523495,1,TestCafe tests,editors - fluent (1/2),fixT1216113__24_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/9826523495/job/27128235482
+"07.07.24, 10:28:57",27128236201,9826523495,1,TestCafe tests,fileManager,fixT1216113__24_2,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/9826523495/job/27128236201
+"07.07.24, 11:57:30",27129284609,9827051343,1,Themebuilder and Styles tests,test,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051343/job/27129284609
+"07.07.24, 11:57:29",27129284382,9827051334,1,TS Declarations,validate-declarations,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051334/job/27129284382
+"07.07.24, 11:57:30",27129284558,9827051334,1,TS Declarations,check-ts-bundle,renovate/pin-dependencies,failure,Run npm install,https://github.com/DevExpress/DevExtreme/actions/runs/9827051334/job/27129284558
+"07.07.24, 11:57:28",27129284308,9827051340,1,DevExtreme Wrappers Tests,test,renovate/pin-dependencies,failure,Install npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/9827051340/job/27129284308
 "05.07.24, 09:19:20",27076991904,9806053999,1,Default Workflow,main,T1239368_24_2,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/9806053999/job/27076991904
 "05.07.24, 08:10:30",27074343406,9805180040,1,Default Workflow,main,24_2-htmleditor-mediaresize-bug,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/9805180040/job/27074343406
 "05.07.24, 08:09:36",27074308995,9805170159,1,Default Workflow,main,24_2-htmleditor-mediaresize-bug,cancelled,Restore npm cache,https://github.com/DevExpress/DevExtreme/actions/runs/9805170159/job/27074308995
