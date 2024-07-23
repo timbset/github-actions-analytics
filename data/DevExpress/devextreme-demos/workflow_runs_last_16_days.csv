@@ -8,4 +8,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2024-07-21,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,0,1,0,0,0,"0,02353009259","0,02353009259","0,02353009259"
 2024-07-20,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,0007523148148","0,0007523148148","0,0007523148148",0,0,0,0,0,0,0,0
 2024-07-13,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,001145833333","0,001145833333","0,001145833333",0,0,0,0,0,0,0,0
-2024-07-06,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,0007523148148","0,0007523148148","0,0007523148148",0,0,0,0,0,0,0,0
