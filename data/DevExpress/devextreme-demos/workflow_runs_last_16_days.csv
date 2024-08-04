@@ -1,4 +1,5 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2024-08-03,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,0009375","0,0009375","0,0009375",0,0,0,0,0,0,0,0
 2024-07-27,codeql-analysis.yml,CodeQL,1,0,0,0,0,"0,001122685185","0,001122685185","0,001122685185",0,0,0,0,0,0,0,0
 2024-07-21,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008773148148","0,008773148148","0,008773148148"
 2024-07-21,codeql-analysis.yml,CodeQL,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003020833333","0,003020833333","0,003020833333"
