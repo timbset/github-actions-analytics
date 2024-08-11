@@ -1,4 +1,8 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"10.08.24, 02:19:34",28594424514,10328198645,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/10328198645/job/28594424514
+"10.08.24, 19:54:38",28607168222,10334000731,1,Publishing to GitHub Packages,Publish package (devextreme-angular-24.2.1-alpha-24222-1936),24_2,failure,Publish to npm.pkg.github.com,https://github.com/DevExpress/DevExtreme/actions/runs/10334000731/job/28607168222
+"10.08.24, 19:54:40",28607168575,10334000731,1,Publishing to GitHub Packages,Publish package (devextreme-react-24.2.1-alpha-24222-1936),24_2,failure,Publish to npm.pkg.github.com,https://github.com/DevExpress/DevExtreme/actions/runs/10334000731/job/28607168575
+"10.08.24, 19:54:41",28607168674,10334000731,1,Publishing to GitHub Packages,Publish package (devextreme-vue-24.2.1-alpha-24222-1936),24_2,failure,Publish to npm.pkg.github.com,https://github.com/DevExpress/DevExtreme/actions/runs/10334000731/job/28607168674
 "09.08.24, 02:20:12",28547988776,10312563983,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/10312563983/job/28547988776
 "09.08.24, 05:34:26",28552230021,10314211894,1,Build and pack DevExtreme npm packages,build,24_2_angular_popup_service,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/10314211894/job/28552230021
 "09.08.24, 14:47:03",28573520878,10321198274,1,Default Workflow,main,khd/ignore-doc-changes-on-ci,cancelled,Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/10321198274/job/28573520878
@@ -3203,4 +3207,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "04.08.24, 12:05:49",28317626332,10236036875,1,TS Declarations,check-ts-bundle,grids/cardview/draft,failure,Check dx.all.d.ts is up-to-date,https://github.com/DevExpress/DevExtreme/actions/runs/10236036875/job/28317626332
 "04.08.24, 12:05:50",28317626651,10236036875,1,TS Declarations,validate-declarations,grids/cardview/draft,failure,Validate declarations,https://github.com/DevExpress/DevExtreme/actions/runs/10236036875/job/28317626651
 "04.08.24, 12:05:48",28317626008,10236036884,1,DevExtreme Wrappers Tests,test,grids/cardview/draft,failure,Generate wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/10236036884/job/28317626008
-"03.08.24, 02:18:06",28292337888,10224513688,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/10224513688/job/28292337888
