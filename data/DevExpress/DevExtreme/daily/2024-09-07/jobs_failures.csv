@@ -1,0 +1,6 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"07.09.24, 02:21:54",29810802004,10747848869,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/10747848869/job/29810802004
+"07.09.24, 06:24:13",29814044559,10749265223,1,Demos Visual Tests,jquery(2/4)-screenshots-generic.light,24_2_ng_popup_service_with_types,failure,DevExtreme - Build,https://github.com/DevExpress/DevExtreme/actions/runs/10749265223/job/29814044559
+"07.09.24, 06:19:01",29813975890,10749265212,1,Playgrounds tests,build,24_2_ng_popup_service_with_types,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/10749265212/job/29813975890
+"07.09.24, 06:29:06",29814109489,10749265207,1,TestCafe tests,dataGrid (1/5),24_2_ng_popup_service_with_types,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/10749265207/job/29814109489
+"07.09.24, 06:29:10",29814110300,10749265207,1,TestCafe tests,scheduler (3/5),24_2_ng_popup_service_with_types,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/10749265207/job/29814110300
