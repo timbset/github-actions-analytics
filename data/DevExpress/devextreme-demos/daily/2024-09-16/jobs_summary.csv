@@ -41,4 +41,3 @@ date,workflow name,job name,main success runs,main failure runs,main cancelled r
 2024-09-16,Frameworks,Check generated demos (3/5),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,003564814815","0,003599537037","0,003634259259"
 2024-09-16,Frameworks,Check generated demos (4/5),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,003472222222","0,003611111111","0,00375"
 2024-09-16,Frameworks,Check generated demos (5/5),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,003576388889","0,003686342593","0,003796296296"
-2024-09-14,CodeQL,Analyze (javascript),1,0,0,0,0,"0,001041666667","0,001041666667","0,001041666667",0,0,0,0,0,0,0,0
