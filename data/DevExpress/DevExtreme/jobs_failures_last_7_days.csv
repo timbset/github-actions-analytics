@@ -1,4 +1,12 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"05.10.24, 02:26:52",31110314293,11189656311,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11189656311/job/31110314293
+"05.10.24, 18:14:13",31122823304,11195237458,1,TestCafe tests,accessibility (3/5),list_isItemSelected,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122823304
+"05.10.24, 18:14:24",31122825855,11195237458,1,TestCafe tests,dataGrid (1/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122825855
+"05.10.24, 18:14:25",31122826036,11195237458,1,TestCafe tests,dataGrid (3/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122826036
+"05.10.24, 18:14:26",31122826223,11195237458,1,TestCafe tests,dataGrid (5/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122826223
+"05.10.24, 20:31:45",31124603447,11195237458,2,TestCafe tests,dataGrid (1/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31124603447
+"05.10.24, 20:31:47",31124603844,11195237458,2,TestCafe tests,dataGrid (5/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31124603844
+"05.10.24, 21:32:49",31125350125,11195237458,3,TestCafe tests,dataGrid (5/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31125350125
 "04.10.24, 02:28:32",31060211890,11172944985,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11172944985/job/31060211890
 "04.10.24, 19:17:47",31099113447,11185695829,1,Build and pack DevExtreme npm packages,build,renovate/react-monorepo,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/11185695829/job/31099113447
 "04.10.24, 15:18:23",31089022678,11182532179,1,Build and pack DevExtreme npm packages,build,core_ts,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/11182532179/job/31089022678
@@ -5009,5 +5017,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "30.09.24, 00:27:00",30828051694,11097197857,1,DevExtreme Wrappers Tests,test,update-testcafe,failure,React - Check packing,https://github.com/DevExpress/DevExtreme/actions/runs/11097197857/job/30828051694
 "29.09.24, 02:30:27",30809476266,11088954625,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11088954625/job/30809476266
 "29.09.24, 19:33:02",30823920190,11095374103,1,Publishing to GitHub Packages,Build packages,24_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/11095374103/job/30823920190
-"28.09.24, 02:27:06",30790588288,11080314561,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11080314561/job/30790588288
-"28.09.24, 19:33:00",30804070973,11086484328,1,Publishing to GitHub Packages,Build packages,24_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/11086484328/job/30804070973

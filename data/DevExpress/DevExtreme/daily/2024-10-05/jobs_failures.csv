@@ -1,0 +1,9 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"05.10.24, 02:26:52",31110314293,11189656311,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11189656311/job/31110314293
+"05.10.24, 18:14:13",31122823304,11195237458,1,TestCafe tests,accessibility (3/5),list_isItemSelected,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122823304
+"05.10.24, 18:14:24",31122825855,11195237458,1,TestCafe tests,dataGrid (1/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122825855
+"05.10.24, 18:14:25",31122826036,11195237458,1,TestCafe tests,dataGrid (3/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122826036
+"05.10.24, 18:14:26",31122826223,11195237458,1,TestCafe tests,dataGrid (5/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31122826223
+"05.10.24, 20:31:45",31124603447,11195237458,2,TestCafe tests,dataGrid (1/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31124603447
+"05.10.24, 20:31:47",31124603844,11195237458,2,TestCafe tests,dataGrid (5/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31124603844
+"05.10.24, 21:32:49",31125350125,11195237458,3,TestCafe tests,dataGrid (5/5),list_isItemSelected,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11195237458/job/31125350125
