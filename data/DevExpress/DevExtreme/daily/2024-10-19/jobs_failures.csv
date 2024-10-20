@@ -1,0 +1,11 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"19.10.24, 02:27:00",31761784246,11413779150,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11413779150/job/31761784246
+"19.10.24, 18:32:04",31774874850,11419840794,1,Demos unit tests,Run unit tests,24_2_remove_bootstrap4,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840794/job/31774874850
+"19.10.24, 14:40:56",31771824699,11418417957,1,Demos unit tests,Run unit tests,24_2_remove_bootstrap4,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/11418417957/job/31771824699
+"19.10.24, 19:32:45",31775651315,11420212921,1,Publishing to GitHub Packages,Build packages,24_1,failure,Run deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/11420212921/job/31775651315
+"19.10.24, 18:42:10",31775014480,11419840818,1,TestCafe tests,accessibility (3/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775014480
+"19.10.24, 18:42:15",31775015622,11419840818,1,TestCafe tests,accessibility - material (7/7),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775015622
+"19.10.24, 18:42:21",31775016854,11419840818,1,TestCafe tests,dataGrid (3/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775016854
+"19.10.24, 18:42:34",31775019158,11419840818,1,TestCafe tests,pager,24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775019158
+"19.10.24, 14:48:28",31771909879,11418417958,1,TestCafe tests,dataGrid (4/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11418417958/job/31771909879
+"19.10.24, 14:48:30",31771910528,11418417958,1,TestCafe tests,scheduler (5/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11418417958/job/31771910528
