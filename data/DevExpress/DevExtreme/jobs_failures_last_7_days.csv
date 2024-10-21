@@ -1,4 +1,6 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"20.10.24, 02:31:06",31780991166,11422699649,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11422699649/job/31780991166
+"20.10.24, 19:33:37",31795010313,11429059543,1,Publishing to GitHub Packages,Build packages,24_1,failure,Run deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/11429059543/job/31795010313
 "19.10.24, 02:27:00",31761784246,11413779150,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11413779150/job/31761784246
 "19.10.24, 18:32:04",31774874850,11419840794,1,Demos unit tests,Run unit tests,24_2_remove_bootstrap4,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840794/job/31774874850
 "19.10.24, 14:40:56",31771824699,11418417957,1,Demos unit tests,Run unit tests,24_2_remove_bootstrap4,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/11418417957/job/31771824699
@@ -7608,4 +7610,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "14.10.24, 11:03:21",31494716568,11326219772,1,Themebuilder and Styles tests,test,renovate/npm-bootstrap4-vulnerability,failure,"Run themebuilder tests (full set, node)",https://github.com/DevExpress/DevExtreme/actions/runs/11326219772/job/31494716568
 "14.10.24, 09:19:10",31489760359,11324602081,1,Themebuilder and Styles tests,test,renovate/npm-bootstrap4-vulnerability,failure,"Run themebuilder tests (full set, node)",https://github.com/DevExpress/DevExtreme/actions/runs/11324602081/job/31489760359
 "14.10.24, 09:15:17",31489566779,11324539524,1,DevExtreme Wrappers Tests,test,24_2,failure,Vue - Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/11324539524/job/31489566779
-"13.10.24, 02:30:02",31456043496,11310699450,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11310699450/job/31456043496
