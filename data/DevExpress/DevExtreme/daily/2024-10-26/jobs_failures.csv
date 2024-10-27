@@ -1,0 +1,8 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"26.10.24, 02:26:06",32094831417,11528125809,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11528125809/job/32094831417
+"26.10.24, 01:30:03",32093936815,11527751656,1,CodeQL,Analyze JavaScript,24_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11527751656/job/32093936815
+"26.10.24, 01:30:01",32093936025,11527751314,1,CodeQL,Analyze (csharp),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11527751314/job/32093936025
+"26.10.24, 01:30:01",32093936172,11527751314,1,CodeQL,Analyze (javascript),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11527751314/job/32093936172
+"26.10.24, 11:19:08",32102008935,11531319456,1,TestCafe tests,scheduler (1/5),24_2-jquery-deprecate-now,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11531319456/job/32102008935
+"26.10.24, 11:19:15",32102010899,11531319456,1,TestCafe tests,htmlEditor,24_2-jquery-deprecate-now,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11531319456/job/32102010899
+"26.10.24, 12:58:40",32103292134,11531319456,2,TestCafe tests,htmlEditor,24_2-jquery-deprecate-now,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11531319456/job/32103292134

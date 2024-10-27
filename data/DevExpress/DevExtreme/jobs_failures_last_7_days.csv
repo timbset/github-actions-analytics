@@ -1,4 +1,11 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"26.10.24, 02:26:06",32094831417,11528125809,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11528125809/job/32094831417
+"26.10.24, 01:30:03",32093936815,11527751656,1,CodeQL,Analyze JavaScript,24_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11527751656/job/32093936815
+"26.10.24, 01:30:01",32093936025,11527751314,1,CodeQL,Analyze (csharp),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11527751314/job/32093936025
+"26.10.24, 01:30:01",32093936172,11527751314,1,CodeQL,Analyze (javascript),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11527751314/job/32093936172
+"26.10.24, 11:19:08",32102008935,11531319456,1,TestCafe tests,scheduler (1/5),24_2-jquery-deprecate-now,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11531319456/job/32102008935
+"26.10.24, 11:19:15",32102010899,11531319456,1,TestCafe tests,htmlEditor,24_2-jquery-deprecate-now,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11531319456/job/32102010899
+"26.10.24, 12:58:40",32103292134,11531319456,2,TestCafe tests,htmlEditor,24_2-jquery-deprecate-now,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11531319456/job/32103292134
 "25.10.24, 02:29:07",32043142342,11510781626,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11510781626/job/32043142342
 "25.10.24, 16:24:59",32076530592,11521887906,1,Build and pack DevExtreme npm packages,build,24_2-jquery-4-dev,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/11521887906/job/32076530592
 "25.10.24, 16:20:50",32076352110,11521830347,1,Build and pack DevExtreme npm packages,build,24_2_chat_typingusers_implementation,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/11521830347/job/32076352110
@@ -10635,13 +10642,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "21.10.24, 05:40:44",31806654455,11433931108,1,DevExtreme Wrappers Tests,test,refactor/pnpm/remove_excess_deps,failure,Vue - Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/11433931108/job/31806654455
 "20.10.24, 02:31:06",31780991166,11422699649,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11422699649/job/31780991166
 "20.10.24, 19:33:37",31795010313,11429059543,1,Publishing to GitHub Packages,Build packages,24_1,failure,Run deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/11429059543/job/31795010313
-"19.10.24, 02:27:00",31761784246,11413779150,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11413779150/job/31761784246
-"19.10.24, 18:32:04",31774874850,11419840794,1,Demos unit tests,Run unit tests,24_2_remove_bootstrap4,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840794/job/31774874850
-"19.10.24, 14:40:56",31771824699,11418417957,1,Demos unit tests,Run unit tests,24_2_remove_bootstrap4,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/11418417957/job/31771824699
-"19.10.24, 19:32:45",31775651315,11420212921,1,Publishing to GitHub Packages,Build packages,24_1,failure,Run deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/11420212921/job/31775651315
-"19.10.24, 18:42:10",31775014480,11419840818,1,TestCafe tests,accessibility (3/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775014480
-"19.10.24, 18:42:15",31775015622,11419840818,1,TestCafe tests,accessibility - material (7/7),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775015622
-"19.10.24, 18:42:21",31775016854,11419840818,1,TestCafe tests,dataGrid (3/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775016854
-"19.10.24, 18:42:34",31775019158,11419840818,1,TestCafe tests,pager,24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11419840818/job/31775019158
-"19.10.24, 14:48:28",31771909879,11418417958,1,TestCafe tests,dataGrid (4/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11418417958/job/31771909879
-"19.10.24, 14:48:30",31771910528,11418417958,1,TestCafe tests,scheduler (5/5),24_2_remove_bootstrap4,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11418417958/job/31771910528
