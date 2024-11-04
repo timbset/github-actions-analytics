@@ -1,0 +1,8 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"03.11.24, 02:30:42",32433382149,11647755161,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/11647755161/job/32433382149
+"03.11.24, 01:30:33",32432568307,11647383181,1,CodeQL,Analyze (csharp),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11647383181/job/32432568307
+"03.11.24, 01:30:33",32432568431,11647383181,1,CodeQL,Analyze (javascript),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/11647383181/job/32432568431
+"03.11.24, 01:30:30",32432567431,11647382784,1,CodeQL,Analyze JavaScript,24_2,failure,Perform CodeQL Analysis,https://github.com/DevExpress/DevExtreme/actions/runs/11647382784/job/32432567431
+"03.11.24, 16:31:29",32444787355,11652891930,1,TestCafe tests,common,feat/scheduler_a11y/component_aria_label,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11652891930/job/32444787355
+"03.11.24, 16:31:35",32444788753,11652891930,1,TestCafe tests,scheduler (2/5),feat/scheduler_a11y/component_aria_label,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11652891930/job/32444788753
+"03.11.24, 16:31:36",32444788848,11652891930,1,TestCafe tests,scheduler (3/5),feat/scheduler_a11y/component_aria_label,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/11652891930/job/32444788848
