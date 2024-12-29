@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"28.12.24, 02:25:25",34931893313,12522949027,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12522949027/job/34931893313
 "27.12.24, 02:27:54",34902146607,12510854813,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12510854813/job/34902146607
 "27.12.24, 14:15:07",34917282386,12517088102,1,Build and pack DevExtreme npm packages,build,use-string-index-async-template_25_1,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/12517088102/job/34917282386
 "27.12.24, 19:33:55",34924859493,12519917225,1,Demos Visual Tests,jquery(4/4)-screenshots-generic.light,24_2_demos_canvg_export_chart,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12519917225/job/34924859493
@@ -4343,6 +4344,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "22.12.24, 02:30:11",34757349035,12450480515,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12450480515/job/34757349035
 "22.12.24, 01:30:30",34756509894,12450087116,1,CodeQL,Analyze (csharp),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/12450087116/job/34756509894
 "22.12.24, 01:30:31",34756510016,12450087116,1,CodeQL,Analyze (javascript),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/12450087116/job/34756510016
-"21.12.24, 02:25:50",34738133874,12441359201,1,Send dependabot new vulnerability alerts,Send notifications,24_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12441359201/job/34738133874
-"21.12.24, 01:30:27",34737190738,12440958910,1,CodeQL,Analyze (csharp),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/12440958910/job/34737190738
-"21.12.24, 01:30:28",34737190905,12440958910,1,CodeQL,Analyze (javascript),22_2,failure,Post Checkout repository,https://github.com/DevExpress/DevExtreme/actions/runs/12440958910/job/34737190905
