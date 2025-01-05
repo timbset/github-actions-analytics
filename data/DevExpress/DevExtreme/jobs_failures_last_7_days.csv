@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"04.01.25, 02:25:41",35137107782,12606683073,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12606683073/job/35137107782
 "03.01.25, 02:28:00",35095398138,12591780138,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12591780138/job/35095398138
 "03.01.25, 16:21:44",35120117349,12600642475,1,Default Workflow,main,meaningless-pull-request,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/12600642475/job/35120117349
 "03.01.25, 16:21:01",35120088676,12600634696,1,Default Workflow,main,meaningless-pull-request,cancelled,Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/12600634696/job/35120088676
@@ -1840,4 +1841,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "30.12.24, 12:07:52",34981909680,12546299908,1,DevExtreme Wrappers Tests,test,react-optimize-template-discover-renders,failure,React - Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/12546299908/job/34981909680
 "30.12.24, 08:59:34",34976650448,12544279435,1,DevExtreme Wrappers Tests,test,react-optimize-template-discover-renders,failure,React - Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/12544279435/job/34976650448
 "29.12.24, 02:30:49",34949689996,12531735215,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12531735215/job/34949689996
-"28.12.24, 02:25:25",34931893313,12522949027,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12522949027/job/34931893313
