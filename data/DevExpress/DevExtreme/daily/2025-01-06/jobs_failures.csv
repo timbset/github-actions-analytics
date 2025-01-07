@@ -1,0 +1,11 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"06.01.25, 02:30:09",35177015458,12625411227,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12625411227/job/35177015458
+"06.01.25, 17:47:13",35211895743,12637454422,1,Demos Visual Tests,jquery(1/4)-screenshots-material.blue.light,25_1-tagbox-valueexpr-not-applying,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12637454422/job/35211895743
+"06.01.25, 17:47:14",35211896952,12637454422,1,Demos Visual Tests,jquery(1/4)-screenshots-fluent.blue.light,25_1-tagbox-valueexpr-not-applying,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12637454422/job/35211896952
+"06.01.25, 10:12:27",35190745354,12630524477,1,Demos Visual Tests,jquery(1/4)-screenshots-material.blue.light,custom-chat-story,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12630524477/job/35190745354
+"06.01.25, 10:12:29",35190746502,12630524477,1,Demos Visual Tests,jquery(1/4)-screenshots-fluent.blue.light,custom-chat-story,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12630524477/job/35190746502
+"06.01.25, 17:49:08",35211982842,12637454414,1,TestCafe tests,common,25_1-tagbox-valueexpr-not-applying,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12637454414/job/35211982842
+"06.01.25, 17:49:10",35211984068,12637454414,1,TestCafe tests,chat - material,25_1-tagbox-valueexpr-not-applying,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12637454414/job/35211984068
+"06.01.25, 17:49:15",35211988299,12637454414,1,TestCafe tests,scheduler (3/5),25_1-tagbox-valueexpr-not-applying,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12637454414/job/35211988299
+"06.01.25, 10:16:41",35190927207,12630524481,1,TestCafe tests,dataGrid (5/5),custom-chat-story,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12630524481/job/35190927207
+"06.01.25, 10:16:44",35190929308,12630524481,1,TestCafe tests,scheduler (3/5),custom-chat-story,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12630524481/job/35190929308
