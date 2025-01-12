@@ -1,4 +1,6 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"11.01.25, 02:27:41",35461881549,12720352457,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12720352457/job/35461881549
+"11.01.25, 19:33:01",35476084019,12727035955,1,Publishing to GitHub Packages,Build packages,23_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/12727035955/job/35476084019
 "10.01.25, 02:29:27",35407863156,12702150127,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12702150127/job/35407863156
 "10.01.25, 07:22:19",35415545862,12705097766,1,Default Workflow,main,demo-tests-etalons-24_2,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/12705097766/job/35415545862
 "10.01.25, 16:32:58",35441257171,12713311480,1,Demos Visual Tests,jquery(1/4)-screenshots-generic.light,24_1_themebuilder_buttons,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12713311480/job/35441257171
@@ -3752,4 +3754,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "06.01.25, 10:16:41",35190927207,12630524481,1,TestCafe tests,dataGrid (5/5),custom-chat-story,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12630524481/job/35190927207
 "06.01.25, 10:16:44",35190929308,12630524481,1,TestCafe tests,scheduler (3/5),custom-chat-story,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/12630524481/job/35190929308
 "05.01.25, 02:30:11",35156252688,12615786450,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12615786450/job/35156252688
-"04.01.25, 02:25:41",35137107782,12606683073,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/12606683073/job/35137107782
