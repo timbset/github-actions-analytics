@@ -1,0 +1,17 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"08.02.25, 02:23:48",36885146386,13211386911,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/13211386911/job/36885146386
+"08.02.25, 14:47:09",36896685192,13216660144,1,Lint,Renovation,update_eslint_25_1,failure,Lint renovation,https://github.com/DevExpress/DevExtreme/actions/runs/13216660144/job/36896685192
+"08.02.25, 14:47:10",36896685565,13216660144,1,Lint,TS,update_eslint_25_1,failure,Lint TS,https://github.com/DevExpress/DevExtreme/actions/runs/13216660144/job/36896685565
+"08.02.25, 14:47:13",36896686184,13216660144,1,Lint,wrappers,update_eslint_25_1,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/13216660144/job/36896686184
+"08.02.25, 19:32:49",36901013179,13218665267,1,Publishing to GitHub Packages,Build packages,23_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/13218665267/job/36901013179
+"08.02.25, 14:57:56",36896818633,13216660175,1,Additional QUnit,ui.widgets(3/3)-android6,update_eslint_25_1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13216660175/job/36896818633
+"08.02.25, 23:06:00",36903956666,13220009692,1,TestCafe tests,pivotGrid - material,update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13220009692/job/36903956666
+"08.02.25, 23:06:19",36903960962,13220009692,1,TestCafe tests,pagination - material,update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13220009692/job/36903960962
+"09.02.25, 11:05:52",36914838680,13220009692,2,TestCafe tests,pivotGrid - material,update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13220009692/job/36914838680
+"09.02.25, 11:06:05",36914842259,13220009692,2,TestCafe tests,pagination - material,update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13220009692/job/36914842259
+"08.02.25, 20:47:00",36902043435,13219094449,1,TestCafe tests,pagination - material,update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13219094449/job/36902043435
+"08.02.25, 14:57:47",36896816835,13216660153,1,TestCafe tests,dataGrid (3/5),update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13216660153/job/36896816835
+"08.02.25, 14:57:48",36896817134,13216660153,1,TestCafe tests,pivotGrid - material,update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13216660153/job/36896817134
+"08.02.25, 14:57:50",36896817406,13216660153,1,TestCafe tests,scheduler (3/5),update_eslint_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13216660153/job/36896817406
+"08.02.25, 20:37:27",36901922826,13219094469,1,TS Declarations,check-ts-bundle,update_eslint_25_1,failure,Check dx.all.d.ts is up-to-date,https://github.com/DevExpress/DevExtreme/actions/runs/13219094469/job/36901922826
+"08.02.25, 14:47:10",36896685417,13216660139,1,TS Declarations,check-ts-bundle,update_eslint_25_1,failure,Check dx.all.d.ts is up-to-date,https://github.com/DevExpress/DevExtreme/actions/runs/13216660139/job/36896685417

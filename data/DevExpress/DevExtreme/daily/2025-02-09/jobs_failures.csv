@@ -1,0 +1,13 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"09.02.25, 02:28:13",36907146393,13221523169,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/13221523169/job/36907146393
+"09.02.25, 19:32:55",36923409032,13228949888,1,Publishing to GitHub Packages,Build packages,23_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/13228949888/job/36923409032
+"09.02.25, 22:58:15",36926676795,13230349659,1,Additional QUnit,ui.scheduler(3/3)-firefox,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926676795
+"09.02.25, 22:58:37",36926680785,13230349659,1,Additional QUnit,ui.scheduler(3/3)-US/Pacific,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926680785
+"09.02.25, 22:58:38",36926680942,13230349659,1,Additional QUnit,ui.scheduler(3/3)-Japan,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926680942
+"09.02.25, 22:58:39",36926681019,13230349659,1,Additional QUnit,ui.scheduler(3/3)-shadow-dom,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926681019
+"09.02.25, 22:58:39",36926681088,13230349659,1,Additional QUnit,ui.scheduler(3/3)-Australia/ACT,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926681088
+"09.02.25, 22:58:39",36926681149,13230349659,1,Additional QUnit,ui.scheduler(3/3)-ios10,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926681149
+"09.02.25, 22:58:40",36926681197,13230349659,1,Additional QUnit,ui.scheduler(3/3)-Europe/London,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926681197
+"09.02.25, 22:58:40",36926681259,13230349659,1,Additional QUnit,ui.scheduler(3/3)-android6,fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349659/job/36926681259
+"09.02.25, 22:57:05",36926662460,13230349661,1,QUnit tests for renovation,Constel ui.scheduler(2/2),fix/T1225416_25.1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349661/job/36926662460
+"09.02.25, 22:57:38",36926669040,13230349677,1,TestCafe tests,scheduler (3/5),fix/T1225416_25.1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13230349677/job/36926669040
