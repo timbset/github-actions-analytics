@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"15.02.25, 02:26:10",37265106337,13340876324,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/13340876324/job/37265106337
+"15.02.25, 21:19:46",37282514532,13348713567,1,TestCafe tests,scheduler (3/5),azureMapTooltipHtmlSupport__25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13348713567/job/37282514532
+"15.02.25, 21:19:58",37282518217,13348713567,1,TestCafe tests,pagination - material,azureMapTooltipHtmlSupport__25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13348713567/job/37282518217
+"15.02.25, 21:19:58",37282518439,13348713567,1,TestCafe tests,gantt,azureMapTooltipHtmlSupport__25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13348713567/job/37282518439
+"15.02.25, 21:44:37",37282851804,13348713567,2,TestCafe tests,pagination - material,azureMapTooltipHtmlSupport__25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13348713567/job/37282851804
+"15.02.25, 20:47:58",37282040396,13348482293,1,TestCafe tests,pagination - material,T1277567,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/13348482293/job/37282040396
