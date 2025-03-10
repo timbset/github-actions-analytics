@@ -1,4 +1,445 @@
 date,workflow name,job name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2025-03-09,Send dependabot new vulnerability alerts,Fetch analysis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-09,Send dependabot new vulnerability alerts,Send notifications,0,1,0,0,0,"0,000150462963","0,000150462963","0,000150462963",0,0,0,0,0,0,0,0
+2025-03-09,Build and pack DevExtreme npm packages,build,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01418981481","0,01418981481","0,01418981481"
+2025-03-09,Build and pack DevExtreme npm packages,custom_bundles,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0009143518519","0,0009143518519","0,0009143518519"
+2025-03-09,CodeQL,Analyze C#,2,0,0,0,0,"0,001585648148","0,001597222222","0,001608796296",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL,Analyze JavaScript,2,0,0,0,0,"0,0130787037","0,01369791667","0,01431712963",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL,Fetch analysis,5,0,0,0,0,0,"0,000006944444444","0,00001157407407",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL,Send notifications,5,0,0,0,0,"0,00003472222222","0,00009490740741","0,000150462963",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL,Analyze (csharp),3,0,0,0,0,"0,001412037037","0,00143132716","0,001458333333",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL,Analyze (javascript),3,0,0,0,0,"0,005821759259","0,007750771605","0,01025462963",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL (scheduler),Run CodeQL workflow (23_1),1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL (scheduler),Run CodeQL workflow (23_2),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL (scheduler),Run CodeQL workflow (24_1),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL (scheduler),Run CodeQL workflow (24_2),1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259",0,0,0,0,0,0,0,0
+2025-03-09,CodeQL (scheduler),Run CodeQL workflow (25_1),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
+2025-03-09,Default Workflow,main,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006712962963","0,006712962963","0,006712962963"
+2025-03-09,Demos unit tests,Run unit tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0007060185185","0,0007060185185","0,0007060185185"
+2025-03-09,Demos Visual Tests,Build devextreme,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003530092593","0,003530092593","0,003530092593"
+2025-03-09,Demos Visual Tests,jquery(1/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006261574074","0,006261574074","0,006261574074"
+2025-03-09,Demos Visual Tests,jquery(2/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007337962963","0,007337962963","0,007337962963"
+2025-03-09,Demos Visual Tests,jquery(3/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006215277778","0,006215277778","0,006215277778"
+2025-03-09,Demos Visual Tests,jquery(4/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007222222222","0,007222222222","0,007222222222"
+2025-03-09,Demos Visual Tests,jquery(1/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005636574074","0,005636574074","0,005636574074"
+2025-03-09,Demos Visual Tests,jquery(2/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006377314815","0,006377314815","0,006377314815"
+2025-03-09,Demos Visual Tests,jquery(3/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005648148148","0,005648148148","0,005648148148"
+2025-03-09,Demos Visual Tests,jquery(4/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006631944444","0,006631944444","0,006631944444"
+2025-03-09,Demos Visual Tests,jquery(1/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00650462963","0,00650462963","0,00650462963"
+2025-03-09,Demos Visual Tests,jquery(2/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007824074074","0,007824074074","0,007824074074"
+2025-03-09,Demos Visual Tests,jquery(3/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006655092593","0,006655092593","0,006655092593"
+2025-03-09,Demos Visual Tests,jquery(4/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007627314815","0,007627314815","0,007627314815"
+2025-03-09,Demos Visual Tests,jquery(1/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004791666667","0,004791666667","0,004791666667"
+2025-03-09,Demos Visual Tests,jquery(2/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004699074074","0,004699074074","0,004699074074"
+2025-03-09,Demos Visual Tests,jquery(3/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004502314815","0,004502314815","0,004502314815"
+2025-03-09,Demos Visual Tests,jquery(4/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005011574074","0,005011574074","0,005011574074"
+2025-03-09,Demos Visual Tests,jquery(1/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004733796296","0,004733796296","0,004733796296"
+2025-03-09,Demos Visual Tests,jquery(2/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004826388889","0,004826388889","0,004826388889"
+2025-03-09,Demos Visual Tests,jquery(3/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004641203704","0,004641203704","0,004641203704"
+2025-03-09,Demos Visual Tests,jquery(4/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004594907407","0,004594907407","0,004594907407"
+2025-03-09,Demos Visual Tests,jquery(1/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004722222222","0,004722222222","0,004722222222"
+2025-03-09,Demos Visual Tests,jquery(2/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0046875","0,0046875","0,0046875"
+2025-03-09,Demos Visual Tests,jquery(3/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004548611111","0,004548611111","0,004548611111"
+2025-03-09,Demos Visual Tests,jquery(4/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004490740741","0,004490740741","0,004490740741"
+2025-03-09,Demos Visual Tests,merge-artifacts,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Demos Frameworks,Build DevExtreme,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006226851852","0,006226851852","0,006226851852"
+2025-03-09,Demos Frameworks,Get changed demos,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0002199074074","0,0002199074074","0,0002199074074"
+2025-03-09,Demos Frameworks,Build Demos,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004537037037","0,004537037037","0,004537037037"
+2025-03-09,Demos Frameworks,Lint code base (excluding demos),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001712962963","0,001712962963","0,001712962963"
+2025-03-09,Demos Frameworks,Check generated demos (1/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003900462963","0,003900462963","0,003900462963"
+2025-03-09,Demos Frameworks,Check generated demos (2/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003981481481","0,003981481481","0,003981481481"
+2025-03-09,Demos Frameworks,testcafe-react(1/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002326388889","0,002326388889","0,002326388889"
+2025-03-09,Demos Frameworks,Check generated demos (3/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0040625","0,0040625","0,0040625"
+2025-03-09,Demos Frameworks,testcafe-react(1/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002314814815","0,002314814815","0,002314814815"
+2025-03-09,Demos Frameworks,Check generated demos (4/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004155092593","0,004155092593","0,004155092593"
+2025-03-09,Demos Frameworks,testcafe-react(1/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002083333333","0,002083333333","0,002083333333"
+2025-03-09,Demos Frameworks,Check generated demos (5/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003900462963","0,003900462963","0,003900462963"
+2025-03-09,Demos Frameworks,testcafe-react(2/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002280092593","0,002280092593","0,002280092593"
+2025-03-09,Demos Frameworks,testcafe-react(2/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002037037037","0,002037037037","0,002037037037"
+2025-03-09,Demos Frameworks,testcafe-react(2/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002453703704","0,002453703704","0,002453703704"
+2025-03-09,Demos Frameworks,testcafe-react(3/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002164351852","0,002164351852","0,002164351852"
+2025-03-09,Demos Frameworks,testcafe-react(3/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002384259259","0,002384259259","0,002384259259"
+2025-03-09,Demos Frameworks,testcafe-react(3/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002083333333","0,002083333333","0,002083333333"
+2025-03-09,Demos Frameworks,testcafe-react(4/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002372685185","0,002372685185","0,002372685185"
+2025-03-09,Demos Frameworks,testcafe-react(4/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002083333333","0,002083333333","0,002083333333"
+2025-03-09,Demos Frameworks,testcafe-react(4/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002152777778","0,002152777778","0,002152777778"
+2025-03-09,Demos Frameworks,testcafe-vue(1/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002094907407","0,002094907407","0,002094907407"
+2025-03-09,Demos Frameworks,testcafe-vue(1/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00212962963","0,00212962963","0,00212962963"
+2025-03-09,Demos Frameworks,testcafe-vue(1/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002106481481","0,002106481481","0,002106481481"
+2025-03-09,Demos Frameworks,testcafe-vue(2/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002233796296","0,002233796296","0,002233796296"
+2025-03-09,Demos Frameworks,testcafe-vue(2/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002025462963","0,002025462963","0,002025462963"
+2025-03-09,Demos Frameworks,testcafe-vue(2/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002048611111","0,002048611111","0,002048611111"
+2025-03-09,Demos Frameworks,testcafe-vue(3/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002083333333","0,002083333333","0,002083333333"
+2025-03-09,Demos Frameworks,testcafe-vue(3/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0021875","0,0021875","0,0021875"
+2025-03-09,Demos Frameworks,testcafe-vue(3/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002199074074","0,002199074074","0,002199074074"
+2025-03-09,Demos Frameworks,testcafe-vue(4/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002060185185","0,002060185185","0,002060185185"
+2025-03-09,Demos Frameworks,testcafe-vue(4/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002349537037","0,002349537037","0,002349537037"
+2025-03-09,Demos Frameworks,testcafe-vue(4/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002256944444","0,002256944444","0,002256944444"
+2025-03-09,Demos Frameworks,testcafe-angular(1/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00212962963","0,00212962963","0,00212962963"
+2025-03-09,Demos Frameworks,testcafe-angular(1/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002291666667","0,002291666667","0,002291666667"
+2025-03-09,Demos Frameworks,testcafe-angular(1/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00212962963","0,00212962963","0,00212962963"
+2025-03-09,Demos Frameworks,testcafe-angular(2/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002372685185","0,002372685185","0,002372685185"
+2025-03-09,Demos Frameworks,testcafe-angular(2/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002164351852","0,002164351852","0,002164351852"
+2025-03-09,Demos Frameworks,testcafe-angular(2/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002233796296","0,002233796296","0,002233796296"
+2025-03-09,Demos Frameworks,testcafe-angular(3/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002094907407","0,002094907407","0,002094907407"
+2025-03-09,Demos Frameworks,testcafe-angular(3/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002337962963","0,002337962963","0,002337962963"
+2025-03-09,Demos Frameworks,testcafe-angular(3/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002083333333","0,002083333333","0,002083333333"
+2025-03-09,Demos Frameworks,testcafe-angular(4/4)-generic.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002303240741","0,002303240741","0,002303240741"
+2025-03-09,Demos Frameworks,testcafe-angular(4/4)-material.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002037037037","0,002037037037","0,002037037037"
+2025-03-09,Demos Frameworks,testcafe-angular(4/4)-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002222222222","0,002222222222","0,002222222222"
+2025-03-09,Demos Frameworks,merge-artifacts,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Lint,Renovation,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00162037037","0,00162037037","0,00162037037"
+2025-03-09,Lint,TS,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,009108796296","0,009108796296","0,009108796296"
+2025-03-09,Lint,component_exports,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00130787037","0,00130787037","0,00130787037"
+2025-03-09,Lint,CSS,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001643518519","0,001643518519","0,001643518519"
+2025-03-09,Lint,JS,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007488425926","0,007488425926","0,007488425926"
+2025-03-09,Lint,pnpm_lock,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001099537037","0,001099537037","0,001099537037"
+2025-03-09,Lint,texts,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001354166667","0,001354166667","0,001354166667"
+2025-03-09,Lint,wrappers,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001689814815","0,001689814815","0,001689814815"
+2025-03-09,Lint,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Build packages,4,0,0,0,0,"0,01391203704","0,01561631944","0,01791666667",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-24.2.6-build-25068-1934),1,0,0,0,0,"0,0005439814815","0,0005439814815","0,0005439814815",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-angular-24.2.6-build-25068-1934),1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.2.6-build-25068-1934),1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-24.2.6-build-25068-1934),1,0,0,0,0,"0,0004282407407","0,0004282407407","0,0004282407407",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.2.6-build-25068-1934),1,0,0,0,0,"0,0004050925926","0,0004050925926","0,0004050925926",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-internal-24.2.6-build-25068-1934),1,0,0,0,0,"0,0005439814815","0,0005439814815","0,0005439814815",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.2.6-build-25068-1934),1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-react-24.2.6-build-25068-1934),1,0,0,0,0,"0,0003935185185","0,0003935185185","0,0003935185185",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.2.6-build-25068-1934),1,0,0,0,0,"0,0003935185185","0,0003935185185","0,0003935185185",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-vue-24.2.6-build-25068-1934),1,0,0,0,0,"0,0003819444444","0,0003819444444","0,0003819444444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Send notifications,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-24.1.11-build-25068-1936),1,0,0,0,0,"0,002025462963","0,002025462963","0,002025462963",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-angular-24.1.11-build-25068-1936),1,0,0,0,0,"0,001840277778","0,001840277778","0,001840277778",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.1.11-build-25068-1936),1,0,0,0,0,"0,001921296296","0,001921296296","0,001921296296",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-24.1.11-build-25068-1936),1,0,0,0,0,"0,001956018519","0,001956018519","0,001956018519",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.1.11-build-25068-1936),1,0,0,0,0,"0,00193287037","0,00193287037","0,00193287037",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-internal-24.1.11-build-25068-1936),1,0,0,0,0,"0,001944444444","0,001944444444","0,001944444444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.1.11-build-25068-1936),1,0,0,0,0,"0,001851851852","0,001851851852","0,001851851852",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-react-24.1.11-build-25068-1936),1,0,0,0,0,"0,001921296296","0,001921296296","0,001921296296",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.1.11-build-25068-1936),1,0,0,0,0,"0,001886574074","0,001886574074","0,001886574074",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-vue-24.1.11-build-25068-1936),1,0,0,0,0,"0,001828703704","0,001828703704","0,001828703704",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0005555555556","0,0005555555556","0,0005555555556",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-angular-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,000462962963","0,000462962963","0,000462962963",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0006018518519","0,0006018518519","0,0006018518519",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0004282407407","0,0004282407407","0,0004282407407",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0004282407407","0,0004282407407","0,0004282407407",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-internal-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0005439814815","0,0005439814815","0,0005439814815",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0003703703704","0,0003703703704","0,0003703703704",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-react-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0003819444444","0,0003819444444","0,0003819444444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0003819444444","0,0003819444444","0,0003819444444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-vue-25.1.1-alpha-25068-1935),1,0,0,0,0,"0,0004050925926","0,0004050925926","0,0004050925926",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-23.2.12-build-25068-1933),1,0,0,0,0,"0,001423611111","0,001423611111","0,001423611111",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-angular-23.2.12-build-25068-1933),1,0,0,0,0,"0,001342592593","0,001342592593","0,001342592593",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-artifacts-23.2.12-build-25068-1933),1,0,0,0,0,"0,001527777778","0,001527777778","0,001527777778",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-23.2.12-build-25068-1933),1,0,0,0,0,"0,001365740741","0,001365740741","0,001365740741",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-23.2.12-build-25068-1933),1,0,0,0,0,"0,00150462963","0,00150462963","0,00150462963",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-internal-23.2.12-build-25068-1933),1,0,0,0,0,"0,001631944444","0,001631944444","0,001631944444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-react-23.2.12-build-25068-1933),1,0,0,0,0,"0,001400462963","0,001400462963","0,001400462963",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-23.2.12-build-25068-1933),1,0,0,0,0,"0,001319444444","0,001319444444","0,001319444444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages,Publish package (devextreme-vue-23.2.12-build-25068-1933),1,0,0,0,0,"0,001331018519","0,001331018519","0,001331018519",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (23_2),1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_1),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
+2025-03-09,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_1),1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963",0,0,0,0,0,0,0,0
+2025-03-09,Paths length check,checks,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0009490740741","0,0009490740741","0,0009490740741"
+2025-03-09,Paths length check,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Playgrounds tests,build,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005787037037","0,005787037037","0,005787037037"
+2025-03-09,Playgrounds tests,angular,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01327546296","0,01327546296","0,01327546296"
+2025-03-09,Playgrounds tests,react,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006944444444","0,006944444444","0,006944444444"
+2025-03-09,Playgrounds tests,vue,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006423611111","0,006423611111","0,006423611111"
+2025-03-09,PR Filter Stubs,Changes Segregation Check,0,0,0,0,0,0,0,0,0,1,0,0,0,"0,0002083333333","0,0002083333333","0,0002083333333"
+2025-03-09,PR Filter Stubs,build,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Renovation,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,JS,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,TS,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,CSS,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel export,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui.scheduler(2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel viz,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel renovation,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel misc,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui.widgets(1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui.widgets(2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui.editors,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui.htmlEditor,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui.grid,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Constel ui.scheduler(1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,ui.htmlEditor-android6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,ui.htmlEditor-firefox,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,jest-tests,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,Tests,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility (1/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - material (5/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - material (6/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - material (7/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility (2/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility (3/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility (4/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility (5/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - material (1/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - material (2/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - material (3/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - material (4/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - fluent (1/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - fluent (2/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - fluent (3/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - fluent (4/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - fluent (5/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - fluent (6/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,accessibility - fluent (7/7),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,common,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,common - material,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,common - fluent,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,treeList,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,dataGrid (1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,dataGrid (2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,pivotGrid,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,pivotGrid - material,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,pivotGrid - fluent,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,scheduler (1/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,scheduler (2/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,scheduler (3/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,scheduler (4/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,scheduler (5/5),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form (1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form (2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form - material (1/4),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form - material (2/4),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form - fluent (1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form - fluent (2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,editors (1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,editors (2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form - material (3/4),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,form - material (4/4),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,editors - material (1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,editors - material (2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,editors - fluent (1/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,editors - fluent (2/2),0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,htmlEditor,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,htmlEditor - material,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,htmlEditor - fluent,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,navigation,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,navigation - material,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,navigation - fluent,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,fileManager,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,fileManager - material,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,fileManager - fluent,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,filterBuilder,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,filterBuilder - fluent,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,PR Filter Stubs,filterBuilder - material,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Additional QUnit,Build,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004513888889","0,004513888889","0,004513888889"
+2025-03-09,Additional QUnit,misc(1/2)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003912037037","0,003912037037","0,003912037037"
+2025-03-09,Additional QUnit,export-chrome,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003229166667","0,003229166667","0,003229166667"
+2025-03-09,Additional QUnit,misc(1/2)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006076388889","0,006076388889","0,006076388889"
+2025-03-09,Additional QUnit,export-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00375","0,00375","0,00375"
+2025-03-09,Additional QUnit,ui.htmlEditor-chrome,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003553240741","0,003553240741","0,003553240741"
+2025-03-09,Additional QUnit,misc(1/2)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00681712963","0,00681712963","0,00681712963"
+2025-03-09,Additional QUnit,misc(1/2)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007858796296","0,007858796296","0,007858796296"
+2025-03-09,Additional QUnit,misc-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004710648148","0,004710648148","0,004710648148"
+2025-03-09,Additional QUnit,misc(2/2)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002719907407","0,002719907407","0,002719907407"
+2025-03-09,Additional QUnit,ui-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004166666667","0,004166666667","0,004166666667"
+2025-03-09,Additional QUnit,misc(2/2)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002546296296","0,002546296296","0,002546296296"
+2025-03-09,Additional QUnit,ui.editors(1/2)-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005590277778","0,005590277778","0,005590277778"
+2025-03-09,Additional QUnit,ui-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004363425926","0,004363425926","0,004363425926"
+2025-03-09,Additional QUnit,ui.editors(2/2)-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006157407407","0,006157407407","0,006157407407"
+2025-03-09,Additional QUnit,misc(1/2)-no-csp,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007372685185","0,007372685185","0,007372685185"
+2025-03-09,Additional QUnit,misc(2/2)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002719907407","0,002719907407","0,002719907407"
+2025-03-09,Additional QUnit,ui-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002893518519","0,002893518519","0,002893518519"
+2025-03-09,Additional QUnit,ui.htmlEditor-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00287037037","0,00287037037","0,00287037037"
+2025-03-09,Additional QUnit,misc(2/2)-no-csp,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003194444444","0,003194444444","0,003194444444"
+2025-03-09,Additional QUnit,misc(2/2)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002708333333","0,002708333333","0,002708333333"
+2025-03-09,Additional QUnit,ui-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003055555556","0,003055555556","0,003055555556"
+2025-03-09,Additional QUnit,ui.editors(1/2)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003229166667","0,003229166667","0,003229166667"
+2025-03-09,Additional QUnit,ui.grid(1/2)-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00494212963","0,00494212963","0,00494212963"
+2025-03-09,Additional QUnit,ui.widgets(1/3)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003553240741","0,003553240741","0,003553240741"
+2025-03-09,Additional QUnit,ui.editors(1/2)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003032407407","0,003032407407","0,003032407407"
+2025-03-09,Additional QUnit,ui.grid(2/2)-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004641203704","0,004641203704","0,004641203704"
+2025-03-09,Additional QUnit,ui.widgets(1/3)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004085648148","0,004085648148","0,004085648148"
+2025-03-09,Additional QUnit,ui.editors(1/2)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003217592593","0,003217592593","0,003217592593"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004421296296","0,004421296296","0,004421296296"
+2025-03-09,Additional QUnit,ui.widgets(1/3)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004583333333","0,004583333333","0,004583333333"
+2025-03-09,Additional QUnit,ui.editors(1/2)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004351851852","0,004351851852","0,004351851852"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007152777778","0,007152777778","0,007152777778"
+2025-03-09,Additional QUnit,ui.widgets(2/3)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006631944444","0,006631944444","0,006631944444"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00462962963","0,00462962963","0,00462962963"
+2025-03-09,Additional QUnit,ui.editors(2/2)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00380787037","0,00380787037","0,00380787037"
+2025-03-09,Additional QUnit,ui.widgets(2/3)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005289351852","0,005289351852","0,005289351852"
+2025-03-09,Additional QUnit,viz-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005092592593","0,005092592593","0,005092592593"
+2025-03-09,Additional QUnit,ui.editors(2/2)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003518518519","0,003518518519","0,003518518519"
+2025-03-09,Additional QUnit,ui.widgets(2/3)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00431712963","0,00431712963","0,00431712963"
+2025-03-09,Additional QUnit,renovation-firefox,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001770833333","0,001770833333","0,001770833333"
+2025-03-09,Additional QUnit,ui.editors(2/2)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004050925926","0,004050925926","0,004050925926"
+2025-03-09,Additional QUnit,ui.widgets(3/3)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002789351852","0,002789351852","0,002789351852"
+2025-03-09,Additional QUnit,ui.editors(2/2)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003472222222","0,003472222222","0,003472222222"
+2025-03-09,Additional QUnit,ui.widgets(3/3)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002916666667","0,002916666667","0,002916666667"
+2025-03-09,Additional QUnit,ui.grid(1/2)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004027777778","0,004027777778","0,004027777778"
+2025-03-09,Additional QUnit,ui.grid(1/2)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004479166667","0,004479166667","0,004479166667"
+2025-03-09,Additional QUnit,ui.widgets(3/3)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002881944444","0,002881944444","0,002881944444"
+2025-03-09,Additional QUnit,ui.grid(1/2)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00412037037","0,00412037037","0,00412037037"
+2025-03-09,Additional QUnit,ui.editors(1/2)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003414351852","0,003414351852","0,003414351852"
+2025-03-09,Additional QUnit,ui.editors(1/2)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004409722222","0,004409722222","0,004409722222"
+2025-03-09,Additional QUnit,ui.grid(1/2)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004027777778","0,004027777778","0,004027777778"
+2025-03-09,Additional QUnit,ui.editors(1/2)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003472222222","0,003472222222","0,003472222222"
+2025-03-09,Additional QUnit,ui.grid(2/2)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003206018519","0,003206018519","0,003206018519"
+2025-03-09,Additional QUnit,ui.editors(2/2)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004189814815","0,004189814815","0,004189814815"
+2025-03-09,Additional QUnit,ui.grid(2/2)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003171296296","0,003171296296","0,003171296296"
+2025-03-09,Additional QUnit,ui.editors(2/2)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003287037037","0,003287037037","0,003287037037"
+2025-03-09,Additional QUnit,ui.grid(2/2)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003553240741","0,003553240741","0,003553240741"
+2025-03-09,Additional QUnit,ui.editors(2/2)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003680555556","0,003680555556","0,003680555556"
+2025-03-09,Additional QUnit,ui.grid(2/2)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003136574074","0,003136574074","0,003136574074"
+2025-03-09,Additional QUnit,ui.htmlEditor-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002789351852","0,002789351852","0,002789351852"
+2025-03-09,Additional QUnit,ui.htmlEditor-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002638888889","0,002638888889","0,002638888889"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003645833333","0,003645833333","0,003645833333"
+2025-03-09,Additional QUnit,ui.htmlEditor-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002476851852","0,002476851852","0,002476851852"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004803240741","0,004803240741","0,004803240741"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003912037037","0,003912037037","0,003912037037"
+2025-03-09,Additional QUnit,ui.grid(1/4)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002708333333","0,002708333333","0,002708333333"
+2025-03-09,Additional QUnit,ui.grid(1/4)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002488425926","0,002488425926","0,002488425926"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003773148148","0,003773148148","0,003773148148"
+2025-03-09,Additional QUnit,ui.grid(1/4)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002604166667","0,002604166667","0,002604166667"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003460648148","0,003460648148","0,003460648148"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003553240741","0,003553240741","0,003553240741"
+2025-03-09,Additional QUnit,ui.grid(2/4)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002777777778","0,002777777778","0,002777777778"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003703703704","0,003703703704","0,003703703704"
+2025-03-09,Additional QUnit,ui.grid(2/4)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002662037037","0,002662037037","0,002662037037"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003703703704","0,003703703704","0,003703703704"
+2025-03-09,Additional QUnit,ui.grid(2/4)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002696759259","0,002696759259","0,002696759259"
+2025-03-09,Additional QUnit,ui.grid(3/4)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003854166667","0,003854166667","0,003854166667"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-US/Pacific,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002928240741","0,002928240741","0,002928240741"
+2025-03-09,Additional QUnit,ui.grid(3/4)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00349537037","0,00349537037","0,00349537037"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-Japan,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004212962963","0,004212962963","0,004212962963"
+2025-03-09,Additional QUnit,ui.grid(3/4)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003472222222","0,003472222222","0,003472222222"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-Australia/ACT,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002777777778","0,002777777778","0,002777777778"
+2025-03-09,Additional QUnit,ui.grid(4/4)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002685185185","0,002685185185","0,002685185185"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-Europe/London,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002962962963","0,002962962963","0,002962962963"
+2025-03-09,Additional QUnit,ui.grid(4/4)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002465277778","0,002465277778","0,002465277778"
+2025-03-09,Additional QUnit,ui.grid(4/4)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002731481481","0,002731481481","0,002731481481"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003900462963","0,003900462963","0,003900462963"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003113425926","0,003113425926","0,003113425926"
+2025-03-09,Additional QUnit,ui.scheduler(1/3)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003344907407","0,003344907407","0,003344907407"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005451388889","0,005451388889","0,005451388889"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00349537037","0,00349537037","0,00349537037"
+2025-03-09,Additional QUnit,ui.scheduler(2/3)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004270833333","0,004270833333","0,004270833333"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003020833333","0,003020833333","0,003020833333"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003819444444","0,003819444444","0,003819444444"
+2025-03-09,Additional QUnit,ui.scheduler(3/3)-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002789351852","0,002789351852","0,002789351852"
+2025-03-09,Additional QUnit,viz-shadow-dom,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003518518519","0,003518518519","0,003518518519"
+2025-03-09,Additional QUnit,viz-ios10,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003784722222","0,003784722222","0,003784722222"
+2025-03-09,Additional QUnit,viz-android6,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003611111111","0,003611111111","0,003611111111"
+2025-03-09,Additional QUnit,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,QUnit tests for renovation,Build,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003599537037","0,003599537037","0,003599537037"
+2025-03-09,QUnit tests for renovation,Constel export,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003136574074","0,003136574074","0,003136574074"
+2025-03-09,QUnit tests for renovation,Constel misc,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008576388889","0,008576388889","0,008576388889"
+2025-03-09,QUnit tests for renovation,Constel ui,0,0,0,0,0,0,0,0,0,1,0,0,0,"0,01440972222","0,01440972222","0,01440972222"
+2025-03-09,QUnit tests for renovation,Constel ui.widgets(1/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00525462963","0,00525462963","0,00525462963"
+2025-03-09,QUnit tests for renovation,Constel ui.widgets(2/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003680555556","0,003680555556","0,003680555556"
+2025-03-09,QUnit tests for renovation,Constel ui.editors,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005300925926","0,005300925926","0,005300925926"
+2025-03-09,QUnit tests for renovation,Constel ui.htmlEditor,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002511574074","0,002511574074","0,002511574074"
+2025-03-09,QUnit tests for renovation,Constel ui.grid,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007048611111","0,007048611111","0,007048611111"
+2025-03-09,QUnit tests for renovation,Constel ui.scheduler(1/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004618055556","0,004618055556","0,004618055556"
+2025-03-09,QUnit tests for renovation,Constel ui.scheduler(2/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004305555556","0,004305555556","0,004305555556"
+2025-03-09,QUnit tests for renovation,Constel viz,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008854166667","0,008854166667","0,008854166667"
+2025-03-09,QUnit tests for renovation,Constel renovation,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001921296296","0,001921296296","0,001921296296"
+2025-03-09,QUnit tests for renovation,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Auto approve renovate bot PR,auto-approve,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+2025-03-09,Renovation,jest-tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001759259259","0,001759259259","0,001759259259"
+2025-03-09,Renovation,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Styles tests,Tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001493055556","0,001493055556","0,001493055556"
+2025-03-09,Styles tests,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,TestCafe tests,build,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005856481481","0,005856481481","0,005856481481"
+2025-03-09,TestCafe tests,accessibility (1/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008472222222","0,008472222222","0,008472222222"
+2025-03-09,TestCafe tests,accessibility (2/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007407407407","0,007407407407","0,007407407407"
+2025-03-09,TestCafe tests,accessibility (3/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006412037037","0,006412037037","0,006412037037"
+2025-03-09,TestCafe tests,accessibility (4/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003622685185","0,003622685185","0,003622685185"
+2025-03-09,TestCafe tests,accessibility (5/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0122337963","0,0122337963","0,0122337963"
+2025-03-09,TestCafe tests,accessibility (6/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01064814815","0,01064814815","0,01064814815"
+2025-03-09,TestCafe tests,accessibility (7/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004548611111","0,004548611111","0,004548611111"
+2025-03-09,TestCafe tests,accessibility - material (1/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0106712963","0,0106712963","0,0106712963"
+2025-03-09,TestCafe tests,accessibility - material (2/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,009583333333","0,009583333333","0,009583333333"
+2025-03-09,TestCafe tests,accessibility - material (3/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007777777778","0,007777777778","0,007777777778"
+2025-03-09,TestCafe tests,accessibility - material (4/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00431712963","0,00431712963","0,00431712963"
+2025-03-09,TestCafe tests,accessibility - material (5/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01619212963","0,01619212963","0,01619212963"
+2025-03-09,TestCafe tests,accessibility - material (6/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01480324074","0,01480324074","0,01480324074"
+2025-03-09,TestCafe tests,accessibility - material (7/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0053125","0,0053125","0,0053125"
+2025-03-09,TestCafe tests,accessibility - fluent (1/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01020833333","0,01020833333","0,01020833333"
+2025-03-09,TestCafe tests,accessibility - fluent (2/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01021990741","0,01021990741","0,01021990741"
+2025-03-09,TestCafe tests,accessibility - fluent (3/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007592592593","0,007592592593","0,007592592593"
+2025-03-09,TestCafe tests,accessibility - fluent (4/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00412037037","0,00412037037","0,00412037037"
+2025-03-09,TestCafe tests,accessibility - fluent (5/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01541666667","0,01541666667","0,01541666667"
+2025-03-09,TestCafe tests,accessibility - fluent (6/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01361111111","0,01361111111","0,01361111111"
+2025-03-09,TestCafe tests,accessibility - fluent (7/7),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005266203704","0,005266203704","0,005266203704"
+2025-03-09,TestCafe tests,accessibility - list (1/2),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,007349537037","0,008084490741","0,008819444444"
+2025-03-09,TestCafe tests,accessibility - list - material (1/2),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,009652777778","0,01105324074","0,0124537037"
+2025-03-09,TestCafe tests,accessibility - list - fluent (1/2),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,009212962963","0,01020833333","0,0112037037"
+2025-03-09,TestCafe tests,common,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002083333333","0,002083333333","0,002083333333"
+2025-03-09,TestCafe tests,common - material,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002071759259","0,002071759259","0,002071759259"
+2025-03-09,TestCafe tests,common - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00212962963","0,00212962963","0,00212962963"
+2025-03-09,TestCafe tests,chat,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002581018519","0,002581018519","0,002581018519"
+2025-03-09,TestCafe tests,chat - material,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002835648148","0,002835648148","0,002835648148"
+2025-03-09,TestCafe tests,chat - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003078703704","0,003078703704","0,003078703704"
+2025-03-09,TestCafe tests,treeList,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004884259259","0,004884259259","0,004884259259"
+2025-03-09,TestCafe tests,dataGrid / common (1/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005497685185","0,005497685185","0,005497685185"
+2025-03-09,TestCafe tests,dataGrid / common (2/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003981481481","0,003981481481","0,003981481481"
+2025-03-09,TestCafe tests,dataGrid / common (3/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01261574074","0,01261574074","0,01261574074"
+2025-03-09,TestCafe tests,dataGrid / common (4/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004016203704","0,004016203704","0,004016203704"
+2025-03-09,TestCafe tests,dataGrid / common (5/5),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008877314815","0,008877314815","0,008877314815"
+2025-03-09,TestCafe tests,dataGrid / sticky common,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007974537037","0,007974537037","0,007974537037"
+2025-03-09,TestCafe tests,dataGrid / sticky (1/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01016203704","0,01016203704","0,01016203704"
+2025-03-09,TestCafe tests,dataGrid / sticky (2/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008831018519","0,008831018519","0,008831018519"
+2025-03-09,TestCafe tests,dataGrid / sticky (3/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008321759259","0,008321759259","0,008321759259"
+2025-03-09,TestCafe tests,pivotGrid,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003391203704","0,003391203704","0,003391203704"
+2025-03-09,TestCafe tests,pivotGrid - material,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003506944444","0,003506944444","0,003506944444"
+2025-03-09,TestCafe tests,pivotGrid - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003344907407","0,003344907407","0,003344907407"
+2025-03-09,TestCafe tests,scheduler / common (1/6),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005462962963","0,005462962963","0,005462962963"
+2025-03-09,TestCafe tests,scheduler / common (2/6),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007361111111","0,007361111111","0,007361111111"
+2025-03-09,TestCafe tests,scheduler / common (3/6),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,009293981481","0,009293981481","0,009293981481"
+2025-03-09,TestCafe tests,scheduler / common (4/6),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003506944444","0,003506944444","0,003506944444"
+2025-03-09,TestCafe tests,scheduler / common (5/6),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003854166667","0,003854166667","0,003854166667"
+2025-03-09,TestCafe tests,scheduler / common (6/6),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004733796296","0,004733796296","0,004733796296"
+2025-03-09,TestCafe tests,scheduler / offset,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006631944444","0,006631944444","0,006631944444"
+2025-03-09,TestCafe tests,scheduler / offset markups,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007511574074","0,007511574074","0,007511574074"
+2025-03-09,TestCafe tests,scheduler / timezones (Europe/Berlin),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00306712963","0,00306712963","0,00306712963"
+2025-03-09,TestCafe tests,scheduler / timezones (America/Los_Angeles),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003055555556","0,003055555556","0,003055555556"
+2025-03-09,TestCafe tests,form (1/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,009826388889","0,009826388889","0,009826388889"
+2025-03-09,TestCafe tests,form (2/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002395833333","0,002395833333","0,002395833333"
+2025-03-09,TestCafe tests,form - material (1/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004641203704","0,004641203704","0,004641203704"
+2025-03-09,TestCafe tests,form - material (2/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002615740741","0,002615740741","0,002615740741"
+2025-03-09,TestCafe tests,form - fluent (1/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01012731481","0,01012731481","0,01012731481"
+2025-03-09,TestCafe tests,form - fluent (2/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002708333333","0,002708333333","0,002708333333"
+2025-03-09,TestCafe tests,editors (1/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004479166667","0,004479166667","0,004479166667"
+2025-03-09,TestCafe tests,editors (2/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006226851852","0,006226851852","0,006226851852"
+2025-03-09,TestCafe tests,editors (3/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006412037037","0,006412037037","0,006412037037"
+2025-03-09,TestCafe tests,editors - material (1/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005","0,005","0,005"
+2025-03-09,TestCafe tests,editors - material (2/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006215277778","0,006215277778","0,006215277778"
+2025-03-09,TestCafe tests,editors - material (3/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007881944444","0,007881944444","0,007881944444"
+2025-03-09,TestCafe tests,editors - fluent (1/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004166666667","0,004166666667","0,004166666667"
+2025-03-09,TestCafe tests,editors - fluent (2/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006956018519","0,006956018519","0,006956018519"
+2025-03-09,TestCafe tests,editors - fluent (3/3),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006342592593","0,006342592593","0,006342592593"
+2025-03-09,TestCafe tests,htmlEditor,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002465277778","0,002465277778","0,002465277778"
+2025-03-09,TestCafe tests,htmlEditor - material,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002303240741","0,002303240741","0,002303240741"
+2025-03-09,TestCafe tests,htmlEditor - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002407407407","0,002407407407","0,002407407407"
+2025-03-09,TestCafe tests,navigation,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01101851852","0,01101851852","0,01101851852"
+2025-03-09,TestCafe tests,navigation - material,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006712962963","0,006712962963","0,006712962963"
+2025-03-09,TestCafe tests,navigation - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008402777778","0,008402777778","0,008402777778"
+2025-03-09,TestCafe tests,fileManager,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002488425926","0,002488425926","0,002488425926"
+2025-03-09,TestCafe tests,fileManager - material,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002569444444","0,002569444444","0,002569444444"
+2025-03-09,TestCafe tests,fileManager - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002650462963","0,002650462963","0,002650462963"
+2025-03-09,TestCafe tests,filterBuilder,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003171296296","0,003171296296","0,003171296296"
+2025-03-09,TestCafe tests,filterBuilder - material,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002916666667","0,002916666667","0,002916666667"
+2025-03-09,TestCafe tests,filterBuilder - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002893518519","0,002893518519","0,002893518519"
+2025-03-09,TestCafe tests,pagination,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003148148148","0,003148148148","0,003148148148"
+2025-03-09,TestCafe tests,pagination - fluent,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0028125","0,0028125","0,0028125"
+2025-03-09,TestCafe tests,gantt,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001979166667","0,001979166667","0,001979166667"
+2025-03-09,TestCafe tests,merge-artifacts,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,TestCafe tests,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,Themebuilder and Styles tests,test,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004675925926","0,004675925926","0,004675925926"
+2025-03-09,Themebuilder and Styles tests,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,TS Declarations,check-ts-bundle,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001296296296","0,001296296296","0,001296296296"
+2025-03-09,TS Declarations,validate-declarations,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001828703704","0,001828703704","0,001828703704"
+2025-03-09,TS Declarations,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2025-03-09,DevExtreme Wrappers Tests,test,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01743055556","0,01743055556","0,01743055556"
 2025-03-08,Send dependabot new vulnerability alerts,Fetch analysis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2025-03-08,Send dependabot new vulnerability alerts,Send notifications,0,1,0,0,0,"0,0001273148148","0,0001273148148","0,0001273148148",0,0,0,0,0,0,0,0
 2025-03-08,Build and pack DevExtreme npm packages,build,0,0,0,0,0,0,0,0,1,1,0,0,0,"0,003796296296","0,00666087963","0,009525462963"
@@ -2708,498 +3149,3 @@ date,workflow name,job name,main success runs,main failure runs,main cancelled r
 2025-03-03,TS Declarations,validate-declarations,5,1,0,0,0,"0,001296296296","0,003061342593","0,005763888889",28,2,2,0,0,0,"0,002228009259","0,004409722222"
 2025-03-03,TS Declarations,Send notifications,0,0,0,6,0,0,0,0,0,0,2,30,0,0,0,0
 2025-03-03,DevExtreme Wrappers Tests,test,5,1,0,0,0,"0,01513888889","0,02421875","0,03163194444",28,5,0,0,1,"0,002037037037","0,01066393098","0,02481481481"
-2025-03-02,Send dependabot new vulnerability alerts,Fetch analysis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2025-03-02,Send dependabot new vulnerability alerts,Send notifications,0,1,0,0,0,"0,0001157407407","0,0001157407407","0,0001157407407",0,0,0,0,0,0,0,0
-2025-03-02,Build and pack DevExtreme npm packages,build,0,0,0,0,0,0,0,0,23,1,0,0,0,"0,006574074074","0,0126253858","0,019375"
-2025-03-02,Build and pack DevExtreme npm packages,custom_bundles,0,0,0,0,0,0,0,0,17,0,0,1,0,"0,0004976851852","0,0008455504115","0,001145833333"
-2025-03-02,CodeQL,Analyze JavaScript,2,0,0,0,0,"0,01212962963","0,01287037037","0,01361111111",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL,Analyze C#,2,0,0,0,0,"0,001516203704","0,0015625","0,001608796296",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL,Fetch analysis,5,0,0,0,0,"0,00001157407407","0,00001157407407","0,00001157407407",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL,Send notifications,5,0,0,0,0,"0,00003472222222","0,0000625","0,0001041666667",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL,Analyze (csharp),3,0,0,0,0,"0,001435185185","0,001523919753","0,001631944444",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL,Analyze (javascript),3,0,0,0,0,"0,005798611111","0,00768132716","0,01033564815",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL (scheduler),Run CodeQL workflow (23_1),1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL (scheduler),Run CodeQL workflow (23_2),1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL (scheduler),Run CodeQL workflow (24_1),1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL (scheduler),Run CodeQL workflow (24_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
-2025-03-02,CodeQL (scheduler),Run CodeQL workflow (25_1),1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963",0,0,0,0,0,0,0,0
-2025-03-02,Default Workflow,main,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004097222222","0,008323688272","0,01516203704"
-2025-03-02,Demos unit tests,Run unit tests,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,0006365740741","0,0009114583333","0,001805555556"
-2025-03-02,Demos Visual Tests,Build devextreme,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,003252314815","0,003484760802","0,00462962963"
-2025-03-02,Demos Visual Tests,jquery(1/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004872685185","0,005728684414","0,006064814815"
-2025-03-02,Demos Visual Tests,jquery(2/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004837962963","0,006864872685","0,007488425926"
-2025-03-02,Demos Visual Tests,jquery(3/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004849537037","0,006092785494","0,006458333333"
-2025-03-02,Demos Visual Tests,jquery(4/4)-screenshots-generic.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004826388889","0,00705777392","0,008321759259"
-2025-03-02,Demos Visual Tests,jquery(1/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004837962963","0,005596064815","0,00724537037"
-2025-03-02,Demos Visual Tests,jquery(2/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004849537037","0,006327642747","0,007037037037"
-2025-03-02,Demos Visual Tests,jquery(3/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004861111111","0,005862750772","0,007060185185"
-2025-03-02,Demos Visual Tests,jquery(4/4)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004861111111","0,006489197531","0,007175925926"
-2025-03-02,Demos Visual Tests,jquery(1/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004849537037","0,006289544753","0,007928240741"
-2025-03-02,Demos Visual Tests,jquery(2/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004861111111","0,007404996142","0,008564814815"
-2025-03-02,Demos Visual Tests,jquery(3/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004884259259","0,006666184414","0,007916666667"
-2025-03-02,Demos Visual Tests,jquery(4/4)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,22,0,2,0,0,"0,004861111111","0,007945601852","0,01030092593"
-2025-03-02,Demos Visual Tests,jquery(1/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004155092593","0,004481577932","0,00494212963"
-2025-03-02,Demos Visual Tests,jquery(2/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,23,0,1,0,0,"0,004247685185","0,004552469136","0,004733796296"
-2025-03-02,Demos Visual Tests,jquery(3/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004456018519","0,004622878086","0,00494212963"
-2025-03-02,Demos Visual Tests,jquery(4/4)-accessibility-generic.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004143518519","0,004425636574","0,004930555556"
-2025-03-02,Demos Visual Tests,jquery(1/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004293981481","0,004449749228","0,004641203704"
-2025-03-02,Demos Visual Tests,jquery(2/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,00431712963","0,004556809414","0,004837962963"
-2025-03-02,Demos Visual Tests,jquery(3/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004421296296","0,004619984568","0,004895833333"
-2025-03-02,Demos Visual Tests,jquery(4/4)-accessibility-material.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004259259259","0,004484953704","0,004791666667"
-2025-03-02,Demos Visual Tests,jquery(1/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004259259259","0,004427565586","0,004606481481"
-2025-03-02,Demos Visual Tests,jquery(2/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004386574074","0,004552469136","0,004849537037"
-2025-03-02,Demos Visual Tests,jquery(3/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004328703704","0,004577546296","0,004907407407"
-2025-03-02,Demos Visual Tests,jquery(4/4)-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,004189814815","0,004404417438","0,004756944444"
-2025-03-02,Demos Visual Tests,merge-artifacts,0,0,0,0,0,0,0,0,0,0,2,22,0,0,0,0
-2025-03-02,Demos Frameworks,Build DevExtreme,0,0,0,0,0,0,0,0,31,0,0,0,7,"0,0059375","0,00700828853","0,009421296296"
-2025-03-02,Demos Frameworks,Get changed demos,0,0,0,0,0,0,0,0,31,0,0,0,7,"0,000162037037","0,0002460424134","0,0003125"
-2025-03-02,Demos Frameworks,Build Demos,0,0,0,0,0,0,0,0,29,0,2,0,7,"0,002106481481","0,004194668459","0,004976851852"
-2025-03-02,Demos Frameworks,Lint code base (excluding demos),0,0,0,0,0,0,0,0,30,0,1,0,7,"0,001597222222","0,001963112306","0,0025"
-2025-03-02,Demos Frameworks,Check generated demos (1/5),0,0,0,0,0,0,0,0,29,0,0,0,7,"0,003310185185","0,003870530013","0,004201388889"
-2025-03-02,Demos Frameworks,Check generated demos (2/5),0,0,0,0,0,0,0,0,29,0,0,0,7,"0,00349537037","0,003977889527","0,004409722222"
-2025-03-02,Demos Frameworks,testcafe-react(1/4)-generic.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,00443287037","0,008098259898","0,008634259259"
-2025-03-02,Demos Frameworks,Check generated demos (3/5),0,0,0,0,0,0,0,0,29,0,0,0,7,"0,003402777778","0,003892081737","0,004409722222"
-2025-03-02,Demos Frameworks,Check generated demos (4/5),0,0,0,0,0,0,0,0,29,0,0,0,7,"0,003530092593","0,003953144955","0,004398148148"
-2025-03-02,Demos Frameworks,testcafe-react(1/4)-material.blue.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004444444444","0,007383461047","0,007986111111"
-2025-03-02,Demos Frameworks,testcafe-react(1/4)-fluent.blue.light,0,0,0,0,0,0,0,0,26,2,1,0,7,"0,004456018519","0,008268279055","0,00943287037"
-2025-03-02,Demos Frameworks,Check generated demos (5/5),0,0,0,0,0,0,0,0,29,0,0,0,7,"0,003391203704","0,003878512133","0,004328703704"
-2025-03-02,Demos Frameworks,testcafe-react(2/4)-generic.light,0,0,0,0,0,0,0,0,25,3,1,0,7,"0,00443287037","0,006482678799","0,007048611111"
-2025-03-02,Demos Frameworks,testcafe-react(2/4)-material.blue.light,0,0,0,0,0,0,0,0,25,3,1,0,7,"0,004444444444","0,006044061303","0,006446759259"
-2025-03-02,Demos Frameworks,testcafe-react(2/4)-fluent.blue.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004502314815","0,006796376117","0,007291666667"
-2025-03-02,Demos Frameworks,testcafe-react(3/4)-generic.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004421296296","0,007780970626","0,008680555556"
-2025-03-02,Demos Frameworks,testcafe-react(3/4)-material.blue.light,0,0,0,0,0,0,0,0,23,5,1,0,7,"0,004490740741","0,007094508301","0,007881944444"
-2025-03-02,Demos Frameworks,testcafe-react(3/4)-fluent.blue.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004421296296","0,00810304917","0,008993055556"
-2025-03-02,Demos Frameworks,testcafe-react(4/4)-generic.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004479166667","0,006745290549","0,007280092593"
-2025-03-02,Demos Frameworks,testcafe-react(4/4)-material.blue.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004421296296","0,006633540868","0,007384259259"
-2025-03-02,Demos Frameworks,testcafe-react(4/4)-fluent.blue.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004421296296","0,007440533206","0,008032407407"
-2025-03-02,Demos Frameworks,testcafe-vue(1/4)-generic.light,0,0,0,0,0,0,0,0,25,3,1,0,7,"0,00443287037","0,009982838442","0,01084490741"
-2025-03-02,Demos Frameworks,testcafe-vue(1/4)-material.blue.light,0,0,0,0,0,0,0,0,27,1,1,0,7,"0,004409722222","0,009497126437","0,01042824074"
-2025-03-02,Demos Frameworks,testcafe-vue(1/4)-fluent.blue.light,0,0,0,0,0,0,0,0,26,2,1,0,7,"0,004421296296","0,01065613027","0,01180555556"
-2025-03-02,Demos Frameworks,testcafe-vue(2/4)-generic.light,0,0,0,0,0,0,0,0,25,2,2,0,7,"0,004421296296","0,0123666986","0,01357638889"
-2025-03-02,Demos Frameworks,testcafe-vue(2/4)-material.blue.light,0,0,0,0,0,0,0,0,24,4,1,0,7,"0,00443287037","0,01112108876","0,01394675926"
-2025-03-02,Demos Frameworks,testcafe-vue(2/4)-fluent.blue.light,0,0,0,0,0,0,0,0,22,5,2,0,7,"0,00443287037","0,01244452427","0,01429398148"
-2025-03-02,Demos Frameworks,testcafe-vue(3/4)-generic.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004467592593","0,009497924649","0,01050925926"
-2025-03-02,Demos Frameworks,testcafe-vue(3/4)-material.blue.light,0,0,0,0,0,0,0,0,27,1,1,0,7,"0,004444444444","0,008641044061","0,009421296296"
-2025-03-02,Demos Frameworks,testcafe-vue(3/4)-fluent.blue.light,0,0,0,0,0,0,0,0,27,1,1,0,7,"0,004409722222","0,009659961686","0,01092592593"
-2025-03-02,Demos Frameworks,testcafe-vue(4/4)-generic.light,0,0,0,0,0,0,0,0,24,3,2,0,7,"0,00443287037","0,01146232439","0,0130787037"
-2025-03-02,Demos Frameworks,testcafe-vue(4/4)-material.blue.light,0,0,0,0,0,0,0,0,28,0,1,0,7,"0,004421296296","0,0105651341","0,01327546296"
-2025-03-02,Demos Frameworks,testcafe-vue(4/4)-fluent.blue.light,0,0,0,0,0,0,0,0,25,2,2,0,7,"0,00443287037","0,01194364623","0,01436342593"
-2025-03-02,Demos Frameworks,testcafe-angular(1/4)-generic.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,004456018519","0,01512452107","0,0196412037"
-2025-03-02,Demos Frameworks,testcafe-angular(1/4)-material.blue.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,004456018519","0,01379430077","0,01565972222"
-2025-03-02,Demos Frameworks,testcafe-angular(1/4)-fluent.blue.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,004456018519","0,01487827267","0,01726851852"
-2025-03-02,Demos Frameworks,testcafe-angular(2/4)-generic.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,004444444444","0,01520075032","0,01857638889"
-2025-03-02,Demos Frameworks,testcafe-angular(2/4)-material.blue.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,004467592593","0,01467193487","0,0191087963"
-2025-03-02,Demos Frameworks,testcafe-angular(2/4)-fluent.blue.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,004490740741","0,01531848659","0,01802083333"
-2025-03-02,Demos Frameworks,testcafe-angular(3/4)-generic.light,0,0,0,0,0,0,0,0,24,2,3,0,7,"0,004456018519","0,01625758301","0,02328703704"
-2025-03-02,Demos Frameworks,testcafe-angular(3/4)-material.blue.light,0,0,0,0,0,0,0,0,22,5,2,0,7,"0,004513888889","0,01603568008","0,02247685185"
-2025-03-02,Demos Frameworks,testcafe-angular(3/4)-fluent.blue.light,0,0,0,0,0,0,0,0,26,0,3,0,7,"0,004456018519","0,0155184387","0,02260416667"
-2025-03-02,Demos Frameworks,testcafe-angular(4/4)-generic.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,004456018519","0,01347621328","0,01506944444"
-2025-03-02,Demos Frameworks,testcafe-angular(4/4)-material.blue.light,0,0,0,0,0,0,0,0,18,9,2,0,7,"0,004444444444","0,01300486909","0,0141087963"
-2025-03-02,Demos Frameworks,testcafe-angular(4/4)-fluent.blue.light,0,0,0,0,0,0,0,0,27,0,2,0,7,"0,00443287037","0,01357958174","0,01570601852"
-2025-03-02,Demos Frameworks,merge-artifacts,0,0,0,0,0,0,0,0,22,0,6,3,7,0,"0,00004965651135","0,0001157407407"
-2025-03-02,Demos Frameworks,${{ matrix.name }},0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
-2025-03-02,Demos Frameworks,testcafe-${{ matrix.CONSTEL }}-${{ matrix.THEME }},0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
-2025-03-02,Lint,component_exports,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,001018518519","0,001987847222","0,006215277778"
-2025-03-02,Lint,CSS,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,001342592593","0,00236400463","0,006145833333"
-2025-03-02,Lint,JS,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,004618055556","0,009139178241","0,01712962963"
-2025-03-02,Lint,package_lock,0,0,0,0,0,0,0,0,6,0,0,0,0,"0,001574074074","0,001863425926","0,002175925926"
-2025-03-02,Lint,Renovation,0,0,0,0,0,0,0,0,14,0,0,0,0,"0,001400462963","0,002660383598","0,006921296296"
-2025-03-02,Lint,texts,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,001134259259","0,002119502315","0,006319444444"
-2025-03-02,Lint,TS,0,0,0,0,0,0,0,0,8,15,1,0,0,"0,004930555556","0,009623842593","0,01314814815"
-2025-03-02,Lint,wrappers,0,0,0,0,0,0,0,0,23,1,0,0,0,"0,001238425926","0,002234760802","0,00650462963"
-2025-03-02,Lint,Send notifications,0,0,0,0,0,0,0,0,0,0,3,21,0,0,0,0
-2025-03-02,Lint,pnpm_lock,0,0,0,0,0,0,0,0,18,0,0,0,0,"0,0009259259259","0,001634516461","0,003275462963"
-2025-03-02,Publishing to GitHub Packages,Build packages,4,0,0,0,0,"0,01408564815","0,01560474537","0,01765046296",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-23.2.12-build-25061-1934),1,0,0,0,0,"0,001539351852","0,001539351852","0,001539351852",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-angular-23.2.12-build-25061-1934),1,0,0,0,0,"0,001446759259","0,001446759259","0,001446759259",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-artifacts-23.2.12-build-25061-1934),1,0,0,0,0,"0,001516203704","0,001516203704","0,001516203704",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-23.2.12-build-25061-1934),1,0,0,0,0,"0,001354166667","0,001354166667","0,001354166667",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-23.2.12-build-25061-1934),1,0,0,0,0,"0,001354166667","0,001354166667","0,001354166667",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-internal-23.2.12-build-25061-1934),1,0,0,0,0,"0,00162037037","0,00162037037","0,00162037037",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-react-23.2.12-build-25061-1934),1,0,0,0,0,"0,00130787037","0,00130787037","0,00130787037",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-23.2.12-build-25061-1934),1,0,0,0,0,"0,001296296296","0,001296296296","0,001296296296",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-vue-23.2.12-build-25061-1934),1,0,0,0,0,"0,001296296296","0,001296296296","0,001296296296",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Send notifications,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-24.1.11-build-25061-1936),1,0,0,0,0,"0,002060185185","0,002060185185","0,002060185185",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-angular-24.1.11-build-25061-1936),1,0,0,0,0,"0,001909722222","0,001909722222","0,001909722222",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.1.11-build-25061-1936),1,0,0,0,0,"0,002013888889","0,002013888889","0,002013888889",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-24.1.11-build-25061-1936),1,0,0,0,0,"0,001863425926","0,001863425926","0,001863425926",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.1.11-build-25061-1936),1,0,0,0,0,"0,001944444444","0,001944444444","0,001944444444",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-internal-24.1.11-build-25061-1936),1,0,0,0,0,"0,002048611111","0,002048611111","0,002048611111",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.1.11-build-25061-1936),1,0,0,0,0,"0,001886574074","0,001886574074","0,001886574074",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-react-24.1.11-build-25061-1936),1,0,0,0,0,"0,001898148148","0,001898148148","0,001898148148",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.1.11-build-25061-1936),1,0,0,0,0,"0,001979166667","0,001979166667","0,001979166667",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-vue-24.1.11-build-25061-1936),1,0,0,0,0,"0,001863425926","0,001863425926","0,001863425926",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-24.2.6-build-25061-1935),1,0,0,0,0,"0,0005671296296","0,0005671296296","0,0005671296296",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-angular-24.2.6-build-25061-1935),1,0,0,0,0,"0,000462962963","0,000462962963","0,000462962963",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.2.6-build-25061-1935),1,0,0,0,0,"0,0004513888889","0,0004513888889","0,0004513888889",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-24.2.6-build-25061-1935),1,0,0,0,0,"0,0004282407407","0,0004282407407","0,0004282407407",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.2.6-build-25061-1935),1,0,0,0,0,"0,0005208333333","0,0005208333333","0,0005208333333",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-internal-24.2.6-build-25061-1935),1,0,0,0,0,"0,0006365740741","0,0006365740741","0,0006365740741",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.2.6-build-25061-1935),1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-react-24.2.6-build-25061-1935),1,0,0,0,0,"0,000462962963","0,000462962963","0,000462962963",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.2.6-build-25061-1935),1,0,0,0,0,"0,0005671296296","0,0005671296296","0,0005671296296",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-vue-24.2.6-build-25061-1935),1,0,0,0,0,"0,0003819444444","0,0003819444444","0,0003819444444",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0005439814815","0,0005439814815","0,0005439814815",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-angular-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0004861111111","0,0004861111111","0,0004861111111",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0004166666667","0,0004166666667","0,0004166666667",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0005208333333","0,0005208333333","0,0005208333333",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-internal-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0006828703704","0,0006828703704","0,0006828703704",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-react-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0004861111111","0,0004861111111","0,0004861111111",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0004050925926","0,0004050925926","0,0004050925926",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages,Publish package (devextreme-vue-25.1.1-alpha-25061-1935),1,0,0,0,0,"0,0004166666667","0,0004166666667","0,0004166666667",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (23_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_1),1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_2),1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222",0,0,0,0,0,0,0,0
-2025-03-02,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_1),1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222",0,0,0,0,0,0,0,0
-2025-03-02,Paths length check,checks,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,0005902777778","0,001082658179","0,001388888889"
-2025-03-02,Paths length check,Send notifications,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0
-2025-03-02,Playgrounds tests,build,0,0,0,0,0,0,0,0,21,2,1,0,0,"0,003611111111","0,006619888117","0,01385416667"
-2025-03-02,Playgrounds tests,angular,0,0,0,0,0,0,0,0,20,0,1,0,0,"0,001284722222","0,01338018078","0,01767361111"
-2025-03-02,Playgrounds tests,react,0,0,0,0,0,0,0,0,20,0,1,0,0,"0,001284722222","0,007552910053","0,00962962963"
-2025-03-02,Playgrounds tests,vue,0,0,0,0,0,0,0,0,20,0,1,0,0,"0,001145833333","0,007238205467","0,009699074074"
-2025-03-02,Playgrounds tests,${{ matrix.ARGS.platform }},0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0
-2025-03-02,Additional QUnit,Build,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,003923611111","0,007501446759","0,01511574074"
-2025-03-02,Additional QUnit,Performance,0,0,0,0,0,0,0,0,18,3,3,0,0,"0,0002314814815","0,002248263889","0,003553240741"
-2025-03-02,Additional QUnit,export-chrome,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002662037037","0,003219521605","0,004537037037"
-2025-03-02,Additional QUnit,misc(1/2)-no-csp,0,0,0,0,0,0,0,0,20,1,3,0,0,"0,0003819444444","0,003752411265","0,01099537037"
-2025-03-02,Additional QUnit,ui.htmlEditor-chrome,0,0,0,0,0,0,0,0,20,1,3,0,0,"0,0002546296296","0,003038194444","0,0109837963"
-2025-03-02,Additional QUnit,export-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002430555556","0,003737943673","0,005196759259"
-2025-03-02,Additional QUnit,misc(2/2)-no-csp,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002546296296","0,003070023148","0,004386574074"
-2025-03-02,Additional QUnit,ui-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003117283951","0,004571759259"
-2025-03-02,Additional QUnit,misc-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002199074074","0,004343171296","0,006134259259"
-2025-03-02,Additional QUnit,ui-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002530381944","0,004050925926"
-2025-03-02,Additional QUnit,ui-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002546296296","0,003249903549","0,004849537037"
-2025-03-02,Additional QUnit,ui.editors(1/2)-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002430555556","0,004045621142","0,006157407407"
-2025-03-02,Additional QUnit,ui-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001736111111","0,003029031636","0,004282407407"
-2025-03-02,Additional QUnit,ui.editors(2/2)-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002314814815","0,004501832562","0,006527777778"
-2025-03-02,Additional QUnit,misc(1/2)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,002834683642","0,004097222222"
-2025-03-02,Additional QUnit,ui.widgets(1/3)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003269193673","0,00474537037"
-2025-03-02,Additional QUnit,ui.htmlEditor-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002199074074","0,002803819444","0,003888888889"
-2025-03-02,Additional QUnit,misc(1/2)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,002939814815","0,004085648148"
-2025-03-02,Additional QUnit,ui.widgets(1/3)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002801890432","0,004282407407"
-2025-03-02,Additional QUnit,ui.grid(1/2)-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002314814815","0,00527970679","0,008055555556"
-2025-03-02,Additional QUnit,misc(1/2)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002199074074","0,002894483025","0,004085648148"
-2025-03-02,Additional QUnit,ui.widgets(1/3)-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002901234568","0,004421296296"
-2025-03-02,Additional QUnit,ui.grid(2/2)-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002314814815","0,004423225309","0,006550925926"
-2025-03-02,Additional QUnit,misc(1/2)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,002821662809","0,004178240741"
-2025-03-02,Additional QUnit,ui.widgets(2/3)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,004619502315","0,008252314815"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002430555556","0,004277584877","0,006527777778"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002314814815","0,004728009259","0,007361111111"
-2025-03-02,Additional QUnit,ui.widgets(2/3)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003534915123","0,005439814815"
-2025-03-02,Additional QUnit,misc(2/2)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,002815393519","0,004305555556"
-2025-03-02,Additional QUnit,ui.widgets(2/3)-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,004835069444","0,008009259259"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002199074074","0,003274016204","0,005"
-2025-03-02,Additional QUnit,misc(2/2)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,002771990741","0,004247685185"
-2025-03-02,Additional QUnit,viz-firefox,0,0,0,0,0,0,0,0,20,1,3,0,0,"0,0002430555556","0,005099344136","0,01097222222"
-2025-03-02,Additional QUnit,ui.widgets(3/3)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003853684414","0,009247685185"
-2025-03-02,Additional QUnit,misc(2/2)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,00272810571","0,004571759259"
-2025-03-02,Additional QUnit,renovation-firefox,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002430555556","0,00181712963","0,002372685185"
-2025-03-02,Additional QUnit,ui.widgets(3/3)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003016010802","0,007083333333"
-2025-03-02,Additional QUnit,misc(2/2)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,002799479167","0,004363425926"
-2025-03-02,Additional QUnit,ui.widgets(3/3)-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003072916667","0,006319444444"
-2025-03-02,Additional QUnit,ui.editors(1/2)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001851851852","0,003505979938","0,005011574074"
-2025-03-02,Additional QUnit,ui.editors(1/2)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,003181905864","0,004756944444"
-2025-03-02,Additional QUnit,ui.editors(1/2)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001851851852","0,002999614198","0,004502314815"
-2025-03-02,Additional QUnit,ui.editors(1/2)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002199074074","0,00317660108","0,004884259259"
-2025-03-02,Additional QUnit,ui.editors(1/2)-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001851851852","0,003485725309","0,005162037037"
-2025-03-02,Additional QUnit,ui.editors(1/2)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,003288001543","0,004965277778"
-2025-03-02,Additional QUnit,ui.editors(2/2)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003508873457","0,005636574074"
-2025-03-02,Additional QUnit,ui.editors(1/2)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,003350694444","0,004780092593"
-2025-03-02,Additional QUnit,ui.editors(2/2)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003567708333","0,004988425926"
-2025-03-02,Additional QUnit,ui.editors(2/2)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,003472222222","0,005324074074"
-2025-03-02,Additional QUnit,ui.editors(2/2)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,003633777006","0,005277777778"
-2025-03-02,Additional QUnit,ui.editors(2/2)-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003647762346","0,005416666667"
-2025-03-02,Additional QUnit,ui.editors(2/2)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,003357445988","0,005324074074"
-2025-03-02,Additional QUnit,ui.htmlEditor-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002741126543","0,004027777778"
-2025-03-02,Additional QUnit,ui.editors(2/2)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,003787133488","0,005601851852"
-2025-03-02,Additional QUnit,ui.htmlEditor-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002496141975","0,003703703704"
-2025-03-02,Additional QUnit,ui.grid(1/2)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,00408902392","0,00587962963"
-2025-03-02,Additional QUnit,ui.htmlEditor-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002572337963","0,003935185185"
-2025-03-02,Additional QUnit,ui.grid(1/2)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,004188850309","0,006180555556"
-2025-03-02,Additional QUnit,ui.grid(1/2)-shadow-dom,0,0,0,0,0,0,0,0,5,0,1,0,0,"0,001064814815","0,004187885802","0,006041666667"
-2025-03-02,Additional QUnit,ui.grid(1/2)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,004135320216","0,005972222222"
-2025-03-02,Additional QUnit,ui.grid(1/2)-ios10,0,0,0,0,0,0,0,0,5,0,1,0,0,"0,001076388889","0,003850308642","0,005763888889"
-2025-03-02,Additional QUnit,ui.grid(1/2)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,004010416667","0,005949074074"
-2025-03-02,Additional QUnit,ui.grid(1/2)-android6,0,0,0,0,0,0,0,0,5,0,1,0,0,"0,001076388889","0,004500385802","0,005925925926"
-2025-03-02,Additional QUnit,ui.grid(2/2)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,00342496142","0,004837962963"
-2025-03-02,Additional QUnit,ui.grid(2/2)-shadow-dom,0,0,0,0,0,0,0,0,5,0,1,0,0,"0,001064814815","0,003508873457","0,005"
-2025-03-02,Additional QUnit,ui.grid(2/2)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0001967592593","0,003385416667","0,004965277778"
-2025-03-02,Additional QUnit,ui.grid(2/2)-ios10,0,0,0,0,0,0,0,0,5,0,1,0,0,"0,001064814815","0,003263888889","0,004918981481"
-2025-03-02,Additional QUnit,ui.grid(2/2)-Australia/ACT,0,0,0,0,0,0,0,0,20,1,3,0,0,"0,0001967592593","0,003816068673","0,01094907407"
-2025-03-02,Additional QUnit,ui.grid(2/2)-android6,0,0,0,0,0,0,0,0,5,0,1,0,0,"0,001076388889","0,003337191358","0,00474537037"
-2025-03-02,Additional QUnit,ui.grid(2/2)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,"0,0002083333333","0,003346354167","0,005"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003437982253","0,005428240741"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003448591821","0,004895833333"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,00322193287","0,004675925926"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003600501543","0,00505787037"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003106674383","0,004907407407"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003765914352","0,0053125"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003691647377","0,005486111111"
-2025-03-02,Additional QUnit,ui.scheduler(1/3)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003669463735","0,0053125"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003435570988","0,005335648148"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003291859568","0,004849537037"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003714795525","0,005127314815"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-android6,0,0,0,0,0,0,0,0,20,1,3,0,0,0,"0,004049479167","0,01017361111"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003576388889","0,005474537037"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003302951389","0,004722222222"
-2025-03-02,Additional QUnit,ui.scheduler(2/3)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003903838735","0,005648148148"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002726176698","0,00400462963"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-US/Pacific,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002884837963","0,004386574074"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002768614969","0,004212962963"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-Japan,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002912808642","0,004594907407"
-2025-03-02,Additional QUnit,viz-shadow-dom,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003707079475","0,00537037037"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-Australia/ACT,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003110532407","0,004490740741"
-2025-03-02,Additional QUnit,viz-ios10,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003398919753","0,005393518519"
-2025-03-02,Additional QUnit,ui.scheduler(3/3)-Europe/London,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,002960069444","0,004108796296"
-2025-03-02,Additional QUnit,viz-android6,0,0,0,0,0,0,0,0,21,0,3,0,0,0,"0,003564332562","0,005231481481"
-2025-03-02,Additional QUnit,Send notifications,0,0,0,0,0,0,0,0,0,0,3,21,0,0,0,0
-2025-03-02,Additional QUnit,ui.grid(1/4)-shadow-dom,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002486496914","0,003506944444"
-2025-03-02,Additional QUnit,ui.grid(1/4)-ios10,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002478780864","0,003611111111"
-2025-03-02,Additional QUnit,ui.grid(1/4)-android6,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002431841564","0,003831018519"
-2025-03-02,Additional QUnit,ui.grid(2/4)-shadow-dom,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002569444444","0,003888888889"
-2025-03-02,Additional QUnit,ui.grid(2/4)-ios10,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002513503086","0,003576388889"
-2025-03-02,Additional QUnit,ui.grid(2/4)-android6,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002797067901","0,003993055556"
-2025-03-02,Additional QUnit,ui.grid(3/4)-shadow-dom,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,003304398148","0,004907407407"
-2025-03-02,Additional QUnit,ui.grid(3/4)-ios10,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,00308127572","0,004664351852"
-2025-03-02,Additional QUnit,ui.grid(3/4)-android6,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,003296039095","0,004872685185"
-2025-03-02,Additional QUnit,ui.grid(4/4)-shadow-dom,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002497427984","0,003564814815"
-2025-03-02,Additional QUnit,ui.grid(4/4)-ios10,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002485210905","0,003564814815"
-2025-03-02,Additional QUnit,ui.grid(4/4)-android6,0,0,0,0,0,0,0,0,16,0,2,0,0,0,"0,002449845679","0,003553240741"
-2025-03-02,QUnit tests for renovation,Build,0,0,0,0,0,0,0,0,27,0,0,0,3,"0,002430555556","0,004341992455","0,009074074074"
-2025-03-02,QUnit tests for renovation,Constel export,0,0,0,0,0,0,0,0,26,0,1,0,3,"0,002488425926","0,003629543896","0,004837962963"
-2025-03-02,QUnit tests for renovation,Constel misc,0,0,0,0,0,0,0,0,26,0,1,0,3,"0,00306712963","0,005518689986","0,006643518519"
-2025-03-02,QUnit tests for renovation,Constel ui,0,0,0,0,0,0,0,0,27,0,0,0,3,"0,002835648148","0,003449074074","0,004270833333"
-2025-03-02,QUnit tests for renovation,Constel ui.widgets(1/2),0,0,0,0,0,0,0,0,16,9,2,0,3,"0,003946759259","0,008033264746","0,01505787037"
-2025-03-02,QUnit tests for renovation,Constel ui.widgets(2/2),0,0,0,0,0,0,0,0,25,1,1,0,3,"0,002962962963","0,004389146091","0,01175925926"
-2025-03-02,QUnit tests for renovation,Constel ui.editors,0,0,0,0,0,0,0,0,24,1,2,0,3,"0,003958333333","0,006462620027","0,01346064815"
-2025-03-02,QUnit tests for renovation,Constel ui.htmlEditor,0,0,0,0,0,0,0,0,26,1,0,0,3,"0,001770833333","0,003272462277","0,009363425926"
-2025-03-02,QUnit tests for renovation,Constel ui.grid,0,0,0,0,0,0,0,0,25,0,2,0,3,"0,003912037037","0,006881001372","0,008923611111"
-2025-03-02,QUnit tests for renovation,Constel ui.scheduler(1/2),0,0,0,0,0,0,0,0,25,0,2,0,3,"0,003958333333","0,00494170096","0,006701388889"
-2025-03-02,QUnit tests for renovation,Constel ui.scheduler(2/2),0,0,0,0,0,0,0,0,25,0,2,0,3,"0,002800925926","0,004822959534","0,006030092593"
-2025-03-02,QUnit tests for renovation,Constel viz,0,0,0,0,0,0,0,0,26,0,1,0,3,"0,003946759259","0,004932698903","0,006400462963"
-2025-03-02,QUnit tests for renovation,Constel renovation,0,0,0,0,0,0,0,0,27,0,0,0,3,"0,001365740741","0,002157921811","0,002928240741"
-2025-03-02,QUnit tests for renovation,Send notifications,0,0,0,0,0,0,0,0,0,0,2,25,3,0,0,0
-2025-03-02,Auto approve renovate bot PR,auto-approve,0,0,0,0,0,0,0,0,24,0,0,0,0,0,"0,000008198302469","0,00001157407407"
-2025-03-02,Renovation,jest-tests,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,00162037037","0,00274691358","0,00900462963"
-2025-03-02,Renovation,Send notifications,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0
-2025-03-02,Styles tests,Tests,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,001238425926","0,002242476852","0,005578703704"
-2025-03-02,Styles tests,Send notifications,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0
-2025-03-02,TestCafe tests,build,0,0,0,0,0,0,0,0,27,2,0,0,5,"0,003368055556","0,006486270754","0,01038194444"
-2025-03-02,TestCafe tests,accessibility (1/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,009522890947","0,01628472222"
-2025-03-02,TestCafe tests,accessibility (2/7),0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,008716992455","0,0205787037"
-2025-03-02,TestCafe tests,accessibility (3/7),0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,007484996571","0,01424768519"
-2025-03-02,TestCafe tests,accessibility (4/7),0,0,0,0,0,0,0,0,20,6,1,0,5,0,"0,01617884088","0,02201388889"
-2025-03-02,TestCafe tests,accessibility (5/7),0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,01256472908","0,01987268519"
-2025-03-02,TestCafe tests,accessibility (6/7),0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,009144804527","0,02226851852"
-2025-03-02,TestCafe tests,accessibility (7/7),0,0,0,0,0,0,0,0,23,3,1,0,5,0,"0,008577246228","0,01221064815"
-2025-03-02,TestCafe tests,accessibility - material (1/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01085991084","0,01528935185"
-2025-03-02,TestCafe tests,accessibility - material (2/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01052897805","0,01717592593"
-2025-03-02,TestCafe tests,accessibility - material (3/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,008855881344","0,01619212963"
-2025-03-02,TestCafe tests,accessibility - material (4/7),0,0,0,0,0,0,0,0,17,6,4,0,5,0,"0,02122856653","0,0287962963"
-2025-03-02,TestCafe tests,accessibility - material (5/7),0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,016198131","0,02157407407"
-2025-03-02,TestCafe tests,accessibility - material (6/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01178540809","0,02506944444"
-2025-03-02,TestCafe tests,accessibility - material (7/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01149991427","0,01378472222"
-2025-03-02,TestCafe tests,accessibility - fluent (1/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01149434156","0,01945601852"
-2025-03-02,TestCafe tests,accessibility - fluent (2/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01005444102","0,01719907407"
-2025-03-02,TestCafe tests,accessibility - fluent (3/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,009119941701","0,01664351852"
-2025-03-02,TestCafe tests,accessibility - fluent (4/7),0,0,0,0,0,0,0,0,18,6,3,0,5,0,"0,01961248285","0,02733796296"
-2025-03-02,TestCafe tests,accessibility - fluent (5/7),0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,01661394033","0,02524305556"
-2025-03-02,TestCafe tests,accessibility - fluent (6/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01061342593","0,02299768519"
-2025-03-02,TestCafe tests,accessibility - fluent (7/7),0,0,0,0,0,0,0,0,25,1,1,0,5,0,"0,01039994856","0,01314814815"
-2025-03-02,TestCafe tests,common,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,003560528121","0,01091435185"
-2025-03-02,TestCafe tests,common - material,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,003649691358","0,01003472222"
-2025-03-02,TestCafe tests,common - fluent,0,0,0,0,0,0,0,0,22,4,1,0,5,0,"0,003400205761","0,01165509259"
-2025-03-02,TestCafe tests,treeList,0,0,0,0,0,0,0,0,22,4,1,0,5,0,"0,006088820302","0,01363425926"
-2025-03-02,TestCafe tests,dataGrid (1/5),0,0,0,0,0,0,0,0,4,0,0,0,2,"0,009768518519","0,01063368056","0,01298611111"
-2025-03-02,TestCafe tests,dataGrid (2/5),0,0,0,0,0,0,0,0,4,0,0,0,2,"0,008310185185","0,008486689815","0,008923611111"
-2025-03-02,TestCafe tests,dataGrid (3/5),0,0,0,0,0,0,0,0,4,0,0,0,2,"0,01770833333","0,01810763889","0,01873842593"
-2025-03-02,TestCafe tests,dataGrid (4/5),0,0,0,0,0,0,0,0,4,0,0,0,2,"0,008668981481","0,009513888889","0,01180555556"
-2025-03-02,TestCafe tests,dataGrid (5/5),0,0,0,0,0,0,0,0,4,0,0,0,2,"0,01391203704","0,01514756944","0,0183912037"
-2025-03-02,TestCafe tests,pivotGrid,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,005716306584","0,02541666667"
-2025-03-02,TestCafe tests,pivotGrid - material,0,0,0,0,0,0,0,0,23,2,2,0,5,0,"0,004775805898","0,01550925926"
-2025-03-02,TestCafe tests,pivotGrid - fluent,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,00477451989","0,01659722222"
-2025-03-02,TestCafe tests,scheduler / common (1/6),0,0,0,0,0,0,0,0,12,0,1,0,3,0,"0,006444088319","0,01005787037"
-2025-03-02,TestCafe tests,scheduler / common (2/6),0,0,0,0,0,0,0,0,10,2,1,0,3,0,"0,008993055556","0,01446759259"
-2025-03-02,TestCafe tests,scheduler / common (3/6),0,0,0,0,0,0,0,0,10,2,1,0,3,0,"0,0113363604","0,01850694444"
-2025-03-02,TestCafe tests,scheduler / common (4/6),0,0,0,0,0,0,0,0,11,0,2,0,3,0,"0,006574964387","0,0268287037"
-2025-03-02,TestCafe tests,scheduler / common (5/6),0,0,0,0,0,0,0,0,12,0,1,0,3,0,"0,005038283476","0,008854166667"
-2025-03-02,TestCafe tests,scheduler / common (6/6),0,0,0,0,0,0,0,0,10,2,1,0,3,0,"0,00578258547","0,009583333333"
-2025-03-02,TestCafe tests,scheduler / offset,0,0,0,0,0,0,0,0,12,0,1,0,3,0,"0,008241631054","0,014375"
-2025-03-02,TestCafe tests,scheduler / offset markups,0,0,0,0,0,0,0,0,12,0,1,0,3,0,"0,009383012821","0,0159837963"
-2025-03-02,TestCafe tests,scheduler / timezones (Europe/Berlin),0,0,0,0,0,0,0,0,21,2,1,0,5,0,"0,005538676698","0,01689814815"
-2025-03-02,TestCafe tests,scheduler / timezones (America/Los_Angeles),0,0,0,0,0,0,0,0,21,2,1,0,5,0,"0,005168306327","0,02108796296"
-2025-03-02,TestCafe tests,form (1/2),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,009263994108","0,01665509259"
-2025-03-02,TestCafe tests,form (2/2),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,003546927609","0,009780092593"
-2025-03-02,TestCafe tests,form - material (1/2),0,0,0,0,0,0,0,0,14,7,1,0,5,0,"0,005743897306","0,01209490741"
-2025-03-02,TestCafe tests,form - material (2/2),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,003693707912","0,01030092593"
-2025-03-02,TestCafe tests,form - fluent (1/2),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,009803766835","0,01418981481"
-2025-03-02,TestCafe tests,form - fluent (2/2),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,003358059764","0,007546296296"
-2025-03-02,TestCafe tests,editors (1/3),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,005433501684","0,01230324074"
-2025-03-02,TestCafe tests,editors (2/3),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,006802925084","0,01078703704"
-2025-03-02,TestCafe tests,editors (3/3),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,007037563131","0,01141203704"
-2025-03-02,TestCafe tests,editors - material (1/3),0,0,0,0,0,0,0,0,18,3,1,0,5,0,"0,005220959596","0,009710648148"
-2025-03-02,TestCafe tests,editors - material (2/3),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,007373211279","0,01414351852"
-2025-03-02,TestCafe tests,editors - material (3/3),0,0,0,0,0,0,0,0,17,4,1,0,5,0,"0,00719486532","0,01153935185"
-2025-03-02,TestCafe tests,editors - fluent (1/3),0,0,0,0,0,0,0,0,19,2,1,0,5,0,"0,005138362795","0,01237268519"
-2025-03-02,TestCafe tests,editors - fluent (2/3),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,007463173401","0,01460648148"
-2025-03-02,TestCafe tests,editors - fluent (3/3),0,0,0,0,0,0,0,0,20,1,1,0,5,0,"0,006892887205","0,0112037037"
-2025-03-02,TestCafe tests,htmlEditor,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,00372085048","0,01012731481"
-2025-03-02,TestCafe tests,htmlEditor - material,0,0,0,0,0,0,0,0,23,2,2,0,5,0,"0,004186814129","0,01376157407"
-2025-03-02,TestCafe tests,htmlEditor - fluent,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,003743141289","0,01260416667"
-2025-03-02,TestCafe tests,navigation,0,0,0,0,0,0,0,0,22,2,3,0,5,0,"0,01721364883","0,09055555556"
-2025-03-02,TestCafe tests,navigation - material,0,0,0,0,0,0,0,0,21,4,2,0,5,0,"0,01152006173","0,06099537037"
-2025-03-02,TestCafe tests,navigation - fluent,0,0,0,0,0,0,0,0,22,3,2,0,5,0,"0,0116255144","0,03667824074"
-2025-03-02,TestCafe tests,fileManager,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,003282321674","0,009386574074"
-2025-03-02,TestCafe tests,fileManager - material,0,0,0,0,0,0,0,0,23,3,1,0,5,0,"0,003287465706","0,009131944444"
-2025-03-02,TestCafe tests,fileManager - fluent,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,003436213992","0,009548611111"
-2025-03-02,TestCafe tests,filterBuilder,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,003382201646","0,007199074074"
-2025-03-02,TestCafe tests,filterBuilder - material,0,0,0,0,0,0,0,0,24,2,1,0,5,0,"0,003494513032","0,009340277778"
-2025-03-02,TestCafe tests,filterBuilder - fluent,0,0,0,0,0,0,0,0,22,4,1,0,5,0,"0,003586676955","0,009664351852"
-2025-03-02,TestCafe tests,merge-artifacts,0,0,0,0,0,0,0,0,15,3,8,3,5,0,"0,00007583014049","0,0005787037037"
-2025-03-02,TestCafe tests,Send notifications,0,0,0,0,0,0,0,0,0,0,8,21,5,0,0,0
-2025-03-02,TestCafe tests,chat,0,0,0,0,0,0,0,0,18,3,2,0,3,0,"0,00304297504","0,006030092593"
-2025-03-02,TestCafe tests,chat - material,0,0,0,0,0,0,0,0,18,3,2,0,3,0,"0,00367602657","0,01663194444"
-2025-03-02,TestCafe tests,chat - fluent,0,0,0,0,0,0,0,0,18,3,2,0,3,0,"0,003632246377","0,008518518519"
-2025-03-02,TestCafe tests,dataGrid / common (1/5),0,0,0,0,0,0,0,0,14,0,1,0,3,0,"0,005166666667","0,006516203704"
-2025-03-02,TestCafe tests,dataGrid / common (2/5),0,0,0,0,0,0,0,0,8,5,2,0,3,0,"0,005125","0,01859953704"
-2025-03-02,TestCafe tests,dataGrid / common (3/5),0,0,0,0,0,0,0,0,14,0,1,0,3,0,"0,01289583333","0,01576388889"
-2025-03-02,TestCafe tests,dataGrid / common (4/5),0,0,0,0,0,0,0,0,12,2,1,0,3,0,"0,004429783951","0,005636574074"
-2025-03-02,TestCafe tests,dataGrid / common (5/5),0,0,0,0,0,0,0,0,14,0,1,0,3,0,"0,008959876543","0,01172453704"
-2025-03-02,TestCafe tests,dataGrid / sticky (1/3),0,0,0,0,0,0,0,0,14,0,1,0,3,0,"0,003390432099","0,004351851852"
-2025-03-02,TestCafe tests,dataGrid / sticky (2/3),0,0,0,0,0,0,0,0,13,0,2,0,3,0,"0,02486033951","0,02982638889"
-2025-03-02,TestCafe tests,dataGrid / sticky (3/3),0,0,0,0,0,0,0,0,14,0,1,0,3,0,"0,003323302469","0,004282407407"
-2025-03-02,TestCafe tests,pagination,0,0,0,0,0,0,0,0,18,1,2,0,3,0,"0,003052799824","0,004131944444"
-2025-03-02,TestCafe tests,pagination - fluent,0,0,0,0,0,0,0,0,18,1,2,0,3,0,"0,003066027337","0,006631944444"
-2025-03-02,TestCafe tests,gantt,0,0,0,0,0,0,0,0,19,1,1,0,3,0,"0,002186397707","0,002789351852"
-2025-03-02,TestCafe tests,${{ matrix.ARGS.name }},0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-2025-03-02,TestCafe tests,dataGrid (1/10),0,0,0,0,0,0,0,0,1,1,0,0,0,"0,008553240741","0,009351851852","0,01015046296"
-2025-03-02,TestCafe tests,dataGrid (2/10),0,0,0,0,0,0,0,0,0,2,0,0,0,"0,01608796296","0,0183275463","0,02056712963"
-2025-03-02,TestCafe tests,dataGrid (3/10),0,0,0,0,0,0,0,0,0,2,0,0,0,"0,01831018519","0,01943865741","0,02056712963"
-2025-03-02,TestCafe tests,dataGrid (4/10),0,0,0,0,0,0,0,0,1,1,0,0,0,"0,007268518519","0,007407407407","0,007546296296"
-2025-03-02,TestCafe tests,dataGrid (5/10),0,0,0,0,0,0,0,0,1,1,0,0,0,"0,0216087963","0,05056712963","0,07952546296"
-2025-03-02,TestCafe tests,dataGrid (6/10),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,00693287037","0,007083333333","0,007233796296"
-2025-03-02,TestCafe tests,dataGrid (7/10),0,0,0,0,0,0,0,0,1,1,0,0,0,"0,008125","0,008998842593","0,009872685185"
-2025-03-02,TestCafe tests,dataGrid (8/10),0,0,0,0,0,0,0,0,1,1,0,0,0,"0,008113425926","0,008130787037","0,008148148148"
-2025-03-02,TestCafe tests,dataGrid (9/10),0,0,0,0,0,0,0,0,1,1,0,0,0,"0,01741898148","0,02866898148","0,03991898148"
-2025-03-02,TestCafe tests,dataGrid (10/10),0,0,0,0,0,0,0,0,2,0,0,0,0,"0,006759259259","0,006765046296","0,006770833333"
-2025-03-02,TestCafe tests,scheduler / common (1/10),0,0,0,0,0,0,0,0,2,3,0,0,0,"0,003773148148","0,01665740741","0,03341435185"
-2025-03-02,TestCafe tests,scheduler / common (2/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003553240741","0,01356712963","0,02795138889"
-2025-03-02,TestCafe tests,scheduler / common (3/10),0,0,0,0,0,0,0,0,0,5,0,0,0,"0,001851851852","0,01334259259","0,02851851852"
-2025-03-02,TestCafe tests,scheduler / common (4/10),0,0,0,0,0,0,0,0,0,5,0,0,0,"0,008252314815","0,03375","0,07128472222"
-2025-03-02,TestCafe tests,scheduler / common (5/10),0,0,0,0,0,0,0,0,0,4,1,0,0,"0,007002314815","0,06121527778","0,119525463"
-2025-03-02,TestCafe tests,scheduler / common (6/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002951388889","0,00894212963","0,01702546296"
-2025-03-02,TestCafe tests,scheduler / common (7/10),0,0,0,0,0,0,0,0,1,4,0,0,0,"0,004340277778","0,01221759259","0,02353009259"
-2025-03-02,TestCafe tests,scheduler / common (8/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002627314815","0,00505787037","0,008854166667"
-2025-03-02,TestCafe tests,scheduler / common (9/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003634259259","0,01206712963","0,02465277778"
-2025-03-02,TestCafe tests,scheduler / common (10/10),0,0,0,0,0,0,0,0,1,4,0,0,0,"0,004016203704","0,007266203704","0,01083333333"
-2025-03-02,TestCafe tests,scheduler / offset (1/4),0,0,0,0,0,0,0,0,9,6,0,0,2,"0,003402777778","0,02896450617","0,1347800926"
-2025-03-02,TestCafe tests,scheduler / offset (2/4),0,0,0,0,0,0,0,0,9,6,0,0,2,"0,002546296296","0,01903549383","0,08405092593"
-2025-03-02,TestCafe tests,scheduler / offset (3/4),0,0,0,0,0,0,0,0,9,6,0,0,2,"0,003020833333","0,01827700617","0,07515046296"
-2025-03-02,TestCafe tests,scheduler / offset (4/4),0,0,0,0,0,0,0,0,9,6,0,0,2,"0,001643518519","0,004675925926","0,008784722222"
-2025-03-02,TestCafe tests,form (1/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,004444444444","0,006659722222","0,00974537037"
-2025-03-02,TestCafe tests,form (2/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,006226851852","0,03987268519","0,09251157407"
-2025-03-02,TestCafe tests,form (3/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002418981481","0,007833333333","0,01486111111"
-2025-03-02,TestCafe tests,form (4/4),0,0,0,0,0,0,0,0,0,4,0,0,0,"0,001678240741","0,004641203704","0,00849537037"
-2025-03-02,TestCafe tests,form - material (1/4),0,0,0,0,0,0,0,0,0,5,0,0,0,"0,00412037037","0,01220601852","0,02489583333"
-2025-03-02,TestCafe tests,form - material (2/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003148148148","0,01433564815","0,03143518519"
-2025-03-02,TestCafe tests,form - material (3/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002453703704","0,00868287037","0,01866898148"
-2025-03-02,TestCafe tests,form - material (4/4),0,0,0,0,0,0,0,0,0,4,0,0,0,"0,001851851852","0,005245949074","0,008472222222"
-2025-03-02,TestCafe tests,form - fluent (1/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,004872685185","0,007666666667","0,01271990741"
-2025-03-02,TestCafe tests,form - fluent (2/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,006342592593","0,04335185185","0,09923611111"
-2025-03-02,TestCafe tests,form - fluent (3/4),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002650462963","0,008240740741","0,0180787037"
-2025-03-02,TestCafe tests,form - fluent (4/4),0,0,0,0,0,0,0,0,0,4,0,0,0,"0,001493055556","0,004528356481","0,008402777778"
-2025-03-02,TestCafe tests,editors (1/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003043981481","0,007912037037","0,01466435185"
-2025-03-02,TestCafe tests,editors (2/20),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,00349537037","0,005548611111","0,01008101852"
-2025-03-02,TestCafe tests,editors (3/20),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,002199074074","0,004594907407","0,009722222222"
-2025-03-02,TestCafe tests,editors (4/20),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,002777777778","0,005266203704","0,01017361111"
-2025-03-02,TestCafe tests,editors (5/20),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,002314814815","0,00430787037","0,006990740741"
-2025-03-02,TestCafe tests,editors (6/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002824074074","0,005469907407","0,008935185185"
-2025-03-02,TestCafe tests,editors (7/20),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,002141203704","0,004238425926","0,006898148148"
-2025-03-02,TestCafe tests,editors (8/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002222222222","0,005333333333","0,00962962963"
-2025-03-02,TestCafe tests,editors (9/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002766203704","0,006444444444","0,01200231481"
-2025-03-02,TestCafe tests,editors (10/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002511574074","0,005284722222","0,008645833333"
-2025-03-02,TestCafe tests,editors (11/20),0,0,0,0,0,0,0,0,2,3,0,0,0,"0,002847222222","0,008643518519","0,01353009259"
-2025-03-02,TestCafe tests,editors (12/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002777777778","0,004701388889","0,007638888889"
-2025-03-02,TestCafe tests,editors (13/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,005046296296","0,0287337963","0,06980324074"
-2025-03-02,TestCafe tests,editors (14/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002604166667","0,006581018519","0,01369212963"
-2025-03-02,TestCafe tests,editors (15/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002233796296","0,005011574074","0,009097222222"
-2025-03-02,TestCafe tests,editors (16/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003425925926","0,01532175926","0,03325231481"
-2025-03-02,TestCafe tests,editors (17/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003321759259","0,01044212963","0,02042824074"
-2025-03-02,TestCafe tests,editors (18/20),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002777777778","0,006097222222","0,0109837963"
-2025-03-02,TestCafe tests,editors (19/20),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,002118055556","0,005356481481","0,009733796296"
-2025-03-02,TestCafe tests,editors (20/20),0,0,0,0,0,0,0,0,0,5,0,0,0,"0,001782407407","0,003875","0,006585648148"
-2025-03-02,TestCafe tests,editors - material (1/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003530092593","0,01447916667","0,02719907407"
-2025-03-02,TestCafe tests,editors - material (2/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002523148148","0,005865740741","0,01056712963"
-2025-03-02,TestCafe tests,editors - material (3/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002395833333","0,005877314815","0,0105787037"
-2025-03-02,TestCafe tests,editors - material (4/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002418981481","0,006078703704","0,01217592593"
-2025-03-02,TestCafe tests,editors - material (5/10),0,0,0,0,0,0,0,0,2,2,1,0,0,"0,003263888889","0,04934722222","0,2156828704"
-2025-03-02,TestCafe tests,editors - material (6/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003622685185","0,008627314815","0,0137962963"
-2025-03-02,TestCafe tests,editors - material (7/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,005300925926","0,0307662037","0,06791666667"
-2025-03-02,TestCafe tests,editors - material (8/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003333333333","0,01598148148","0,03537037037"
-2025-03-02,TestCafe tests,editors - material (9/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003425925926","0,01761574074","0,038125"
-2025-03-02,TestCafe tests,editors - material (10/10),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,001979166667","0,004064814815","0,006851851852"
-2025-03-02,TestCafe tests,editors - fluent (1/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003483796296","0,008356481481","0,01554398148"
-2025-03-02,TestCafe tests,editors - fluent (2/10),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,00255787037","0,004513888889","0,007488425926"
-2025-03-02,TestCafe tests,editors - fluent (3/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002453703704","0,005886574074","0,01045138889"
-2025-03-02,TestCafe tests,editors - fluent (4/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,002488425926","0,005421296296","0,009050925926"
-2025-03-02,TestCafe tests,editors - fluent (5/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003229166667","0,007361111111","0,01357638889"
-2025-03-02,TestCafe tests,editors - fluent (6/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003287037037","0,007270833333","0,01310185185"
-2025-03-02,TestCafe tests,editors - fluent (7/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,006539351852","0,03230555556","0,06876157407"
-2025-03-02,TestCafe tests,editors - fluent (8/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,003553240741","0,01511111111","0,03158564815"
-2025-03-02,TestCafe tests,editors - fluent (9/10),0,0,0,0,0,0,0,0,3,2,0,0,0,"0,004016203704","0,01289814815","0,02621527778"
-2025-03-02,TestCafe tests,editors - fluent (10/10),0,0,0,0,0,0,0,0,5,0,0,0,0,"0,002025462963","0,004085648148","0,006851851852"
-2025-03-02,TestCafe tests,dataGrid / common (1/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,003969907407","0,004749228395","0,005486111111"
-2025-03-02,TestCafe tests,dataGrid / common (2/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,003888888889","0,006350308642","0,01108796296"
-2025-03-02,TestCafe tests,dataGrid / common (3/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,003645833333","0,00743441358","0,0140625"
-2025-03-02,TestCafe tests,dataGrid / common (4/10),0,0,0,0,0,0,0,0,0,3,0,0,0,"0,002361111111","0,002530864198","0,002766203704"
-2025-03-02,TestCafe tests,dataGrid / common (5/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,01306712963","0,03312114198","0,07270833333"
-2025-03-02,TestCafe tests,dataGrid / common (6/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,003055555556","0,003410493827","0,003703703704"
-2025-03-02,TestCafe tests,dataGrid / common (7/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,00369212963","0,004884259259","0,006331018519"
-2025-03-02,TestCafe tests,dataGrid / common (8/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,002662037037","0,003302469136","0,00375"
-2025-03-02,TestCafe tests,dataGrid / common (9/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,00869212963","0,0172492284","0,03215277778"
-2025-03-02,TestCafe tests,dataGrid / sticky (1/10),0,0,0,0,0,0,0,0,3,0,0,0,0,"0,002048611111","0,002430555556","0,002893518519"
-2025-03-02,TestCafe tests,dataGrid / sticky (2/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,002280092593","0,0028125","0,003090277778"
-2025-03-02,TestCafe tests,dataGrid / sticky (3/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,002916666667","0,003734567901","0,004375"
-2025-03-02,TestCafe tests,dataGrid / sticky (4/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,003773148148","0,00606867284","0,00943287037"
-2025-03-02,TestCafe tests,dataGrid / sticky (5/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,002465277778","0,005003858025","0,01"
-2025-03-02,TestCafe tests,dataGrid / sticky (6/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,02400462963","0,02581404321","0,02917824074"
-2025-03-02,TestCafe tests,dataGrid / sticky (7/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,002395833333","0,003348765432","0,004861111111"
-2025-03-02,TestCafe tests,dataGrid / sticky (8/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,0021875","0,002307098765","0,002534722222"
-2025-03-02,TestCafe tests,dataGrid / sticky (9/10),0,0,0,0,0,0,0,0,2,1,0,0,0,"0,003171296296","0,005069444444","0,007824074074"
-2025-03-02,TestCafe tests,scheduler / offset m (1/4),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005335648148","0,005335648148","0,005335648148"
-2025-03-02,TestCafe tests,scheduler / offset m (2/4),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003645833333","0,003645833333","0,003645833333"
-2025-03-02,TestCafe tests,scheduler / offset m (3/4),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,004652777778","0,004652777778","0,004652777778"
-2025-03-02,TestCafe tests,dataGrid / common (10/10),0,0,0,0,0,0,0,0,0,2,0,0,0,"0,001701388889","0,001811342593","0,001921296296"
-2025-03-02,TestCafe tests,dataGrid / sticky (10/10),0,0,0,0,0,0,0,0,0,2,0,0,0,"0,001805555556","0,002100694444","0,002395833333"
-2025-03-02,TestCafe tests,scheduler / common (1/5),0,0,0,0,0,0,0,0,6,0,0,0,2,"0,003680555556","0,005304783951","0,006550925926"
-2025-03-02,TestCafe tests,scheduler / common (2/5),0,0,0,0,0,0,0,0,6,0,0,0,2,"0,009965277778","0,01032021605","0,01065972222"
-2025-03-02,TestCafe tests,scheduler / common (3/5),0,0,0,0,0,0,0,0,1,5,0,0,2,"0,005613425926","0,007735339506","0,008773148148"
-2025-03-02,TestCafe tests,scheduler / common (4/5),0,0,0,0,0,0,0,0,6,0,0,0,2,"0,004108796296","0,00427662037","0,004409722222"
-2025-03-02,TestCafe tests,scheduler / common (5/5),0,0,0,0,0,0,0,0,2,4,0,0,2,"0,003402777778","0,00934220679","0,01946759259"
-2025-03-02,TestCafe tests,dataGrid/common (1/5),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001493055556","0,002874228395","0,005347222222"
-2025-03-02,TestCafe tests,dataGrid/common (2/5),0,0,0,0,0,0,0,0,0,3,0,0,0,"0,001678240741","0,002152777778","0,003078703704"
-2025-03-02,TestCafe tests,dataGrid/common (3/5),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001770833333","0,005536265432","0,01304398148"
-2025-03-02,TestCafe tests,dataGrid/common (4/5),0,0,0,0,0,0,0,0,0,3,0,0,0,"0,001712962963","0,002673611111","0,004282407407"
-2025-03-02,TestCafe tests,dataGrid/common (5/5),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001678240741","0,00418595679","0,009201388889"
-2025-03-02,TestCafe tests,dataGrid/sticky (1/2),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001574074074","0,002797067901","0,005104166667"
-2025-03-02,TestCafe tests,dataGrid/sticky (2/2),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001689814815","0,009702932099","0,02561342593"
-2025-03-02,TestCafe tests,scheduler/common (1/5),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001585648148","0,003101851852","0,005625"
-2025-03-02,TestCafe tests,scheduler/common (2/5),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001157407407","0,00462962963","0,0109837963"
-2025-03-02,TestCafe tests,scheduler/common (3/5),0,0,0,0,0,0,0,0,0,3,0,0,0,"0,001331018519","0,002766203704","0,00537037037"
-2025-03-02,TestCafe tests,scheduler/common (4/5),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001631944444","0,002496141975","0,004201388889"
-2025-03-02,TestCafe tests,scheduler/common (5/5),0,0,0,0,0,0,0,0,0,3,0,0,0,"0,001550925926","0,002291666667","0,003344907407"
-2025-03-02,TestCafe tests,scheduler/offset (1/4),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001550925926","0,002303240741","0,003530092593"
-2025-03-02,TestCafe tests,scheduler/offset (2/4),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001643518519","0,00193287037","0,002488425926"
-2025-03-02,TestCafe tests,scheduler/offset (3/4),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001655092593","0,00231867284","0,003530092593"
-2025-03-02,TestCafe tests,scheduler/offset (4/4),0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001446759259","0,002094907407","0,002731481481"
-2025-03-02,TestCafe tests,scheduler/timezones (Europe/Berlin),0,0,0,0,0,0,0,0,2,0,1,0,0,"0,00212962963","0,002608024691","0,003229166667"
-2025-03-02,TestCafe tests,scheduler/timezones (America/Los_Angeles),0,0,0,0,0,0,0,0,2,0,1,0,0,"0,002326388889","0,002955246914","0,004074074074"
-2025-03-02,Themebuilder and Styles tests,test,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,003229166667","0,005019290123","0,01061342593"
-2025-03-02,Themebuilder and Styles tests,Send notifications,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0
-2025-03-02,TS Declarations,check-ts-bundle,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,001342592593","0,002311439043","0,008229166667"
-2025-03-02,TS Declarations,validate-declarations,0,0,0,0,0,0,0,0,24,0,0,0,0,"0,001261574074","0,002531828704","0,00837962963"
-2025-03-02,TS Declarations,Send notifications,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0
-2025-03-02,DevExtreme Wrappers Tests,test,0,0,0,0,0,0,0,0,18,6,0,0,0,"0,01597222222","0,02615354938","0,03958333333"

@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"09.03.25, 02:18:15",38436368645,13743872065,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/13743872065/job/38436368645
+"09.03.25, 19:06:47",38453266221,13751611707,1,PR Filter Stubs,Changes Segregation Check,roadmap-24_2,failure,Show warning for .md files,https://github.com/DevExpress/DevExtreme/actions/runs/13751611707/job/38453266221
+"09.03.25, 19:16:01",38453444018,13751611716,1,QUnit tests for renovation,Constel ui,roadmap-24_2,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/13751611716/job/38453444018
