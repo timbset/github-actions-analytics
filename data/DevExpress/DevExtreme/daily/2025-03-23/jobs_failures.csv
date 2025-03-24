@@ -1,0 +1,8 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"23.03.25, 02:33:30",39238867671,14014687675,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/14014687675/job/39238867671
+"23.03.25, 19:32:53",39255806581,14022296976,1,Publishing to GitHub Packages,Build packages,25_1,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/14022296976/job/39255806581
+"23.03.25, 19:32:53",39255806515,14022296951,1,Publishing to GitHub Packages,Build packages,24_2,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/14022296951/job/39255806515
+"23.03.25, 19:32:53",39255806468,14022296938,1,Publishing to GitHub Packages,Build packages,24_1,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/14022296938/job/39255806468
+"23.03.25, 13:00:27",39248876828,14019142699,1,TestCafe tests,form (1/2),grids/cardview/dts_1_of_3,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/14019142699/job/39248876828
+"23.03.25, 13:00:33",39248879133,14019142699,1,TestCafe tests,navigation,grids/cardview/dts_1_of_3,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/14019142699/job/39248879133
+"23.03.25, 12:50:36",39248700924,14019142722,1,DevExtreme Wrappers Tests,test,grids/cardview/dts_1_of_3,failure,Angular - Run tests,https://github.com/DevExpress/DevExtreme/actions/runs/14019142722/job/39248700924
