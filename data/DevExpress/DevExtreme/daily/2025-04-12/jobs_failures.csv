@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"12.04.25, 02:31:49",40430807788,14415292242,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/14415292242/job/40430807788
+"12.04.25, 17:07:01",40445029825,14421621902,1,Additional QUnit,ui-android6,patch-updatekeywordsAngular,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/14421621902/job/40445029825
+"12.04.25, 18:43:28",40446575427,14422357750,1,QUnit tests for renovation,Constel ui,patch-updateKeywordsDevExtremeDist,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/14422357750/job/40446575427
+"12.04.25, 18:18:11",40446169458,14422165625,1,QUnit tests for renovation,Constel ui,patch-updatekeywordsVue,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/14422165625/job/40446169458
+"12.04.25, 18:47:28",40446636572,14422363310,1,TestCafe tests,gantt,patch-updateKeywordsDevExtreme,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14422363310/job/40446636572
+"12.04.25, 17:06:05",40445016115,14421621901,1,TestCafe tests,scheduler / common (6/6),patch-updatekeywordsAngular,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14421621901/job/40445016115
