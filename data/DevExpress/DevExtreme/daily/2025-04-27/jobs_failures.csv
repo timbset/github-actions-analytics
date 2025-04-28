@@ -1,0 +1,6 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"27.04.25, 02:35:23",41218160717,14687523183,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/14687523183/job/41218160717
+"27.04.25, 17:00:45",41233737202,14694112698,1,Demos Frameworks,testcafe-vue(4/4)-fluent.blue.light,25_1-ng-imd-missing-members,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14694112698/job/41233737202
+"27.04.25, 17:46:01",41234525788,14694112698,2,Demos Frameworks,testcafe-vue(4/4)-fluent.blue.light,25_1-ng-imd-missing-members,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14694112698/job/41234525788
+"27.04.25, 16:50:06",41233556134,14694112705,1,Additional QUnit,misc(2/2)-Europe/London,25_1-ng-imd-missing-members,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/14694112705/job/41233556134
+"27.04.25, 16:48:47",41233531225,14694112700,1,QUnit tests for renovation,Constel ui.widgets(2/2),25_1-ng-imd-missing-members,failure,Post Get sources,https://github.com/DevExpress/DevExtreme/actions/runs/14694112700/job/41233531225
