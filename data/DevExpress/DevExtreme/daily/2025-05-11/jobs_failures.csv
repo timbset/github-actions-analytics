@@ -1,0 +1,11 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"11.05.25, 02:36:11",42001458068,14951464982,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/14951464982/job/42001458068
+"11.05.25, 19:48:25",42018783305,14959102150,1,QUnit tests for renovation,Constel ui,grid_new_shortcuts_for_quick_navigation_through_grid_rows_25_1,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/14959102150/job/42018783305
+"11.05.25, 20:10:42",42019147234,14959218634,1,TestCafe tests,cardView,FilterSync_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14959218634/job/42019147234
+"11.05.25, 20:10:43",42019147316,14959218634,1,TestCafe tests,cardView - material,FilterSync_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14959218634/job/42019147316
+"11.05.25, 20:10:43",42019147421,14959218634,1,TestCafe tests,cardView - fluent,FilterSync_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14959218634/job/42019147421
+"11.05.25, 19:50:46",42018815972,14959102169,1,TestCafe tests,dataGrid / common (3/5),grid_new_shortcuts_for_quick_navigation_through_grid_rows_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14959102169/job/42018815972
+"11.05.25, 08:51:56",42007585804,14954059676,1,TestCafe tests,cardView,FilterSync_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14954059676/job/42007585804
+"11.05.25, 08:51:57",42007585881,14954059676,1,TestCafe tests,cardView - material,FilterSync_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14954059676/job/42007585881
+"11.05.25, 08:51:57",42007585994,14954059676,1,TestCafe tests,cardView - fluent,FilterSync_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14954059676/job/42007585994
+"11.05.25, 08:52:00",42007586810,14954059676,1,TestCafe tests,scheduler / common (6/6),FilterSync_25_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/14954059676/job/42007586810
