@@ -1,0 +1,15 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"22.06.25, 02:43:36",44541792229,15802122991,1,Send dependabot new vulnerability alerts,Send notifications,25_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/15802122991/job/44541792229
+"22.06.25, 15:38:14",44555935861,15808210255,1,Build and pack DevExtreme npm packages,build,renovate/eslint-plugin-node-replacement,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/15808210255/job/44555935861
+"22.06.25, 15:38:14",44555935853,15808210258,1,Default Workflow,main,renovate/eslint-plugin-node-replacement,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/15808210258/job/44555935853
+"22.06.25, 15:38:15",44555936134,15808210270,1,Demos Visual Tests,Build devextreme,renovate/eslint-plugin-node-replacement,failure,DevExtreme - Build,https://github.com/DevExpress/DevExtreme/actions/runs/15808210270/job/44555936134
+"22.06.25, 15:38:14",44555935903,15808210265,1,Demos Frameworks,Build DevExtreme,renovate/eslint-plugin-node-replacement,failure,DevExtreme - Build-all,https://github.com/DevExpress/DevExtreme/actions/runs/15808210265/job/44555935903
+"22.06.25, 15:38:14",44555935860,15808210253,1,Lint,JS,renovate/eslint-plugin-node-replacement,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/15808210253/job/44555935860
+"22.06.25, 15:38:14",44555935863,15808210253,1,Lint,TS,renovate/eslint-plugin-node-replacement,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/15808210253/job/44555935863
+"22.06.25, 15:38:14",44555935895,15808210271,1,Playgrounds tests,build,renovate/eslint-plugin-node-replacement,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/15808210271/job/44555935895
+"22.06.25, 15:38:14",44555936003,15808210257,1,Additional QUnit,Build,renovate/eslint-plugin-node-replacement,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/15808210257/job/44555936003
+"22.06.25, 15:38:14",44555935886,15808210262,1,QUnit tests for renovation,Build,renovate/eslint-plugin-node-replacement,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/15808210262/job/44555935886
+"22.06.25, 15:38:14",44555935885,15808210272,1,Renovation,jest-tests,renovate/eslint-plugin-node-replacement,failure,Build localization,https://github.com/DevExpress/DevExtreme/actions/runs/15808210272/job/44555935885
+"22.06.25, 15:38:14",44555935889,15808210261,1,TestCafe tests,build,renovate/eslint-plugin-node-replacement,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/15808210261/job/44555935889
+"22.06.25, 15:38:14",44555935856,15808210273,1,DevExtreme Wrappers Tests,test,renovate/eslint-plugin-node-replacement,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/15808210273/job/44555935856
+"22.06.25, 15:38:14",44555935876,15808210264,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,renovate/eslint-plugin-node-replacement,failure,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/15808210264/job/44555935876
