@@ -1,0 +1,23 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2025-07-12,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0003125","0,0003125","0,0003125",0,0,0,0,0,0,0,0
+2025-07-12,build_all.yml,Build and pack DevExtreme npm packages,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,005868055556","0,007083333333","0,008298611111"
+2025-07-12,codeql.yml,CodeQL,5,0,0,0,0,"0,008761574074","0,01203009259","0,01543981481",0,0,0,0,0,0,0,0
+2025-07-12,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
+2025-07-12,default_workflow.yml,Default Workflow,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0040625","0,004635416667","0,005208333333"
+2025-07-12,demos_unit_tests.yml,Demos unit tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,001018518519","0,001203703704","0,001388888889"
+2025-07-12,demos_visual_tests.yml,Demos Visual Tests,0,0,0,0,0,0,0,0,1,1,0,0,0,"0,01215277778","0,01339699074","0,0146412037"
+2025-07-12,demos_visual_tests_frameworks.yml,Demos Frameworks,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,01305555556","0,01524305556","0,01743055556"
+2025-07-12,lint.yml,Lint,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,005752314815","0,006186342593","0,00662037037"
+2025-07-12,packages_publishing.yml,Publishing to GitHub Packages,5,0,0,0,0,"0,01560185185","0,01775231481","0,01974537037",0,0,0,0,0,0,0,0
+2025-07-12,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0001273148148","0,0001273148148","0,0001273148148",0,0,0,0,0,0,0,0
+2025-07-12,playgrounds_tests.yml,Playgrounds tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,006643518519","0,009322916667","0,01200231481"
+2025-07-12,qunit_tests-additional-renovation.yml,Additional QUnit,0,0,0,0,0,0,0,0,1,1,0,0,0,"0,01445601852","0,01583333333","0,01721064815"
+2025-07-12,qunit_tests-renovation.yml,QUnit tests for renovation,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,009097222222","0,01021412037","0,01133101852"
+2025-07-12,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0008449074074","0,0008564814815","0,0008680555556"
+2025-07-12,renovation.yml,Renovation,0,0,0,0,0,0,0,0,1,1,0,0,0,"0,002951388889","0,003142361111","0,003333333333"
+2025-07-12,styles.yml,Styles tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,001759259259","0,001828703704","0,001898148148"
+2025-07-12,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,1,1,0,0,0,"0,01653935185","0,01715856481","0,01777777778"
+2025-07-12,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,003576388889","0,003674768519","0,003773148148"
+2025-07-12,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,00193287037","0,002025462963","0,002118055556"
+2025-07-12,wrapper_tests.yml,DevExtreme Wrappers Tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,005729166667","0,008420138889","0,01111111111"
+2025-07-12,wrapper_tests_e2e.yml,Wrappers E2E Tests,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,007534722222","0,01008680556","0,01263888889"
