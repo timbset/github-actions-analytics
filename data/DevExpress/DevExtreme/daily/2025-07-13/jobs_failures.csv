@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"13.07.25, 02:48:38",45865477524,16244566864,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/16244566864/job/45865477524
+"13.07.25, 11:39:43",45875341942,16248666620,1,TestCafe tests,dataGrid / common (1/5),25_2_responsive_box,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/16248666620/job/45875341942
+"13.07.25, 08:06:35",45871298307,16246940623,1,TestCafe tests,dataGrid / common (3/5),25_2_responsive_box,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/16246940623/job/45871298307
