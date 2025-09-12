@@ -244,7 +244,7 @@ export async function loadJobs({ date, ids, withFetch }) {
       let page = 1;
       console.log(`  ${i + 1}/${runs.length} run jobs loading...`);
 
-      let remainingRetryAttempts = API_RETRY_ATTEMPTS;
+      let retryAttempt = 0;
       let isRetrying;
 
       do {
@@ -263,18 +263,20 @@ export async function loadJobs({ date, ids, withFetch }) {
             }
           }));
 
-          remainingRetryAttempts = API_RETRY_ATTEMPTS;
+          retryAttempt = 0;
         } catch (error) {
           if (error?.status >= 500 && error?.status < 600) {
-            remainingRetryAttempts--;
+            retryAttempt++;
 
-            if (remainingRetryAttempts > 0) {
+            if (retryAttempt < API_RETRY_ATTEMPTS) {
               isRetrying = true;
 
-              console.log(`API Server error, attempt ${API_RETRY_ATTEMPTS - remainingRetryAttempts}/${API_RETRY_ATTEMPTS}`);
+              console.log('API Server error');
               console.warn(error);
 
-              await wait(1_000);
+              const timeout = 1_000 * retryAttempt;
+              console.log(`Attempt ${retryAttempt}/${API_RETRY_ATTEMPTS}, waiting for ${timeout} before next attempt`);
+              await wait(timeout);
             }
           }
 
