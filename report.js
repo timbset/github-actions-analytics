@@ -1,22 +1,9 @@
-import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
 import { URL, fileURLToPath } from 'url';
 
-import { getDatesFromRange, normalizeDate, writeCsv } from './utils.js';
+import { getDatesFromRange, normalizeDate, writeCsv, getRepoDirName } from './utils.js';
 import { loadJobs } from './load.js';
-
-dotenv.config();
-
-const getEnv = (name) => {
-  if (process.env[name] == null) {
-    throw new Error(`Env ${name} is required`);
-  }
-
-  return process.env[name];
-};
-
-const getRepoDirName = () => `${getEnv('GH_REPO_OWNER')}/${getEnv('GH_REPO_NAME')}`;
 
 export async function buildFailuresListFromRange({ from, to, ...options }) {
   const dates = getDatesFromRange({ from, to });

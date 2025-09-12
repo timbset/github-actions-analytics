@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { URL, fileURLToPath } from 'url';
 
-import { getDatesFromRange, getRepoPath, normalizeDate, writeCsv } from './utils.js';
+import { getDatesFromRange, getRepoPath, normalizeDate, writeCsv, getRepoDirName } from './utils.js';
 import { loadJobs, loadWorkflowRuns } from './load.js';
 
 export async function buildWorkflowRunsSummaryFromRange({ from, to, withFetch }) {
