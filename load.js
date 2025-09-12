@@ -3,11 +3,13 @@ import { Octokit } from '@octokit/core';
 import fs from 'fs';
 import path from 'path';
 
-import { getDatesFromRange, getRepoPath, normalizeDate } from './utils.js';
+import { getDatesFromRange, getRepoPath, normalizeDate, wait } from './utils.js';
 
 dotenv.config();
 
 let octokitSingleton = null;
+
+const API_RETRY_ATTEMPTS = 10;
 
 const getOctokit = () => {
   if (octokitSingleton == null) {
@@ -242,18 +244,48 @@ export async function loadJobs({ date, ids, withFetch }) {
       let page = 1;
       console.log(`  ${i + 1}/${runs.length} run jobs loading...`);
 
+      let remainingRetryAttempts = API_RETRY_ATTEMPTS;
+      let isRetrying;
+
       do {
-        ({ status, data } = await octokit.request('GET /repos/{owner}/{repo}/actions/runs/{run_id}/jobs', {
-          owner: getEnv('GH_REPO_OWNER'),
-          repo: getEnv('GH_REPO_NAME'),
-          run_id: run.id,
-          per_page: 100,
-          filter: 'all',
-          page,
-          headers: {
-            'X-GitHub-Api-Version': '2022-11-28',
+        isRetrying = false;
+
+        try {
+          ({ status, data } = await octokit.request('GET /repos/{owner}/{repo}/actions/runs/{run_id}/jobs', {
+            owner: getEnv('GH_REPO_OWNER'),
+            repo: getEnv('GH_REPO_NAME'),
+            run_id: run.id,
+            per_page: 100,
+            filter: 'all',
+            page,
+            headers: {
+              'X-GitHub-Api-Version': '2022-11-28',
+            }
+          }));
+
+          remainingRetryAttempts = API_RETRY_ATTEMPTS;
+        } catch (error) {
+          if (error?.status >= 500 && error?.status < 600) {
+            remainingRetryAttempts--;
+
+            if (remainingRetryAttempts > 0) {
+              isRetrying = true;
+
+              console.log(`API Server error, attempt ${API_RETRY_ATTEMPTS - remainingRetryAttempts}/${API_RETRY_ATTEMPTS}`);
+              console.warn(error);
+
+              await wait(1_000);
+            }
           }
-        }));
+
+          if (!isRetrying) {
+            throw error;
+          }
+        }
+
+        if (isRetrying) {
+          continue;
+        }
 
         jobs = jobs.concat(data.jobs);
 
@@ -261,7 +293,7 @@ export async function loadJobs({ date, ids, withFetch }) {
         console.log(`    ${current}/${data.total_count} jobs loaded`);
 
         page++;
-      } while (status === 200 && data.jobs.length >= 100);
+      } while (isRetrying || (status === 200 && data.jobs.length >= 100));
 
       console.log(`  ${i + 1}/${runs.length} run jobs loaded...`);
     }

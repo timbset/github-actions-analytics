@@ -124,3 +124,7 @@ export function writeCsv(filePath, rows, { escape = true } = {}) {
 
   fs.writeFileSync(filePath, rows.map(columnStringifier).join('\n') + '\n');
 }
+
+export async function wait(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
