@@ -117,15 +117,25 @@ yargs(hideBin(process.argv))
     'summary [name]',
     'builds a summary for specified entity',
     (yargs) => yargs
-      .command('workflow_runs', 'builds a workflow runs summary', (yargs) => yargs, async ({ from, to }) => {
-        await buildWorkflowRunsSummaryFromRange({ from, to });
+      .command('workflow_runs', 'builds a workflow runs summary', (yargs) => yargs, async ({ from, to, days, fetch: withFetch }) => {
+        if (from == null || to == null) {
+          ([from, to] = getDateRange(days));
+        }
+
+        await buildWorkflowRunsSummaryFromRange({ from, to, withFetch });
       })
-      .command('jobs', 'builds a jobs summary', (yargs) => yargs, async ({ from, to }) => {
-        await buildJobsSummaryFromRange({ from, to });
+      .command('jobs', 'builds a jobs summary', (yargs) => yargs, async ({ from, to, days, fetch: withFetch }) => {
+        if (from == null || to == null) {
+          ([from, to] = getDateRange(days));
+        }
+
+        await buildJobsSummaryFromRange({ from, to, withFetch });
       })
       .options({
         from: options.from,
         to: options.to,
+        days: options.days,
+        fetch: options.fetch,
       })
       .demandCommand(1)
   )
