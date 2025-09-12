@@ -13,10 +13,13 @@ import {
 
 import {
   mergeCsvFiles,
-  buildJobsSummaryFromRange,
-  buildWorkflowRunsSummaryFromRange,
   buildFailuresListFromRange,
 } from './report.js';
+
+import {
+  buildWorkflowRunsSummaryFromRange,
+  buildJobsSummaryFromRange,
+} from './summary.js';
 
 import { getRepoPath, getDatesFromRange, getDateRange, writeCsv } from './utils.js';
 
