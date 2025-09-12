@@ -3,7 +3,7 @@ import { Octokit } from '@octokit/core';
 import fs from 'fs';
 import path from 'path';
 
-import { getDatesFromRange, getRepoPath, normalizeDate, wait } from './utils.js';
+import { getDatesFromRange, getRepoPath, normalizeDate, wait, getEnv } from './utils.js';
 
 dotenv.config();
 
@@ -19,14 +19,6 @@ const getOctokit = () => {
   }
 
   return octokitSingleton;
-};
-
-const getEnv = (name) => {
-  if (process.env[name] == null) {
-    throw new Error(`Env ${name} is required`);
-  }
-
-  return process.env[name];
 };
 
 const ensureDataFolder = (repoPath, dataPath) => {
@@ -148,11 +140,11 @@ export async function loadWorkflows(date) {
   console.log('Workflows saved');
 }
 
-export async function loadWorkflowRunsFromRange({ from, to, ids }) {
+export async function loadWorkflowRunsFromRange({ from, to, ids, withFetch }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await loadWorkflowRuns({ date, ids });
+    await loadWorkflowRuns({ date, ids, withFetch });
   }
 }
 
@@ -189,11 +181,11 @@ export async function loadWorkflowRuns({ date, ids = [], withFetch = false }) {
   }
 }
 
-export async function loadJobsFromRange({ from, to, ids }) {
+export async function loadJobsFromRange({ from, to, ids, withFetch }) {
   const dates = getDatesFromRange({ from, to });
 
   for (const date of dates) {
-    await loadJobs({ date, ids });
+    await loadJobs({ date, ids, withFetch });
   }
 }
 

@@ -69,28 +69,47 @@ yargs(hideBin(process.argv))
     'load [name]',
     'loads specified entity',
     (yargs) => yargs
-      .command('workflows', 'loads workflows', (yargs) => yargs, async ({ from, to }) => {
+      .command('workflows', 'loads workflows', (yargs) => yargs, async ({ from, to, days }) => {
+        if (from == null || to == null) {
+          ([from, to] = getDateRange(days));
+        }
+
         await loadWorkflowsFromRange({ from, to });
       })
       .command(
         'workflow_runs',
         'loads workflow runs',
-        (yargs) => yargs.options({ id: options.id }),
-        async ({ from, to, id }) => {
-          await loadWorkflowRunsFromRange({ from, to, ids: id });
+        (yargs) => yargs.options({
+          id: options.id,
+          fetch: options.fetch,
+        }),
+        async ({ from, to, id, days, fetch: withFetch }) => {
+          if (from == null || to == null) {
+            ([from, to] = getDateRange(days));
+          }
+
+          await loadWorkflowRunsFromRange({ from, to, ids: id, withFetch });
         }
       )
       .command(
         'jobs',
         'loads jobs',
-        (yargs) => yargs.options({ id: options.id }),
-        async ({ from, to, id }) => {
-          await loadJobsFromRange({ from, to, ids: id });
+        (yargs) => yargs.options({
+          id: options.id,
+          fetch: options.fetch,
+        }),
+        async ({ from, to, days, id, fetch: withFetch }) => {
+          if (from == null || to == null) {
+            ([from, to] = getDateRange(days));
+          }
+
+          await loadJobsFromRange({ from, to, ids: id, withFetch });
         }
       )
       .options({
         from: options.from,
         to: options.to,
+        days: options.days,
       })
       .demandCommand(1)
   )

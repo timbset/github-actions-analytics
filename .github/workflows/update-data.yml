@@ -36,8 +36,14 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Load workflow runs data
+        run: yarn load workflow_runs --days=16 --fetch
+
       - name: Build workflow runs report
         run: yarn analytics report workflow_runs_last_days --days=16 --fetch
+
+      - name: Load jobs data
+        run: yarn load jobs --days=7 --fetch
 
       - name: Build jobs report
         run: yarn analytics report jobs_last_days --days=7 --fetch
