@@ -1,0 +1,5 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"14.09.25, 02:33:54",50316211172,17705260761,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/17705260761/job/50316211172
+"14.09.25, 21:45:00",50343372749,17716973037,1,Demos Frameworks,Build Demos,25_2_update-add-demo,failure,Demos - Run tsc,https://github.com/DevExpress/DevExtreme/actions/runs/17716973037/job/50343372749
+"14.09.25, 21:44:42",50343367421,17716973029,1,TestCafe tests,cardView - material,25_2_update-add-demo,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/17716973029/job/50343367421
+"14.09.25, 21:40:33",50343288031,17716973022,1,Wrappers Tests,test (angular),25_2_update-add-demo,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/17716973022/job/50343288031
