@@ -1,4 +1,7 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"27.09.25, 02:29:40",51380266367,18053817148,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/18053817148/job/51380266367
+"27.09.25, 08:25:41",51389121604,18057329462,1,TestCafe tests,scheduler / common (1/6),issue-1738_25_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18057329462/job/51389121604
+"27.09.25, 08:25:41",51389121651,18057329462,1,TestCafe tests,editors - material (2/3),issue-1738_25_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18057329462/job/51389121651
 "26.09.25, 02:32:53",51293501317,18026169022,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/18026169022/job/51293501317
 "26.09.25, 10:41:14",51321202513,18035439318,1,Build and pack DevExtreme npm packages,build,25_1_demos_vue_ts_scheduler,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/18035439318/job/51321202513
 "26.09.25, 15:46:02",51345184646,18042579912,1,Default Workflow,main,bump-sass-embedded,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/18042579912/job/51345184646
@@ -5729,4 +5732,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "21.09.25, 10:47:22",50875064170,17892064787,6,Wrappers Tests,test (angular),fix_task_edit_dialog_after_resources_2025.1,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/17892064787/job/50875064170
 "21.09.25, 11:02:18",50875367650,17892064787,7,Wrappers Tests,test (angular),fix_task_edit_dialog_after_resources_2025.1,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/17892064787/job/50875367650
 "21.09.25, 11:17:53",50875736907,17892064787,8,Wrappers Tests,test (angular),fix_task_edit_dialog_after_resources_2025.1,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/17892064787/job/50875736907
-"20.09.25, 02:29:50",50832685205,17874120697,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/17874120697/job/50832685205
