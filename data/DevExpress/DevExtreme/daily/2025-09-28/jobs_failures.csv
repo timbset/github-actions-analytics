@@ -1,0 +1,24 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"28.09.25, 02:35:56",51413851153,18068159307,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/18068159307/job/51413851153
+"28.09.25, 14:21:03",51431491301,18075557297,1,Default Workflow,main,datagrid_ai_column_templates_25_2,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/18075557297/job/51431491301
+"29.09.25, 01:01:33",51448055455,18075557297,2,Default Workflow,main,datagrid_ai_column_templates_25_2,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/18075557297/job/51448055455
+"28.09.25, 14:21:03",51431491311,18075557288,1,Demos Visual Tests,Build devextreme,datagrid_ai_column_templates_25_2,failure,DevExtreme - Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557288/job/51431491311
+"29.09.25, 01:02:25",51448088514,18075557288,2,Demos Visual Tests,Build devextreme,datagrid_ai_column_templates_25_2,failure,DevExtreme - Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557288/job/51448088514
+"28.09.25, 14:21:03",51431491321,18075557301,1,Demos Frameworks,Build DevExtreme,datagrid_ai_column_templates_25_2,failure,DevExtreme - Build-all,https://github.com/DevExpress/DevExtreme/actions/runs/18075557301/job/51431491321
+"29.09.25, 01:01:39",51448059071,18075557301,2,Demos Frameworks,Build DevExtreme,datagrid_ai_column_templates_25_2,failure,DevExtreme - Build-all,https://github.com/DevExpress/DevExtreme/actions/runs/18075557301/job/51448059071
+"28.09.25, 14:21:03",51431491345,18075557308,1,Lint,TS,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557308/job/51431491345
+"28.09.25, 14:21:03",51431491349,18075557308,1,Lint,JS,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557308/job/51431491349
+"29.09.25, 01:01:10",51448042464,18075557308,2,Lint,TS,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557308/job/51448042464
+"29.09.25, 01:01:10",51448042465,18075557308,2,Lint,JS,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557308/job/51448042465
+"28.09.25, 14:21:03",51431491249,18075557291,1,Playgrounds tests,build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557291/job/51431491249
+"29.09.25, 01:01:46",51448063249,18075557291,2,Playgrounds tests,build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557291/job/51448063249
+"28.09.25, 14:21:03",51431491292,18075557302,1,Additional QUnit,Build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557302/job/51431491292
+"29.09.25, 01:01:27",51448052422,18075557302,2,Additional QUnit,Build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557302/job/51448052422
+"28.09.25, 14:21:03",51431491371,18075557317,1,QUnit tests for renovation,Build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557317/job/51431491371
+"29.09.25, 01:01:51",51448066845,18075557317,2,QUnit tests for renovation,Build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557317/job/51448066845
+"28.09.25, 14:21:03",51431491308,18075557294,1,TestCafe tests,build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557294/job/51431491308
+"29.09.25, 01:01:57",51448070583,18075557294,2,TestCafe tests,build,datagrid_ai_column_templates_25_2,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/18075557294/job/51448070583
+"28.09.25, 14:21:03",51431491227,18075557292,1,Wrappers Tests,build,datagrid_ai_column_templates_25_2,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/18075557292/job/51431491227
+"29.09.25, 01:02:08",51448077752,18075557292,2,Wrappers Tests,build,datagrid_ai_column_templates_25_2,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/18075557292/job/51448077752
+"28.09.25, 14:21:03",51431491286,18075557298,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,datagrid_ai_column_templates_25_2,failure,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/18075557298/job/51431491286
+"29.09.25, 01:02:02",51448074180,18075557298,2,Wrappers E2E Tests,Build DevExtreme and Wrappers,datagrid_ai_column_templates_25_2,failure,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/18075557298/job/51448074180
