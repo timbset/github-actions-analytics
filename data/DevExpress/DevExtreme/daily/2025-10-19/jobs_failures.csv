@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"19.10.25, 02:38:08",53099737603,18624265332,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/18624265332/job/53099737603
+"19.10.25, 09:39:16",53110146133,18628561249,1,Demos Visual Tests,jquery-accessibility-material.blue.light,25_2_demos_vue_ts_grids,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18628561249/job/53110146133
+"19.10.25, 09:41:07",53110191252,18628561247,1,TestCafe tests,cardView - fluent,25_2_demos_vue_ts_grids,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18628561247/job/53110191252
+"19.10.25, 09:41:07",53110191257,18628561247,1,TestCafe tests,dataGrid / common (1/5),25_2_demos_vue_ts_grids,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18628561247/job/53110191257
+"19.10.25, 11:56:44",53113396062,18628561247,2,TestCafe tests,dataGrid / common (1/5),25_2_demos_vue_ts_grids,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18628561247/job/53113396062
+"19.10.25, 16:56:01",53121197232,18628561247,3,TestCafe tests,dataGrid / common (1/5),25_2_demos_vue_ts_grids,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18628561247/job/53121197232
