@@ -1,0 +1,22 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2025-10-25,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0004398148148","0,0004398148148","0,0004398148148",0,0,0,0,0,0,0,0
+2025-10-25,build_all.yml,Build and pack DevExtreme npm packages,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,007766203704","0,01103780864","0,0141087963"
+2025-10-25,codeql.yml,CodeQL,5,0,0,0,0,"0,008865740741","0,01177546296","0,01275462963",0,0,0,0,0,0,0,0
+2025-10-25,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0002430555556","0,0002430555556","0,0002430555556",0,0,0,0,0,0,0,0
+2025-10-25,default_workflow.yml,Default Workflow,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004722222222","0,007542438272","0,0128587963"
+2025-10-25,demos_unit_tests.yml,Demos unit tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001006944444","0,001014660494","0,001018518519"
+2025-10-25,demos_visual_tests.yml,Demos Visual Tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,005277777778","0,00599537037","0,007222222222"
+2025-10-25,demos_visual_tests_frameworks.yml,Demos Frameworks,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0065625","0,006863425926","0,007256944444"
+2025-10-25,lint.yml,Lint,0,0,0,0,0,0,0,0,2,1,0,0,0,"0,005266203704","0,007384259259","0,01046296296"
+2025-10-25,packages_publishing.yml,Publishing to GitHub Packages,5,0,0,0,0,"0,01674768519","0,01936574074","0,02204861111",0,0,0,0,0,0,0,0
+2025-10-25,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0002083333333","0,0002083333333","0,0002083333333",0,0,0,0,0,0,0,0
+2025-10-25,playgrounds_tests.yml,Playgrounds tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,006446759259","0,00705632716","0,008090277778"
+2025-10-25,qunit_tests.yml,QUnit tests,0,0,0,0,0,0,0,0,2,1,0,0,0,"0,01398148148","0,01641975309","0,02005787037"
+2025-10-25,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00006944444444","0,0003240740741","0,0008333333333"
+2025-10-25,renovation.yml,Renovation,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004085648148","0,005165895062","0,006608796296"
+2025-10-25,styles.yml,Styles tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001527777778","0,002716049383","0,004583333333"
+2025-10-25,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,0,3,0,0,0,"0,01298611111","0,01687114198","0,02329861111"
+2025-10-25,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,003252314815","0,004000771605","0,005243055556"
+2025-10-25,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00125","0,002303240741","0,003553240741"
+2025-10-25,wrapper_tests.yml,Wrappers Tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,005497685185","0,008055555556","0,01059027778"
+2025-10-25,wrapper_tests_e2e.yml,Wrappers E2E Tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,007858796296","0,008892746914","0,009861111111"

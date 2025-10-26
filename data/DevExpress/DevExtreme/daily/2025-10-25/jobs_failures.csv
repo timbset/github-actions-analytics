@@ -1,0 +1,16 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"25.10.25, 02:33:46",53638228779,18796911060,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/18796911060/job/53638228779
+"25.10.25, 15:13:42",53657369287,18804826856,1,Lint,texts,v2_recurrence_form,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/18804826856/job/53657369287
+"25.10.25, 15:13:42",53657369297,18804826856,1,Lint,wrappers,v2_recurrence_form,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/18804826856/job/53657369297
+"25.10.25, 15:19:13",53657512678,18804826829,1,QUnit tests,ui-shadow-dom,v2_recurrence_form,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/18804826829/job/53657512678
+"25.10.25, 15:19:13",53657512686,18804826829,1,QUnit tests,ui.widgets(3/3)-shadow-dom,v2_recurrence_form,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804826829/job/53657512686
+"25.10.25, 15:19:13",53657512716,18804826829,1,QUnit tests,Constel ui.editors,v2_recurrence_form,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/18804826829/job/53657512716
+"25.10.25, 16:54:10",53659892436,18805777552,1,TestCafe tests,dataGrid / common (1/5) - fluent,v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18805777552/job/53659892436
+"25.10.25, 16:54:10",53659892465,18805777552,1,TestCafe tests,scheduler / common (6/6),v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18805777552/job/53659892465
+"25.10.25, 15:19:35",53657521847,18804826843,1,TestCafe tests,dataGrid / common (1/5) - fluent,v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804826843/job/53657521847
+"25.10.25, 15:19:35",53657521855,18804826843,1,TestCafe tests,scheduler / common (3/6),v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804826843/job/53657521855
+"25.10.25, 15:19:35",53657521874,18804826843,1,TestCafe tests,scheduler / common (6/6),v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804826843/job/53657521874
+"25.10.25, 15:19:35",53657521876,18804826843,1,TestCafe tests,scheduler / common (4/6),v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804826843/job/53657521876
+"25.10.25, 14:50:12",53656754689,18804516668,1,TestCafe tests,cardView - fluent,v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804516668/job/53656754689
+"25.10.25, 14:50:12",53656754693,18804516668,1,TestCafe tests,scheduler / common (3/6),v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804516668/job/53656754693
+"25.10.25, 14:50:12",53656754714,18804516668,1,TestCafe tests,scheduler / common (6/6),v2_recurrence_form,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/18804516668/job/53656754714
