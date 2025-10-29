@@ -15,9 +15,10 @@ jobs:
       - name: Unpublish version if exits
         shell: pwsh
         run: |
+          $token = "${{ secrets.GITHUB_TOKEN }}"
           $baseUrl = "https://api.github.com"
           $headers = @{
-              "Authorization" = "Bearer $GithubToken"
+              "Authorization" = "Bearer $token"
               "Accept"        = "application/vnd.github+json"
           }
           $scopeType = "users" # or "orgs"
