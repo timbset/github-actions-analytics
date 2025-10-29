@@ -14,72 +14,19 @@ jobs:
     permissions:
       packages: write
     steps:
+      - uses: actions/checkout@v4
       - name: Create test VSIX
         run: |
           echo "Test VSIX content - $(date)" > test-extension-${{ inputs.version }}.vsix
-      - name: Unpublish version if exits
+      - name: Publish package
         shell: pwsh
         run: |
-          $token = "${{ secrets.GITHUB_TOKEN }}"
-          $baseUrl = "https://api.github.com"
-          $headers = @{
-              "Authorization" = "Bearer $token"
-              "Accept"        = "application/vnd.github+json"
-          }
-          $scopeType = "users" # or "orgs"
-          $owner = "${{ github.repository_owner }}"
-
-          try {
-              $versionsUrl = "$baseUrl/$scopeType/$owner/packages/maven/test-extension/versions"
-              $versions = Invoke-RestMethod -Uri $versionsUrl -Headers $headers -ErrorAction Stop
-
-              Write-Host $versions
-          
-              $versionObj = $versions | Where-Object { $_.name -eq "${{ inputs.version }}" }
-          
-              if ($versionObj) {
-                  $versionId = $versionObj.id
-                  Write-Host "⚠️  Found existing version ID $versionId — deleting..."
-                  $deleteUrl = "$baseUrl/$scopeType/$owner/packages/maven/test-extension/versions/$versionId"
-          
-                  Invoke-RestMethod -Uri $deleteUrl -Method DELETE -Headers $headers -ErrorAction Stop
-                  Write-Host "🗑️  Deleted version $Version successfully."
-              } else {
-                  Write-Host "✅ No existing version $Version found — safe to upload."
-              }
-          } catch {
-              Write-Host "❌ Failed to check or delete old version:" -ForegroundColor Red
-              Write-Host $_.Exception.Message
-              if ($_.ErrorDetails.Message) { Write-Host $_.ErrorDetails.Message }
-              exit 1
-          }
-      - name: Upload to GitHub Packages
-        shell: pwsh
-        run: |
-          $token = "${{ secrets.GITHUB_TOKEN }}"
-          $repo = "${{ github.repository }}"
-          $file = "test-extension-${{ inputs.version }}.vsix"
-          $url = "https://maven.pkg.github.com/$repo/test-extension/${{ inputs.version }}/$file"
-
-          try {
-            $response = Invoke-RestMethod `
-              -Uri $url `
-              -Method Put `
-              -Headers @{
-                "Authorization" = "Bearer $token"
-                "Content-Type"  = "application/octet-stream"
-              } `
-              -InFile $file `
-              -ErrorAction Stop
-
-            Write-Host "✅ Successfully uploaded to GitHub Packages!"
-          } catch {
-            Write-Host "❌ Upload failed:"
-            Write-Host $_.Exception.Message
-            if ($_.ErrorDetails.Message) { Write-Host $_.ErrorDetails.Message }
-            exit 1
-          }
-      - name: Verify upload
-        run: |
-          echo "✅ Package uploaded!"
-          echo "View at: https://github.com/${{ github.repository_owner }}?tab=packages"
+          .\upload-to-github-packages-maven.ps1 `
+            -Owner "${{ github.repository_owner }}" `
+            -Repo "${{ github.event.repository.name }}" `
+            -PackageName "test-extension" `
+            -Version "${{ inputs.version }}" `
+            -FilePath "test-extension-${{ inputs.version }}.vsix" `
+            -GithubToken "${{ secrets.GITHUB_TOKEN }}" `
+            -ScopeType "users"
+            # -Force
