@@ -42,12 +42,16 @@ if ($Force) {
             Write-Host "No existing version $Version found"
         }
     } catch {
-        Write-Host "❌ Failed to check or delete old version:" -ForegroundColor Red
-        Write-Host $_.Exception.Message
-        if ($_.ErrorDetails.Message) {
-            Write-Host $_.ErrorDetails.Message
+        if ($_.Exception.Response -and $_.Exception.Response.StatusCode.value__ -eq 404) {
+            Write-Host "Package '$PackageName' not found yet - nothing to delete (first-time upload)"
+        } else {
+            Write-Host "Failed to check or delete old version:"
+            Write-Host $_.Exception.Message
+            if ($_.ErrorDetails.Message) {
+                Write-Host $_.ErrorDetails.Message
+            }
+            exit 1
         }
-        exit 1
     }
 }
 
