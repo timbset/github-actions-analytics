@@ -15,18 +15,18 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
-#      - name: Create test VSIX
-#        run: |
-#          echo "Test VSIX content - $(date)" > test-extension-${{ inputs.version }}.vsix
+      - name: Create test VSIX
+        run: |
+          echo "Test VSIX content - $(date)" > test-extension-${{ inputs.version }}.vsix
       - name: Publish package
         shell: pwsh
         run: |
           .\upload-to-github-packages-maven.ps1 `
             -Owner "${{ github.repository_owner }}" `
             -Repo "${{ github.event.repository.name }}" `
-            -PackageName "job-failures" `
-            -Version "1.0.0" `
-            -FilePath "./data/DevExpress/DevExtreme/jobs_failures_last_7_days.csv" `
+            -PackageName "test-extension" `
+            -Version "${{ inputs.version }}" `
+            -FilePath "test-extension-${{ inputs.version }}.vsix" `
             -GithubToken "${{ secrets.GITHUB_TOKEN }}" `
             -ScopeType "users" `
             -Force
