@@ -2,6 +2,11 @@ name: Upload file to maven
  
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version'
+        required: true
+        type: string
  
 jobs:
   upload:
@@ -11,7 +16,7 @@ jobs:
     steps:
       - name: Create test VSIX
         run: |
-          echo "Test VSIX content - $(date)" > test-extension-1.0.0.vsix
+          echo "Test VSIX content - $(date)" > test-extension-${{ inputs.logLevel }}.vsix
       - name: Unpublish version if exits
         shell: pwsh
         run: |
@@ -30,7 +35,7 @@ jobs:
 
               Write-Host $versions
           
-              $versionObj = $versions | Where-Object { $_.name -eq "1.0.0" }
+              $versionObj = $versions | Where-Object { $_.name -eq "${{ inputs.logLevel }}" }
           
               if ($versionObj) {
                   $versionId = $versionObj.id
@@ -53,8 +58,8 @@ jobs:
         run: |
           $token = "${{ secrets.GITHUB_TOKEN }}"
           $repo = "${{ github.repository }}"
-          $file = "test-extension-1.0.0.vsix"
-          $url = "https://maven.pkg.github.com/$repo/test-extension/1.0.0/$file"
+          $file = "test-extension-${{ inputs.logLevel }}.vsix"
+          $url = "https://maven.pkg.github.com/$repo/test-extension/${{ inputs.logLevel }}/$file"
 
           try {
             $response = Invoke-RestMethod `
