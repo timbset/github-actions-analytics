@@ -8,7 +8,7 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$Version,             # e.g. "1.0.0"
     [Parameter(Mandatory = $true)]
-    [string]$FilePath,            # e.g. "./my-package-1.0.0.file"
+    [string]$FilePath,            # e.g. "./my-dir/my-package-1.0.0.file" (only file name will be used for upload)
     [Parameter(Mandatory = $true)]
     [string]$GithubToken,         # GitHub token with "write:packages" and "delete:packages"
     [ValidateSet("users", "orgs")]
