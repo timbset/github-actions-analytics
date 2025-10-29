@@ -13,7 +13,7 @@ param(
     [string]$GithubToken,         # GitHub token with "write:packages" and "delete:packages"
     [ValidateSet("users", "orgs")]
     [string]$ScopeType = "orgs",  # "orgs" is for organizations and "users" is for personal repositories
-    [bool]$Force = $false         # unpublishes packages if version is already published
+    [switch]$Force                # if set, unpublishes packages if version is already published
 )
 
 $baseApiUrl = "https://api.github.com"
