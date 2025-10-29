@@ -12,6 +12,36 @@ jobs:
       - name: Create test VSIX
         run: |
           echo "Test VSIX content - $(date)" > test-extension-1.0.0.vsix
+      - name: Unpublish version if exits
+        shell: pwsh
+        run: |
+          $baseUrl = "https://api.github.com"
+          $headers = @{
+              "Authorization" = "Bearer $GithubToken"
+              "Accept"        = "application/vnd.github+json"
+          }
+          $scopeType = "users" # or "orgs"
+          $owner = "${{ github.repository_owner }}"
+
+          try {
+              $versionsUrl = "$baseUrl/$scopeType/$owner/packages/maven/test-extension/versions"
+              $versions = Invoke-RestMethod -Uri $versionsUrl -Headers $headers -ErrorAction Stop
+
+              Write-Host $versions
+          
+              $versionObj = $versions | Where-Object { $_.name -eq "1.0.0" }
+          
+              if ($versionObj) {
+                  $versionId = $versionObj.id
+                  Write-Host "⚠️  Found existing version ID $versionId — deleting..."
+                  $deleteUrl = "$baseUrl/$ScopeType/$Owner/packages/maven/$PackageName/versions/$versionId"
+          
+                  Invoke-RestMethod -Uri $deleteUrl -Method DELETE -Headers $headers -ErrorAction Stop
+                  Write-Host "🗑️  Deleted version $Version successfully."
+              } else {
+                  Write-Host "✅ No existing version $Version found — safe to upload."
+              }
+          }
       - name: Upload to GitHub Packages
         shell: pwsh
         run: |
