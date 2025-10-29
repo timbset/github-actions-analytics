@@ -13,12 +13,31 @@ jobs:
         run: |
           echo "Test VSIX content - $(date)" > test-extension-1.0.0.vsix
       - name: Upload to GitHub Packages
+        shell: pwsh
         run: |
-          curl -X PUT \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Content-Type: application/octet-stream" \
-            --data-binary @"test-extension-1.0.0.vsix" \
-            "https://maven.pkg.github.com/${{ github.repository }}/test-extension/1.0.0/test-extension-1.0.0.vsix"
+          $token = "${{ secrets.GITHUB_TOKEN }}"
+          $repo = "${{ github.repository }}"
+          $file = "test-extension-1.0.0.vsix"
+          $url = "https://maven.pkg.github.com/$repo/test-extension/1.0.0/$file"
+
+          try {
+            $response = Invoke-RestMethod `
+              -Uri $url `
+              -Method Put `
+              -Headers @{
+                "Authorization" = "Bearer $token"
+                "Content-Type"  = "application/octet-stream"
+              } `
+              -InFile $file `
+              -ErrorAction Stop
+
+            Write-Host "✅ Successfully uploaded to GitHub Packages!"
+          } catch {
+            Write-Host "❌ Upload failed:"
+            Write-Host $_.Exception.Message
+            if ($_.ErrorDetails.Message) { Write-Host $_.ErrorDetails.Message }
+            exit 1
+          }
       - name: Verify upload
         run: |
           echo "✅ Package uploaded!"
