@@ -28,5 +28,5 @@ jobs:
             -Version "${{ inputs.version }}" `
             -FilePath "test-extension-${{ inputs.version }}.vsix" `
             -GithubToken "${{ secrets.GITHUB_TOKEN }}" `
-            -ScopeType "users"
-            # -Force
+            -ScopeType "users" `
+            -Force
