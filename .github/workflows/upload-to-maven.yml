@@ -35,7 +35,7 @@ jobs:
               if ($versionObj) {
                   $versionId = $versionObj.id
                   Write-Host "⚠️  Found existing version ID $versionId — deleting..."
-                  $deleteUrl = "$baseUrl/$ScopeType/$Owner/packages/maven/$PackageName/versions/$versionId"
+                  $deleteUrl = "$baseUrl/$scopeType/$owner/packages/maven/test-extension/versions/$versionId"
           
                   Invoke-RestMethod -Uri $deleteUrl -Method DELETE -Headers $headers -ErrorAction Stop
                   Write-Host "🗑️  Deleted version $Version successfully."
