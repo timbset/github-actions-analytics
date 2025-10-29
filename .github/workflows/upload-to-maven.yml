@@ -41,6 +41,11 @@ jobs:
               } else {
                   Write-Host "✅ No existing version $Version found — safe to upload."
               }
+          } catch {
+              Write-Host "❌ Failed to check or delete old version:" -ForegroundColor Red
+              Write-Host $_.Exception.Message
+              if ($_.ErrorDetails.Message) { Write-Host $_.ErrorDetails.Message }
+              exit 1
           }
       - name: Upload to GitHub Packages
         shell: pwsh
