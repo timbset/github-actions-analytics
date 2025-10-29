@@ -52,10 +52,7 @@ if ($Force) {
 }
 
 $file = "test-extension-$Version.vsix" # TODO: use from param
-$url = "https://maven.pkg.github.com/$Owner/$PackageName/$Version/$file"
-
-Write-Host $url
-Write-Host $file
+$url = "https://maven.pkg.github.com/$Owner/$Repo/$PackageName/$Version/$file"
 
 try {
     $response = Invoke-RestMethod `
