@@ -25,6 +25,8 @@ $headers = @{
 if ($Force) {
     Write-Host "Looking for existing version"
 
+    $versionId
+
     try {
         $versionsUrl = "$baseApiUrl/$ScopeType/$Owner/packages/maven/$PackageName/versions"
         $versions = Invoke-RestMethod -Uri $versionsUrl -Headers $headers -ErrorAction Stop
@@ -33,45 +35,38 @@ if ($Force) {
 
         if ($versionObj) {
             $versionId = $versionObj.id
-            Write-Host "Found existing version ID $versionId - deleting..."
-            $deleteUrl = "$baseApiUrl/$ScopeType/$Owner/packages/maven/$PackageName/versions/$versionId"
-
-            Invoke-RestMethod -Uri $deleteUrl -Method DELETE -Headers $headers -ErrorAction Stop
-            Write-Host "Deleted version $Version successfully"
-        } else {
-            Write-Host "No existing version $Version found"
         }
     } catch {
         if ($_.Exception.Response -and $_.Exception.Response.StatusCode.value__ -eq 404) {
             Write-Host "Package '$PackageName' not found yet - nothing to delete (first-time upload)"
         } else {
-            Write-Host "Failed to check or delete old version:"
-            Write-Host $_.Exception.Message
-            if ($_.ErrorDetails.Message) {
-                Write-Host $_.ErrorDetails.Message
-            }
-            exit 1
+            throw
         }
+    }
+
+    if ($versionId) {
+        Write-Host "Found existing version ID $versionId - deleting..."
+        $deleteUrl = "$baseApiUrl/$ScopeType/$Owner/packages/maven/$PackageName/versions/$versionId"
+
+        Invoke-RestMethod -Uri $deleteUrl -Method DELETE -Headers $headers -ErrorAction Stop
+        Write-Host "Deleted version $Version successfully"
+    } else {
+        Write-Host "No existing version $Version found"
     }
 }
 
 $url = "https://maven.pkg.github.com/$Owner/$Repo/$PackageName/$Version/$(Split-Path $FilePath -Leaf)"
 
-try {
-    $response = Invoke-RestMethod `
-      -Uri $url `
-      -Method Put `
-      -Headers @{
+Write-Host "Uploading file..."
+
+$response = Invoke-RestMethod `
+    -Uri $url `
+    -Method Put `
+    -Headers @{
         "Authorization" = "Bearer $GithubToken"
         "Content-Type"  = "application/octet-stream"
-      } `
-      -InFile $FilePath `
-      -ErrorAction Stop
+    } `
+    -InFile $FilePath `
+    -ErrorAction Stop
 
-    Write-Host "Successfully uploaded to GitHub Packages"
-} catch {
-    Write-Host "Upload failed:"
-    Write-Host $_.Exception.Message
-    if ($_.ErrorDetails.Message) { Write-Host $_.ErrorDetails.Message }
-    exit 1
-}
+Write-Host "Successfully uploaded to GitHub Packages"
