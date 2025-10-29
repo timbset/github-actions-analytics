@@ -54,16 +54,19 @@ if ($Force) {
 $file = "test-extension-$Version.vsix" # TODO: use from param
 $url = "https://maven.pkg.github.com/$Owner/$PackageName/$Version/$file"
 
+Write-Host $url
+Write-Host $file
+
 try {
     $response = Invoke-RestMethod `
-              -Uri $url `
-              -Method Put `
-              -Headers @{
-                "Authorization" = "Bearer $GithubToken"
-                "Content-Type"  = "application/octet-stream"
-              } `
-              -InFile $file `
-              -ErrorAction Stop
+      -Uri $url `
+      -Method Put `
+      -Headers @{
+        "Authorization" = "Bearer $GithubToken"
+        "Content-Type"  = "application/octet-stream"
+      } `
+      -InFile $file `
+      -ErrorAction Stop
 
     Write-Host "Successfully uploaded to GitHub Packages"
 } catch {
