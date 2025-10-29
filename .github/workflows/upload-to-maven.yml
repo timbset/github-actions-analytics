@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Create test VSIX
         run: |
-          echo "Test VSIX content - $(date)" > test-extension-${{ inputs.logLevel }}.vsix
+          echo "Test VSIX content - $(date)" > test-extension-${{ inputs.version }}.vsix
       - name: Unpublish version if exits
         shell: pwsh
         run: |
@@ -35,7 +35,7 @@ jobs:
 
               Write-Host $versions
           
-              $versionObj = $versions | Where-Object { $_.name -eq "${{ inputs.logLevel }}" }
+              $versionObj = $versions | Where-Object { $_.name -eq "${{ inputs.version }}" }
           
               if ($versionObj) {
                   $versionId = $versionObj.id
@@ -58,8 +58,8 @@ jobs:
         run: |
           $token = "${{ secrets.GITHUB_TOKEN }}"
           $repo = "${{ github.repository }}"
-          $file = "test-extension-${{ inputs.logLevel }}.vsix"
-          $url = "https://maven.pkg.github.com/$repo/test-extension/${{ inputs.logLevel }}/$file"
+          $file = "test-extension-${{ inputs.version }}.vsix"
+          $url = "https://maven.pkg.github.com/$repo/test-extension/${{ inputs.version }}/$file"
 
           try {
             $response = Invoke-RestMethod `
