@@ -1,0 +1,25 @@
+name: Upload file to maven
+ 
+on:
+  workflow_dispatch:
+ 
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    steps:
+      - name: Create test VSIX
+        run: |
+          echo "Test VSIX content - $(date)" > test-extension-1.0.0.vsix
+      - name: Upload to GitHub Packages
+        run: |
+          curl -X PUT \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Content-Type: application/octet-stream" \
+            --data-binary @"test-extension-1.0.0.vsix" \
+            "https://maven.pkg.github.com/${{ github.repository }}/test-extension/1.0.0/test-extension-1.0.0.vsix"
+      - name: Verify upload
+        run: |
+          echo "✅ Package uploaded!"
+          echo "View at: https://github.com/${{ github.repository_owner }}?tab=packages"
