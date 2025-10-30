@@ -25,7 +25,7 @@ $headers = @{
 if ($Force) {
     Write-Host "Looking for existing version"
 
-    $versionId
+    $versionId = $null
 
     try {
         $versionsUrl = "$baseApiUrl/$ScopeType/$Owner/packages/maven/$PackageName/versions"
