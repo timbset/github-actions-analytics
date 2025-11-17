@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"16.11.25, 02:39:07",55503686066,19399152407,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19399152407/job/55503686066
 "15.11.25, 02:35:30",55465353251,19383103063,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19383103063/job/55465353251
 "15.11.25, 20:10:19",55493680747,19394812042,1,Demos Visual Tests,Lint code base,25_2_check_angular_21_in_demos_v2,failure,Run lint on all demos,https://github.com/DevExpress/DevExtreme/actions/runs/19394812042/job/55493680747
 "15.11.25, 20:10:19",55493680765,19394812042,1,Demos Visual Tests,jquery(4/4)-screenshots-fluent.blue.light,25_2_check_angular_21_in_demos_v2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/19394812042/job/55493680765
@@ -8016,5 +8017,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "10.11.25, 08:16:06",54950420275,19225036832,1,Wrappers E2E Tests,Test ${{ matrix.framework }},dg_25_2_ai_column_jquery_demo,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/19225036832/job/54950420275
 "10.11.25, 07:57:02",54949081596,19224656140,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,dg_25_2_ai_column_jquery_demo,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/19224656140/job/54949081596
 "10.11.25, 07:58:10",54949148306,19224656140,1,Wrappers E2E Tests,Test ${{ matrix.framework }},dg_25_2_ai_column_jquery_demo,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/19224656140/job/54949148306
-"09.11.25, 02:37:56",54891710653,19202163884,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19202163884/job/54891710653
-"09.11.25, 19:53:40",54919557878,19213404245,1,Publishing to GitHub Packages,Publish package (devextreme-vue-23.2.14-build-25313-1934),23_2,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/19213404245/job/54919557878
