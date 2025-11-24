@@ -1,4 +1,8 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"23.11.25, 02:45:12",56141593151,19604769113,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19604769113/job/56141593151
+"23.11.25, 21:30:44",56172439732,19617416697,1,Demos Visual Tests,jquery(1/3)-screenshots-fluent.blue.light,khd/deps-audit,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/19617416697/job/56172439732
+"23.11.25, 21:30:44",56172439745,19617416697,1,Demos Visual Tests,jquery(2/3)-screenshots-fluent.blue.light,khd/deps-audit,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/19617416697/job/56172439745
+"23.11.25, 21:30:44",56172439746,19617416697,1,Demos Visual Tests,jquery(3/3)-screenshots-fluent.blue.light,khd/deps-audit,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/19617416697/job/56172439746
 "22.11.25, 02:34:41",56103425958,19588952934,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19588952934/job/56103425958
 "22.11.25, 14:00:21",56121859732,19596456170,1,Demos Visual Tests,jquery(3/3)-screenshots-fluent.blue.light,datagrid_ai_column_add_editing_tests_25_2,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/19596456170/job/56121859732
 "22.11.25, 14:00:21",56121859738,19596456170,1,Demos Visual Tests,jquery(2/3)-screenshots-fluent.blue.light,datagrid_ai_column_add_editing_tests_25_2,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/19596456170/job/56121859738
@@ -4763,4 +4767,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "17.11.25, 07:05:52",55558940950,19420980498,1,Wrappers E2E Tests,Test angular19,v2_2682_25_2,cancelled,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/19420980498/job/55558940950
 "17.11.25, 07:05:52",55558940959,19420980498,1,Wrappers E2E Tests,Test react19,v2_2682_25_2,cancelled,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/19420980498/job/55558940959
 "17.11.25, 07:05:52",55558940964,19420980498,1,Wrappers E2E Tests,Test vue3,v2_2682_25_2,cancelled,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/19420980498/job/55558940964
-"16.11.25, 02:39:07",55503686066,19399152407,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19399152407/job/55503686066
