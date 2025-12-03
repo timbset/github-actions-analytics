@@ -1,4 +1,9 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"02.12.25, 17:09:40",56932782777,19867099910,1,Build aspnet demos,Build aspnet demos,renovate/23_2-npm-express-vulnerability,failure,Clone devextreme-aspnet repo,https://github.com/DevExpress/devextreme-demos/actions/runs/19867099910/job/56932782777
+"02.12.25, 17:09:58",56932816531,19867109850,1,Visual Tests,Build DevExtreme,renovate/23_1-npm-express-vulnerability,failure,Set up job,https://github.com/DevExpress/devextreme-demos/actions/runs/19867109850/job/56932816531
+"02.12.25, 17:09:40",56932782929,19867099929,1,Visual Tests,Build DevExtreme,renovate/23_2-npm-express-vulnerability,failure,Set up job,https://github.com/DevExpress/devextreme-demos/actions/runs/19867099929/job/56932782929
+"02.12.25, 17:10:00",56932819813,19867109857,1,Frameworks,Build DevExtreme,renovate/23_1-npm-express-vulnerability,failure,Set up job,https://github.com/DevExpress/devextreme-demos/actions/runs/19867109857/job/56932819813
+"02.12.25, 17:09:40",56932782846,19867099945,1,Frameworks,Build DevExtreme,renovate/23_2-npm-express-vulnerability,failure,Set up job,https://github.com/DevExpress/devextreme-demos/actions/runs/19867099945/job/56932782846
 "01.12.25, 20:32:39",56835288024,19836606039,1,Build aspnet demos,Build aspnet demos,renovate/23_2-npm-express-vulnerability,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/19836606039/job/56835288024
 "01.12.25, 10:56:31",56780600036,19820206599,1,Build aspnet demos,Build aspnet demos,renovate/23_2-npm-glob-vulnerability,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/19820206599/job/56780600036
 "01.12.25, 10:56:26",56780592676,19820204541,1,Build aspnet demos,Build aspnet demos,renovate/23_2-npm-glob-vulnerability,cancelled,,https://github.com/DevExpress/devextreme-demos/actions/runs/19820204541/job/56780592676
