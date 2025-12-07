@@ -1,4 +1,8 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"06.12.25, 02:36:32",57309023168,19981642341,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19981642341/job/57309023168
+"06.12.25, 20:09:58",57338005672,19993649417,1,Default Workflow,main,cherry-pick/24-2-store-losing-type,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/19993649417/job/57338005672
+"06.12.25, 20:27:38",57338467591,19993655244,1,Demos Visual Tests,vue(5/5)-screenshots-fluent.blue.light,cherry-pick/25-1-store-losing-type,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/19993655244/job/57338467591
+"06.12.25, 20:16:04",57338170534,19993649422,1,TestCafe tests,dataGrid / sticky (3/3),cherry-pick/24-2-store-losing-type,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/19993649422/job/57338170534
 "05.12.25, 02:39:17",57210231966,19950845205,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19950845205/job/57210231966
 "05.12.25, 20:36:29",57289921486,19975308120,1,Build and pack DevExtreme npm packages,build,25_2_2850-simple,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/19975308120/job/57289921486
 "05.12.25, 15:09:58",57261890663,19967151244,1,Build and pack DevExtreme npm packages,build,25_2_2850-simple,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/19967151244/job/57261890663
@@ -1882,4 +1886,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "01.12.25, 06:08:40",56759022261,19813086070,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,fix/react-ref-option-changed,cancelled,Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/19813086070/job/56759022261
 "01.12.25, 06:09:11",56759052848,19813086070,1,Wrappers E2E Tests,Test ${{ matrix.framework }},fix/react-ref-option-changed,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/19813086070/job/56759052848
 "30.11.25, 02:44:16",56708273994,19792746821,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19792746821/job/56708273994
-"29.11.25, 02:36:50",56673069085,19777778451,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19777778451/job/56673069085
