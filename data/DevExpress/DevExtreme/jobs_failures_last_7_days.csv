@@ -1,4 +1,18 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"14.12.25, 02:46:09",57993575444,20201545325,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20201545325/job/57993575444
+"14.12.25, 13:43:23",58011637567,20208821166,1,QUnit tests,ui-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637567
+"14.12.25, 13:43:23",58011637568,20208821166,1,QUnit tests,ui.widgets-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637568
+"14.12.25, 13:43:23",58011637575,20208821166,1,QUnit tests,ui.editors-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637575
+"14.12.25, 13:43:23",58011637577,20208821166,1,QUnit tests,ui.scheduler-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637577
+"14.12.25, 13:43:23",58011637578,20208821166,1,QUnit tests,ui.grid-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637578
+"14.12.25, 13:43:23",58011637579,20208821166,1,QUnit tests,Constel ui.grid,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637579
+"14.12.25, 13:43:23",58011637580,20208821166,1,QUnit tests,Constel ui,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637580
+"14.12.25, 13:43:23",58011637585,20208821166,1,QUnit tests,Constel ui.scheduler,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637585
+"14.12.25, 13:43:23",58011637586,20208821166,1,QUnit tests,Constel misc,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637586
+"14.12.25, 13:43:23",58011637589,20208821166,1,QUnit tests,Constel ui.editors,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637589
+"14.12.25, 13:43:23",58011637591,20208821166,1,QUnit tests,Constel export,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637591
+"14.12.25, 13:43:23",58011637593,20208821166,1,QUnit tests,Constel ui.scheduler-US/Pacific,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637593
+"14.12.25, 13:44:11",58011660923,20208821169,1,TestCafe tests,cardView - fluent,25_2-recover-ext-config-api,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821169/job/58011660923
 "13.12.25, 02:38:26",57954557322,20185504683,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20185504683/job/57954557322
 "13.12.25, 20:12:49",57983061596,20197222102,1,QUnit tests,ui-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20197222102/job/57983061596
 "13.12.25, 20:12:49",57983061597,20197222102,1,QUnit tests,ui.grid-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20197222102/job/57983061597
@@ -2160,4 +2174,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "08.12.25, 08:26:44",57409295332,20021389963,1,Wrappers E2E Tests,Test ${{ matrix.framework }},issue-2938,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/20021389963/job/57409295332
 "08.12.25, 08:16:03",57408481609,20021263986,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,issue-2938,cancelled,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/20021263986/job/57408481609
 "08.12.25, 08:21:14",57408877750,20021263986,1,Wrappers E2E Tests,Test ${{ matrix.framework }},issue-2938,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/20021263986/job/57408877750
-"07.12.25, 02:44:44",57348273343,19997856308,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/19997856308/job/57348273343

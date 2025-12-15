@@ -1,0 +1,15 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"14.12.25, 02:46:09",57993575444,20201545325,1,Send dependabot new vulnerability alerts,Send notifications,25_2,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20201545325/job/57993575444
+"14.12.25, 13:43:23",58011637567,20208821166,1,QUnit tests,ui-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637567
+"14.12.25, 13:43:23",58011637568,20208821166,1,QUnit tests,ui.widgets-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637568
+"14.12.25, 13:43:23",58011637575,20208821166,1,QUnit tests,ui.editors-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637575
+"14.12.25, 13:43:23",58011637577,20208821166,1,QUnit tests,ui.scheduler-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637577
+"14.12.25, 13:43:23",58011637578,20208821166,1,QUnit tests,ui.grid-shadow-dom,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637578
+"14.12.25, 13:43:23",58011637579,20208821166,1,QUnit tests,Constel ui.grid,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637579
+"14.12.25, 13:43:23",58011637580,20208821166,1,QUnit tests,Constel ui,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637580
+"14.12.25, 13:43:23",58011637585,20208821166,1,QUnit tests,Constel ui.scheduler,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637585
+"14.12.25, 13:43:23",58011637586,20208821166,1,QUnit tests,Constel misc,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637586
+"14.12.25, 13:43:23",58011637589,20208821166,1,QUnit tests,Constel ui.editors,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637589
+"14.12.25, 13:43:23",58011637591,20208821166,1,QUnit tests,Constel export,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637591
+"14.12.25, 13:43:23",58011637593,20208821166,1,QUnit tests,Constel ui.scheduler-US/Pacific,25_2-recover-ext-config-api,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821166/job/58011637593
+"14.12.25, 13:44:11",58011660923,20208821169,1,TestCafe tests,cardView - fluent,25_2-recover-ext-config-api,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/20208821169/job/58011660923
