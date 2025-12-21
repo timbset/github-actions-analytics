@@ -1,4 +1,73 @@
 date,workflow name,job name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2025-12-20,Send dependabot new vulnerability alerts,Fetch analysis,1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963",0,0,0,0,0,0,0,0
+2025-12-20,Send dependabot new vulnerability alerts,Send notifications,0,1,0,0,0,"0,0002314814815","0,0002314814815","0,0002314814815",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL,Analyze (javascript),2,0,0,0,0,"0,006134259259","0,007575231481","0,009016203704",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL,Analyze (csharp),2,0,0,0,0,"0,001331018519","0,001377314815","0,001423611111",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL,Fetch analysis,5,0,0,0,0,"0,00002314814815","0,00003240740741","0,0000462962963",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL,Send notifications,5,0,0,0,0,"0,00005787037037","0,00007407407407","0,0001273148148",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL,Analyze C#,3,0,0,0,0,"0,001261574074","0,001489197531","0,00162037037",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL,Analyze JavaScript,3,0,0,0,0,"0,01020833333","0,0109992284","0,01170138889",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL (scheduler),Run CodeQL workflow (23_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL (scheduler),Run CodeQL workflow (25_1),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL (scheduler),Run CodeQL workflow (25_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL (scheduler),Run CodeQL workflow (24_1),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
+2025-12-20,CodeQL (scheduler),Run CodeQL workflow (24_2),1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Build packages,5,0,0,0,0,"0,01445601852","0,01887037037","0,02296296296",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-24.1.16-build-25354-1936),1,0,0,0,0,"0,002037037037","0,002037037037","0,002037037037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.1.16-build-25354-1936),1,0,0,0,0,"0,002118055556","0,002118055556","0,002118055556",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-vue-24.1.16-build-25354-1936),1,0,0,0,0,"0,001921296296","0,001921296296","0,001921296296",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.1.16-build-25354-1936),1,0,0,0,0,"0,001863425926","0,001863425926","0,001863425926",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-24.1.16-build-25354-1936),1,0,0,0,0,"0,001875","0,001875","0,001875",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-angular-24.1.16-build-25354-1936),1,0,0,0,0,"0,001979166667","0,001979166667","0,001979166667",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-react-24.1.16-build-25354-1936),1,0,0,0,0,"0,001759259259","0,001759259259","0,001759259259",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-internal-24.1.16-build-25354-1936),1,0,0,0,0,"0,00193287037","0,00193287037","0,00193287037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.1.16-build-25354-1936),1,0,0,0,0,"0,001956018519","0,001956018519","0,001956018519",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.1.16-build-25354-1936),1,0,0,0,0,"0,001828703704","0,001828703704","0,001828703704",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Send notifications,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-artifacts-23.2.15-build-25354-1934),1,0,0,0,0,"0,001400462963","0,001400462963","0,001400462963",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-angular-23.2.15-build-25354-1934),1,0,0,0,0,"0,001527777778","0,001527777778","0,001527777778",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-internal-23.2.15-build-25354-1934),1,0,0,0,0,"0,001458333333","0,001458333333","0,001458333333",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-23.2.15-build-25354-1934),1,0,0,0,0,"0,001412037037","0,001412037037","0,001412037037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-23.2.15-build-25354-1934),1,0,0,0,0,"0,001354166667","0,001354166667","0,001354166667",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-23.2.15-build-25354-1934),1,0,0,0,0,"0,001400462963","0,001400462963","0,001400462963",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-23.2.15-build-25354-1934),1,0,0,0,0,"0,001412037037","0,001412037037","0,001412037037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-react-23.2.15-build-25354-1934),1,0,0,0,0,"0,001273148148","0,001273148148","0,001273148148",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-vue-23.2.15-build-25354-1934),1,0,0,0,0,"0,0015625","0,0015625","0,0015625",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-angular-24.2.13-build-25354-1935),1,0,0,0,0,"0,0005439814815","0,0005439814815","0,0005439814815",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-internal-24.2.13-build-25354-1935),1,0,0,0,0,"0,0006481481481","0,0006481481481","0,0006481481481",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-24.2.13-build-25354-1935),1,0,0,0,0,"0,0005671296296","0,0005671296296","0,0005671296296",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-vue-24.2.13-build-25354-1935),1,0,0,0,0,"0,0004861111111","0,0004861111111","0,0004861111111",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-24.2.13-build-25354-1935),1,0,0,0,0,"0,0006597222222","0,0006597222222","0,0006597222222",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.2.13-build-25354-1935),1,0,0,0,0,"0,0005439814815","0,0005439814815","0,0005439814815",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-react-24.2.13-build-25354-1935),1,0,0,0,0,"0,000474537037","0,000474537037","0,000474537037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.2.13-build-25354-1935),1,0,0,0,0,"0,0005092592593","0,0005092592593","0,0005092592593",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.2.13-build-25354-1935),1,0,0,0,0,"0,0005671296296","0,0005671296296","0,0005671296296",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.2.13-build-25354-1935),1,0,0,0,0,"0,0005092592593","0,0005092592593","0,0005092592593",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-25.1.8-build-25354-1935),1,0,0,0,0,"0,0009490740741","0,0009490740741","0,0009490740741",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.1.8-build-25354-1935),1,0,0,0,0,"0,0008101851852","0,0008101851852","0,0008101851852",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-25.1.8-build-25354-1935),1,0,0,0,0,"0,0009837962963","0,0009837962963","0,0009837962963",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.1.8-build-25354-1935),1,0,0,0,0,"0,0009027777778","0,0009027777778","0,0009027777778",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-internal-25.1.8-build-25354-1935),1,0,0,0,0,"0,0009375","0,0009375","0,0009375",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-react-25.1.8-build-25354-1935),1,0,0,0,0,"0,0008680555556","0,0008680555556","0,0008680555556",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.1.8-build-25354-1935),1,0,0,0,0,"0,0008449074074","0,0008449074074","0,0008449074074",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.1.8-build-25354-1935),1,0,0,0,0,"0,000787037037","0,000787037037","0,000787037037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-angular-25.1.8-build-25354-1935),1,0,0,0,0,"0,001006944444","0,001006944444","0,001006944444",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-vue-25.1.8-build-25354-1935),1,0,0,0,0,"0,0007986111111","0,0007986111111","0,0007986111111",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.2.4-build-25354-1935),1,0,0,0,0,"0,0009837962963","0,0009837962963","0,0009837962963",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-angular-25.2.4-build-25354-1935),1,0,0,0,0,"0,0009490740741","0,0009490740741","0,0009490740741",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.2.4-build-25354-1935),1,0,0,0,0,"0,0008796296296","0,0008796296296","0,0008796296296",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.2.4-build-25354-1935),1,0,0,0,0,"0,0009606481481","0,0009606481481","0,0009606481481",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.2.4-build-25354-1935),1,0,0,0,0,"0,0008449074074","0,0008449074074","0,0008449074074",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-dist-25.2.4-build-25354-1935),1,0,0,0,0,"0,0009490740741","0,0009490740741","0,0009490740741",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-internal-25.2.4-build-25354-1935),1,0,0,0,0,"0,001111111111","0,001111111111","0,001111111111",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-vue-25.2.4-build-25354-1935),1,0,0,0,0,"0,0009027777778","0,0009027777778","0,0009027777778",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-react-25.2.4-build-25354-1935),1,0,0,0,0,"0,0008101851852","0,0008101851852","0,0008101851852",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages,Publish package (devextreme-25.2.4-build-25354-1935),1,0,0,0,0,"0,001087962963","0,001087962963","0,001087962963",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (23_2),1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_1),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_2),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
+2025-12-20,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_1),1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259",0,0,0,0,0,0,0,0
 2025-12-19,Send dependabot new vulnerability alerts,Fetch analysis,1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963",0,0,0,0,0,0,0,0
 2025-12-19,Send dependabot new vulnerability alerts,Send notifications,0,1,0,0,0,"0,0002546296296","0,0002546296296","0,0002546296296",0,0,0,0,0,0,0,0
 2025-12-19,Build and pack DevExtreme npm packages,build,9,0,0,0,0,"0,004930555556","0,008032407407","0,01971064815",25,0,0,0,0,"0,004421296296","0,006799074074","0,01494212963"
@@ -2301,182 +2370,3 @@ date,workflow name,job name,main success runs,main failure runs,main cancelled r
 2025-12-14,Wrappers E2E Tests,Test react19,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002476851852","0,002476851852","0,002476851852"
 2025-12-14,Wrappers E2E Tests,Test angular19,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001203703704","0,001203703704","0,001203703704"
 2025-12-14,Wrappers E2E Tests,Test vue3,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001342592593","0,001342592593","0,001342592593"
-2025-12-13,Send dependabot new vulnerability alerts,Fetch analysis,1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222",0,0,0,0,0,0,0,0
-2025-12-13,Send dependabot new vulnerability alerts,Send notifications,0,1,0,0,0,"0,0002083333333","0,0002083333333","0,0002083333333",0,0,0,0,0,0,0,0
-2025-12-13,Build and pack DevExtreme npm packages,build,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,005532407407","0,007789351852","0,0122337963"
-2025-12-13,Build and pack DevExtreme npm packages,custom_bundles,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001238425926","0,001257716049","0,001273148148"
-2025-12-13,CodeQL,Analyze JavaScript,3,0,0,0,0,"0,01032407407","0,01080246914","0,01141203704",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL,Analyze C#,3,0,0,0,0,"0,00130787037","0,001342592593","0,001388888889",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL,Fetch analysis,5,0,0,0,0,"0,00002314814815","0,00003009259259","0,00003472222222",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL,Send notifications,5,0,0,0,0,"0,0000462962963","0,00005787037037","0,00006944444444",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL,Analyze (csharp),2,0,0,0,0,"0,001354166667","0,001388888889","0,001423611111",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL,Analyze (javascript),2,0,0,0,0,"0,006261574074","0,007372685185","0,008483796296",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL (scheduler),Run CodeQL workflow (24_2),1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL (scheduler),Run CodeQL workflow (24_1),1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL (scheduler),Run CodeQL workflow (25_1),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL (scheduler),Run CodeQL workflow (25_2),1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852",0,0,0,0,0,0,0,0
-2025-12-13,CodeQL (scheduler),Run CodeQL workflow (23_2),1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963",0,0,0,0,0,0,0,0
-2025-12-13,Default Workflow,main,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001898148148","0,002816358025","0,004456018519"
-2025-12-13,Demos unit tests,Check if tests should run,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00002314814815","0,00003086419753","0,00003472222222"
-2025-12-13,Demos unit tests,Run unit tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0009375","0,0009837962963","0,001053240741"
-2025-12-13,Demos Visual Tests,Check if tests should run,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00002314814815","0,00002700617284","0,00003472222222"
-2025-12-13,Demos Visual Tests,Get changed demos,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,000162037037","0,0001851851852","0,0002083333333"
-2025-12-13,Demos Visual Tests,Determine scope for framework tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00002314814815","0,00003086419753","0,0000462962963"
-2025-12-13,Demos Visual Tests,Build DevExtreme,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001527777778","0,0059375","0,01313657407"
-2025-12-13,Demos Visual Tests,Lint code base,0,0,0,0,0,0,0,0,1,0,0,2,0,"0,004733796296","0,001577932099","0,004733796296"
-2025-12-13,Demos Visual Tests,jquery(1/3)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001145833333","0,003024691358","0,006759259259"
-2025-12-13,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00125","0,002264660494","0,004270833333"
-2025-12-13,Demos Visual Tests,jquery(1/3)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001423611111","0,002604166667","0,004074074074"
-2025-12-13,Demos Visual Tests,jquery-accessibility-fluent.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001145833333","0,001894290123","0,003368055556"
-2025-12-13,Demos Visual Tests,jquery(2/3)-screenshots-material.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001168981481","0,002214506173","0,004189814815"
-2025-12-13,Demos Visual Tests,Check TS,0,0,0,0,0,0,0,0,1,0,0,2,0,"0,001550925926","0,0005169753086","0,001550925926"
-2025-12-13,Demos Visual Tests,jquery(3/3)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001215277778","0,002079475309","0,003784722222"
-2025-12-13,Demos Visual Tests,jquery-accessibility-material.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001296296296","0,002268518519","0,003136574074"
-2025-12-13,Demos Visual Tests,jquery(2/3)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00130787037","0,002179783951","0,003888888889"
-2025-12-13,Demos Visual Tests,Check generated demos,0,0,0,0,0,0,0,0,1,0,0,2,0,"0,001747685185","0,0005825617284","0,001747685185"
-2025-12-13,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},0,0,0,0,0,0,0,0,0,0,0,5,0,0,"-0,000002314814815",0
-2025-12-13,Demos Visual Tests,Build Demos Bundles,0,0,0,0,0,0,0,0,1,0,0,2,0,"0,005462962963","0,001820987654","0,005462962963"
-2025-12-13,Demos Visual Tests,merge-artifacts,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,000003858024691",0
-2025-12-13,Demos Visual Tests,react(3/3)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005266203704","0,005266203704","0,005266203704"
-2025-12-13,Demos Visual Tests,react(2/3)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005173611111","0,005173611111","0,005173611111"
-2025-12-13,Demos Visual Tests,angular(3/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006481481481","0,006481481481","0,006481481481"
-2025-12-13,Demos Visual Tests,vue(5/5)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006597222222","0,006597222222","0,006597222222"
-2025-12-13,Demos Visual Tests,angular(2/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007361111111","0,007361111111","0,007361111111"
-2025-12-13,Demos Visual Tests,vue(1/5)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006261574074","0,006261574074","0,006261574074"
-2025-12-13,Demos Visual Tests,vue(2/5)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00662037037","0,00662037037","0,00662037037"
-2025-12-13,Demos Visual Tests,vue(3/5)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007604166667","0,007604166667","0,007604166667"
-2025-12-13,Demos Visual Tests,react(1/3)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005069444444","0,005069444444","0,005069444444"
-2025-12-13,Demos Visual Tests,angular(4/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007013888889","0,007013888889","0,007013888889"
-2025-12-13,Demos Visual Tests,angular(1/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006631944444","0,006631944444","0,006631944444"
-2025-12-13,Demos Visual Tests,angular(6/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006886574074","0,006886574074","0,006886574074"
-2025-12-13,Demos Visual Tests,vue(4/5)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006354166667","0,006354166667","0,006354166667"
-2025-12-13,Demos Visual Tests,angular(7/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007928240741","0,007928240741","0,007928240741"
-2025-12-13,Demos Visual Tests,angular(9/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007407407407","0,007407407407","0,007407407407"
-2025-12-13,Demos Visual Tests,angular(8/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006643518519","0,006643518519","0,006643518519"
-2025-12-13,Demos Visual Tests,angular(10/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01775462963","0,01775462963","0,01775462963"
-2025-12-13,Demos Visual Tests,angular(5/10)-screenshots-fluent.blue.light,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,008333333333","0,008333333333","0,008333333333"
-2025-12-13,Lint,JS,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001365740741","0,002461419753","0,004652777778"
-2025-12-13,Lint,wrappers,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001203703704","0,00130787037","0,001365740741"
-2025-12-13,Lint,TS,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001597222222","0,003483796296","0,006053240741"
-2025-12-13,Lint,component_exports,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0009027777778","0,001365740741","0,002083333333"
-2025-12-13,Lint,texts,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001087962963","0,00111882716","0,001134259259"
-2025-12-13,Lint,Send notifications,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Build packages,5,0,0,0,0,"0,01475694444","0,02007407407","0,02862268519",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-angular-24.1.16-build-25347-1936),1,0,0,0,0,"0,001944444444","0,001944444444","0,001944444444",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-internal-24.1.16-build-25347-1936),1,0,0,0,0,"0,001898148148","0,001898148148","0,001898148148",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-24.1.16-build-25347-1936),1,0,0,0,0,"0,001979166667","0,001979166667","0,001979166667",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-vue-24.1.16-build-25347-1936),1,0,0,0,0,"0,00193287037","0,00193287037","0,00193287037",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-24.1.16-build-25347-1936),1,0,0,0,0,"0,001793981481","0,001793981481","0,001793981481",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.1.16-build-25347-1936),1,0,0,0,0,"0,001851851852","0,001851851852","0,001851851852",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.1.16-build-25347-1936),1,0,0,0,0,"0,001759259259","0,001759259259","0,001759259259",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.1.16-build-25347-1936),1,0,0,0,0,"0,002060185185","0,002060185185","0,002060185185",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-react-24.1.16-build-25347-1936),1,0,0,0,0,"0,001840277778","0,001840277778","0,001840277778",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.1.16-build-25347-1936),1,0,0,0,0,"0,001898148148","0,001898148148","0,001898148148",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Send notifications,0,0,0,5,0,0,"-0,00000462962963",0,0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-25.2.4-build-25347-1936),1,0,0,0,0,"0,001099537037","0,001099537037","0,001099537037",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-25.2.4-build-25347-1936),1,0,0,0,0,"0,0009259259259","0,0009259259259","0,0009259259259",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-angular-25.2.4-build-25347-1936),1,0,0,0,0,"0,001018518519","0,001018518519","0,001018518519",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.2.4-build-25347-1936),1,0,0,0,0,"0,0007407407407","0,0007407407407","0,0007407407407",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.2.4-build-25347-1936),1,0,0,0,0,"0,0009143518519","0,0009143518519","0,0009143518519",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-internal-25.2.4-build-25347-1936),1,0,0,0,0,"0,001064814815","0,001064814815","0,001064814815",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-react-25.2.4-build-25347-1936),1,0,0,0,0,"0,0009259259259","0,0009259259259","0,0009259259259",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.2.4-build-25347-1936),1,0,0,0,0,"0,0009027777778","0,0009027777778","0,0009027777778",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.2.4-build-25347-1936),1,0,0,0,0,"0,0007638888889","0,0007638888889","0,0007638888889",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-vue-25.2.4-build-25347-1936),1,0,0,0,0,"0,0008101851852","0,0008101851852","0,0008101851852",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-23.2.15-build-25347-1934),1,0,0,0,0,"0,001516203704","0,001516203704","0,001516203704",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-internal-23.2.15-build-25347-1934),1,0,0,0,0,"0,001701388889","0,001701388889","0,001701388889",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-angular-23.2.15-build-25347-1934),1,0,0,0,0,"0,001481481481","0,001481481481","0,001481481481",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-23.2.15-build-25347-1934),1,0,0,0,0,"0,001574074074","0,001574074074","0,001574074074",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-23.2.15-build-25347-1934),1,0,0,0,0,"0,001550925926","0,001550925926","0,001550925926",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-23.2.15-build-25347-1934),1,0,0,0,0,"0,001550925926","0,001550925926","0,001550925926",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-vue-23.2.15-build-25347-1934),1,0,0,0,0,"0,001516203704","0,001516203704","0,001516203704",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-artifacts-23.2.15-build-25347-1934),1,0,0,0,0,"0,001643518519","0,001643518519","0,001643518519",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-react-23.2.15-build-25347-1934),1,0,0,0,0,"0,001469907407","0,001469907407","0,001469907407",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-24.2.13-build-25347-1937),1,0,0,0,0,"0,0006134259259","0,0006134259259","0,0006134259259",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.2.13-build-25347-1937),1,0,0,0,0,"0,0004398148148","0,0004398148148","0,0004398148148",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-vue-24.2.13-build-25347-1937),1,0,0,0,0,"0,0004398148148","0,0004398148148","0,0004398148148",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-internal-24.2.13-build-25347-1937),1,0,0,0,0,"0,0007060185185","0,0007060185185","0,0007060185185",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.2.13-build-25347-1937),1,0,0,0,0,"0,0005439814815","0,0005439814815","0,0005439814815",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-24.2.13-build-25347-1937),1,0,0,0,0,"0,0004166666667","0,0004166666667","0,0004166666667",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-react-24.2.13-build-25347-1937),1,0,0,0,0,"0,0004398148148","0,0004398148148","0,0004398148148",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.2.13-build-25347-1937),1,0,0,0,0,"0,000462962963","0,000462962963","0,000462962963",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.2.13-build-25347-1937),1,0,0,0,0,"0,0005092592593","0,0005092592593","0,0005092592593",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-angular-24.2.13-build-25347-1937),1,0,0,0,0,"0,0005208333333","0,0005208333333","0,0005208333333",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-25.1.8-build-25347-1935),1,0,0,0,0,"0,0008333333333","0,0008333333333","0,0008333333333",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.1.8-build-25347-1935),1,0,0,0,0,"0,0008217592593","0,0008217592593","0,0008217592593",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-vue-25.1.8-build-25347-1935),1,0,0,0,0,"0,0008912037037","0,0008912037037","0,0008912037037",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-internal-25.1.8-build-25347-1935),1,0,0,0,0,"0,001087962963","0,001087962963","0,001087962963",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-25.1.8-build-25347-1935),1,0,0,0,0,"0,001041666667","0,001041666667","0,001041666667",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.1.8-build-25347-1935),1,0,0,0,0,"0,0007523148148","0,0007523148148","0,0007523148148",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.1.8-build-25347-1935),1,0,0,0,0,"0,0008217592593","0,0008217592593","0,0008217592593",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-angular-25.1.8-build-25347-1935),1,0,0,0,0,"0,0007986111111","0,0007986111111","0,0007986111111",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-react-25.1.8-build-25347-1935),1,0,0,0,0,"0,0007638888889","0,0007638888889","0,0007638888889",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.1.8-build-25347-1935),1,0,0,0,0,"0,0008912037037","0,0008912037037","0,0008912037037",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (23_2),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_1),1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_2),1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444",0,0,0,0,0,0,0,0
-2025-12-13,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_1),1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852",0,0,0,0,0,0,0,0
-2025-12-13,Playgrounds tests,build,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001539351852","0,002291666667","0,00375"
-2025-12-13,Playgrounds tests,react,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001909722222","0,003159722222","0,004502314815"
-2025-12-13,Playgrounds tests,vue,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001643518519","0,00430941358","0,008263888889"
-2025-12-13,Playgrounds tests,angular,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001747685185","0,003217592593","0,005752314815"
-2025-12-13,QUnit tests,Build,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00119212963","0,002210648148","0,003020833333"
-2025-12-13,QUnit tests,Check if all tests should run,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00002314814815","0,00003472222222","0,0000462962963"
-2025-12-13,QUnit tests,ui-shadow-dom,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001643518519","0,002334104938","0,002777777778"
-2025-12-13,QUnit tests,ui.grid-shadow-dom,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001689814815","0,002530864198","0,003425925926"
-2025-12-13,QUnit tests,Constel misc,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001828703704","0,002889660494","0,003993055556"
-2025-12-13,QUnit tests,Constel ui.scheduler,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,00125","0,002079475309","0,00369212963"
-2025-12-13,QUnit tests,Constel ui.grid,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,00125","0,002029320988","0,003321759259"
-2025-12-13,QUnit tests,ui.widgets-shadow-dom,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001238425926","0,002650462963","0,004178240741"
-2025-12-13,QUnit tests,ui.editors-shadow-dom,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001238425926","0,002496141975","0,003715277778"
-2025-12-13,QUnit tests,Constel export,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001377314815","0,002415123457","0,004305555556"
-2025-12-13,QUnit tests,Constel ui,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001412037037","0,002337962963","0,002905092593"
-2025-12-13,QUnit tests,Constel ui.widgets-no-csp,0,0,0,0,0,0,0,0,2,0,1,0,0,"0,003900462963","0,005169753086","0,007326388889"
-2025-12-13,QUnit tests,Constel misc-no-csp,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,002824074074","0,004104938272","0,006631944444"
-2025-12-13,QUnit tests,ui.scheduler-shadow-dom,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,00125","0,002523148148","0,003773148148"
-2025-12-13,QUnit tests,Constel ui.scheduler-US/Pacific,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001261574074","0,002048611111","0,00337962963"
-2025-12-13,QUnit tests,Constel ui.editors,0,0,0,0,0,0,0,0,1,2,0,0,0,"0,001284722222","0,002071759259","0,003564814815"
-2025-12-13,QUnit tests,Send notifications,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0
-2025-12-13,Auto approve renovate bot PR,auto-approve,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00002314814815","0,00003086419753","0,00003472222222"
-2025-12-13,Renovation,jest-tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001064814815","0,002233796296","0,004456018519"
-2025-12-13,Renovation,Send notifications,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-2025-12-13,Styles tests,Tests,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0009606481481","0,001080246914","0,001168981481"
-2025-12-13,Styles tests,Send notifications,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-2025-12-13,TestCafe tests,Check if tests should run,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
-2025-12-13,TestCafe tests,Build DevExtreme,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001539351852","0,002750771605","0,005115740741"
-2025-12-13,TestCafe tests,common - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0028125","0,003989197531","0,006180555556"
-2025-12-13,TestCafe tests,cardView - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,003391203704","0,003491512346","0,00369212963"
-2025-12-13,TestCafe tests,material - compact,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001539351852","0,001682098765","0,00181712963"
-2025-12-13,TestCafe tests,material,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001701388889","0,001847993827","0,002118055556"
-2025-12-13,TestCafe tests,dataGrid (3/4) - fluent,0,0,0,0,0,0,0,0,2,0,1,0,0,"0,004606481481","0,005362654321","0,00681712963"
-2025-12-13,TestCafe tests,editors - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004826388889","0,004953703704","0,005023148148"
-2025-12-13,TestCafe tests,scheduler / common (1/3) - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004444444444","0,004710648148","0,004988425926"
-2025-12-13,TestCafe tests,accessibility - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,003958333333","0,005987654321","0,009872685185"
-2025-12-13,TestCafe tests,dataGrid (4/4) - fluent,0,0,0,0,0,0,0,0,2,0,1,0,0,"0,00494212963","0,005578703704","0,006840277778"
-2025-12-13,TestCafe tests,scheduler / viewOffset (2/2) - fluent,0,0,0,0,0,0,0,0,2,0,1,0,0,"0,004490740741","0,005351080247","0,006828703704"
-2025-12-13,TestCafe tests,scheduler / common (3/3) - fluent,0,0,0,0,0,0,0,0,2,0,1,0,0,"0,00431712963","0,005239197531","0,006828703704"
-2025-12-13,TestCafe tests,navigation - fluent,0,0,0,0,0,0,0,0,2,0,1,0,0,"0,003935185185","0,004984567901","0,006828703704"
-2025-12-13,TestCafe tests,generic,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001886574074","0,002233796296","0,00255787037"
-2025-12-13,TestCafe tests,scheduler / common (2/3) - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004641203704","0,008101851852","0,009918981481"
-2025-12-13,TestCafe tests,scheduler / timezones (Europe/Berlin) - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00162037037","0,001732253086","0,001793981481"
-2025-12-13,TestCafe tests,dataGrid (2/4) - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,005289351852","0,005300925926","0,0053125"
-2025-12-13,TestCafe tests,scheduler / viewOffset (1/2) - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004050925926","0,005702160494","0,008981481481"
-2025-12-13,TestCafe tests,scheduler / timezones (America/Los_Angeles) - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00181712963","0,003086419753","0,003761574074"
-2025-12-13,TestCafe tests,dataGrid (1/4) - fluent,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004513888889","0,004598765432","0,004733796296"
-2025-12-13,TestCafe tests,merge-artifacts,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00005787037037","0,00006944444444","0,00009259259259"
-2025-12-13,TestCafe tests,Send notifications,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"-0,000003858024691",0
-2025-12-13,Themebuilder and Styles tests,test,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,0028125","0,002885802469","0,002974537037"
-2025-12-13,Themebuilder and Styles tests,Send notifications,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-2025-12-13,TS Declarations,check-ts-bundle,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001064814815","0,001508487654","0,002268518519"
-2025-12-13,TS Declarations,validate-declarations,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001226851852","0,001257716049","0,001296296296"
-2025-12-13,TS Declarations,Send notifications,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,000003858024691",0
-2025-12-13,Wrappers Tests,build,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001226851852","0,002172067901","0,003912037037"
-2025-12-13,Wrappers Tests,check-regenerate,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001273148148","0,001354166667","0,001435185185"
-2025-12-13,Wrappers Tests,test (vue),0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00125","0,00231867284","0,004293981481"
-2025-12-13,Wrappers Tests,test (react),0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001365740741","0,002762345679","0,00412037037"
-2025-12-13,Wrappers Tests,test (angular),0,0,0,0,0,0,0,0,3,0,0,0,0,"0,004166666667","0,006766975309","0,009594907407"
-2025-12-13,Wrappers E2E Tests,Build DevExtreme and Wrappers,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,003136574074","0,00431712963","0,006608796296"
-2025-12-13,Wrappers E2E Tests,Test vue3,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,00125","0,001296296296","0,001319444444"
-2025-12-13,Wrappers E2E Tests,Test angular19,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001284722222","0,001377314815","0,001458333333"
-2025-12-13,Wrappers E2E Tests,Test react19,0,0,0,0,0,0,0,0,3,0,0,0,0,"0,001331018519","0,001446759259","0,001574074074"
