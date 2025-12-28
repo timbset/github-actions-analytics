@@ -1,0 +1,12 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"27.12.25, 02:40:03",58987542068,20533208718,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20533208718/job/58987542068
+"27.12.25, 00:12:02",58983722875,20531631708,1,Build and pack DevExtreme npm packages,build,25_1_ng_leak_click,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/20531631708/job/58983722875
+"27.12.25, 00:12:02",58983722951,20531631712,1,Default Workflow,main,25_1_ng_leak_click,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/20531631712/job/58983722951
+"27.12.25, 00:15:12",58983812707,20531631703,1,Demos Visual Tests,Build DevExtreme,25_1_ng_leak_click,failure,DevExtreme - Build-all,https://github.com/DevExpress/DevExtreme/actions/runs/20531631703/job/58983812707
+"27.12.25, 00:12:02",58983722969,20531631715,1,Lint,JS,25_1_ng_leak_click,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/20531631715/job/58983722969
+"27.12.25, 00:12:02",58983722974,20531631715,1,Lint,TS,25_1_ng_leak_click,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/20531631715/job/58983722974
+"27.12.25, 00:12:02",58983722994,20531631736,1,Playgrounds tests,build,25_1_ng_leak_click,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/20531631736/job/58983722994
+"27.12.25, 00:12:02",58983722925,20531631710,1,QUnit tests,Build,25_1_ng_leak_click,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/20531631710/job/58983722925
+"27.12.25, 00:14:50",58983800212,20531631709,1,TestCafe tests,Build DevExtreme,25_1_ng_leak_click,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/20531631709/job/58983800212
+"27.12.25, 00:12:02",58983722889,20531631694,1,Wrappers Tests,build,25_1_ng_leak_click,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/20531631694/job/58983722889
+"27.12.25, 00:12:02",58983722972,20531631721,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,25_1_ng_leak_click,failure,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/20531631721/job/58983722972
