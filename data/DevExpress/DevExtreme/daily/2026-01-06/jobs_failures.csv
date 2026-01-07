@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"06.01.26, 02:45:01",59533881342,20736206766,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20736206766/job/59533881342
+"06.01.26, 09:58:50",59559327498,20744477805,1,Demos Visual Tests,Build Demos Bundles,25_1_ng_leak_click,failure,Prepare bundles,https://github.com/DevExpress/DevExtreme/actions/runs/20744477805/job/59559327498
+"06.01.26, 16:03:52",59591027444,20753796065,1,QUnit tests,Constel ui.editors,26_1_time_view_types,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20753796065/job/59591027444
+"06.01.26, 16:03:53",59591027476,20753796065,1,QUnit tests,ui.editors-shadow-dom,26_1_time_view_types,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20753796065/job/59591027476
+"06.01.26, 16:03:33",59590988412,20753796031,1,TestCafe tests,dataGrid (4/4) - fluent,26_1_time_view_types,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/20753796031/job/59590988412
+"06.01.26, 16:16:32",59592411033,20753796031,1,TestCafe tests,Send notifications,26_1_time_view_types,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/20753796031/job/59592411033
