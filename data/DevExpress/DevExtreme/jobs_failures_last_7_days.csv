@@ -1,4 +1,11 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"11.01.26, 02:53:06",60015259560,20888375330,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20888375330/job/60015259560
+"11.01.26, 18:19:29",60043799446,20899517263,1,Demos Visual Tests,Check generated demos (5/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20899517263/job/60043799446
+"11.01.26, 18:19:29",60043799454,20899517263,1,Demos Visual Tests,Check generated demos (4/5),26_1-32092-T1317117,cancelled,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20899517263/job/60043799454
+"11.01.26, 18:19:29",60043799479,20899517263,1,Demos Visual Tests,Check TS,26_1-32092-T1317117,failure,Demos - Check React TS,https://github.com/DevExpress/DevExtreme/actions/runs/20899517263/job/60043799479
+"11.01.26, 17:25:39",60042100718,20898802868,1,Demos Visual Tests,Check TS,26_1-32092-T1317117,failure,Demos - Check Vue TS,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100718
+"11.01.26, 17:25:39",60042100728,20898802868,1,Demos Visual Tests,Check generated demos (5/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100728
+"11.01.26, 17:25:39",60042100740,20898802868,1,Demos Visual Tests,Check generated demos (3/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100740
 "10.01.26, 02:41:07",59973775071,20871497298,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20871497298/job/59973775071
 "09.01.26, 02:45:27",59870544553,20839421879,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20839421879/job/59870544553
 "09.01.26, 19:00:44",59945234934,20862435913,1,Build and pack DevExtreme npm packages,build,renovate/npm-angular-compiler-vulnerability,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/20862435913/job/59945234934
@@ -1842,31 +1849,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "05.01.26, 14:34:17",59476201835,20718282477,1,Wrappers E2E Tests,Test react19,25_1_ng_leak_click,failure,Run tests for react19,https://github.com/DevExpress/DevExtreme/actions/runs/20718282477/job/59476201835
 "05.01.26, 14:34:17",59476201867,20718282477,1,Wrappers E2E Tests,Test angular19,25_1_ng_leak_click,failure,Run tests for angular19,https://github.com/DevExpress/DevExtreme/actions/runs/20718282477/job/59476201867
 "05.01.26, 14:34:17",59476201905,20718282477,1,Wrappers E2E Tests,Test vue3,25_1_ng_leak_click,failure,Run tests for vue3,https://github.com/DevExpress/DevExtreme/actions/runs/20718282477/job/59476201905
-"04.01.26, 02:53:09",59388134776,20686583574,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20686583574/job/59388134776
-"04.01.26, 23:30:38",59422703469,20700798703,1,Lint,wrappers,25_1_ng_leak_click,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/20700798703/job/59422703469
-"04.01.26, 22:28:48",59421001805,20700078055,1,Lint,wrappers,25_1_ng_leak_click,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/20700078055/job/59421001805
-"04.01.26, 21:53:19",59420004255,20699660717,1,Lint,wrappers,25_1_ng_leak_click,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/20699660717/job/59420004255
-"04.01.26, 12:49:27",59404228980,20693152411,1,Lint,wrappers,25_1_ng_leak_click,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/20693152411/job/59404228980
-"04.01.26, 12:10:02",59403060418,20692681971,1,Lint,wrappers,25_1_ng_leak_click,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/20692681971/job/59403060418
-"04.01.26, 11:29:40",59401979487,20692234664,1,Lint,wrappers,25_1_ng_leak_click,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/20692234664/job/59401979487
-"04.01.26, 00:40:09",59384735970,20685184014,1,Lint,wrappers,25_1_ng_leak_click,failure,Lint wrappers,https://github.com/DevExpress/DevExtreme/actions/runs/20685184014/job/59384735970
-"04.01.26, 23:34:39",59422809374,20700798708,1,QUnit tests,ui-shadow-dom,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20700798708/job/59422809374
-"04.01.26, 23:34:39",59422809401,20700798708,1,QUnit tests,Constel ui,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20700798708/job/59422809401
-"04.01.26, 22:32:44",59421109062,20700078067,1,QUnit tests,ui-shadow-dom,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20700078067/job/59421109062
-"04.01.26, 22:32:44",59421109082,20700078067,1,QUnit tests,Constel ui,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20700078067/job/59421109082
-"04.01.26, 21:59:59",59420152528,20699660726,1,QUnit tests,ui-shadow-dom,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20699660726/job/59420152528
-"04.01.26, 22:00:00",59420152650,20699660726,1,QUnit tests,Constel ui,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20699660726/job/59420152650
-"04.01.26, 12:53:34",59404349954,20693152413,1,QUnit tests,ui-shadow-dom,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20693152413/job/59404349954
-"04.01.26, 12:53:34",59404349986,20693152413,1,QUnit tests,Constel ui,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20693152413/job/59404349986
-"04.01.26, 11:35:31",59402144853,20692234665,1,QUnit tests,ui-shadow-dom,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20692234665/job/59402144853
-"04.01.26, 11:35:32",59402144871,20692234665,1,QUnit tests,Constel ui,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20692234665/job/59402144871
-"04.01.26, 00:51:29",59385064085,20685184019,1,QUnit tests,ui-shadow-dom,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20685184019/job/59385064085
-"04.01.26, 00:51:29",59385064102,20685184019,1,QUnit tests,Constel ui,25_1_ng_leak_click,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/20685184019/job/59385064102
-"04.01.26, 23:36:36",59422864888,20700798709,1,TestCafe tests,navigation - fluent,25_1_ng_leak_click,cancelled,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/20700798709/job/59422864888
-"04.01.26, 22:01:53",59420212404,20699660742,1,TestCafe tests,dataGrid (2/4) - fluent,25_1_ng_leak_click,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/20699660742/job/59420212404
-"04.01.26, 13:02:32",59404618981,20693152409,1,TestCafe tests,dataGrid (2/4) - fluent,25_1_ng_leak_click,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/20693152409/job/59404618981
-"04.01.26, 12:20:41",59403395403,20692681989,1,TestCafe tests,dataGrid (3/4) - fluent,25_1_ng_leak_click,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/20692681989/job/59403395403
-"04.01.26, 23:39:19",59422934559,20700798702,1,Wrappers Tests,test (angular),25_1_ng_leak_click,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/20700798702/job/59422934559
-"04.01.26, 22:34:10",59421148350,20700078056,1,Wrappers Tests,test (angular),25_1_ng_leak_click,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/20700078056/job/59421148350
-"04.01.26, 21:59:29",59420142786,20699660708,1,Wrappers Tests,test (angular),25_1_ng_leak_click,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/20699660708/job/59420142786
-"04.01.26, 12:57:47",59404471871,20693152416,1,Wrappers Tests,test (angular),25_1_ng_leak_click,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/20693152416/job/59404471871
