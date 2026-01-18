@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"17.01.26, 02:40:02",60652298091,21087092410,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21087092410/job/60652298091
 "16.01.26, 02:46:15",60545699564,21053829087,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21053829087/job/60545699564
 "16.01.26, 11:59:55",60583063124,21065901658,1,Default Workflow,main,issue-3173_25_1,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/21065901658/job/60583063124
 "16.01.26, 08:06:52",60563617405,21059902823,1,Default Workflow,main,25_2-endpoints-anti-forgery-dev,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/21059902823/job/60563617405
@@ -2539,4 +2540,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "11.01.26, 17:25:39",60042100718,20898802868,1,Demos Visual Tests,Check TS,26_1-32092-T1317117,failure,Demos - Check Vue TS,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100718
 "11.01.26, 17:25:39",60042100728,20898802868,1,Demos Visual Tests,Check generated demos (5/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100728
 "11.01.26, 17:25:39",60042100740,20898802868,1,Demos Visual Tests,Check generated demos (3/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100740
-"10.01.26, 02:41:07",59973775071,20871497298,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20871497298/job/59973775071

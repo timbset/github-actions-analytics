@@ -1,4 +1,9 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-01-17,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0003356481481","0,0003356481481","0,0003356481481",0,0,0,0,0,0,0,0
+2026-01-17,codeql.yml,CodeQL,5,0,0,0,0,"0,009502314815","0,01080092593","0,01216435185",0,0,0,0,0,0,0,0
+2026-01-17,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,000162037037","0,000162037037","0,000162037037",0,0,0,0,0,0,0,0
+2026-01-17,packages_publishing.yml,Publishing to GitHub Packages,5,0,0,0,0,"0,01810185185","0,02183796296","0,0247337963",0,0,0,0,0,0,0,0
+2026-01-17,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,000150462963","0,000150462963","0,000150462963",0,0,0,0,0,0,0,0
 2026-01-16,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0003125","0,0003125","0,0003125",0,0,0,0,0,0,0,0
 2026-01-16,build_all.yml,Build and pack DevExtreme npm packages,9,0,0,0,0,"0,006145833333","0,01320601852","0,02226851852",40,0,0,0,0,"0,005729166667","0,01073900463","0,01880787037"
 2026-01-16,codeql.yml,CodeQL,5,0,0,0,0,"0,009525462963","0,01096064815","0,01188657407",0,0,0,0,0,0,0,0
@@ -293,23 +298,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2026-01-02,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,10,0,0,0,0,"0,001145833333","0,001824074074","0,00337962963"
 2026-01-02,wrapper_tests.yml,Wrappers Tests,0,0,0,0,0,0,0,0,10,0,0,0,0,"0,00443287037","0,007861111111","0,01553240741"
 2026-01-02,wrapper_tests_e2e.yml,Wrappers E2E Tests,0,0,0,0,0,0,0,0,9,0,1,0,0,"0,006979166667","0,008836805556","0,01087962963"
-2026-01-01,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0003935185185","0,0003935185185","0,0003935185185",0,0,0,0,0,0,0,0
-2026-01-01,build_all.yml,Build and pack DevExtreme npm packages,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007997685185","0,007997685185","0,007997685185"
-2026-01-01,codeql.yml,CodeQL,5,0,0,0,0,"0,01010416667","0,01437962963","0,01761574074",0,0,0,0,0,0,0,0
-2026-01-01,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,000162037037","0,000162037037","0,000162037037",0,0,0,0,0,0,0,0
-2026-01-01,default_workflow.yml,Default Workflow,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0028125","0,0028125","0,0028125"
-2026-01-01,demos_unit_tests.yml,Demos unit tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001793981481","0,001793981481","0,001793981481"
-2026-01-01,demos_visual_tests.yml,Demos Visual Tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,007638888889","0,007638888889","0,007638888889"
-2026-01-01,lint.yml,Lint,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003263888889","0,003263888889","0,003263888889"
-2026-01-01,packages_publishing.yml,Publishing to GitHub Packages,5,0,0,0,0,"0,01915509259","0,02167592593","0,02423611111",0,0,0,0,0,0,0,0
-2026-01-01,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,000162037037","0,000162037037","0,000162037037",0,0,0,0,0,0,0,0
-2026-01-01,playgrounds_tests.yml,Playgrounds tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005868055556","0,005868055556","0,005868055556"
-2026-01-01,qunit_tests.yml,QUnit tests,0,0,0,0,0,0,0,0,0,1,0,0,1,"0,01123842593","0,01123842593","0,01123842593"
-2026-01-01,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852"
-2026-01-01,renovation.yml,Renovation,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002037037037","0,002037037037","0,002037037037"
-2026-01-01,styles.yml,Styles tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002939814815","0,002939814815","0,002939814815"
-2026-01-01,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,01456018519","0,01456018519","0,01456018519"
-2026-01-01,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006805555556","0,006805555556","0,006805555556"
-2026-01-01,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002071759259","0,002071759259","0,002071759259"
-2026-01-01,wrapper_tests.yml,Wrappers Tests,0,0,0,0,0,0,0,0,0,1,0,0,1,"0,0021875","0,0021875","0,0021875"
-2026-01-01,wrapper_tests_e2e.yml,Wrappers E2E Tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,009027777778","0,009027777778","0,009027777778"
