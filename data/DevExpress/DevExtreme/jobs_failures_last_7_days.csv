@@ -1,4 +1,7 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"18.01.26, 02:52:06",60694507061,21104861705,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21104861705/job/60694507061
+"18.01.26, 16:42:26",60719547335,21115006023,1,TestCafe tests,scheduler / common (2/3) - fluent,form_kbn_26_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/21115006023/job/60719547335
+"18.01.26, 20:56:29",60727561503,21118361871,1,Wrappers Tests,test (angular),datagrid_unskip_testcafe_tests_25_2,cancelled,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/21118361871/job/60727561503
 "17.01.26, 02:40:02",60652298091,21087092410,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21087092410/job/60652298091
 "16.01.26, 02:46:15",60545699564,21053829087,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21053829087/job/60545699564
 "16.01.26, 11:59:55",60583063124,21065901658,1,Default Workflow,main,issue-3173_25_1,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/21065901658/job/60583063124
@@ -2533,10 +2536,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "12.01.26, 13:00:18",60103778335,20920280701,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,26_1_T1318439,cancelled,Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/20920280701/job/60103778335
 "12.01.26, 13:01:26",60103892495,20920280701,1,Wrappers E2E Tests,Test ${{ matrix.framework }},26_1_T1318439,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/20920280701/job/60103892495
 "12.01.26, 10:30:10",60089721692,20916040482,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,26_1__renovate_eslint_config_devextreme,failure,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/20916040482/job/60089721692
-"11.01.26, 02:53:06",60015259560,20888375330,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/20888375330/job/60015259560
-"11.01.26, 18:19:29",60043799446,20899517263,1,Demos Visual Tests,Check generated demos (5/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20899517263/job/60043799446
-"11.01.26, 18:19:29",60043799454,20899517263,1,Demos Visual Tests,Check generated demos (4/5),26_1-32092-T1317117,cancelled,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20899517263/job/60043799454
-"11.01.26, 18:19:29",60043799479,20899517263,1,Demos Visual Tests,Check TS,26_1-32092-T1317117,failure,Demos - Check React TS,https://github.com/DevExpress/DevExtreme/actions/runs/20899517263/job/60043799479
-"11.01.26, 17:25:39",60042100718,20898802868,1,Demos Visual Tests,Check TS,26_1-32092-T1317117,failure,Demos - Check Vue TS,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100718
-"11.01.26, 17:25:39",60042100728,20898802868,1,Demos Visual Tests,Check generated demos (5/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100728
-"11.01.26, 17:25:39",60042100740,20898802868,1,Demos Visual Tests,Check generated demos (3/5),26_1-32092-T1317117,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/20898802868/job/60042100740
