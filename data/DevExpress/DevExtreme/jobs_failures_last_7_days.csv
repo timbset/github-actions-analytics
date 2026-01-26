@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"25.01.26, 02:54:38",61382631503,21325797132,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21325797132/job/61382631503
 "24.01.26, 02:43:07",61338939647,21307819716,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21307819716/job/61338939647
 "23.01.26, 02:46:48",61226068730,21272728191,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21272728191/job/61226068730
 "23.01.26, 16:46:59",61294380317,21293850495,1,Default Workflow,main,26_1_color_contrast,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/21293850495/job/61294380317
@@ -1260,6 +1261,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "19.01.26, 10:05:30",60769259240,21133026770,1,Wrappers E2E Tests,Test react19,26_1_3218-validationsummary-add-accessibility-support,failure,Run tests for react19,https://github.com/DevExpress/DevExtreme/actions/runs/21133026770/job/60769259240
 "19.01.26, 08:04:59",60758085459,21129804496,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,T1316881_25_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21129804496/job/60758085459
 "19.01.26, 08:05:43",60758142412,21129804496,1,Wrappers E2E Tests,Test ${{ matrix.framework }},T1316881_25_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21129804496/job/60758142412
-"18.01.26, 02:52:06",60694507061,21104861705,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21104861705/job/60694507061
-"18.01.26, 16:42:26",60719547335,21115006023,1,TestCafe tests,scheduler / common (2/3) - fluent,form_kbn_26_1,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/21115006023/job/60719547335
-"18.01.26, 20:56:29",60727561503,21118361871,1,Wrappers Tests,test (angular),datagrid_unskip_testcafe_tests_25_2,cancelled,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/21118361871/job/60727561503
