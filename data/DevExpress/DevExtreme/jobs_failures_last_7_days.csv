@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"01.02.26, 03:09:21",62111189349,21555588884,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21555588884/job/62111189349
 "31.01.26, 02:58:57",62066255498,21537593970,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21537593970/job/62066255498
 "31.01.26, 10:20:44",62080330237,21543011653,1,Default Workflow,main,fix-pivot-T1312669,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21543011653/job/62080330237
 "31.01.26, 10:20:44",62080330256,21543011670,1,Demos unit tests,Check if tests should run,fix-pivot-T1312669,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21543011670/job/62080330256
@@ -2189,4 +2190,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "26.01.26, 15:28:09",61488080706,21363123789,1,Wrappers E2E Tests,Test ${{ matrix.framework }},issue-1874_25_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21363123789/job/61488080706
 "26.01.26, 12:45:34",61470376806,21358138403,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,issue-1874_26_1,cancelled,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/21358138403/job/61470376806
 "26.01.26, 12:50:10",61470800061,21358138403,1,Wrappers E2E Tests,Test ${{ matrix.framework }},issue-1874_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21358138403/job/61470800061
-"25.01.26, 02:54:38",61382631503,21325797132,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21325797132/job/61382631503
