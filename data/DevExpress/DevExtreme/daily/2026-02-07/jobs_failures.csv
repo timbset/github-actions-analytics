@@ -1,0 +1,76 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"07.02.26, 03:00:48",62824277803,21773055598,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/21773055598/job/62824277803
+"07.02.26, 13:27:32",62844499088,21780818638,1,Default Workflow,main,Devextreme_2683,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/21780818638/job/62844499088
+"07.02.26, 12:44:25",62843215247,21780296632,1,Default Workflow,main,Devextreme_2683,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/21780296632/job/62843215247
+"07.02.26, 13:31:54",62844647460,21780873465,1,Lint,JS,Devextreme_2683,failure,Lint JS,https://github.com/DevExpress/DevExtreme/actions/runs/21780873465/job/62844647460
+"07.02.26, 13:27:32",62844499082,21780818643,1,Lint,JS,Devextreme_2683,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/21780818643/job/62844499082
+"07.02.26, 13:27:32",62844499087,21780818643,1,Lint,TS,Devextreme_2683,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/21780818643/job/62844499087
+"07.02.26, 13:31:54",62844647410,21780818643,1,Lint,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818643/job/62844647410
+"07.02.26, 12:53:13",62843474091,21780398380,1,Lint,JS,Devextreme_2683,failure,Lint JS,https://github.com/DevExpress/DevExtreme/actions/runs/21780398380/job/62843474091
+"07.02.26, 12:44:25",62843215268,21780296643,1,Lint,TS,Devextreme_2683,cancelled,Lint TS,https://github.com/DevExpress/DevExtreme/actions/runs/21780296643/job/62843215268
+"07.02.26, 12:44:25",62843215280,21780296643,1,Lint,JS,Devextreme_2683,cancelled,Lint JS,https://github.com/DevExpress/DevExtreme/actions/runs/21780296643/job/62843215280
+"07.02.26, 12:53:13",62843474015,21780296643,1,Lint,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296643/job/62843474015
+"07.02.26, 13:27:32",62844499075,21780818647,1,Playgrounds tests,build,Devextreme_2683,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/21780818647/job/62844499075
+"07.02.26, 13:31:54",62844647417,21780818647,1,Playgrounds tests,matrix.ARGS.platform,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818647/job/62844647417
+"07.02.26, 12:52:34",62843455588,21780296623,1,Playgrounds tests,vue,Devextreme_2683,cancelled,Unpack artifacts,https://github.com/DevExpress/DevExtreme/actions/runs/21780296623/job/62843455588
+"07.02.26, 12:52:34",62843455590,21780296623,1,Playgrounds tests,react,Devextreme_2683,cancelled,Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/21780296623/job/62843455590
+"07.02.26, 12:52:34",62843455596,21780296623,1,Playgrounds tests,angular,Devextreme_2683,cancelled,Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/21780296623/job/62843455596
+"07.02.26, 13:36:12",62844775876,21780873473,1,QUnit tests,ui.scheduler-shadow-dom,Devextreme_2683,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780873473/job/62844775876
+"07.02.26, 13:36:12",62844775885,21780873473,1,QUnit tests,Constel ui.scheduler,Devextreme_2683,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780873473/job/62844775885
+"07.02.26, 13:36:12",62844775889,21780873473,1,QUnit tests,Constel ui.scheduler-US/Pacific,Devextreme_2683,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780873473/job/62844775889
+"07.02.26, 13:27:32",62844499035,21780818633,1,QUnit tests,Build,Devextreme_2683,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/21780818633/job/62844499035
+"07.02.26, 13:31:49",62844644393,21780818633,1,QUnit tests,"Constel ${{ matrix.CONSTEL }}${{ (((matrix.TIMEZONE != '') && format('-{0}', matrix.TIMEZONE)) || '') }}${{ (((matrix.CSP == 'false') && '-no-csp') || '') }}",Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818633/job/62844644393
+"07.02.26, 13:31:49",62844644412,21780818633,1,QUnit tests,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818633/job/62844644412
+"07.02.26, 13:31:49",62844644502,21780818633,1,QUnit tests,${{ matrix.constel }}-shadow-dom,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818633/job/62844644502
+"07.02.26, 12:57:45",62843603896,21780398383,1,QUnit tests,ui.scheduler-shadow-dom,Devextreme_2683,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780398383/job/62843603896
+"07.02.26, 12:57:45",62843603912,21780398383,1,QUnit tests,Constel ui.scheduler,Devextreme_2683,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780398383/job/62843603912
+"07.02.26, 12:57:45",62843603915,21780398383,1,QUnit tests,Constel ui.scheduler-US/Pacific,Devextreme_2683,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780398383/job/62843603915
+"07.02.26, 12:51:25",62843423140,21780296634,1,QUnit tests,ui.grid-shadow-dom,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423140
+"07.02.26, 12:51:25",62843423144,21780296634,1,QUnit tests,ui-shadow-dom,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423144
+"07.02.26, 12:51:25",62843423148,21780296634,1,QUnit tests,ui.editors-shadow-dom,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423148
+"07.02.26, 12:51:25",62843423154,21780296634,1,QUnit tests,ui.scheduler-shadow-dom,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423154
+"07.02.26, 12:51:25",62843423161,21780296634,1,QUnit tests,Constel export,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423161
+"07.02.26, 12:51:25",62843423165,21780296634,1,QUnit tests,Constel ui,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423165
+"07.02.26, 12:51:25",62843423167,21780296634,1,QUnit tests,Constel ui.scheduler-US/Pacific,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423167
+"07.02.26, 12:51:25",62843423168,21780296634,1,QUnit tests,Constel misc,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423168
+"07.02.26, 12:51:25",62843423169,21780296634,1,QUnit tests,Constel misc-no-csp,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423169
+"07.02.26, 12:51:25",62843423172,21780296634,1,QUnit tests,Constel ui.grid,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423172
+"07.02.26, 12:51:25",62843423175,21780296634,1,QUnit tests,Constel ui.scheduler,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423175
+"07.02.26, 12:51:25",62843423177,21780296634,1,QUnit tests,Constel ui.widgets-no-csp,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423177
+"07.02.26, 12:51:25",62843423178,21780296634,1,QUnit tests,Constel ui.editors,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423178
+"07.02.26, 12:51:25",62843423187,21780296634,1,QUnit tests,ui.widgets-shadow-dom,Devextreme_2683,cancelled,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843423187
+"07.02.26, 12:53:16",62843475623,21780296634,1,QUnit tests,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296634/job/62843475623
+"07.02.26, 13:27:32",62844499056,21780818656,1,Renovation,jest-tests,Devextreme_2683,cancelled,Jest tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780818656/job/62844499056
+"07.02.26, 13:31:54",62844647363,21780818656,1,Renovation,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818656/job/62844647363
+"07.02.26, 12:44:25",62843215220,21780296617,1,Renovation,jest-tests,Devextreme_2683,cancelled,Jest tests,https://github.com/DevExpress/DevExtreme/actions/runs/21780296617/job/62843215220
+"07.02.26, 12:53:13",62843473952,21780296617,1,Renovation,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296617/job/62843473952
+"07.02.26, 13:27:55",62844509894,21780818635,1,TestCafe tests,Build DevExtreme,Devextreme_2683,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/21780818635/job/62844509894
+"07.02.26, 13:31:52",62844646491,21780818635,1,TestCafe tests,${{ matrix.ARGS.name }}${{ ((!matrix.ARGS.theme && ' - fluent') || '') }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818635/job/62844646491
+"07.02.26, 13:31:52",62844646525,21780818635,1,TestCafe tests,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818635/job/62844646525
+"07.02.26, 12:47:10",62843297816,21780296620,1,TestCafe tests,Build DevExtreme,Devextreme_2683,cancelled,Build,https://github.com/DevExpress/DevExtreme/actions/runs/21780296620/job/62843297816
+"07.02.26, 12:53:13",62843473934,21780296620,1,TestCafe tests,${{ matrix.ARGS.name }}${{ ((!matrix.ARGS.theme && ' - fluent') || '') }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296620/job/62843473934
+"07.02.26, 12:53:13",62843473979,21780296620,1,TestCafe tests,Send notifications,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296620/job/62843473979
+"07.02.26, 13:34:33",62844727973,21780818632,1,Demos Visual Tests,Build Demos Bundles,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62844727973
+"07.02.26, 13:34:33",62844727977,21780818632,1,Demos Visual Tests,Check generated demos (${{ matrix.CONSTEL }}),Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62844727977
+"07.02.26, 13:34:34",62844728045,21780818632,1,Demos Visual Tests,Check TS,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62844728045
+"07.02.26, 13:34:34",62844728053,21780818632,1,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62844728053
+"07.02.26, 13:34:34",62844728075,21780818632,1,Demos Visual Tests,Check generated demos (changed only),Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62844728075
+"07.02.26, 13:34:34",62844728076,21780818632,1,Demos Visual Tests,Lint code base,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62844728076
+"07.02.26, 13:34:34",62844728094,21780818632,1,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62844728094
+"07.02.26, 13:45:07",62845038280,21780818632,1,Demos Visual Tests,merge-artifacts,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818632/job/62845038280
+"07.02.26, 12:54:03",62843498700,21780296629,1,Demos Visual Tests,Check generated demos (changed only),Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843498700
+"07.02.26, 12:54:03",62843498723,21780296629,1,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843498723
+"07.02.26, 12:54:03",62843498744,21780296629,1,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843498744
+"07.02.26, 12:54:03",62843498750,21780296629,1,Demos Visual Tests,Check TS,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843498750
+"07.02.26, 12:54:03",62843498758,21780296629,1,Demos Visual Tests,Lint code base,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843498758
+"07.02.26, 12:54:03",62843498760,21780296629,1,Demos Visual Tests,Build Demos Bundles,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843498760
+"07.02.26, 12:54:03",62843498765,21780296629,1,Demos Visual Tests,Check generated demos (${{ matrix.CONSTEL }}),Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843498765
+"07.02.26, 13:03:17",62843774872,21780296629,1,Demos Visual Tests,merge-artifacts,Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296629/job/62843774872
+"07.02.26, 13:37:14",62844805243,21780873480,1,Wrappers Tests,test (angular),Devextreme_2683,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/21780873480/job/62844805243
+"07.02.26, 13:33:21",62844693936,21780818642,1,Wrappers Tests,test (angular),Devextreme_2683,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/21780818642/job/62844693936
+"07.02.26, 12:58:35",62843627914,21780398388,1,Wrappers Tests,test (angular),Devextreme_2683,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/21780398388/job/62843627914
+"07.02.26, 12:52:28",62843452829,21780296627,1,Wrappers Tests,test (angular),Devextreme_2683,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/21780296627/job/62843452829
+"07.02.26, 13:27:32",62844499076,21780818645,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,Devextreme_2683,cancelled,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/21780818645/job/62844499076
+"07.02.26, 13:31:53",62844647117,21780818645,1,Wrappers E2E Tests,Test ${{ matrix.framework }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780818645/job/62844647117
+"07.02.26, 12:44:25",62843215224,21780296614,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,Devextreme_2683,cancelled,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/21780296614/job/62843215224
+"07.02.26, 12:53:14",62843474356,21780296614,1,Wrappers E2E Tests,Test ${{ matrix.framework }},Devextreme_2683,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/21780296614/job/62843474356
