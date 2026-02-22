@@ -1,0 +1,48 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"21.02.26, 03:00:05",64368996416,22249083770,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/22249083770/job/64368996416
+"21.02.26, 06:18:45",64376764683,22251844846,1,Default Workflow,main,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844846/job/64376764683
+"21.02.26, 06:18:45",64376764705,22251844835,1,Demos unit tests,Check if tests should run,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844835/job/64376764705
+"21.02.26, 06:21:00",64376848791,22251844835,1,Demos unit tests,Run unit tests,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844835/job/64376848791
+"21.02.26, 06:18:45",64376764715,22251844854,1,Lint,TS,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844854/job/64376764715
+"21.02.26, 06:18:45",64376764718,22251844854,1,Lint,texts,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844854/job/64376764718
+"21.02.26, 06:18:45",64376764719,22251844854,1,Lint,wrappers,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844854/job/64376764719
+"21.02.26, 06:18:45",64376764723,22251844854,1,Lint,component_exports,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844854/job/64376764723
+"21.02.26, 06:18:45",64376764751,22251844854,1,Lint,JS,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844854/job/64376764751
+"21.02.26, 06:21:00",64376848852,22251844854,1,Lint,Send notifications,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844854/job/64376848852
+"21.02.26, 19:37:31",64404216615,22263038177,1,Publishing to GitHub Packages,Build packages,24_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/22263038177/job/64404216615
+"21.02.26, 06:18:45",64376764721,22251844861,1,Playgrounds tests,build,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844861/job/64376764721
+"21.02.26, 06:21:00",64376848758,22251844861,1,Playgrounds tests,matrix.ARGS.platform,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844861/job/64376848758
+"21.02.26, 06:18:45",64376764706,22251844844,1,QUnit tests,Check if all tests should run,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844844/job/64376764706
+"21.02.26, 06:18:45",64376764716,22251844844,1,QUnit tests,Build,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844844/job/64376764716
+"21.02.26, 06:21:00",64376848939,22251844844,1,QUnit tests,"Constel ${{ matrix.CONSTEL }}${{ (((matrix.TIMEZONE != '') && format('-{0}', matrix.TIMEZONE)) || '') }}${{ (((matrix.CSP == 'false') && '-no-csp') || '') }}",T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844844/job/64376848939
+"21.02.26, 06:21:00",64376848997,22251844844,1,QUnit tests,${{ matrix.constel }}-shadow-dom,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844844/job/64376848997
+"21.02.26, 06:21:00",64376849161,22251844844,1,QUnit tests,Send notifications,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844844/job/64376849161
+"21.02.26, 06:18:45",64376764693,22251844849,1,Renovation,jest-tests,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844849/job/64376764693
+"21.02.26, 06:21:00",64376848792,22251844849,1,Renovation,Send notifications,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844849/job/64376848792
+"21.02.26, 06:18:45",64376764689,22251844842,1,Styles tests,Tests,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844842/job/64376764689
+"21.02.26, 06:21:00",64376848831,22251844842,1,Styles tests,Send notifications,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844842/job/64376848831
+"21.02.26, 06:18:45",64376764704,22251844843,1,TestCafe tests,Check if tests should run,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844843/job/64376764704
+"21.02.26, 06:21:00",64376848821,22251844843,1,TestCafe tests,Build DevExtreme,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844843/job/64376848821
+"21.02.26, 06:21:00",64376848963,22251844843,1,TestCafe tests,${{ matrix.ARGS.name }}${{ ((!matrix.ARGS.theme && ' - fluent') || '') }},T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844843/job/64376848963
+"21.02.26, 06:21:00",64376848994,22251844843,1,TestCafe tests,Send notifications,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844843/job/64376848994
+"21.02.26, 06:18:45",64376764730,22251844858,1,Themebuilder and Styles tests,test,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844858/job/64376764730
+"21.02.26, 06:21:00",64376848853,22251844858,1,Themebuilder and Styles tests,Send notifications,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844858/job/64376848853
+"21.02.26, 06:18:45",64376764724,22251844870,1,TS Declarations,validate-declarations,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844870/job/64376764724
+"21.02.26, 06:18:45",64376764727,22251844870,1,TS Declarations,check-ts-bundle,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844870/job/64376764727
+"21.02.26, 06:21:00",64376848786,22251844870,1,TS Declarations,Send notifications,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844870/job/64376848786
+"21.02.26, 06:26:47",64377058548,22251875525,1,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,T1322123_26_1,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/22251875525/job/64377058548
+"21.02.26, 06:18:45",64376764700,22251844834,1,Demos Visual Tests,Check if tests should run,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376764700
+"21.02.26, 06:21:00",64376848783,22251844834,1,Demos Visual Tests,Get changed demos,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376848783
+"21.02.26, 06:21:00",64376849020,22251844834,1,Demos Visual Tests,Determine scope for framework tests,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849020
+"21.02.26, 06:21:00",64376849124,22251844834,1,Demos Visual Tests,Build Demos Bundles,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849124
+"21.02.26, 06:21:00",64376849130,22251844834,1,Demos Visual Tests,Lint code base,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849130
+"21.02.26, 06:21:00",64376849131,22251844834,1,Demos Visual Tests,Build DevExtreme,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849131
+"21.02.26, 06:21:00",64376849135,22251844834,1,Demos Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }}-${{ matrix.THEME }},T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849135
+"21.02.26, 06:21:00",64376849153,22251844834,1,Demos Visual Tests,Check generated demos (changed only),T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849153
+"21.02.26, 06:21:00",64376849154,22251844834,1,Demos Visual Tests,Check TS,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849154
+"21.02.26, 06:21:00",64376849156,22251844834,1,Demos Visual Tests,Check generated demos (${{ matrix.CONSTEL }}),T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849156
+"21.02.26, 06:21:01",64376849245,22251844834,1,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849245
+"21.02.26, 06:21:01",64376849315,22251844834,1,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849315
+"21.02.26, 06:21:01",64376849403,22251844834,1,Demos Visual Tests,merge-artifacts,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844834/job/64376849403
+"21.02.26, 06:18:45",64376764666,22251844832,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844832/job/64376764666
+"21.02.26, 06:21:00",64376848806,22251844832,1,Wrappers E2E Tests,Test ${{ matrix.framework }},T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844832/job/64376848806
