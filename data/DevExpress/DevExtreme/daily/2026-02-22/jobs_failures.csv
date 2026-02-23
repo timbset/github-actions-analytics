@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"22.02.26, 03:08:06",64421181593,22269371405,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/22269371405/job/64421181593
+"22.02.26, 20:09:16",64460137287,22283899770,1,Publishing to GitHub Packages,Publish package (devextreme-angular-24.1.17-build-26053-1942),24_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/22283899770/job/64460137287
+"22.02.26, 19:59:44",64459704945,22284197836,1,TestCafe tests,Build DevExtreme,dependabot/npm_and_yarn/minimatch-10.2.1,cancelled,Post Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/22284197836/job/64459704945
+"22.02.26, 20:07:13",64460044647,22284197834,1,Demos Visual Tests,jquery-accessibility-material.blue.light,dependabot/npm_and_yarn/minimatch-10.2.1,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/22284197834/job/64460044647
+"22.02.26, 20:07:13",64460044651,22284197834,1,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,dependabot/npm_and_yarn/minimatch-10.2.1,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/22284197834/job/64460044651
+"22.02.26, 20:06:45",64460024518,22284197826,1,Wrappers Tests,test (angular),dependabot/npm_and_yarn/minimatch-10.2.1,cancelled,Post Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/22284197826/job/64460024518

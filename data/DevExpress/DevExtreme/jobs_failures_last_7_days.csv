@@ -1,4 +1,10 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"22.02.26, 03:08:06",64421181593,22269371405,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/22269371405/job/64421181593
+"22.02.26, 20:09:16",64460137287,22283899770,1,Publishing to GitHub Packages,Publish package (devextreme-angular-24.1.17-build-26053-1942),24_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/22283899770/job/64460137287
+"22.02.26, 19:59:44",64459704945,22284197836,1,TestCafe tests,Build DevExtreme,dependabot/npm_and_yarn/minimatch-10.2.1,cancelled,Post Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/22284197836/job/64459704945
+"22.02.26, 20:07:13",64460044647,22284197834,1,Demos Visual Tests,jquery-accessibility-material.blue.light,dependabot/npm_and_yarn/minimatch-10.2.1,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/22284197834/job/64460044647
+"22.02.26, 20:07:13",64460044651,22284197834,1,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,dependabot/npm_and_yarn/minimatch-10.2.1,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/22284197834/job/64460044651
+"22.02.26, 20:06:45",64460024518,22284197826,1,Wrappers Tests,test (angular),dependabot/npm_and_yarn/minimatch-10.2.1,cancelled,Post Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/22284197826/job/64460024518
 "21.02.26, 03:00:05",64368996416,22249083770,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/22249083770/job/64368996416
 "21.02.26, 06:18:45",64376764683,22251844846,1,Default Workflow,main,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844846/job/64376764683
 "21.02.26, 06:18:45",64376764705,22251844835,1,Demos unit tests,Check if tests should run,T1322123_26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22251844835/job/64376764705
@@ -5141,4 +5147,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "16.02.26, 08:45:16",63723593826,22055564433,1,Wrappers E2E Tests,Test vue3,lavrov/update-chrome-145,failure,Run tests for vue3,https://github.com/DevExpress/DevExtreme/actions/runs/22055564433/job/63723593826
 "16.02.26, 07:35:42",63717760247,22054008329,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,Devextreme_2683_25_2,cancelled,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/22054008329/job/63717760247
 "16.02.26, 07:41:10",63718155288,22054008329,1,Wrappers E2E Tests,Test ${{ matrix.framework }},Devextreme_2683_25_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/22054008329/job/63718155288
-"15.02.26, 03:09:12",63649863764,22028748508,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/22028748508/job/63649863764
