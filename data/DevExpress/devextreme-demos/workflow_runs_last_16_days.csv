@@ -1,4 +1,10 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-02-28,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00005787037037","0,001082175926","0,002106481481"
+2026-02-28,lint.yml,Lint,0,0,0,0,0,0,0,0,2,0,2,0,0,"0,00005787037037","0,0003501157407","0,0006597222222"
+2026-02-28,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,4,0,0,0,0,"0,00008101851852","0,00008969907407","0,0001041666667"
+2026-02-28,unit_tests.yml,Unit tests,0,0,0,0,0,0,0,0,2,0,2,0,0,"0,00006944444444","0,0002459490741","0,0004398148148"
+2026-02-28,visual_tests.yml,Visual Tests,0,0,0,0,0,0,0,0,0,2,2,0,0,"0,00005787037037","0,00007523148148","0,00009259259259"
+2026-02-28,visual_tests_frameworks.yml,Frameworks,0,0,0,0,0,0,0,0,0,2,2,0,0,"0,00005787037037","0,00008680555556","0,0001273148148"
 2026-02-23,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,0,1,1,0,0,"0,00006944444444","0,005271990741","0,01047453704"
 2026-02-23,lint.yml,Lint,0,0,0,0,0,0,0,0,2,0,2,0,0,"0,0000462962963","0,0003501157407","0,0006944444444"
 2026-02-23,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,4,0,0,0,0,"0,00009259259259","0,0001128472222","0,0001388888889"
