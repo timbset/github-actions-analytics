@@ -1,0 +1,21 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-03-14,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0003472222222","0,0003472222222","0,0003472222222",0,0,0,0,0,0,0,0
+2026-03-14,build_all.yml,Build and pack DevExtreme npm packages,0,0,0,0,0,0,0,0,6,2,0,0,0,"0,004791666667","0,009052372685","0,01168981481"
+2026-03-14,codeql.yml,CodeQL,5,0,0,0,0,"0,008912037037","0,01250231481","0,01966435185",0,0,0,0,0,0,0,0
+2026-03-14,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
+2026-03-14,default_workflow.yml,Default Workflow,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,00349537037","0,005740740741","0,0071875"
+2026-03-14,demos_unit_tests.yml,Demos unit tests,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,001053240741","0,001688368056","0,00306712963"
+2026-03-14,lint.yml,Lint,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,004618055556","0,006863425926","0,009108796296"
+2026-03-14,packages_publishing.yml,Publishing to GitHub Packages,4,1,0,0,0,"0,01162037037","0,02004398148","0,02592592593",0,0,0,0,0,0,0,0
+2026-03-14,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
+2026-03-14,playgrounds_tests.yml,Playgrounds tests,0,0,0,0,0,0,0,0,6,2,0,0,0,"0,007106481481","0,009819155093","0,01138888889"
+2026-03-14,qunit_tests.yml,QUnit tests,0,0,0,0,0,0,0,0,6,0,2,0,0,"0,008958333333","0,01246672454","0,01908564815"
+2026-03-14,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,00005787037037","0,0004253472222","0,002071759259"
+2026-03-14,renovation.yml,Renovation,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,004699074074","0,006372974537","0,008263888889"
+2026-03-14,styles.yml,Styles tests,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,001203703704","0,002154224537","0,003171296296"
+2026-03-14,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,4,4,0,0,1,"0,006180555556","0,01072193287","0,01293981481"
+2026-03-14,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,002604166667","0,003790509259","0,004837962963"
+2026-03-14,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,8,0,0,0,0,"0,001666666667","0,002256944444","0,003240740741"
+2026-03-14,visual-tests-demos.yml,Demos Visual Tests,0,0,0,0,0,0,0,0,4,4,0,0,0,"0,01123842593","0,0164380787","0,0218287037"
+2026-03-14,wrapper_tests.yml,Wrappers Tests,0,0,0,0,0,0,0,0,4,4,0,0,0,"0,01078703704","0,01270833333","0,0159375"
+2026-03-14,wrapper_tests_e2e.yml,Wrappers E2E Tests,0,0,0,0,0,0,0,0,6,2,0,0,0,"0,004178240741","0,007906539352","0,01001157407"
