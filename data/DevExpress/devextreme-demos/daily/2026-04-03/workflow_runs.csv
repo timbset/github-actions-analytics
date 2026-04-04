@@ -1,0 +1,3 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-04-03,build-aspnet.yml,Build aspnet demos,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2026-04-03,lint.yml,Lint,2,0,0,0,0,"0,0004282407407","0,0004571759259","0,0004861111111",0,0,0,0,0,0,0,0
