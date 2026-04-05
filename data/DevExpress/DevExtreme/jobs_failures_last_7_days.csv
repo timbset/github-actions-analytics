@@ -1,4 +1,10 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"04.04.26, 03:07:53",69917415910,23970048352,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/23970048352/job/69917415910
+"04.04.26, 01:46:50",69913795784,23968723773,1,Build and pack DevExtreme npm packages,build,security/update-overrides-25_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/23968723773/job/69913795784
+"04.04.26, 08:19:08",69930682230,23974983102,1,Demos unit tests,Run unit tests,security/update-overrides-25_2,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/23974983102/job/69930682230
+"04.04.26, 08:19:29",69930698440,23974983098,1,Demos Visual Tests,Build DevExtreme,security/update-overrides-25_2,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/23974983098/job/69930698440
+"04.04.26, 08:26:48",69930994833,23974983099,1,Playgrounds tests,vue,security/update-overrides-25_2,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/23974983099/job/69930994833
+"04.04.26, 08:26:35",69930988635,23974983117,1,Wrappers Tests,test (angular),security/update-overrides-25_2,cancelled,Pack angular,https://github.com/DevExpress/DevExtreme/actions/runs/23974983117/job/69930988635
 "03.04.26, 03:11:03",69800893284,23932040844,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/23932040844/job/69800893284
 "03.04.26, 21:32:47",69896957475,23963005809,1,Build and pack DevExtreme npm packages,build,security/update-overrides-25_2,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/23963005809/job/69896957475
 "03.04.26, 20:18:42",69889841323,23960786499,1,Build and pack DevExtreme npm packages,build,security/update-overrides-25_2,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/23960786499/job/69889841323
@@ -2922,10 +2928,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "29.03.26, 09:17:39",69057593413,23705798244,1,Wrappers Tests,test (angular),26_1,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/23705798244/job/69057593413
 "29.03.26, 15:40:43",69074762353,23712655660,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,playwright-poc,cancelled,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/23712655660/job/69074762353
 "29.03.26, 15:52:08",69075316198,23712655660,1,Wrappers E2E Tests,Test ${{ matrix.framework }},playwright-poc,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/23712655660/job/69075316198
-"28.03.26, 03:08:02",68979464779,23676148560,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/23676148560/job/68979464779
-"28.03.26, 19:41:04",69023187660,23692848272,1,Publishing to GitHub Packages,Build packages,24_2,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/23692848272/job/69023187660
-"28.03.26, 19:41:05",69023188064,23692848439,1,Publishing to GitHub Packages,Build packages,25_2,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/23692848439/job/69023188064
-"28.03.26, 19:41:04",69023187766,23692848319,1,Publishing to GitHub Packages,Build packages,26_1,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/23692848319/job/69023187766
-"28.03.26, 19:41:04",69023187438,23692848093,1,Publishing to GitHub Packages,Build packages,24_1,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/23692848093/job/69023187438
-"28.03.26, 19:41:03",69023187317,23692848099,1,Publishing to GitHub Packages,Build packages,25_1,failure,Clone deps scanner,https://github.com/DevExpress/DevExtreme/actions/runs/23692848099/job/69023187317
-"28.03.26, 16:48:56",69015177499,23689517228,1,Demos Visual Tests,Check generated demos (3/5),26_1,cancelled,Post Use Node.js,https://github.com/DevExpress/DevExtreme/actions/runs/23689517228/job/69015177499

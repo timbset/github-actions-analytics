@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"04.04.26, 03:07:53",69917415910,23970048352,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/23970048352/job/69917415910
+"04.04.26, 01:46:50",69913795784,23968723773,1,Build and pack DevExtreme npm packages,build,security/update-overrides-25_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/23968723773/job/69913795784
+"04.04.26, 08:19:08",69930682230,23974983102,1,Demos unit tests,Run unit tests,security/update-overrides-25_2,failure,Run unit tests,https://github.com/DevExpress/DevExtreme/actions/runs/23974983102/job/69930682230
+"04.04.26, 08:19:29",69930698440,23974983098,1,Demos Visual Tests,Build DevExtreme,security/update-overrides-25_2,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/23974983098/job/69930698440
+"04.04.26, 08:26:48",69930994833,23974983099,1,Playgrounds tests,vue,security/update-overrides-25_2,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/23974983099/job/69930994833
+"04.04.26, 08:26:35",69930988635,23974983117,1,Wrappers Tests,test (angular),security/update-overrides-25_2,cancelled,Pack angular,https://github.com/DevExpress/DevExtreme/actions/runs/23974983117/job/69930988635
