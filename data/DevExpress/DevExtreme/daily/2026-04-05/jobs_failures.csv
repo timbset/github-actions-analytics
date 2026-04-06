@@ -1,0 +1,15 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"05.04.26, 03:11:14",69976250644,23993146774,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/23993146774/job/69976250644
+"05.04.26, 19:30:47",70016898645,24008813196,1,Build and pack DevExtreme npm packages,build,26_1-dts-function-dev,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/24008813196/job/70016898645
+"05.04.26, 19:30:47",70016898661,24008813190,1,Default Workflow,main,26_1-dts-function-dev,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/24008813190/job/70016898661
+"05.04.26, 19:30:47",70016898592,24008813181,1,Lint,JS,26_1-dts-function-dev,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/24008813181/job/70016898592
+"05.04.26, 19:30:47",70016898603,24008813181,1,Lint,TS,26_1-dts-function-dev,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/24008813181/job/70016898603
+"05.04.26, 19:30:47",70016898664,24008813161,1,Playgrounds tests,build,26_1-dts-function-dev,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/24008813161/job/70016898664
+"05.04.26, 12:31:38",69998381139,24001573705,1,Playgrounds tests,build,security/update-overrides-25_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/24001573705/job/69998381139
+"05.04.26, 12:32:23",69998415548,24001573705,1,Playgrounds tests,matrix.ARGS.platform,security/update-overrides-25_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/24001573705/job/69998415548
+"05.04.26, 19:30:47",70016898669,24008813171,1,QUnit tests,Build,26_1-dts-function-dev,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/24008813171/job/70016898669
+"05.04.26, 19:32:19",70016970129,24008813174,1,TestCafe tests,Build DevExtreme,26_1-dts-function-dev,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/24008813174/job/70016970129
+"05.04.26, 19:30:47",70016898588,24008813176,1,TS Declarations,validate-declarations,26_1-dts-function-dev,failure,Validate declarations,https://github.com/DevExpress/DevExtreme/actions/runs/24008813176/job/70016898588
+"05.04.26, 19:32:26",70016975689,24008813163,1,Demos Visual Tests,Build DevExtreme,26_1-dts-function-dev,failure,DevExtreme - Build,https://github.com/DevExpress/DevExtreme/actions/runs/24008813163/job/70016975689
+"05.04.26, 19:30:47",70016898542,24008813156,1,Wrappers Tests,build,26_1-dts-function-dev,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/24008813156/job/70016898542
+"05.04.26, 19:30:47",70016898642,24008813155,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,26_1-dts-function-dev,failure,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/24008813155/job/70016898642
