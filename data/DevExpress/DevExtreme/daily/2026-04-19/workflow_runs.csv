@@ -1,0 +1,6 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-04-19,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0003703703704","0,0003703703704","0,0003703703704",0,0,0,0,0,0,0,0
+2026-04-19,codeql.yml,CodeQL,5,0,0,0,0,"0,009803240741","0,0134212963","0,01952546296",0,0,0,0,0,0,0,0
+2026-04-19,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,000150462963","0,000150462963","0,000150462963",0,0,0,0,0,0,0,0
+2026-04-19,packages_publishing.yml,Publishing to GitHub Packages,5,0,0,0,0,"0,01443287037","0,02146990741","0,02486111111",0,0,0,0,0,0,0,0
+2026-04-19,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0001273148148","0,0001273148148","0,0001273148148",0,0,0,0,0,0,0,0
