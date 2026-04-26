@@ -1,0 +1,6 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"25.04.26, 03:10:33",72982891649,24921199386,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/24921199386/job/72982891649
+"25.04.26, 18:16:58",73025321326,24937442597,1,Default Workflow,main,25_2-33376,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/24937442597/job/73025321326
+"25.04.26, 20:18:49",73031418823,24939142220,1,Publishing to GitHub Packages,Publish package (devextreme-internal-26.1.1-alpha-26115-1948),26_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/24939142220/job/73031418823
+"25.04.26, 19:45:41",73029783589,24939142095,1,Publishing to GitHub Packages,Build packages,24_1,failure,Set timestamp version,https://github.com/DevExpress/DevExtreme/actions/runs/24939142095/job/73029783589
+"25.04.26, 18:27:05",73025855376,24937442619,1,QUnit tests,ui.widgets-shadow-dom,25_2-33376,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/24937442619/job/73025855376
