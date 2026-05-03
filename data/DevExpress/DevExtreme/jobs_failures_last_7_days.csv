@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"02.05.26, 03:12:58",74020528228,25242394662,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25242394662/job/74020528228
 "01.05.26, 03:15:00",73890430503,25200526574,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25200526574/job/73890430503
 "30.04.26, 03:15:09",73704227620,25145461295,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25145461295/job/73704227620
 "30.04.26, 13:34:47",73780720002,25168415060,1,Build and pack DevExtreme npm packages,build,26_1_fix_datebox_flaky_test,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/25168415060/job/73780720002
@@ -2390,8 +2391,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "26.04.26, 10:44:33",73070822582,24954610525,1,Wrappers Tests,test (angular),scheduler-remove-old-render,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/24954610525/job/73070822582
 "26.04.26, 09:01:37",73065900678,24952707710,1,Wrappers Tests,test (angular),scheduler-remove-old-render,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/24952707710/job/73065900678
 "26.04.26, 09:17:40",73066672676,24952707710,2,Wrappers Tests,test (angular),scheduler-remove-old-render,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/24952707710/job/73066672676
-"25.04.26, 03:10:33",72982891649,24921199386,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/24921199386/job/72982891649
-"25.04.26, 18:16:58",73025321326,24937442597,1,Default Workflow,main,25_2-33376,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/24937442597/job/73025321326
-"25.04.26, 20:18:49",73031418823,24939142220,1,Publishing to GitHub Packages,Publish package (devextreme-internal-26.1.1-alpha-26115-1948),26_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/24939142220/job/73031418823
-"25.04.26, 19:45:41",73029783589,24939142095,1,Publishing to GitHub Packages,Build packages,24_1,failure,Set timestamp version,https://github.com/DevExpress/DevExtreme/actions/runs/24939142095/job/73029783589
-"25.04.26, 18:27:05",73025855376,24937442619,1,QUnit tests,ui.widgets-shadow-dom,25_2-33376,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/24937442619/job/73025855376
