@@ -1,4 +1,6 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"03.05.26, 03:14:50",74087001723,25268547901,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25268547901/job/74087001723
+"03.05.26, 19:47:46",74137862004,25289040582,1,Publishing to GitHub Packages,Build packages,26_1,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/25289040582/job/74137862004
 "02.05.26, 03:12:58",74020528228,25242394662,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25242394662/job/74020528228
 "01.05.26, 03:15:00",73890430503,25200526574,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25200526574/job/73890430503
 "30.04.26, 03:15:09",73704227620,25145461295,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25145461295/job/73704227620
@@ -2386,8 +2388,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "27.04.26, 06:05:42",73137534438,24978891766,1,Wrappers E2E Tests,Test vue3,tooltip_delete_25_2,cancelled,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/24978891766/job/73137534438
 "27.04.26, 06:05:42",73137534447,24978891766,1,Wrappers E2E Tests,Test react19,tooltip_delete_25_2,cancelled,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/24978891766/job/73137534447
 "27.04.26, 06:05:42",73137534466,24978891766,1,Wrappers E2E Tests,Test angular19,tooltip_delete_25_2,cancelled,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/24978891766/job/73137534466
-"26.04.26, 03:13:28",73050227801,24947025149,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/24947025149/job/73050227801
-"26.04.26, 19:46:15",73099348548,24965455086,1,Publishing to GitHub Packages,Build packages,24_1,failure,Set timestamp version,https://github.com/DevExpress/DevExtreme/actions/runs/24965455086/job/73099348548
-"26.04.26, 10:44:33",73070822582,24954610525,1,Wrappers Tests,test (angular),scheduler-remove-old-render,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/24954610525/job/73070822582
-"26.04.26, 09:01:37",73065900678,24952707710,1,Wrappers Tests,test (angular),scheduler-remove-old-render,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/24952707710/job/73065900678
-"26.04.26, 09:17:40",73066672676,24952707710,2,Wrappers Tests,test (angular),scheduler-remove-old-render,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/24952707710/job/73066672676
