@@ -1,0 +1,10 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"09.05.26, 03:14:53",75126258861,25590163599,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25590163599/job/75126258861
+"09.05.26, 00:29:58",75115352529,25586277462,1,Lint,JS,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277462/job/75115352529
+"09.05.26, 00:28:58",75115277442,25586252344,1,Lint,TS,renovate/qunit-2.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586252344/job/75115277442
+"09.05.26, 00:29:58",75115352416,25586277475,1,Playgrounds tests,build,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277475/job/75115352416
+"09.05.26, 00:28:57",75115276674,25586252207,1,Playgrounds tests,build,renovate/qunit-2.x,cancelled,Post Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/25586252207/job/75115276674
+"09.05.26, 00:39:17",75116067029,25586277457,1,TestCafe tests,scheduler / common (3/3) - fluent,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277457/job/75116067029
+"09.05.26, 00:39:40",75116094927,25586308328,1,Wrappers Tests,test (angular),renovate/devextreme-aspnet-data-nojquery-5.x,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/25586308328/job/75116094927
+"09.05.26, 00:28:57",75115276663,25586252212,1,Wrappers Tests,build,renovate/qunit-2.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586252212/job/75115276663
+"09.05.26, 00:29:58",75115352196,25586277424,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277424/job/75115352196

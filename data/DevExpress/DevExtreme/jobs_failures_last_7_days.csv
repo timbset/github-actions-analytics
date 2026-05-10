@@ -1,4 +1,13 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"09.05.26, 03:14:53",75126258861,25590163599,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25590163599/job/75126258861
+"09.05.26, 00:29:58",75115352529,25586277462,1,Lint,JS,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277462/job/75115352529
+"09.05.26, 00:28:58",75115277442,25586252344,1,Lint,TS,renovate/qunit-2.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586252344/job/75115277442
+"09.05.26, 00:29:58",75115352416,25586277475,1,Playgrounds tests,build,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277475/job/75115352416
+"09.05.26, 00:28:57",75115276674,25586252207,1,Playgrounds tests,build,renovate/qunit-2.x,cancelled,Post Setup pnpm cache,https://github.com/DevExpress/DevExtreme/actions/runs/25586252207/job/75115276674
+"09.05.26, 00:39:17",75116067029,25586277457,1,TestCafe tests,scheduler / common (3/3) - fluent,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277457/job/75116067029
+"09.05.26, 00:39:40",75116094927,25586308328,1,Wrappers Tests,test (angular),renovate/devextreme-aspnet-data-nojquery-5.x,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/25586308328/job/75116094927
+"09.05.26, 00:28:57",75115276663,25586252212,1,Wrappers Tests,build,renovate/qunit-2.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586252212/job/75115276663
+"09.05.26, 00:29:58",75115352196,25586277424,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,renovate/devextreme-aspnet-data-5.x,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25586277424/job/75115352196
 "08.05.26, 03:12:40",74947528015,25534526489,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25534526489/job/74947528015
 "08.05.26, 09:44:14",74991265141,25548756729,1,Build and pack DevExtreme npm packages,build,robot/update-version-26.1.2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/25548756729/job/74991265141
 "08.05.26, 12:09:33",75010921355,25554765402,1,Default Workflow,main,issue-3679_26_1,cancelled,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/25554765402/job/75010921355
@@ -2038,4 +2047,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "04.05.26, 05:54:34",74174460336,25303419534,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,26_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/25303419534/job/74174460336
 "03.05.26, 03:14:50",74087001723,25268547901,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25268547901/job/74087001723
 "03.05.26, 19:47:46",74137862004,25289040582,1,Publishing to GitHub Packages,Build packages,26_1,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/25289040582/job/74137862004
-"02.05.26, 03:12:58",74020528228,25242394662,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/25242394662/job/74020528228
