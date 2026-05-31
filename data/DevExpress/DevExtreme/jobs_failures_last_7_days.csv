@@ -1,4 +1,7 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"30.05.26, 03:15:20",78619638825,26672986407,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/26672986407/job/78619638825
+"30.05.26, 19:53:35",78673635040,26693387608,1,Publishing to GitHub Packages,Build packages,25_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/26693387608/job/78673635040
+"30.05.26, 20:23:24",78675295287,26693387413,1,Publishing to GitHub Packages,Publish package (devextreme-vue-26.1.3-build-26150-1956),26_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/26693387413/job/78675295287
 "29.05.26, 03:17:55",78431252822,26615839321,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/26615839321/job/78431252822
 "29.05.26, 18:05:59",78558846996,26653859635,1,Build and pack DevExtreme npm packages,build,26_1_WIP_check_ng22,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/26653859635/job/78558846996
 "29.05.26, 17:20:48",78551491031,26651707453,1,Build and pack DevExtreme npm packages,build,26_1_WIP_check_ng22,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/26651707453/job/78551491031
@@ -3105,6 +3108,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "24.05.26, 21:32:56",77629261937,26373218296,1,Demos Visual Tests,jquery(1/3)-screenshots-material.blue.light,26_1_toolbar_kbn,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/26373218296/job/77629261937
 "24.05.26, 21:32:56",77629261939,26373218296,1,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,26_1_toolbar_kbn,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/26373218296/job/77629261939
 "24.05.26, 21:33:56",77629319445,26373218251,1,Wrappers Tests,test (angular),26_1_toolbar_kbn,failure,Test angular,https://github.com/DevExpress/DevExtreme/actions/runs/26373218251/job/77629319445
-"23.05.26, 03:14:29",77492670019,26322001089,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/26322001089/job/77492670019
-"23.05.26, 19:52:18",77545583675,26342006844,1,Publishing to GitHub Packages,Build packages,25_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/26342006844/job/77545583675
-"23.05.26, 19:52:16",77545581875,26342006129,1,Publishing to GitHub Packages,Build packages,25_2,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/26342006129/job/77545581875
