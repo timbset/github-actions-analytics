@@ -1,4 +1,5 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"20.06.26, 03:16:24",82450438711,27858553836,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/27858553836/job/82450438711
 "19.06.26, 03:19:31",82277762322,27803258208,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/27803258208/job/82277762322
 "19.06.26, 08:00:15",82308561879,27813346777,1,Build and pack DevExtreme npm packages,build,spike-auto-height,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/27813346777/job/82308561879
 "19.06.26, 22:02:10",82428201971,27850404094,1,Default Workflow,main,chore/migrate-devextreme-scss-to-nx,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/27850404094/job/82428201971
@@ -3086,4 +3087,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "15.06.26, 08:09:19",81374703829,27532227916,1,Wrappers E2E Tests,Test angular,26_1_tool_calling_demo_remove,cancelled,Use Node.js,https://github.com/DevExpress/DevExtreme/actions/runs/27532227916/job/81374703829
 "15.06.26, 08:09:19",81374703838,27532227916,1,Wrappers E2E Tests,Test react19,26_1_tool_calling_demo_remove,cancelled,Use Node.js,https://github.com/DevExpress/DevExtreme/actions/runs/27532227916/job/81374703838
 "14.06.26, 03:19:10",81244821889,27486941777,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/27486941777/job/81244821889
-"13.06.26, 03:16:41",81157633864,27454958903,1,Send dependabot new vulnerability alerts,Send notifications,26_1,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/27454958903/job/81157633864
