@@ -1,0 +1,25 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-06-21,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0001851851852","0,0001851851852","0,0001851851852",0,0,0,0,0,0,0,0
+2026-06-21,build_all.yml,Build and pack DevExtreme npm packages,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,008263888889","0,01158564815","0,01997685185"
+2026-06-21,codeql.yml,CodeQL,5,0,0,0,0,"0,01002314815","0,01414351852","0,02059027778",0,0,0,0,0,0,0,0
+2026-06-21,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
+2026-06-21,default_workflow.yml,Default Workflow,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,004467592593","0,007205687831","0,01186342593"
+2026-06-21,demos_unit_tests.yml,Demos unit tests,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,001053240741","0,001767526455","0,002835648148"
+2026-06-21,labeler.yml,Label PR by changed files,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,00009259259259","0,0001058201058","0,0001273148148"
+2026-06-21,lint.yml,Lint,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,0053125","0,00755787037","0,01045138889"
+2026-06-21,packages_publishing.yml,Publishing to GitHub Packages,5,0,0,0,0,"0,01207175926","0,01447453704","0,01920138889",1,0,0,0,0,"0,01052083333","0,01052083333","0,01052083333"
+2026-06-21,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,000150462963","0,000150462963","0,000150462963",0,0,0,0,0,0,0,0
+2026-06-21,playgrounds_tests.yml,Playgrounds tests,0,0,0,0,0,0,0,0,3,4,0,0,0,"0,009074074074","0,01300595238","0,01868055556"
+2026-06-21,pr-storybook-deploy.yml,PR #34041: DRAFT: feat(Map): add OpenStreetMap (OSM) provider for dxMap,0,0,0,0,0,0,0,0,4,0,1,3,0,"0,0003009259259","0,0023828125","0,005300925926"
+2026-06-21,pr-storybook-deploy.yml,PR #33757: Validate SBOMs with CycloneDX CLI,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00001157407407","0,00001157407407"
+2026-06-21,pr-storybook-deploy.yml,PR #33729: chore: migrate gulp build devextreme-scss task to nx,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00006365740741","0,0001157407407"
+2026-06-21,qunit_tests.yml,QUnit tests,0,0,0,0,0,0,0,0,3,3,1,0,0,"0,01013888889","0,01241236772","0,01431712963"
+2026-06-21,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,00005787037037","0,0002744708995","0,0009606481481"
+2026-06-21,renovation.yml,Jest tests,0,0,0,0,0,0,0,0,4,3,0,0,0,"0,005648148148","0,008667328042","0,01319444444"
+2026-06-21,styles.yml,Styles tests,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,001481481481","0,002134589947","0,002673611111"
+2026-06-21,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,3,3,1,0,0,"0,01021990741","0,01460978836","0,02086805556"
+2026-06-21,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,003090277778","0,004826388889","0,01046296296"
+2026-06-21,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,001180555556","0,002118055556","0,002847222222"
+2026-06-21,visual-tests-demos.yml,Demos Visual Tests,0,0,0,0,0,0,0,0,4,2,1,0,2,"0,01025462963","0,0205026455","0,0509837963"
+2026-06-21,wrapper_tests.yml,Wrappers Tests,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,01337962963","0,01616898148","0,02164351852"
+2026-06-21,wrapper_tests_e2e.yml,Wrappers E2E Tests,0,0,0,0,0,0,0,0,8,0,1,0,0,"0,007638888889","0,01058256173","0,01326388889"
