@@ -1,4 +1,50 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-06-29,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0002546296296","0,0002546296296","0,0002546296296",0,0,0,0,0,0,0,0
+2026-06-29,build_all.yml,Build and pack DevExtreme npm packages,2,0,0,0,0,"0,009560185185","0,009884259259","0,01020833333",54,5,9,0,0,"0,000775462963","0,007721949891","0,01804398148"
+2026-06-29,codeql.yml,CodeQL,5,0,0,0,0,"0,009895833333","0,01288194444","0,02021990741",0,0,0,0,0,0,0,0
+2026-06-29,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
+2026-06-29,default_workflow.yml,Default Workflow,2,0,0,0,0,"0,00931712963","0,009363425926","0,009409722222",55,5,8,0,1,"0,0007523148148","0,004366830065","0,0128587963"
+2026-06-29,demos_unit_tests.yml,Demos unit tests,2,0,0,0,0,"0,00125","0,001394675926","0,001539351852",66,0,2,0,0,"0,00008101851852","0,001140046296","0,001527777778"
+2026-06-29,demos_visual_tests.yml,Demos Visual Tests,0,2,0,0,0,"0,02324074074","0,02384837963","0,02445601852",42,8,18,0,1,"0,00008101851852","0,0152929262","0,04414351852"
+2026-06-29,demos_visual_tests_frameworks.yml,Demos Frameworks,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0001041666667","0,0001041666667","0,0001041666667"
+2026-06-29,health-check.yml,Health Check,11,0,0,0,0,"0,000625","0,001111111111","0,001921296296",0,0,0,0,0,0,0,0
+2026-06-29,labeler.yml,Label PR by changed files,0,0,0,0,0,0,0,0,58,0,0,0,0,"0,00008101851852","0,0001225255428","0,0002314814815"
+2026-06-29,lint.yml,Lint,2,0,0,0,0,"0,00724537037","0,008865740741","0,01048611111",52,6,10,0,0,"0,000787037037","0,005795036765","0,01506944444"
+2026-06-29,packages_publishing.yml,Publishing to GitHub Packages,3,1,0,0,0,"0,01337962963","0,01692418981","0,02033564815",0,0,0,0,0,0,0,0
+2026-06-29,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0002546296296","0,0002546296296","0,0002546296296",0,0,0,0,0,0,0,0
+2026-06-29,playgrounds_tests.yml,Playgrounds tests,2,0,0,0,0,"0,007824074074","0,007887731481","0,007951388889",53,4,11,0,0,"0,00009259259259","0,00590601171","0,01179398148"
+2026-06-29,pr-storybook-cleanup.yml,PR Storybook - Preview Cleanup,1,0,0,0,0,"0,001412037037","0,001412037037","0,001412037037",0,0,0,0,0,0,0,0
+2026-06-29,pr-storybook-deploy.yml,PR #34171: WIP. Use global config for separate locale format for Date and Number,0,0,0,0,0,0,0,0,0,0,1,5,0,"0,00001157407407","0,00003858024691","0,0001273148148"
+2026-06-29,pr-storybook-deploy.yml,PR #33710: chore: migrate remaining gulp build TS task to nx,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00001157407407","0,00001157407407"
+2026-06-29,pr-storybook-deploy.yml,PR #34150: CI: improve QUnit tests stability,0,0,0,0,0,0,0,0,0,0,0,5,0,0,"0,00001388888889","0,00002314814815"
+2026-06-29,pr-storybook-deploy.yml,PR #34170: DataGrid - fix default types in d.ts,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"0,00001157407407","0,00001157407407"
+2026-06-29,pr-storybook-deploy.yml,PR #34103: Refactor TS transpilation in Demos for TypeScript 6 compatibility,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00002314814815","0,00002314814815"
+2026-06-29,pr-storybook-deploy.yml,PR #34157: Copilot: Update optional-fields-typing.instructions.md,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00001157407407","0,00001157407407"
+2026-06-29,pr-storybook-deploy.yml,PR #34129: DateBox: fix mask behavior with Chinese MS IME backspace and refocus (T1331089),0,0,0,0,0,0,0,0,0,0,0,7,0,0,"0,00006448412698","0,0001157407407"
+2026-06-29,pr-storybook-deploy.yml,PR #34162: Core - errors.js: Add E0123,0,0,0,0,0,0,0,0,0,0,1,5,0,"0,00001157407407","0,00005401234568","0,0001273148148"
+2026-06-29,pr-storybook-deploy.yml,"PR #34167: chore(ci): ✨ rename to ""Repository Check"", add 4x/day schedule, require infra review",0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,0001157407407","0,0001157407407"
+2026-06-29,pr-storybook-deploy.yml,PR #34156: DataGrid: use mocked API response in RemoteGrouping demo test,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"0,00006558641975","0,0001041666667"
+2026-06-29,pr-storybook-deploy.yml,PR #34109: Scheduler: refactor ts in m_scheduler.ts,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00001736111111","0,00002314814815"
+2026-06-29,pr-storybook-deploy.yml,"PR #34158: fix(vendor): `bootstrap.*` assets should NOT be `devextreme-dist` content, partial revert (#33987)",0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00001157407407","0,00001157407407"
+2026-06-29,pr-storybook-deploy.yml,PR #34103: Refacor TS transpilation in demos for new TS versions compatibility,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00005208333333","0,00008101851852"
+2026-06-29,pr-storybook-deploy.yml,PR #34160: CI: use devextreme-shr2 for the purpose of the NX cache to ensure tha…,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"0,00001543209877","0,00002314814815"
+2026-06-29,pr-storybook-deploy.yml,PR #34159: CI: mark unstable Grid's tests,0,0,0,0,0,0,0,0,0,0,0,11,0,0,"0,00005997474747","0,0001273148148"
+2026-06-29,pr-storybook-deploy.yml,PR #34151: chore(deps): update to latest,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00009259259259","0,00009259259259"
+2026-06-29,pr-storybook-deploy.yml,"PR #34142: Sort null, undefined and void in union types",0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00008101851852","0,00008101851852"
+2026-06-29,pr-storybook-deploy.yml,"PR #34158: fix(vendor): `bootstrap.*` assets should NOT be `devextreme-dist` content, revert (#33987)",0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00001736111111","0,00002314814815"
+2026-06-29,qunit_tests-additional-renovation.yml,Additional QUnit,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0007986111111","0,0007986111111","0,0007986111111"
+2026-06-29,qunit_tests-renovation.yml,QUnit tests for renovation,0,0,0,0,0,0,0,0,1,0,0,0,1,"0,00587962963","0,00587962963","0,00587962963"
+2026-06-29,qunit_tests.yml,QUnit tests,2,0,0,0,0,"0,008761574074","0,009178240741","0,009594907407",42,13,12,0,1,"0,0007523148148","0,008240567993","0,01746527778"
+2026-06-29,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,58,0,0,0,0,"0,00006944444444","0,00009279214559","0,0001273148148"
+2026-06-29,renovation.yml,Jest tests,2,0,0,0,0,"0,005324074074","0,005393518519","0,005462962963",55,5,7,0,0,"0,00008101851852","0,004999827253","0,01216435185"
+2026-06-29,renovation.yml,Renovation,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-06-29,styles.yml,Styles tests,2,0,0,0,0,"0,002569444444","0,002725694444","0,002881944444",66,0,2,0,0,"0,000775462963","0,001425653595","0,0025"
+2026-06-29,testcafe_tests.yml,TestCafe tests,2,0,0,0,0,"0,01342592593","0,01435185185","0,01527777778",26,27,15,0,5,"0,0001157407407","0,009674734477","0,03652777778"
+2026-06-29,themebuilder_tests.yml,Themebuilder and Styles tests,2,0,0,0,0,"0,003877314815","0,003969907407","0,0040625",62,0,6,0,0,"0,0001157407407","0,002362813181","0,006284722222"
+2026-06-29,ts_declarations.yml,TS Declarations,2,0,0,0,0,"0,001643518519","0,002274305556","0,002905092593",59,6,3,0,0,"0,000787037037","0,001843001089","0,003229166667"
+2026-06-29,wrapper_tests.yml,Wrappers Tests,2,0,0,0,0,"0,01423611111","0,01501157407","0,01578703704",50,7,10,0,0,"0,0001041666667","0,009754871476","0,02572916667"
+2026-06-29,wrapper_tests.yml,DevExtreme Wrappers Tests,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852"
+2026-06-29,wrapper_tests_e2e.yml,Wrappers E2E Tests,2,0,0,0,0,"0,008877314815","0,01119212963","0,01350694444",53,3,12,0,0,"0,00006944444444","0,006913977397","0,0165625"
 2026-06-28,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0001967592593","0,0001967592593","0,0001967592593",0,0,0,0,0,0,0,0
 2026-06-28,build_all.yml,Build and pack DevExtreme npm packages,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,0075","0,008298611111","0,009097222222"
 2026-06-28,codeql.yml,CodeQL,5,0,0,0,0,"0,01049768519","0,01334259259","0,02",0,0,0,0,0,0,0,0
@@ -539,8 +585,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2026-06-14,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0002083333333","0,0002083333333","0,0002083333333",0,0,0,0,0,0,0,0
 2026-06-14,packages_publishing.yml,Publishing to GitHub Packages,4,0,0,0,0,"0,01241898148","0,01579861111","0,01863425926",0,0,0,0,0,0,0,0
 2026-06-14,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0001736111111","0,0001736111111","0,0001736111111",0,0,0,0,0,0,0,0
-2026-06-13,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0003009259259","0,0003009259259","0,0003009259259",0,0,0,0,0,0,0,0
-2026-06-13,codeql.yml,CodeQL,5,0,0,0,0,"0,009664351852","0,01250462963","0,01960648148",0,0,0,0,0,0,0,0
-2026-06-13,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0001851851852","0,0001851851852","0,0001851851852",0,0,0,0,0,0,0,0
-2026-06-13,packages_publishing.yml,Publishing to GitHub Packages,4,0,0,0,0,"0,01253472222","0,0150318287","0,01748842593",0,0,0,0,0,0,0,0
-2026-06-13,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0001851851852","0,0001851851852","0,0001851851852",0,0,0,0,0,0,0,0
