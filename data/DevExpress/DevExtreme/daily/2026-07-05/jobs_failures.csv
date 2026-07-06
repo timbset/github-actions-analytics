@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"05.07.26, 18:29:52",85249018795,28750661138,1,Publishing to GitHub Packages,Build packages,25_1,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/28750661138/job/85249018795
+"05.07.26, 09:27:47",85210816669,28736097973,1,Demos Visual Tests,Check TS and lint code base,26_1_split_locale_format,failure,Check TS and lint results,https://github.com/DevExpress/DevExtreme/actions/runs/28736097973/job/85210816669
+"05.07.26, 09:27:47",85210816684,28736097973,1,Demos Visual Tests,Check generated demos,26_1_split_locale_format,failure,Check generated JS demos,https://github.com/DevExpress/DevExtreme/actions/runs/28736097973/job/85210816684
