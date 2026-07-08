@@ -1,4 +1,47 @@
 date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-07-07,_security-alerts.yml,Send dependabot new vulnerability alerts,1,0,0,0,0,"0,0002083333333","0,0002083333333","0,0002083333333",0,0,0,0,0,0,0,0
+2026-07-07,build_all.yml,Build and pack DevExtreme npm packages,5,0,0,0,0,"0,008993055556","0,00981712963","0,01096064815",68,3,4,0,2,"0,0003472222222","0,009119907407","0,02148148148"
+2026-07-07,codeql.yml,CodeQL,5,0,0,0,0,"0,009490740741","0,01275231481","0,02043981481",0,0,0,0,0,0,0,0
+2026-07-07,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0001157407407","0,0001157407407","0,0001157407407",0,0,0,0,0,0,0,0
+2026-07-07,default_workflow.yml,Default Workflow,5,0,0,0,0,"0,003668981481","0,007324074074","0,01157407407",73,1,1,0,1,"0,0003587962963","0,004662345679","0,009722222222"
+2026-07-07,demos_unit_tests.yml,Demos unit tests,5,0,0,0,0,"0,001122685185","0,001208333333","0,001273148148",74,0,1,0,0,"0,00008101851852","0,001189351852","0,001527777778"
+2026-07-07,demos_visual_tests.yml,Demos Visual Tests,3,2,0,0,0,"0,02016203704","0,0289537037","0,0425",27,31,17,0,6,"0,00008101851852","0,01744722222","0,05971064815"
+2026-07-07,labeler.yml,Label PR by changed files,0,0,0,0,0,0,0,0,61,0,0,0,0,"0,00008101851852","0,0001195355191","0,000162037037"
+2026-07-07,lint.yml,Lint,5,0,0,0,0,"0,005798611111","0,01122685185","0,01587962963",71,2,2,0,0,"0,0003935185185","0,007293518519","0,01554398148"
+2026-07-07,packages_publishing.yml,Publishing to GitHub Packages,3,1,0,0,0,"0,002615740741","0,01225115741","0,01883101852",0,0,0,0,0,0,0,0
+2026-07-07,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
+2026-07-07,playgrounds_tests.yml,Playgrounds tests,4,0,1,0,0,"0,006655092593","0,008412037037","0,01070601852",72,1,2,0,2,"0,00008101851852","0,007322839506","0,013125"
+2026-07-07,pr-storybook-deploy.yml,PR #34227: e2e tests: collect unstable tests statistics,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"0,00001543209877","0,00002314814815"
+2026-07-07,pr-storybook-deploy.yml,PR #34221: Grids - Stabilize tests (Part 3),0,0,0,0,0,0,0,0,0,0,0,4,0,0,"0,00002893518519","0,00008101851852"
+2026-07-07,pr-storybook-deploy.yml,PR #34203: PivotGrid - KBN - Implement arrow navigation for column header cells,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00002314814815","0,00002314814815"
+2026-07-07,pr-storybook-deploy.yml,PR #34202: PivotGrid - KBN - Add shared roving tabindex helper for cell navigation,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00007523148148","0,0001273148148"
+2026-07-07,pr-storybook-deploy.yml,PR #34198: Scheduler/PivotGrid: align @default tags with option types in public d.ts,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"0,00002893518519","0,00008101851852"
+2026-07-07,pr-storybook-deploy.yml,PR #34227: 26 1 run unstable with statistics ,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00008101851852","0,00008101851852"
+2026-07-07,pr-storybook-deploy.yml,PR #34187: Scheduler - Refactor Appointments Collection - Resizing,0,0,0,0,0,0,0,0,0,0,0,5,0,0,"0,00002314814815","0,0000462962963"
+2026-07-07,pr-storybook-deploy.yml,PR #34177: CI: make visual test passing rules stricter,0,0,0,0,0,0,0,0,0,0,0,10,0,0,"0,00003472222222","0,0001273148148"
+2026-07-07,pr-storybook-deploy.yml,PR #34226: CI: fix wrapper_tests on chrome install step,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"0,00004050925926","0,0001157407407"
+2026-07-07,pr-storybook-deploy.yml,PR #34225: DataGrid - fix types in demos after changing JSDoc types sync,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"0,00001543209877","0,00002314814815"
+2026-07-07,pr-storybook-deploy.yml,PR #33951: CI: test stability,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00001157407407","0,00001157407407"
+2026-07-07,pr-storybook-deploy.yml,PR #34218: SCSS: use adjust if not achromatic helper for all color.adjust,0,0,0,0,0,0,0,0,0,0,0,9,0,0,"0,0000591563786","0,0001273148148"
+2026-07-07,pr-storybook-deploy.yml,PR #34217: Override terser and babel-traverse deps,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"0,0000318287037","0,00008101851852"
+2026-07-07,pr-storybook-deploy.yml,PR #34220: PivotGrid : add ARIA grid roles and associate headers with data cells,0,0,0,0,0,0,0,0,0,0,0,8,0,0,"0,00001446759259","0,00002314814815"
+2026-07-07,pr-storybook-deploy.yml,PR #34205: Scheduler - A11y - remove tabindex attr from workspace and header,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00003472222222","0,0000462962963"
+2026-07-07,pr-storybook-deploy.yml,PR #34201: T1330691 - Scheduler - New appointment popup loses animation after slot selection,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00001157407407","0,00001157407407"
+2026-07-07,pr-storybook-deploy.yml,PR #34223: Scheduler: test dnd scheduler bug,0,0,0,0,0,0,0,0,0,0,0,5,0,0,"0,00001157407407","0,00001157407407"
+2026-07-07,pr-storybook-deploy.yml,PR #34211: Update Node.js to version 24.16,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,0001273148148","0,0001273148148"
+2026-07-07,pr-storybook-deploy.yml,PR #34223: Fix: Add a test comment in m_area_item.ts for clarity,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"0,00001157407407","0,00001157407407"
+2026-07-07,pr-storybook-deploy.yml,"PR #34210: Scheduler - A11y - When appointment is deleted using KBN, the focus is lost",0,0,0,0,0,0,0,0,0,0,0,1,0,0,"0,00001157407407","0,00001157407407"
+2026-07-07,pr-storybook-deploy.yml,PR #34221: DataGrid - Stabilize tests (Part 3),0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00007523148148","0,0001388888889"
+2026-07-07,qunit_tests.yml,QUnit tests,5,0,0,0,0,"0,007314814815","0,01132175926","0,01434027778",65,7,3,0,2,"0,0003587962963","0,01065277778","0,01641203704"
+2026-07-07,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,61,0,0,0,0,"0,00006944444444","0,00009524893746","0,0001851851852"
+2026-07-07,renovation.yml,Jest tests,5,0,0,0,0,"0,004155092593","0,005673611111","0,01033564815",70,2,3,0,0,"0,00009259259259","0,00600462963","0,01357638889"
+2026-07-07,repository-check.yml,Repository Check,15,0,0,0,0,"0,0005208333333","0,0006844135802","0,001087962963",0,0,0,0,0,0,0,0
+2026-07-07,styles.yml,Styles tests,5,0,0,0,0,"0,0015625","0,002148148148","0,002997685185",74,0,1,0,0,"0,0003356481481","0,001834104938","0,003576388889"
+2026-07-07,testcafe_tests.yml,TestCafe tests,4,1,0,0,0,"0,01417824074","0,01699768519","0,02659722222",32,31,12,0,10,"0,0003472222222","0,01237067901","0,03658564815"
+2026-07-07,themebuilder_tests.yml,Themebuilder and Styles tests,5,0,0,0,0,"0,00306712963","0,004388888889","0,007534722222",73,0,2,0,0,"0,00008101851852","0,003360185185","0,007476851852"
+2026-07-07,ts_declarations.yml,TS Declarations,5,0,0,0,0,"0,001087962963","0,002444444444","0,003159722222",73,1,1,0,0,"0,0003472222222","0,002212345679","0,003391203704"
+2026-07-07,wrapper_tests.yml,Wrappers Tests,0,5,0,0,0,"0,009050925926","0,01371064815","0,0171412037",29,42,4,0,9,"0,00006944444444","0,008378240741","0,01820601852"
+2026-07-07,wrapper_tests_e2e.yml,Wrappers E2E Tests,5,0,0,0,0,"0,009085648148","0,0140462963","0,01971064815",71,1,3,0,1,"0,00008101851852","0,008364506173","0,01885416667"
 2026-07-06,_security-alerts.yml,Send dependabot new vulnerability alerts,1,0,0,0,0,"0,0002893518519","0,0002893518519","0,0002893518519",0,0,0,0,0,0,0,0
 2026-07-06,build_all.yml,Build and pack DevExtreme npm packages,3,0,0,0,0,"0,008414351852","0,009282407407","0,01054398148",31,2,3,0,0,"0,0003587962963","0,008907536008","0,02083333333"
 2026-07-06,codeql.yml,CodeQL,5,0,0,0,0,"0,00693287037","0,01180092593","0,02006944444",0,0,0,0,0,0,0,0
@@ -541,27 +584,3 @@ date,id,workflow name,main success runs,main failure runs,main cancelled runs,ma
 2026-06-22,ts_declarations.yml,TS Declarations,12,0,0,0,0,"0,001006944444","0,002994791667","0,01165509259",39,0,2,0,1,"0,0002314814815","0,003653455285","0,01658564815"
 2026-06-22,wrapper_tests.yml,Wrappers Tests,7,5,0,0,0,"0,007002314815","0,0171556713","0,02400462963",27,11,3,0,7,"0,008472222222","0,0190726626","0,05782407407"
 2026-06-22,wrapper_tests_e2e.yml,Wrappers E2E Tests,10,2,0,0,0,"0,008483796296","0,01407021605","0,03052083333",29,9,4,0,4,"0,0002314814815","0,01309634039","0,03163194444"
-2026-06-21,_security-alerts.yml,Send dependabot new vulnerability alerts,0,1,0,0,0,"0,0001851851852","0,0001851851852","0,0001851851852",0,0,0,0,0,0,0,0
-2026-06-21,build_all.yml,Build and pack DevExtreme npm packages,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,008263888889","0,01158564815","0,01997685185"
-2026-06-21,codeql.yml,CodeQL,5,0,0,0,0,"0,01002314815","0,01414351852","0,02059027778",0,0,0,0,0,0,0,0
-2026-06-21,codeql_scheduler.yml,CodeQL (scheduler),1,0,0,0,0,"0,0001388888889","0,0001388888889","0,0001388888889",0,0,0,0,0,0,0,0
-2026-06-21,default_workflow.yml,Default Workflow,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,004467592593","0,007205687831","0,01186342593"
-2026-06-21,demos_unit_tests.yml,Demos unit tests,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,001053240741","0,001767526455","0,002835648148"
-2026-06-21,labeler.yml,Label PR by changed files,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,00009259259259","0,0001058201058","0,0001273148148"
-2026-06-21,lint.yml,Lint,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,0053125","0,00755787037","0,01045138889"
-2026-06-21,packages_publishing.yml,Publishing to GitHub Packages,5,0,0,0,0,"0,01207175926","0,01447453704","0,01920138889",1,0,0,0,0,"0,01052083333","0,01052083333","0,01052083333"
-2026-06-21,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),1,0,0,0,0,"0,000150462963","0,000150462963","0,000150462963",0,0,0,0,0,0,0,0
-2026-06-21,playgrounds_tests.yml,Playgrounds tests,0,0,0,0,0,0,0,0,3,4,0,0,0,"0,009074074074","0,01300595238","0,01868055556"
-2026-06-21,pr-storybook-deploy.yml,PR #34041: DRAFT: feat(Map): add OpenStreetMap (OSM) provider for dxMap,0,0,0,0,0,0,0,0,4,0,1,3,0,"0,0003009259259","0,0023828125","0,005300925926"
-2026-06-21,pr-storybook-deploy.yml,PR #33757: Validate SBOMs with CycloneDX CLI,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00001157407407","0,00001157407407"
-2026-06-21,pr-storybook-deploy.yml,PR #33729: chore: migrate gulp build devextreme-scss task to nx,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"0,00006365740741","0,0001157407407"
-2026-06-21,qunit_tests.yml,QUnit tests,0,0,0,0,0,0,0,0,3,3,1,0,0,"0,01013888889","0,01241236772","0,01431712963"
-2026-06-21,renovate_autoapprove.yml,Auto approve renovate bot PR,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,00005787037037","0,0002744708995","0,0009606481481"
-2026-06-21,renovation.yml,Jest tests,0,0,0,0,0,0,0,0,4,3,0,0,0,"0,005648148148","0,008667328042","0,01319444444"
-2026-06-21,styles.yml,Styles tests,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,001481481481","0,002134589947","0,002673611111"
-2026-06-21,testcafe_tests.yml,TestCafe tests,0,0,0,0,0,0,0,0,3,3,1,0,0,"0,01021990741","0,01460978836","0,02086805556"
-2026-06-21,themebuilder_tests.yml,Themebuilder and Styles tests,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,003090277778","0,004826388889","0,01046296296"
-2026-06-21,ts_declarations.yml,TS Declarations,0,0,0,0,0,0,0,0,7,0,0,0,0,"0,001180555556","0,002118055556","0,002847222222"
-2026-06-21,visual-tests-demos.yml,Demos Visual Tests,0,0,0,0,0,0,0,0,4,2,1,0,2,"0,01025462963","0,0205026455","0,0509837963"
-2026-06-21,wrapper_tests.yml,Wrappers Tests,0,0,0,0,0,0,0,0,6,1,0,0,0,"0,01337962963","0,01616898148","0,02164351852"
-2026-06-21,wrapper_tests_e2e.yml,Wrappers E2E Tests,0,0,0,0,0,0,0,0,8,0,1,0,0,"0,007638888889","0,01058256173","0,01326388889"
