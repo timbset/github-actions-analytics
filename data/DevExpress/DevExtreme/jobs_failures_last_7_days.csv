@@ -1,4 +1,6 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"26.07.26, 03:09:34",89749911226,30185709450,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/30185709450/job/89749911226
+"26.07.26, 18:45:48",89828656628,30214754407,1,Publishing to GitHub Packages,Publish package (devextreme-26.1.5-build-26207-1828),26_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/30214754407/job/89828656628
 "25.07.26, 03:07:56",89636015664,30141683113,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/30141683113/job/89636015664
 "25.07.26, 20:54:31",89721046258,30174522336,1,Build and pack DevExtreme npm packages,build,dependabot/npm_and_yarn/packages/devextreme-scss/postcss-8.5.18,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/30174522336/job/89721046258
 "25.07.26, 20:54:31",89721046323,30174522358,1,Default Workflow,main,dependabot/npm_and_yarn/packages/devextreme-scss/postcss-8.5.18,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/30174522358/job/89721046323
