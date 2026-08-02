@@ -1,0 +1,3 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"01.08.26, 07:07:13",91340508127,30688918118,1,QUnit tests,ui-shadow-dom,feature/systemjs-qunit-to-esm,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/30688918118/job/91340508127
+"01.08.26, 07:07:13",91340508155,30688918118,1,QUnit tests,Constel ui,feature/systemjs-qunit-to-esm,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/30688918118/job/91340508155
