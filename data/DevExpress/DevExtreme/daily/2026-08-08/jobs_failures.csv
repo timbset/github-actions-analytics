@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"08.08.26, 02:42:07",93047258508,31235547390,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/31235547390/job/93047258508
+"08.08.26, 19:35:00",93146495228,31274205681,1,TestCafe tests,quarantine,phase3/employees,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31274205681/job/93146495228
+"08.08.26, 20:06:36",93149734560,31274205681,2,TestCafe tests,quarantine,phase3/employees,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31274205681/job/93149734560
+"08.08.26, 02:42:34",93047306991,31234997722,1,TestCafe tests,quarantine,feature/26_2_new_fluent_theme_with_design_tokens,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31234997722/job/93047306991
+"08.08.26, 01:32:19",93040004757,31232156291,1,TestCafe tests,quarantine,feature/26_2_new_fluent_theme_with_design_tokens,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31232156291/job/93040004757
+"08.08.26, 01:22:10",93038883296,31232156296,1,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,feature/26_2_new_fluent_theme_with_design_tokens,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/31232156296/job/93038883296

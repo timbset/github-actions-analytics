@@ -1,4 +1,10 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"08.08.26, 02:42:07",93047258508,31235547390,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/31235547390/job/93047258508
+"08.08.26, 19:35:00",93146495228,31274205681,1,TestCafe tests,quarantine,phase3/employees,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31274205681/job/93146495228
+"08.08.26, 20:06:36",93149734560,31274205681,2,TestCafe tests,quarantine,phase3/employees,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31274205681/job/93149734560
+"08.08.26, 02:42:34",93047306991,31234997722,1,TestCafe tests,quarantine,feature/26_2_new_fluent_theme_with_design_tokens,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31234997722/job/93047306991
+"08.08.26, 01:32:19",93040004757,31232156291,1,TestCafe tests,quarantine,feature/26_2_new_fluent_theme_with_design_tokens,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/31232156291/job/93040004757
+"08.08.26, 01:22:10",93038883296,31232156296,1,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,feature/26_2_new_fluent_theme_with_design_tokens,failure,Run TestCafe tests (jQuery),https://github.com/DevExpress/DevExtreme/actions/runs/31232156296/job/93038883296
 "07.08.26, 15:55:23",92921015907,31195023317,1,Build and pack DevExtreme npm packages,build,task2_26_2,cancelled,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/31195023317/job/92921015907
 "07.08.26, 15:58:03",92921752072,31195023317,1,Build and pack DevExtreme npm packages,custom_bundles,task2_26_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/31195023317/job/92921752072
 "07.08.26, 12:11:51",92861654911,31177185204,1,Build and pack DevExtreme npm packages,build,protect-workflows,cancelled,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/31177185204/job/92861654911
@@ -2225,5 +2231,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "03.08.26, 11:12:52",91669791669,30808620789,1,Wrappers E2E Tests,Test ${{ matrix.framework }},26_1,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/30808620789/job/91669791669
 "02.08.26, 18:45:15",91533649594,30761110218,1,Publishing to GitHub Packages,Publish package (devextreme-react-26.1.5-build-26214-1827),26_1,cancelled,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/30761110218/job/91533649594
 "02.08.26, 18:45:32",91533678669,30761109095,1,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-26.2.1-alpha-26214-1827),main,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/30761109095/job/91533678669
-"01.08.26, 07:07:13",91340508127,30688918118,1,QUnit tests,ui-shadow-dom,feature/systemjs-qunit-to-esm,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/30688918118/job/91340508127
-"01.08.26, 07:07:13",91340508155,30688918118,1,QUnit tests,Constel ui,feature/systemjs-qunit-to-esm,failure,Run QUnit tests,https://github.com/DevExpress/DevExtreme/actions/runs/30688918118/job/91340508155
