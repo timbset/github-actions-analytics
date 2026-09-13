@@ -1,0 +1,6 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"12.09.26, 01:31:40",103475249731,34664283006,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/34664283006/job/103475249731
+"12.09.26, 01:28:14",103474757506,34664281805,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/34664281805/job/103474757506
+"12.09.26, 00:29:46",103465714467,34661212990,1,TestCafe tests,quarantine,feature/accent_color,failure,Run quarantined tests,https://github.com/DevExpress/DevExtreme/actions/runs/34661212990/job/103465714467
+"12.09.26, 13:37:41",103561952176,34696288810,1,Demos Visual Tests,angular(4/10)-screenshots-fluent.blue.light,refactor/gridcore-move-updatefilter-to-filtercontroller-26_2,failure,Run TestCafe tests,https://github.com/DevExpress/DevExtreme/actions/runs/34696288810/job/103561952176
+"12.09.26, 00:36:06",103466768375,34661213009,1,Demos Visual Tests,CSP Violations Summary,feature/accent_color,cancelled,Summarize CSP violations,https://github.com/DevExpress/DevExtreme/actions/runs/34661213009/job/103466768375
