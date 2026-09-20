@@ -1,0 +1,7 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"19.09.26, 01:34:40",105816378649,35412203419,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/35412203419/job/105816378649
+"19.09.26, 01:32:31",105816063298,35412200951,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/35412200951/job/105816063298
+"19.09.26, 18:35:12",105946513080,35460804263,1,Publishing to GitHub Packages,Publish package (devextreme-react-26.1.6-build-26262-1820),26_1,failure,Install dependencies,https://github.com/DevExpress/DevExtreme/actions/runs/35460804263/job/105946513080
+"19.09.26, 18:35:12",105946513103,35460804263,1,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-26.1.6-build-26262-1820),26_1,cancelled,Change package scope,https://github.com/DevExpress/DevExtreme/actions/runs/35460804263/job/105946513103
+"19.09.26, 05:10:03",105844565705,35422910772,1,TestCafe tests,common - fluent,refactor/gridcore-decompose-update-focused-row-26_2,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/35422910772/job/105844565705
+"19.09.26, 05:09:59",105844558106,35422910799,1,Wrappers Tests,test (angular),refactor/gridcore-decompose-update-focused-row-26_2,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/35422910799/job/105844558106
