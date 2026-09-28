@@ -1,0 +1,3 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"27.09.26, 01:41:42",108527639564,36285567237,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/36285567237/job/108527639564
+"27.09.26, 01:43:45",108527921790,36285565118,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/36285565118/job/108527921790
