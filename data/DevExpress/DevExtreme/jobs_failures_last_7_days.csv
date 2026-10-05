@@ -1,4 +1,6 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"04.10.26, 02:19:33",111342915495,37169973359,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/37169973359/job/111342915495
+"04.10.26, 02:21:39",111343225100,37169973092,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/37169973092/job/111343225100
 "03.10.26, 01:33:24",111097933193,37085788076,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/37085788076/job/111097933193
 "03.10.26, 01:35:28",111098311953,37085788135,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/37085788135/job/111098311953
 "02.10.26, 02:25:56",110677732641,36955583651,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/36955583651/job/110677732641
@@ -1903,5 +1905,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "28.09.26, 08:59:21",108857495390,36399560223,1,Wrappers E2E Tests,Test angular,applyUserState_add_jests_26_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/36399560223/job/108857495390
 "28.09.26, 08:59:21",108857495478,36399560223,1,Wrappers E2E Tests,Test vue3,applyUserState_add_jests_26_2,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/36399560223/job/108857495478
 "28.09.26, 07:23:32",108827811473,36390529406,1,Wrappers E2E Tests,Test angular,type_columns_utils_2_26_1,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/36390529406/job/108827811473
-"27.09.26, 01:41:42",108527639564,36285567237,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/36285567237/job/108527639564
-"27.09.26, 01:43:45",108527921790,36285565118,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/36285565118/job/108527921790
