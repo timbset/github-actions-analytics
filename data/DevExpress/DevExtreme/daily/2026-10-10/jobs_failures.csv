@@ -1,0 +1,17 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"10.10.26, 02:30:13",114109999184,38017185347,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/38017185347/job/114109999184
+"10.10.26, 06:02:40",114147465348,38029567463,1,Build and pack DevExtreme npm packages,build,feature/26_2_osm-provider-for-dxmap/main,failure,Build npm packages,https://github.com/DevExpress/DevExtreme/actions/runs/38029567463/job/114147465348
+"10.10.26, 01:38:12",114099962237,38013290862,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/38013290862/job/114099962237
+"10.10.26, 01:40:25",114100396144,38013291486,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/38013291486/job/114100396144
+"10.10.26, 06:02:40",114147465343,38029567486,1,Default Workflow,main,feature/26_2_osm-provider-for-dxmap/main,failure,Run targets,https://github.com/DevExpress/DevExtreme/actions/runs/38029567486/job/114147465343
+"10.10.26, 06:02:40",114147465360,38029567461,1,Lint,TS,feature/26_2_osm-provider-for-dxmap/main,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/38029567461/job/114147465360
+"10.10.26, 06:02:40",114147465397,38029567461,1,Lint,JS,feature/26_2_osm-provider-for-dxmap/main,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/38029567461/job/114147465397
+"10.10.26, 06:02:40",114147465470,38029567494,1,Playgrounds tests,build,feature/26_2_osm-provider-for-dxmap/main,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/38029567494/job/114147465470
+"10.10.26, 06:02:56",114147508083,38029567434,1,Playwright tests,Build DevExtreme,feature/26_2_osm-provider-for-dxmap/main,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/38029567434/job/114147508083
+"10.10.26, 06:02:40",114147465039,38029567490,1,QUnit tests,Build,feature/26_2_osm-provider-for-dxmap/main,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/38029567490/job/114147465039
+"10.10.26, 06:02:40",114147464912,38029567454,1,Jest tests,jest-tests,feature/26_2_osm-provider-for-dxmap/main,failure,Check test types,https://github.com/DevExpress/DevExtreme/actions/runs/38029567454/job/114147464912
+"10.10.26, 06:02:59",114147514724,38029567433,1,TestCafe tests,Build DevExtreme,feature/26_2_osm-provider-for-dxmap/main,failure,Build,https://github.com/DevExpress/DevExtreme/actions/runs/38029567433/job/114147514724
+"10.10.26, 03:15:16",114118387081,38019889150,1,TestCafe tests,Build DevExtreme,gh-readonly-queue/main/pr-35542-d98d9d63e03244729a0b4123334bf96f5a6d28ac,failure,,https://github.com/DevExpress/DevExtreme/actions/runs/38019889150/job/114118387081
+"10.10.26, 06:02:49",114147488994,38029567496,1,Demos Visual Tests,Build DevExtreme,feature/26_2_osm-provider-for-dxmap/main,failure,DevExtreme - Build-all,https://github.com/DevExpress/DevExtreme/actions/runs/38029567496/job/114147488994
+"10.10.26, 06:02:40",114147465078,38029567452,1,Wrappers Tests,build,feature/26_2_osm-provider-for-dxmap/main,failure,Build devextreme package,https://github.com/DevExpress/DevExtreme/actions/runs/38029567452/job/114147465078
+"10.10.26, 06:02:40",114147465050,38029567431,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,feature/26_2_osm-provider-for-dxmap/main,failure,Build all DevExtreme packages,https://github.com/DevExpress/DevExtreme/actions/runs/38029567431/job/114147465050
