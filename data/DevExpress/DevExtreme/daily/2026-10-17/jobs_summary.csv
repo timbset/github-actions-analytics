@@ -1,0 +1,52 @@
+date,workflow name,job name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-10-17,Send dependabot new vulnerability alerts,Fetch analysis,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-17,Send dependabot new vulnerability alerts,Send notifications,0,0,0,0,0,0,0,0,0,1,0,0,0,"0,0001157407407","0,0001157407407","0,0001157407407"
+2026-10-17,CodeQL,Analyze C#,1,0,0,0,0,"0,001087962963","0,001087962963","0,001087962963",0,0,0,0,0,0,0,0
+2026-10-17,CodeQL,Analyze JavaScript,4,0,0,0,0,"0,009872685185","0,01078125","0,01219907407",1,0,0,0,0,"0,02083333333","0,02083333333","0,02083333333"
+2026-10-17,CodeQL,Fetch analysis,4,0,0,0,0,"0,00002314814815","0,0000318287037","0,0000462962963",1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963"
+2026-10-17,CodeQL,Send notifications,2,2,0,0,0,"0,00002314814815","0,00004340277778","0,00006944444444",1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963"
+2026-10-17,CodeQL (scheduler),Run CodeQL workflow (26_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-10-17,CodeQL (scheduler),Run CodeQL workflow (25_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-10-17,CodeQL (scheduler),Run CodeQL workflow (25_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-10-17,CodeQL (scheduler),Run CodeQL workflow (main),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852"
+2026-10-17,CodeQL (scheduler),Run CodeQL workflow (24_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-10-17,Publishing to GitHub Packages,Build packages,3,1,0,0,0,"0,01065972222","0,01407696759","0,01884259259",0,1,0,0,0,"0,009710648148","0,009710648148","0,009710648148"
+2026-10-17,Publishing to GitHub Packages,Send notifications,1,0,0,3,0,"0,0001851851852","0,00004050925926","0,0001851851852",1,0,0,0,0,"0,0001967592593","0,0001967592593","0,0001967592593"
+2026-10-17,Publishing to GitHub Packages,Publish package,0,0,0,1,0,0,"-0,00001157407407",0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.1.16-build-26290-1821),1,0,0,0,0,"0,0006944444444","0,0006944444444","0,0006944444444",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-dist-25.1.16-build-26290-1821),1,0,0,0,0,"0,0006712962963","0,0006712962963","0,0006712962963",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-react-25.1.16-build-26290-1821),1,0,0,0,0,"0,0007291666667","0,0007291666667","0,0007291666667",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.1.16-build-26290-1821),1,0,0,0,0,"0,0007060185185","0,0007060185185","0,0007060185185",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.1.16-build-26290-1821),1,0,0,0,0,"0,000775462963","0,000775462963","0,000775462963",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-internal-25.1.16-build-26290-1821),1,0,0,0,0,"0,0009027777778","0,0009027777778","0,0009027777778",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-angular-25.1.16-build-26290-1821),1,0,0,0,0,"0,000775462963","0,000775462963","0,000775462963",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.1.16-build-26290-1821),1,0,0,0,0,"0,0008333333333","0,0008333333333","0,0008333333333",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-25.1.16-build-26290-1821),1,0,0,0,0,"0,0009606481481","0,0009606481481","0,0009606481481",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-vue-25.1.16-build-26290-1821),1,0,0,0,0,"0,0006712962963","0,0006712962963","0,0006712962963",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-internal-25.2.12-build-26290-1819),1,0,0,0,0,"0,0008912037037","0,0008912037037","0,0008912037037",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-dist-25.2.12-build-26290-1819),1,0,0,0,0,"0,0008564814815","0,0008564814815","0,0008564814815",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-25.2.12-build-26290-1819),1,0,0,0,0,"0,0008912037037","0,0008912037037","0,0008912037037",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.2.12-build-26290-1819),1,0,0,0,0,"0,0006712962963","0,0006712962963","0,0006712962963",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-angular-25.2.12-build-26290-1819),1,0,0,0,0,"0,000775462963","0,000775462963","0,000775462963",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.2.12-build-26290-1819),1,0,0,0,0,"0,0008796296296","0,0008796296296","0,0008796296296",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.2.12-build-26290-1819),1,0,0,0,0,"0,0008796296296","0,0008796296296","0,0008796296296",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-react-25.2.12-build-26290-1819),1,0,0,0,0,"0,0006828703704","0,0006828703704","0,0006828703704",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-vue-25.2.12-build-26290-1819),1,0,0,0,0,"0,0008333333333","0,0008333333333","0,0008333333333",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.2.12-build-26290-1819),1,0,0,0,0,"0,0008449074074","0,0008449074074","0,0008449074074",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-angular-24.2.18-build-26290-1820),1,0,0,0,0,"0,0009953703704","0,0009953703704","0,0009953703704",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.2.18-build-26290-1820),1,0,0,0,0,"0,0009259259259","0,0009259259259","0,0009259259259",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-internal-24.2.18-build-26290-1820),1,0,0,0,0,"0,001099537037","0,001099537037","0,001099537037",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-dist-24.2.18-build-26290-1820),1,0,0,0,0,"0,0009259259259","0,0009259259259","0,0009259259259",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-24.2.18-build-26290-1820),1,0,0,0,0,"0,001064814815","0,001064814815","0,001064814815",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.2.18-build-26290-1820),1,0,0,0,0,"0,0009722222222","0,0009722222222","0,0009722222222",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-vue-24.2.18-build-26290-1820),1,0,0,0,0,"0,001099537037","0,001099537037","0,001099537037",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.2.18-build-26290-1820),1,0,0,0,0,"0,0008912037037","0,0008912037037","0,0008912037037",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.2.18-build-26290-1820),1,0,0,0,0,"0,0009490740741","0,0009490740741","0,0009490740741",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages,Publish package (devextreme-react-24.2.18-build-26290-1820),1,0,0,0,0,"0,0009027777778","0,0009027777778","0,0009027777778",0,0,0,0,0,0,0,0
+2026-10-17,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-17,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (26_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-10-17,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-17,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (main),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-17,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-17,Repository Check,Collect flaky reports,0,0,0,0,0,0,0,0,4,0,0,0,0,"0,0008912037037","0,0009519675926","0,0009953703704"
+2026-10-17,Repository Check,Invoke / Repository Check,0,0,0,0,0,0,0,0,4,0,0,0,0,"0,0005555555556","0,000703125","0,0008680555556"
