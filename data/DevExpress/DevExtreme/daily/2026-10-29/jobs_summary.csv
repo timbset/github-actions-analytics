@@ -1,0 +1,430 @@
+date,workflow name,job name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-10-29,Send dependabot new vulnerability alerts,Fetch analysis,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-29,Send dependabot new vulnerability alerts,Send notifications,0,0,0,0,0,0,0,0,0,1,0,0,0,"0,0001041666667","0,0001041666667","0,0001041666667"
+2026-10-29,Build and pack DevExtreme npm packages,build,12,0,7,0,0,"0,0001967592593","0,007088206628","0,01837962963",92,2,11,0,1,"0,0008680555556","0,007229607584","0,02447916667"
+2026-10-29,Build and pack DevExtreme npm packages,custom_bundles,12,0,7,0,0,"-0,00001157407407","0,0005640838207","0,0009722222222",92,0,7,6,1,"-0,00001157407407","0,0008458994709","0,001354166667"
+2026-10-29,CodeQL,Analyze JavaScript,4,0,0,0,0,"0,01012731481","0,01099247685","0,01165509259",1,0,0,0,0,"0,01780092593","0,01780092593","0,01780092593"
+2026-10-29,CodeQL,Fetch analysis,4,0,0,0,0,"0,00003472222222","0,00003761574074","0,0000462962963",1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-29,CodeQL,Send notifications,2,2,0,0,0,"0,00002314814815","0,00004050925926","0,00005787037037",1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037"
+2026-10-29,CodeQL,Analyze C#,1,0,0,0,0,"0,001342592593","0,001342592593","0,001342592593",0,0,0,0,0,0,0,0
+2026-10-29,CodeQL (scheduler),Run CodeQL workflow (24_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-29,CodeQL (scheduler),Run CodeQL workflow (main),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-29,CodeQL (scheduler),Run CodeQL workflow (25_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-10-29,CodeQL (scheduler),Run CodeQL workflow (25_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037"
+2026-10-29,CodeQL (scheduler),Run CodeQL workflow (26_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037"
+2026-10-29,Default Workflow,main,19,0,0,0,0,"0,003923611111","0,005678606238","0,006921296296",97,2,6,0,1,"0,0007986111111","0,004534722222","0,02447916667"
+2026-10-29,Demos unit tests,Check if tests should run,19,0,0,0,0,"0,00002314814815","0,00003776803119","0,0000462962963",104,0,2,0,0,"0,00001157407407","0,00003756114605","0,0000462962963"
+2026-10-29,Demos unit tests,Run unit tests,19,0,0,0,0,"0,0007407407407","0,0009496832359","0,001261574074",100,0,4,2,0,"-0,00001157407407","0,0009338967505","0,001261574074"
+2026-10-29,Demos Visual Tests,Check if tests should run,19,0,0,0,0,"0,00002314814815","0,00003594054581","0,0000462962963",136,0,0,0,32,"0,00002314814815","0,00005021105664","0,000150462963"
+2026-10-29,Demos Visual Tests,Determine scope for framework tests,19,0,0,0,0,"0,00002314814815","0,00003350389864","0,0000462962963",22,0,0,1,2,"0,00002314814815","0,00003572866345","0,0000462962963"
+2026-10-29,Demos Visual Tests,Get changed demos,0,0,0,19,0,0,"-0,000004264132554",0,22,0,0,1,2,"0,0001388888889","0,0001861916264","0,0003240740741"
+2026-10-29,Demos Visual Tests,Build DevExtreme,18,1,0,0,0,"0,004965277778","0,007213084795","0,008831018519",127,0,7,1,32,"0,0007060185185","0,005296724966","0,02423611111"
+2026-10-29,Demos Visual Tests,Check generated demos (2/2),6,0,0,0,0,"0,003194444444","0,003323688272","0,003402777778",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,Check TS,6,0,0,1,0,"0,001168981481","0,001028439153","0,00125",0,0,1,10,1,0,"-0,001838173401",0
+2026-10-29,Demos Visual Tests,Build Demos Bundles,6,0,0,1,0,"0,00306712963","0,002774470899","0,0034375",0,0,1,10,1,0,"-0,001838173401",0
+2026-10-29,Demos Visual Tests,Lint code base,6,0,0,1,0,"0,002719907407","0,002410714286","0,002881944444",0,0,1,10,1,0,"-0,001838173401",0
+2026-10-29,Demos Visual Tests,Check generated demos (1/2),6,0,0,0,0,"0,003240740741","0,003337191358","0,003414351852",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,jquery(3/3)-screenshots-material.blue.light,17,1,0,0,0,"0,002997685185","0,00371720679","0,007638888889",120,3,4,0,32,"0,002407407407","0,00403561534","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery(1/3)-screenshots-material.blue.light,17,1,0,0,0,"0,002997685185","0,004132587449","0,009039351852",122,2,3,0,32,"0,002407407407","0,004159102508","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery(1/3)-screenshots-fluent.blue.light,17,1,0,0,0,"0,003136574074","0,003872813786","0,009027777778",121,0,6,0,32,"0,002407407407","0,00434565471","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery(2/3)-screenshots-fluent.blue.light,18,0,0,0,0,"0,003125","0,003780864198","0,004189814815",119,5,3,0,32,"0,002407407407","0,004309656605","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery(3/3)-screenshots-fluent.blue.light,17,1,0,0,0,"0,002928240741","0,003843878601","0,009039351852",123,1,3,0,32,"0,002407407407","0,003776611257","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery-accessibility-material.blue.light,18,0,0,0,0,"0,002384259259","0,002956532922","0,005277777778",122,2,3,0,32,"0,002303240741","0,003421733742","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery-accessibility-fluent.blue.light,18,0,0,0,0,"0,002118055556","0,002802211934","0,003680555556",122,1,4,0,32,"0,002152777778","0,003268719014","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery(2/3)-screenshots-material.blue.light,18,0,0,0,0,"0,003125","0,003729423868","0,004456018519",118,5,4,0,32,"0,002407407407","0,004551709682","0,01961805556"
+2026-10-29,Demos Visual Tests,Check generated demos (changed only),0,0,0,19,0,0,"-0,000002436647173",0,0,0,2,20,2,"-0,00001157407407","-0,004845854377",0
+2026-10-29,Demos Visual Tests,react(1/3)-screenshots-fluent.blue.light,17,1,0,0,0,"0,003136574074","0,004206532922","0,01041666667",100,1,3,0,30,"0,003171296296","0,00443698807","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(6/10)-screenshots-fluent.blue.light,6,0,0,0,0,"0,005428240741","0,007040895062","0,008229166667",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(5/10)-screenshots-fluent.blue.light,5,1,0,0,0,"0,005625","0,0078125","0,01042824074",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(4/10)-screenshots-fluent.blue.light,6,0,0,0,0,"0,005914351852","0,007316743827","0,007719907407",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(7/10)-screenshots-fluent.blue.light,6,0,0,0,0,"0,005185185185","0,007127700617","0,008298611111",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,react(2/3)-screenshots-fluent.blue.light,18,0,0,0,0,"0,003101851852","0,004216820988","0,005462962963",99,2,3,0,30,"0,002280092593","0,004221866097","0,01336805556"
+2026-10-29,Demos Visual Tests,vue(4/5)-screenshots-fluent.blue.light,0,6,0,0,0,"0,008773148148","0,00946566358","0,01041666667",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,vue(1/5)-screenshots-fluent.blue.light,0,6,0,0,0,"0,007430555556","0,009297839506","0,01181712963",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,react(3/3)-screenshots-fluent.blue.light,18,0,0,0,0,"0,002835648148","0,003690843621","0,004594907407",98,3,3,0,30,"0,003009259259","0,004142071759","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(2/10)-screenshots-fluent.blue.light,5,1,0,0,0,"0,007615740741","0,008769290123","0,01328703704",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(3/10)-screenshots-fluent.blue.light,6,0,0,0,0,"0,007361111111","0,00849537037","0,01365740741",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,vue(5/5)-screenshots-fluent.blue.light,6,0,0,0,0,"0,0075","0,008665123457","0,008993055556",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(1/10)-screenshots-fluent.blue.light,3,3,0,0,0,"0,007488425926","0,009417438272","0,01181712963",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(9/10)-screenshots-fluent.blue.light,5,1,0,0,0,"0,005636574074","0,007885802469","0,009849537037",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,vue(3/5)-screenshots-fluent.blue.light,6,0,0,0,0,"0,008530092593","0,008732638889","0,009166666667",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(10/10)-screenshots-fluent.blue.light,5,1,0,0,0,"0,006064814815","0,009299768519","0,01368055556",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,angular(8/10)-screenshots-fluent.blue.light,5,1,0,0,0,"0,007164351852","0,008163580247","0,01180555556",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,vue(2/5)-screenshots-fluent.blue.light,0,6,0,0,0,"0,007106481481","0,007806712963","0,008680555556",0,0,0,0,0,0,0,0
+2026-10-29,Demos Visual Tests,${{ matrix.CONSTEL }}-screenshots-${{ matrix.THEME }},0,0,0,20,0,0,"-0,000003472222222",0,0,0,11,43,4,"-0,00001157407407","-0,003950188615",0
+2026-10-29,Demos Visual Tests,merge-artifacts,8,0,0,11,0,"0,0000462962963","0,00002619395712","0,0001041666667",38,0,14,84,32,"-0,00001157407407","-0,01665543301","0,0001273148148"
+2026-10-29,Demos Visual Tests,Check generated demos (${{ matrix.CONSTEL }}),0,0,0,1,0,0,0,0,0,0,1,9,1,0,"-0,002020833333",0
+2026-10-29,Demos Visual Tests,${{ matrix.CONSTEL }}-${{ matrix.STRATEGY }}-${{ matrix.THEME }},0,0,0,1,0,0,0,0,0,0,7,2,0,"-0,00001157407407","-0,000005144032922",0
+2026-10-29,Demos Visual Tests,Build devextreme,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003796296296","0,003796296296","0,003796296296"
+2026-10-29,Demos Visual Tests,Check generated demos,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,Demos Frameworks,Check if tests should run,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963"
+2026-10-29,Demos Frameworks,Build DevExtreme,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Demos Frameworks,Get changed demos,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Demos Frameworks,testcafe-${{ matrix.CONSTEL }}-${{ matrix.THEME }},0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Demos Frameworks,Check TS,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Demos Frameworks,Build Demos,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Demos Frameworks,matrix.name,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,000005787037037",0
+2026-10-29,Demos Frameworks,merge-artifacts,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,Label PR by changed files,label,0,0,0,0,0,0,0,0,92,0,0,0,0,"0,0000462962963","0,00006478965378","0,000162037037"
+2026-10-29,Lint,JS,19,0,0,0,0,"0,00369212963","0,00546539961","0,006574074074",104,1,7,0,8,"0,0008101851852","0,004227017196","0,02447916667"
+2026-10-29,Lint,TS,19,0,0,0,0,"0,004849537037","0,006444931774","0,008136574074",97,1,14,0,8,"0,0007638888889","0,005824032738","0,02447916667"
+2026-10-29,Lint,wrappers,19,0,0,0,0,"0,0009375","0,002532285575","0,003831018519",109,0,3,0,8,"0,0008101851852","0,001378141534","0,02447916667"
+2026-10-29,Lint,texts,19,0,0,0,0,"0,0008333333333","0,002481725146","0,004108796296",109,0,3,0,8,"0,0007638888889","0,001320994544","0,02447916667"
+2026-10-29,Lint,component_exports,19,0,0,0,0,"0,0006944444444","0,0008790204678","0,001643518519",110,0,2,0,8,"0,0007060185185","0,0009281994048","0,002048611111"
+2026-10-29,Lint,Send notifications,0,0,0,19,0,0,"-0,000004264132554",0,0,0,7,105,8,"-0,00001157407407","-0,00000496031746",0
+2026-10-29,Lint,Renovation,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001805555556","0,001805555556","0,001805555556"
+2026-10-29,Lint,CSS,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001990740741","0,001990740741","0,001990740741"
+2026-10-29,Publishing to GitHub Packages,Build packages,4,0,0,0,0,"0,01282407407","0,01456886574","0,01672453704",1,0,0,0,0,"0,01487268519","0,01487268519","0,01487268519"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-25.2.12-build-26302-1818),1,0,0,0,0,"0,0009375","0,0009375","0,0009375",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-angular-25.2.12-build-26302-1818),1,0,0,0,0,"0,000787037037","0,000787037037","0,000787037037",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.2.12-build-26302-1818),1,0,0,0,0,"0,0008449074074","0,0008449074074","0,0008449074074",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-25.2.12-build-26302-1818),1,0,0,0,0,"0,0007986111111","0,0007986111111","0,0007986111111",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-vue-25.2.12-build-26302-1818),1,0,0,0,0,"0,0007986111111","0,0007986111111","0,0007986111111",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.2.12-build-26302-1818),1,0,0,0,0,"0,0007175925926","0,0007175925926","0,0007175925926",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.2.12-build-26302-1818),1,0,0,0,0,"0,000787037037","0,000787037037","0,000787037037",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.2.12-build-26302-1818),1,0,0,0,0,"0,000787037037","0,000787037037","0,000787037037",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-react-25.2.12-build-26302-1818),1,0,0,0,0,"0,0007986111111","0,0007986111111","0,0007986111111",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-internal-25.2.12-build-26302-1818),1,0,0,0,0,"0,0009143518519","0,0009143518519","0,0009143518519",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Send notifications,0,0,0,4,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-react-26.1.7-build-26302-1818),1,0,0,0,0,"0,003229166667","0,003229166667","0,003229166667",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-26.1.7-build-26302-1818),1,0,0,0,0,"0,00337962963","0,00337962963","0,00337962963",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-artifacts-26.1.7-build-26302-1818),1,0,0,0,0,"0,002511574074","0,002511574074","0,002511574074",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-26.1.7-build-26302-1818),0,0,1,0,0,"0,01259259259","0,01259259259","0,01259259259",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-26.1.7-build-26302-1818),1,0,0,0,0,"0,003298611111","0,003298611111","0,003298611111",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-26.1.7-build-26302-1818),1,0,0,0,0,"0,00462962963","0,00462962963","0,00462962963",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-angular-26.1.7-build-26302-1818),1,0,0,0,0,"0,002696759259","0,002696759259","0,002696759259",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-26.1.7-build-26302-1818),1,0,0,0,0,"0,002511574074","0,002511574074","0,002511574074",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-vue-26.1.7-build-26302-1818),0,0,1,0,0,"0,01216435185","0,01216435185","0,01216435185",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-internal-26.1.7-build-26302-1818),1,0,0,0,0,"0,002141203704","0,002141203704","0,002141203704",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-artifacts-24.2.18-build-26302-1819),1,0,0,0,0,"0,001122685185","0,001122685185","0,001122685185",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-internal-24.2.18-build-26302-1819),1,0,0,0,0,"0,001319444444","0,001319444444","0,001319444444",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-react-24.2.18-build-26302-1819),1,0,0,0,0,"0,001041666667","0,001041666667","0,001041666667",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-24.2.18-build-26302-1819),1,0,0,0,0,"0,001053240741","0,001053240741","0,001053240741",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-vue-24.2.18-build-26302-1819),1,0,0,0,0,"0,001064814815","0,001064814815","0,001064814815",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-24.2.18-build-26302-1819),1,0,0,0,0,"0,001030092593","0,001030092593","0,001030092593",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-24.2.18-build-26302-1819),1,0,0,0,0,"0,001064814815","0,001064814815","0,001064814815",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-24.2.18-build-26302-1819),1,0,0,0,0,"0,0009490740741","0,0009490740741","0,0009490740741",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-24.2.18-build-26302-1819),1,0,0,0,0,"0,001076388889","0,001076388889","0,001076388889",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-angular-24.2.18-build-26302-1819),1,0,0,0,0,"0,001261574074","0,001261574074","0,001261574074",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002997685185","0,002997685185","0,002997685185"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-artifacts-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003969907407","0,003969907407","0,003969907407"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-vue-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,0,0,1,0,0,"0,01216435185","0,01216435185","0,01216435185"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-internal-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00587962963","0,00587962963","0,00587962963"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003703703704","0,003703703704","0,003703703704"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002916666667","0,002916666667","0,002916666667"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003576388889","0,003576388889","0,003576388889"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-angular-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003101851852","0,003101851852","0,003101851852"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,003206018519","0,003206018519","0,003206018519"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-react-26.2.1-alpha-26302-1817),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002650462963","0,002650462963","0,002650462963"
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-25.1.16-build-26302-1820),1,0,0,0,0,"0,0009027777778","0,0009027777778","0,0009027777778",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-internal-25.1.16-build-26302-1820),1,0,0,0,0,"0,0008333333333","0,0008333333333","0,0008333333333",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-artifacts-25.1.16-build-26302-1820),1,0,0,0,0,"0,0007407407407","0,0007407407407","0,0007407407407",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-angular-25.1.16-build-26302-1820),1,0,0,0,0,"0,0008101851852","0,0008101851852","0,0008101851852",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-themebuilder-25.1.16-build-26302-1820),1,0,0,0,0,"0,0007986111111","0,0007986111111","0,0007986111111",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-vue-25.1.16-build-26302-1820),1,0,0,0,0,"0,0007638888889","0,0007638888889","0,0007638888889",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-monorepo-tools-25.1.16-build-26302-1820),1,0,0,0,0,"0,000787037037","0,000787037037","0,000787037037",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-internal-25.1.16-build-26302-1820),1,0,0,0,0,"0,0007291666667","0,0007291666667","0,0007291666667",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-dist-25.1.16-build-26302-1820),1,0,0,0,0,"0,0008217592593","0,0008217592593","0,0008217592593",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages,Publish package (devextreme-react-25.1.16-build-26302-1820),1,0,0,0,0,"0,0007523148148","0,0007523148148","0,0007523148148",0,0,0,0,0,0,0,0
+2026-10-29,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (main),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-29,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037"
+2026-10-29,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (25_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00008101851852","0,00008101851852","0,00008101851852"
+2026-10-29,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (26_1),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00009259259259","0,00009259259259","0,00009259259259"
+2026-10-29,Publishing to GitHub Packages (scheduler),Run Packages Publishing workflow (24_2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00006944444444","0,00006944444444","0,00006944444444"
+2026-10-29,Playgrounds tests,build,18,0,1,0,0,"0,003321759259","0,005485501949","0,01180555556",98,0,5,2,1,"0,0007986111111","0,003642085538","0,02447916667"
+2026-10-29,Playgrounds tests,vue,18,0,0,0,0,"0,00130787037","0,001534207819","0,001979166667",93,0,5,0,1,"0,000625","0,001714616402","0,009722222222"
+2026-10-29,Playgrounds tests,react,18,0,0,0,0,"0,001122685185","0,001451260288","0,001782407407",94,0,4,0,1,"0,000625","0,001649541761","0,009351851852"
+2026-10-29,Playgrounds tests,angular,18,0,0,0,0,"0,001481481481","0,002056970165","0,002627314815",94,0,4,0,1,"0,000625","0,002202617158","0,009351851852"
+2026-10-29,Playgrounds tests,matrix.ARGS.platform,0,0,0,1,0,0,0,0,0,0,5,2,0,"-0,00001157407407","-0,000003306878307",0
+2026-10-29,Playgrounds tests,Check if tests should run,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-29,Playwright tests,Check if tests should run,0,0,0,0,0,0,0,0,83,0,0,0,1,"0,0001851851852","0,0002936746988","0,002025462963"
+2026-10-29,Playwright tests,Determine Playwright matrix,0,0,0,0,0,0,0,0,83,0,0,0,1,"0,00002314814815","0,00003528000892","0,0000462962963"
+2026-10-29,Playwright tests,Build DevExtreme,0,0,0,0,0,0,0,0,77,0,6,0,1,"0,0005208333333","0,003480170683","0,0240625"
+2026-10-29,Playwright tests,editors - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008449074074","0,001301707552","0,01472222222"
+2026-10-29,Playwright tests,material,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0009259259259","0,001338233526","0,01472222222"
+2026-10-29,Playwright tests,scheduler / timezones (America/Los_Angeles) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008912037037","0,001274350649","0,01472222222"
+2026-10-29,Playwright tests,scheduler / viewOffset (2/2) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008333333333","0,001280513468","0,01472222222"
+2026-10-29,Playwright tests,scheduler / viewOffset (1/2) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008564814815","0,001277056277","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (3/4) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008333333333","0,001312079125","0,01472222222"
+2026-10-29,Playwright tests,common - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008796296296","0,001411886724","0,01472222222"
+2026-10-29,Playwright tests,cardView - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008333333333","0,001303360991","0,01472222222"
+2026-10-29,Playwright tests,accessibility - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008333333333","0,001280363155","0,01471064815"
+2026-10-29,Playwright tests,common - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0009606481481","0,00138047138","0,01471064815"
+2026-10-29,Playwright tests,scheduler / common (2/3) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008680555556","0,00130215849","0,01472222222"
+2026-10-29,Playwright tests,material - compact,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0009722222222","0,001339436027","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (3/4) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008101851852","0,001294342232","0,01472222222"
+2026-10-29,Playwright tests,accessibility - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008796296296","0,00130501443","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (2/4) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008680555556","0,001298250361","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (1/4) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008796296296","0,001293891294","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (4/4) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008564814815","0,001274350649","0,01472222222"
+2026-10-29,Playwright tests,scheduler / timezones (Europe/Berlin) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008912037037","0,001298100048","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (1/4) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008564814815","0,001313131313","0,01472222222"
+2026-10-29,Playwright tests,generic,0,0,0,0,0,0,0,0,74,0,3,0,1,"0,0009722222222","0,001480128668","0,01471064815"
+2026-10-29,Playwright tests,scheduler / viewOffset (1/2) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0009027777778","0,001283820346","0,01472222222"
+2026-10-29,Playwright tests,scheduler / common (3/3) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008333333333","0,001289081289","0,01472222222"
+2026-10-29,Playwright tests,scheduler / common (1/3) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008912037037","0,001318392256","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (4/4) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0007986111111","0,001286976912","0,01472222222"
+2026-10-29,Playwright tests,navigation - fluent,0,0,0,0,0,0,0,0,74,0,3,0,1,"0,0008101851852","0,00137250481","0,01472222222"
+2026-10-29,Playwright tests,cardView - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008333333333","0,001302308802","0,01472222222"
+2026-10-29,Playwright tests,navigation - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008680555556","0,001281565657","0,01472222222"
+2026-10-29,Playwright tests,scheduler / timezones (Europe/Berlin) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008449074074","0,001260070948","0,01472222222"
+2026-10-29,Playwright tests,editors - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008564814815","0,001275703463","0,01472222222"
+2026-10-29,Playwright tests,scheduler / common (2/3) - fluent-next,0,0,0,0,0,0,0,0,74,0,3,0,1,"0,0008449074074","0,001426767677","0,01472222222"
+2026-10-29,Playwright tests,dataGrid (2/4) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008333333333","0,001280964406","0,01472222222"
+2026-10-29,Playwright tests,scheduler / common (1/3) - fluent,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,000787037037","0,001323953824","0,01472222222"
+2026-10-29,Playwright tests,scheduler / viewOffset (2/2) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0007986111111","0,001269991582","0,01472222222"
+2026-10-29,Playwright tests,scheduler / timezones (America/Los_Angeles) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008680555556","0,001300354738","0,01472222222"
+2026-10-29,Playwright tests,scheduler / common (3/3) - fluent-next,0,0,0,0,0,0,0,0,75,0,2,0,1,"0,0008449074074","0,001310275373","0,01472222222"
+2026-10-29,Playwright tests,merge-artifacts,0,0,0,0,0,0,0,0,83,0,0,0,1,"0,00003472222222","0,00005968317715","0,00008101851852"
+2026-10-29,Playwright tests,accessibility - fluent.dark,0,0,0,0,0,0,0,0,10,0,0,0,0,"0,0009606481481","0,001136574074","0,001412037037"
+2026-10-29,Playwright tests,accessibility - material.dark,0,0,0,0,0,0,0,0,10,0,0,0,0,"0,0009837962963","0,001099537037","0,001331018519"
+2026-10-29,Playwright tests,accessibility - material.light,0,0,0,0,0,0,0,0,10,0,0,0,0,"0,0009722222222","0,0010625","0,00125"
+2026-10-29,Playwright tests,accessibility - fluent-next.dark,0,0,0,0,0,0,0,0,10,0,0,0,0,"0,001030092593","0,001127314815","0,001400462963"
+2026-10-29,Playwright tests,${{ matrix.name }}${{ ((!matrix.theme && ' - fluent') || '') }},0,0,0,0,0,0,0,0,0,0,5,1,0,"-0,00001157407407","-0,000003858024691",0
+2026-10-29,pnpm store cache,Save pnpm store (ubuntu-latest),11,0,0,0,0,"0,0002546296296","0,0007901936027","0,00162037037",3,0,0,0,0,"0,0003703703704","0,0008526234568","0,001111111111"
+2026-10-29,pnpm store cache,Save pnpm store (devextreme-shr2),11,0,0,0,0,"0,0002893518519","0,0006849747475","0,001701388889",3,0,0,0,0,"0,000474537037","0,00131558642","0,001747685185"
+2026-10-29,PR #36059: CI: add PR filter stubs for the checks that became required on main,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,000007716049383",0
+2026-10-29,PR #36059: CI: add PR filter stubs for the checks that became required on main,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00007330246914",0
+2026-10-29,"PR #36015: Grids: Remove m_ prefix from columns resizing and reordering, sticky columns and column chooser files",Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00005015432099",0
+2026-10-29,"PR #36015: Grids: Remove m_ prefix from columns resizing and reordering, sticky columns and column chooser files",Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00001157407407",0
+2026-10-29,PR #36057: CI: ignore the deepmerge advisory in the repository check,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00002700617284",0
+2026-10-29,PR #36057: CI: ignore the deepmerge advisory in the repository check,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,000007716049383",0
+2026-10-29,PR #36056: CI: ignore the deepmerge advisory in the repository check,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,000003858024691",0
+2026-10-29,PR #36056: CI: ignore the deepmerge advisory in the repository check,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00005401234568",0
+2026-10-29,PR #35908: 🔧 Chat Tool Calling Visualization: update d.ts,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,000007716049383",0
+2026-10-29,PR #35908: 🔧 Chat Tool Calling Visualization: update d.ts,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00003086419753",0
+2026-10-29,PR #35907: 🔧 Chat Tool Calling Visualization,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00005787037037",0
+2026-10-29,PR #35907: 🔧 Chat Tool Calling Visualization,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00001157407407",0
+2026-10-29,PR #35977: 🔧 Chat Tool Calling Visualization: Implementation,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,10,0,0,"-0,00001388888889",0
+2026-10-29,PR #35977: 🔧 Chat Tool Calling Visualization: Implementation,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,10,0,0,"-0,00004398148148",0
+2026-10-29,PR #36045: Icons: add new wrench icon,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,5,0,0,"-0,00002314814815",0
+2026-10-29,PR #36045: Icons: add new wrench icon,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,5,0,0,"-0,00003935185185",0
+2026-10-29,PR #36038: chore(security): bump @hono/node-server override to 2.1.3 (GHSA-rmxm-3fg6-px4f),Remove storybook,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00009259259259",0
+2026-10-29,PR #36038: chore(security): bump @hono/node-server override to 2.1.3 (GHSA-rmxm-3fg6-px4f),Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00002314814815",0
+2026-10-29,"PR #36031: TextArea: resolve maxHeight and minHeight given as calc(), inherit or none",Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00004050925926",0
+2026-10-29,"PR #36031: TextArea: resolve maxHeight and minHeight given as calc(), inherit or none",Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,0001041666667",0
+2026-10-29,"PR #36042: Grids: remove m_ prefix from editing modes, search, row dragging, pager",Remove storybook,0,0,0,0,0,0,0,0,0,0,0,6,0,0,"-0,00001543209877",0
+2026-10-29,"PR #36042: Grids: remove m_ prefix from editing modes, search, row dragging, pager",Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,6,0,0,"-0,00005015432099",0
+2026-10-29,PR #36033: Scheduler: fix the flaky all-day recurrence drag and appointment collector tooltip TestCafe tests,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,000008680555556",0
+2026-10-29,PR #36033: Scheduler: fix the flaky all-day recurrence drag and appointment collector tooltip TestCafe tests,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00002893518519",0
+2026-10-29,PR #35974: Demos: remove the GitHub Pages demos pipeline,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+2026-10-29,PR #35974: Demos: remove the GitHub Pages demos pipeline,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00006365740741",0
+2026-10-29,PR #36007: Scheduler - Keep text contrast on focused resource-colored appointments,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,PR #36007: Scheduler - Keep text contrast on focused resource-colored appointments,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00006944444444",0
+2026-10-29,PR #35089: Scheduler: appointment title and date do not reach the AA contrast ratio,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00001157407407",0
+2026-10-29,PR #35089: Scheduler: appointment title and date do not reach the AA contrast ratio,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00009259259259",0
+2026-10-29,PR #35991: DataGrid: wait for the sort re-render before scrolling back in the T1181439 test,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+2026-10-29,PR #35991: DataGrid: wait for the sort re-render before scrolling back in the T1181439 test,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+2026-10-29,PR #36028: Charts: stop throwing when visualRange is set to null or undefined,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00001157407407",0
+2026-10-29,PR #36028: Charts: stop throwing when visualRange is set to null or undefined,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00006365740741",0
+2026-10-29,PR #36024: Popup: keep maxHeight and minHeight given as calc() on the content,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,0000462962963",0
+2026-10-29,PR #36024: Popup: keep maxHeight and minHeight given as calc() on the content,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,0000462962963",0
+2026-10-29,PR #36008: Grids: type core m_keyboard_navigation,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,000008680555556",0
+2026-10-29,PR #36008: Grids: type core m_keyboard_navigation,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00005787037037",0
+2026-10-29,PR #35995: DataGrid - Ctrl+End and Ctrl+Home lose focus with virtual scrolling when the target row renders asynchronously,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,0000462962963",0
+2026-10-29,PR #35995: DataGrid - Ctrl+End and Ctrl+Home lose focus with virtual scrolling when the target row renders asynchronously,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00006944444444",0
+2026-10-29,PR #36018: License: block expired trials in DevExtreme JS and the CLI (DX1004),Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,000005787037037",0
+2026-10-29,PR #36018: License: block expired trials in DevExtreme JS and the CLI (DX1004),Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00005787037037",0
+2026-10-29,PR #36051: T1337427 - Scheduler – AllDay appointments are missing from resource groups on DST days,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,000008680555556",0
+2026-10-29,PR #36051: T1337427 - Scheduler – AllDay appointments are missing from resource groups on DST days,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00007233796296",0
+2026-10-29,PR #36047: T1337363 - DataGrid — E1046 is thrown when state is restored without columns and a row is focused,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,0000318287037",0
+2026-10-29,PR #36047: T1337363 - DataGrid — E1046 is thrown when state is restored without columns and a row is focused,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00006655092593",0
+2026-10-29,PR #36046: T1337363 - DataGrid — E1046 is thrown when state is restored without columns and a row is focused,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00002700617284",0
+2026-10-29,PR #36046: T1337363 - DataGrid — E1046 is thrown when state is restored without columns and a row is focused,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00006172839506",0
+2026-10-29,PR #36050: T1337427 - Scheduler – AllDay appointments are missing from resource groups on DST days,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00004050925926",0
+2026-10-29,PR #36050: T1337427 - Scheduler – AllDay appointments are missing from resource groups on DST days,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,000005787037037",0
+2026-10-29,PR #36049: Add metadata for Format Object Locale,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,000005787037037",0
+2026-10-29,PR #36049: Add metadata for Format Object Locale,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00009837962963",0
+2026-10-29,PR #36022: DataGrid - Ctrl+End and Ctrl+Home lose focus with virtual scrolling when the target row renders asynchronously,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,000005787037037",0
+2026-10-29,PR #36022: DataGrid - Ctrl+End and Ctrl+Home lose focus with virtual scrolling when the target row renders asynchronously,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00007523148148",0
+2026-10-29,PR #36034: Scheduler: fix the flaky all-day recurrence drag and appointment collector tooltip TestCafe tests,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,5,0,0,"-0,00004398148148",0
+2026-10-29,PR #36034: Scheduler: fix the flaky all-day recurrence drag and appointment collector tooltip TestCafe tests,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,5,0,0,"-0,00002314814815",0
+2026-10-29,PR #36009: CI: Use on-demand runners for frequently interrupted jobs,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+2026-10-29,PR #36009: CI: Use on-demand runners for frequently interrupted jobs,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"-0,00003472222222",0
+2026-10-29,PR #36041: ESLint: use @stylistic/jsx-tag-spacing instead of react/jsx-tag-spacing in demos,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00007716049383",0
+2026-10-29,PR #36041: ESLint: use @stylistic/jsx-tag-spacing instead of react/jsx-tag-spacing in demos,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,0000424382716",0
+2026-10-29,PR #36025: Popup: keep maxHeight and minHeight given as calc() on the content,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,PR #36025: Popup: keep maxHeight and minHeight given as calc() on the content,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00006944444444",0
+2026-10-29,PR #36029: Charts: stop throwing when visualRange is set to null or undefined,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,PR #36029: Charts: stop throwing when visualRange is set to null or undefined,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,0001041666667",0
+2026-10-29,"PR #36032: TextArea: resolve maxHeight and minHeight given as calc(), inherit or none",Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,"PR #36032: TextArea: resolve maxHeight and minHeight given as calc(), inherit or none",Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,0001041666667",0
+2026-10-29,"PR #36044: Grids: remove m_ prefix from editing modes, search, row dragging, pager",Remove storybook,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00002025462963",0
+2026-10-29,"PR #36044: Grids: remove m_ prefix from editing modes, search, row dragging, pager",Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00001736111111",0
+2026-10-29,PR #36020: DataGrid: wait for the sort re-render before scrolling back in the T1181439 test,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00009259259259",0
+2026-10-29,PR #36020: DataGrid: wait for the sort re-render before scrolling back in the T1181439 test,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00009259259259",0
+2026-10-29,PR #36039: chore(security): bump @hono/node-server override to 2.1.3 (GHSA-rmxm-3fg6-px4f),Remove storybook,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,0000318287037",0
+2026-10-29,PR #36039: chore(security): bump @hono/node-server override to 2.1.3 (GHSA-rmxm-3fg6-px4f),Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,000078125",0
+2026-10-29,PR #36026: Demos: remove the GitHub Pages demos pipeline,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,PR #36026: Demos: remove the GitHub Pages demos pipeline,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00006944444444",0
+2026-10-29,PR #36013: CI: split the jQuery CSP check into two shards,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,PR #36013: CI: split the jQuery CSP check into two shards,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00008101851852",0
+2026-10-29,PR #36019: CI: split the jQuery CSP check into two shards,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,PR #36019: CI: split the jQuery CSP check into two shards,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00006944444444",0
+2026-10-29,PR #36043: ESLint: use @stylistic/jsx-tag-spacing instead of react/jsx-tag-spacing in demos,Remove storybook,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00003086419753",0
+2026-10-29,PR #36043: ESLint: use @stylistic/jsx-tag-spacing instead of react/jsx-tag-spacing in demos,Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,3,0,0,"-0,00003858024691",0
+2026-10-29,"PR #36016: Grids: Remove m_ prefix from columns resizing and reordering, sticky columns and column chooser files",Remove storybook,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,"PR #36016: Grids: Remove m_ prefix from columns resizing and reordering, sticky columns and column chooser files",Build & Deploy,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Additional QUnit,Check if tests should run,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-29,Additional QUnit,Build,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Additional QUnit,${{ matrix.constel }}-no-csp,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Additional QUnit,${{ matrix.constel }}-${{ matrix.timezone }},0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Additional QUnit,${{ matrix.constel }}-firefox,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Additional QUnit,${{ matrix.constel }}-chrome,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Additional QUnit,${{ matrix.constel }}-${{ matrix.kind }},0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,Additional QUnit,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,QUnit tests for renovation,Build,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002685185185","0,002685185185","0,002685185185"
+2026-10-29,QUnit tests for renovation,Constel ui,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001597222222","0,001597222222","0,001597222222"
+2026-10-29,QUnit tests for renovation,Constel ui.grid,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002939814815","0,002939814815","0,002939814815"
+2026-10-29,QUnit tests for renovation,Constel viz,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005358796296","0,005358796296","0,005358796296"
+2026-10-29,QUnit tests for renovation,Constel renovation,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001238425926","0,001238425926","0,001238425926"
+2026-10-29,QUnit tests for renovation,Constel misc,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,005428240741","0,005428240741","0,005428240741"
+2026-10-29,QUnit tests for renovation,Constel ui.editors,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002789351852","0,002789351852","0,002789351852"
+2026-10-29,QUnit tests for renovation,Constel ui.scheduler(2/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002210648148","0,002210648148","0,002210648148"
+2026-10-29,QUnit tests for renovation,Constel export,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001979166667","0,001979166667","0,001979166667"
+2026-10-29,QUnit tests for renovation,Constel ui.scheduler(1/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,002407407407","0,002407407407","0,002407407407"
+2026-10-29,QUnit tests for renovation,Constel ui.widgets(2/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001967592593","0,001967592593","0,001967592593"
+2026-10-29,QUnit tests for renovation,Constel ui.widgets(1/2),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,006909722222","0,006909722222","0,006909722222"
+2026-10-29,QUnit tests for renovation,Constel ui.htmlEditor,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,001539351852","0,001539351852","0,001539351852"
+2026-10-29,QUnit tests for renovation,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,QUnit tests,Check if all tests should run,19,0,0,0,0,"0,00002314814815","0,00003776803119","0,00005787037037",110,0,0,0,7,"0,00002314814815","0,00003661616162","0,00005787037037"
+2026-10-29,QUnit tests,Build,16,0,3,0,0,"0,00212962963","0,004619883041","0,009722222222",107,0,3,0,7,"0,000775462963","0,002622685185","0,02447916667"
+2026-10-29,QUnit tests,ui.grid-shadow-dom,16,0,0,0,0,"0,002858796296","0,003362991898","0,003993055556",101,0,6,0,7,"0,0004050925926","0,003690939772","0,009247685185"
+2026-10-29,QUnit tests,Constel ui.scheduler,15,1,0,0,0,"0,002349537037","0,00337818287","0,009722222222",100,0,7,0,7,"0,0004050925926","0,003073944271","0,01111111111"
+2026-10-29,QUnit tests,Constel misc-no-csp,15,1,0,0,0,"0,001689814815","0,002666377315","0,007650462963",100,0,7,0,7,"0,0004050925926","0,002326064382","0,01111111111"
+2026-10-29,QUnit tests,ui.widgets-shadow-dom,16,0,0,0,0,"0,002523148148","0,003542390046","0,004733796296",98,1,8,0,7,"0,0004050925926","0,003840429214","0,01178240741"
+2026-10-29,QUnit tests,Constel ui,16,0,0,0,0,"0,001712962963","0,002269241898","0,002881944444",100,0,7,0,7,"0,0004050925926","0,002449593285","0,01111111111"
+2026-10-29,QUnit tests,Constel ui.scheduler-US/Pacific,15,1,0,0,0,"0,002731481481","0,00337890625","0,009039351852",101,0,6,0,7,"0,0004050925926","0,002967830564","0,009259259259"
+2026-10-29,QUnit tests,Constel ui.grid,15,0,1,0,0,"0,0021875","0,003920717593","0,01388888889",100,0,7,0,7,"0,0004050925926","0,003618899273","0,009247685185"
+2026-10-29,QUnit tests,Constel misc,16,0,0,0,0,"0,001875","0,00205005787","0,002476851852",100,0,7,0,7,"0,0004050925926","0,002330931983","0,01111111111"
+2026-10-29,QUnit tests,ui.scheduler-shadow-dom,16,0,0,0,0,"0,002326388889","0,003123553241","0,003761574074",100,1,6,0,7,"0,0004050925926","0,003186764451","0,01113425926"
+2026-10-29,QUnit tests,ui-shadow-dom,16,0,0,0,0,"0,001678240741","0,002233796296","0,002615740741",100,0,7,0,7,"0,0004050925926","0,002602976809","0,01111111111"
+2026-10-29,QUnit tests,Constel ui.editors,15,1,0,0,0,"0,002175925926","0,003122106481","0,007638888889",100,1,6,0,7,"0,0004050925926","0,002979729145","0,009722222222"
+2026-10-29,QUnit tests,ui.editors-shadow-dom,15,1,0,0,0,"0,002453703704","0,003559751157","0,009722222222",98,0,9,0,7,"0,0004050925926","0,003572927484","0,01597222222"
+2026-10-29,QUnit tests,Constel ui.widgets-no-csp,16,0,0,0,0,"0,002372685185","0,003342737269","0,005393518519",98,2,7,0,7,"0,0004050925926","0,003703703704","0,01178240741"
+2026-10-29,QUnit tests,Send notifications,0,0,0,19,0,0,"-0,00000548245614",0,0,0,10,100,7,"-0,00001157407407","-0,000004734848485",0
+2026-10-29,QUnit tests,Constel export,7,0,0,0,0,"0,001539351852","0,001949404762","0,002546296296",10,0,2,0,2,"0,0004050925926","0,002381365741","0,009259259259"
+2026-10-29,QUnit tests,${{ matrix.constel }}-shadow-dom,0,0,0,3,0,0,"-0,00001157407407",0,0,0,3,0,0,0,0,0
+2026-10-29,QUnit tests,"Constel ${{ matrix.CONSTEL }}${{ (((matrix.TIMEZONE != '') && format('-{0}', matrix.TIMEZONE)) || '') }}${{ (((matrix.CSP == 'false') && '-no-csp') || '') }}",0,0,0,3,0,0,"-0,00001157407407",0,0,0,3,0,0,"-0,00001157407407","-0,000003858024691",0
+2026-10-29,Auto approve renovate bot PR,auto-approve,0,0,0,0,0,0,0,0,92,0,0,0,0,"0,00002314814815","0,00004302536232","0,0004861111111"
+2026-10-29,Jest tests,jest-tests,19,0,0,0,0,"0,003217592593","0,006246954191","0,008993055556",92,4,7,1,1,"0,00003472222222","0,005386396011","0,02447916667"
+2026-10-29,Jest tests,Send notifications,0,0,0,19,0,0,"-0,00000365497076",0,0,0,5,99,1,"-0,00001157407407","-0,000003561253561",0
+2026-10-29,Renovation,Check if tests should run,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0000462962963","0,0000462962963","0,0000462962963"
+2026-10-29,Renovation,Send notifications,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Renovation,jest-tests,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,Jest tests,Check if tests should run,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-29,Repository Check,Collect flaky reports,0,0,0,0,0,0,0,0,17,0,0,0,0,"0,001111111111","0,001736791939","0,003645833333"
+2026-10-29,Repository Check,Invoke / Repository Check,20,0,0,0,0,"0,0005671296296","0,0009947916667","0,002037037037",17,0,0,0,0,"0,0008217592593","0,001236383442","0,002048611111"
+2026-10-29,Styles tests,Tests,18,0,1,0,0,"0,0008449074074","0,002867324561","0,009722222222",99,2,5,0,0,"0,00001157407407","0,002363294899","0,02447916667"
+2026-10-29,Styles tests,Send notifications,0,0,0,19,0,0,"-0,000004873294347",0,0,0,5,101,0,"-0,00001157407407","-0,000003821628232",0
+2026-10-29,TestCafe tests,Check if tests should run,19,0,0,0,0,"0,00003472222222","0,0002887426901","0,0004976851852",127,0,0,0,23,"0,00002314814815","0,0002455161855","0,0008912037037"
+2026-10-29,TestCafe tests,Build DevExtreme,19,0,0,0,0,"0,002893518519","0,005386208577","0,007152777778",118,2,6,0,23,"0,0004861111111","0,003847920341","0,02408564815"
+2026-10-29,TestCafe tests,Determine TestCafe matrix,12,0,0,0,0,"0,00002314814815","0,00004147376543","0,0000462962963",115,0,0,0,22,"0,00002314814815","0,00003743961353","0,00008101851852"
+2026-10-29,TestCafe tests,scheduler / viewOffset (2/2) - fluent,19,0,0,0,0,"0,003553240741","0,003875487329","0,004386574074",111,1,5,0,23,"0,001157407407","0,004143419595","0,02048611111"
+2026-10-29,TestCafe tests,generic,19,0,0,0,0,"0,001886574074","0,002248416179","0,00375",110,2,5,0,23,"0,001145833333","0,002556287591","0,02047453704"
+2026-10-29,TestCafe tests,cardView - fluent,18,1,0,0,0,"0,002060185185","0,002916666667","0,007650462963",113,0,4,0,23,"0,001145833333","0,002687460431","0,02047453704"
+2026-10-29,TestCafe tests,accessibility - fluent,19,0,0,0,0,"0,002175925926","0,00301961501","0,004155092593",114,0,4,0,23,"0,001145833333","0,003315481795","0,02047453704"
+2026-10-29,TestCafe tests,dataGrid (3/4) - fluent,18,1,0,0,0,"0,002881944444","0,00391630117","0,009733796296",113,0,4,0,23,"0,001145833333","0,003715772396","0,02048611111"
+2026-10-29,TestCafe tests,common - fluent-next,0,0,0,0,0,0,0,0,92,1,2,0,20,"0,002928240741","0,004402777778","0,02048611111"
+2026-10-29,TestCafe tests,material,19,0,0,0,0,"0,001481481481","0,001832967836","0,002002314815",111,1,5,0,23,"0,001145833333","0,002144270339","0,02047453704"
+2026-10-29,TestCafe tests,common - fluent,19,0,0,0,0,"0,002349537037","0,003160331384","0,00369212963",111,2,4,0,23,"0,001145833333","0,003741294714","0,02047453704"
+2026-10-29,TestCafe tests,dataGrid (4/4) - fluent,18,1,0,0,0,"0,003020833333","0,003946150097","0,008333333333",109,2,6,0,23,"0,001145833333","0,00416488604","0,03149305556"
+2026-10-29,TestCafe tests,dataGrid (2/4) - fluent,19,0,0,0,0,"0,002986111111","0,003633650097","0,004155092593",111,0,6,0,23,"0,001145833333","0,003929942229","0,02047453704"
+2026-10-29,TestCafe tests,dataGrid (1/4) - fluent,19,0,0,0,0,"0,002939814815","0,003716496101","0,005104166667",109,2,6,0,23,"0,001145833333","0,004015115543","0,02047453704"
+2026-10-29,TestCafe tests,dataGrid (4/4) - fluent-next,0,0,0,0,0,0,0,0,88,1,6,0,20,"0,002928240741","0,004272538986","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / common (3/3) - fluent-next,0,0,0,0,0,0,0,0,92,0,3,0,20,"0,0025","0,003660940546","0,02048611111"
+2026-10-29,TestCafe tests,editors - fluent,19,0,0,0,0,"0,002465277778","0,003548976608","0,00494212963",110,2,5,0,23,"0,001145833333","0,003691931782","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / timezones (Europe/Berlin) - fluent-next,0,0,0,0,0,0,0,0,93,0,2,0,20,"0,00125","0,001841008772","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / common (2/3) - fluent-next,0,0,0,0,0,0,0,0,93,0,2,0,20,"0,002789351852","0,003714546784","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / common (1/3) - fluent,19,0,0,0,0,"0,002696759259","0,003533138402","0,004675925926",113,0,4,0,23,"0,001157407407","0,003877908357","0,02048611111"
+2026-10-29,TestCafe tests,dataGrid (3/4) - fluent-next,0,0,0,0,0,0,0,0,92,0,3,0,20,"0,002928240741","0,003898879142","0,02048611111"
+2026-10-29,TestCafe tests,accessibility - fluent-next,0,0,0,0,0,0,0,0,91,0,4,0,20,"0,001851851852","0,00334661306","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / viewOffset (1/2) - fluent-next,0,0,0,0,0,0,0,0,90,0,5,0,20,"0,002881944444","0,004208089669","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / common (1/3) - fluent-next,0,0,0,0,0,0,0,0,88,1,6,0,20,"0,002638888889","0,004115618908","0,02048611111"
+2026-10-29,TestCafe tests,navigation - fluent,19,0,0,0,0,"0,002777777778","0,003269980507","0,004016203704",112,0,5,0,23,"0,001157407407","0,003296929408","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / timezones (America/Los_Angeles) - fluent,19,0,0,0,0,"0,001388888889","0,001567373294","0,001759259259",113,0,4,0,23,"0,001157407407","0,001865503324","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / viewOffset (1/2) - fluent,19,0,0,0,0,"0,002858796296","0,003637305068","0,004525462963",111,0,6,0,23,"0,001157407407","0,004108697373","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / timezones (Europe/Berlin) - fluent,19,0,0,0,0,"0,001446759259","0,001613669591","0,001828703704",113,0,4,0,23,"0,001157407407","0,001871043052","0,02048611111"
+2026-10-29,TestCafe tests,material - compact,19,0,0,0,0,"0,001215277778","0,001468689084","0,001643518519",113,0,4,0,23,"0,001145833333","0,001765392529","0,02047453704"
+2026-10-29,TestCafe tests,dataGrid (1/4) - fluent-next,0,0,0,0,0,0,0,0,92,0,3,0,20,"0,002928240741","0,003928849903","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / common (2/3) - fluent,19,0,0,0,0,"0,002534722222","0,003371710526","0,00400462963",107,1,9,0,23,"0,001157407407","0,004131449826","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / common (3/3) - fluent,19,0,0,0,0,"0,002627314815","0,003540448343","0,004143518519",112,0,5,0,23,"0,001157407407","0,003719531497","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / viewOffset (2/2) - fluent-next,0,0,0,0,0,0,0,0,91,0,4,0,20,"0,002881944444","0,004075048733","0,02048611111"
+2026-10-29,TestCafe tests,navigation - fluent-next,0,0,0,0,0,0,0,0,93,0,2,0,20,"0,00255787037","0,003273148148","0,02048611111"
+2026-10-29,TestCafe tests,dataGrid (2/4) - fluent-next,0,0,0,0,0,0,0,0,93,0,2,0,20,"0,002928240741","0,003808235867","0,02048611111"
+2026-10-29,TestCafe tests,cardView - fluent-next,0,0,0,0,0,0,0,0,90,0,5,0,20,"0,002372685185","0,003116471735","0,02048611111"
+2026-10-29,TestCafe tests,scheduler / timezones (America/Los_Angeles) - fluent-next,0,0,0,0,0,0,0,0,93,0,2,0,20,"0,001238425926","0,00181871345","0,02048611111"
+2026-10-29,TestCafe tests,editors - fluent-next,0,0,0,0,0,0,0,0,92,0,3,0,20,"0,00255787037","0,0036332846","0,02048611111"
+2026-10-29,TestCafe tests,quarantine,19,0,0,0,0,"0,001423611111","0,001611842105","0,001921296296",106,0,17,2,23,"-0,00001157407407","0,001747314815","0,009375"
+2026-10-29,TestCafe tests,merge-artifacts,19,0,0,0,0,"0,00003472222222","0,00008832846004","0,000150462963",126,0,0,1,23,"0,00003472222222","0,00006270049577","0,0002083333333"
+2026-10-29,TestCafe tests,Send notifications,0,0,0,19,0,0,"-0,000004264132554",0,0,0,16,111,23,"-0,00001157407407","-0,000004738990959",0
+2026-10-29,TestCafe tests,accessibility - material.light,12,0,0,0,0,"0,002083333333","0,002684220679","0,003020833333",13,0,0,0,3,"0,002997685185","0,003199786325","0,003356481481"
+2026-10-29,TestCafe tests,accessibility - material.dark,12,0,0,0,0,"0,002256944444","0,002853009259","0,003935185185",13,0,0,0,3,"0,002361111111","0,003138354701","0,003958333333"
+2026-10-29,TestCafe tests,accessibility - fluent.dark,11,1,0,0,0,"0,002118055556","0,003460648148","0,009722222222",13,0,0,0,3,"0,002291666667","0,003136574074","0,004212962963"
+2026-10-29,TestCafe tests,accessibility - fluent-next.dark,0,0,0,0,0,0,0,0,12,0,1,0,3,"0,002569444444","0,00348201567","0,008541666667"
+2026-10-29,TestCafe tests,${{ matrix.name }}${{ ((!matrix.theme && ' - fluent') || '') }},0,0,0,0,0,0,0,0,0,0,5,2,0,"-0,00001157407407","-0,000003306878307",0
+2026-10-29,TestCafe tests,${{ matrix.ARGS.name }}${{ ((!matrix.ARGS.theme && ' - fluent') || '') }},0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407","-0,00001157407407",0
+2026-10-29,TestCafe tests,build,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,TestCafe tests,matrix.ARGS.name,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"-0,00001157407407",0
+2026-10-29,TestCafe tests,Prepare testcafe matrix,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-29,Themebuilder and Styles tests,test,18,0,1,0,0,"0,002106481481","0,004130726121","0,009733796296",98,1,6,2,1,0,"0,002647542402","0,02449074074"
+2026-10-29,Themebuilder and Styles tests,Send notifications,0,0,0,19,0,0,"-0,000004264132554",0,0,0,5,102,1,"-0,00001157407407","-0,00000411041883",0
+2026-10-29,Themebuilder and Styles tests,Check if tests should run,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,00003472222222","0,00004050925926","0,0000462962963"
+2026-10-29,TS Declarations,check-ts-bundle,19,0,0,0,0,"0,0008796296296","0,001046539961","0,001747685185",101,0,5,0,0,0,"0,001284940601","0,02447916667"
+2026-10-29,TS Declarations,validate-declarations,19,0,0,0,0,"0,0009143518519","0,00110745614","0,001863425926",101,0,5,0,0,0,"0,001333093117","0,02447916667"
+2026-10-29,TS Declarations,Send notifications,0,0,0,19,0,0,"-0,000004873294347",0,0,0,5,101,0,"-0,00001157407407","-0,000004040006988",0
+2026-10-29,Demos Visual Tests,Build demos,12,0,0,0,0,"0,001122685185","0,001416859568","0,001585648148",104,0,9,11,31,"-0,00001157407407","0,0008490143369","0,01961805556"
+2026-10-29,Demos Visual Tests,CSP check (jQuery 2/2),8,3,0,0,0,"0,004733796296","0,006062710438","0,009722222222",75,1,1,0,23,"0,00162037037","0,005099056037","0,01409722222"
+2026-10-29,Demos Visual Tests,CSP check (jQuery 1/2),10,1,0,0,0,"0,0046875","0,005274621212","0,008344907407",74,3,0,0,23,"0,001435185185","0,005136784512","0,01181712963"
+2026-10-29,Demos Visual Tests,"Check TS, lint and generated demos",12,0,0,0,0,"0,005671296296","0,00778742284","0,009293981481",104,2,7,11,31,"-0,00001157407407","0,006295269564","0,01068287037"
+2026-10-29,Demos Visual Tests,jquery-accessibility-fluent.blue.dark,11,1,0,0,0,"0,002141203704","0,003419174383","0,009027777778",105,0,2,0,30,"0,002256944444","0,003349234164","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery(2/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,105,0,2,0,30,"0,002407407407","0,005014386466","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery-accessibility-fluent-next.blue.dark,0,0,0,0,0,0,0,0,104,0,3,0,30,"0,002037037037","0,003140576324","0,01962962963"
+2026-10-29,Demos Visual Tests,jquery(1/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,104,1,2,0,30,"0,002407407407","0,004493012288","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery-accessibility-material.blue.dark,12,0,0,0,0,"0,002268518519","0,002966820988","0,0034375",104,1,2,0,30,"0,002337962963","0,003621603496","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery(3/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,102,2,3,0,30,"0,002407407407","0,004291385427","0,01961805556"
+2026-10-29,Demos Visual Tests,jquery-accessibility-fluent-next.blue.light,0,0,0,0,0,0,0,0,102,1,4,0,30,"0,002048611111","0,003300990827","0,01961805556"
+2026-10-29,Demos Visual Tests,CSP check (Angular 1/3),10,2,0,0,0,"0,004166666667","0,005635609568","0,01042824074",94,6,4,0,30,"0,0002430555556","0,005491341702","0,02469907407"
+2026-10-29,Demos Visual Tests,CSP check (React 2/2),10,2,0,0,0,"0,004583333333","0,005683834877","0,01042824074",97,4,3,0,30,"0,0002893518519","0,005360020477","0,02469907407"
+2026-10-29,Demos Visual Tests,CSP check (Vue 1/2),12,0,0,0,0,"0,004560185185","0,004727044753","0,004837962963",98,1,5,0,30,"0,001319444444","0,005447493768","0,02469907407"
+2026-10-29,Demos Visual Tests,CSP check (Vue 2/2),11,1,0,0,0,"0,004652777778","0,005190972222","0,008344907407",93,8,3,0,30,"0,001365740741","0,00558193109","0,02469907407"
+2026-10-29,Demos Visual Tests,CSP check (React 1/2),11,1,0,0,0,"0,004571759259","0,005300925926","0,01041666667",98,2,4,0,30,"0,004548611111","0,005461404915","0,02469907407"
+2026-10-29,Demos Visual Tests,CSP check (Angular 3/3),11,1,0,0,0,"0,004050925926","0,005145640432","0,01042824074",98,3,3,0,30,"0,0008680555556","0,004996883903","0,01336805556"
+2026-10-29,Demos Visual Tests,CSP check (Angular 2/3),10,2,0,0,0,"0,004236111111","0,005718557099","0,01042824074",97,4,3,0,30,"0,004201388889","0,005297364672","0,02469907407"
+2026-10-29,Demos Visual Tests,react(3/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,97,4,3,0,30,"0,003229166667","0,004596242877","0,02469907407"
+2026-10-29,Demos Visual Tests,vue(3/3)-screenshots-fluent.blue.light,11,1,0,0,0,"0,003460648148","0,004520640432","0,009733796296",95,6,3,0,30,"0,003564814815","0,004910412215","0,02469907407"
+2026-10-29,Demos Visual Tests,react(2/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,97,4,3,0,30,"0,00380787037","0,005309940349","0,02469907407"
+2026-10-29,Demos Visual Tests,vue(3/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,100,1,3,0,30,"0,003842592593","0,005099492521","0,02469907407"
+2026-10-29,Demos Visual Tests,vue(1/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,100,1,3,0,30,"0,004166666667","0,005349781873","0,02469907407"
+2026-10-29,Demos Visual Tests,vue(2/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,97,4,3,0,30,"0,002268518519","0,005808070691","0,01337962963"
+2026-10-29,Demos Visual Tests,angular(1/4)-screenshots-fluent.blue.light,11,1,0,0,0,"0,003657407407","0,004644097222","0,009733796296",97,4,3,0,30,"0,004143518519","0,005269764957","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(3/4)-screenshots-fluent.blue.light,12,0,0,0,0,"0,003912037037","0,004360532407","0,004641203704",95,5,4,0,30,"0,003831018519","0,005089365207","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(2/4)-screenshots-fluent.blue.light,12,0,0,0,0,"0,003946759259","0,004444444444","0,004722222222",98,3,3,0,30,"0,003946759259","0,005072560541","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(1/4)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,98,3,3,0,30,"0,00462962963","0,005838563925","0,02469907407"
+2026-10-29,Demos Visual Tests,vue(2/3)-screenshots-fluent.blue.light,12,0,0,0,0,"0,003761574074","0,004448302469","0,005104166667",99,2,3,0,30,"0,003923611111","0,005111956909","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(4/4)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,96,3,5,0,30,"0,003993055556","0,005669293091","0,04190972222"
+2026-10-29,Demos Visual Tests,angular(4/4)-screenshots-fluent.blue.light,12,0,0,0,0,"0,004166666667","0,004375","0,005231481481",97,2,5,0,30,"0,003703703704","0,00498920495","0,02469907407"
+2026-10-29,Demos Visual Tests,react(1/3)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,97,3,4,0,30,"0,0034375","0,005151464566","0,04190972222"
+2026-10-29,Demos Visual Tests,vue(1/3)-screenshots-fluent.blue.light,12,0,0,0,0,"0,003738425926","0,004295910494","0,004548611111",98,2,4,0,30,"0,003831018519","0,005188857728","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(2/4)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,98,3,3,0,30,"0,004166666667","0,005304709758","0,02469907407"
+2026-10-29,Demos Visual Tests,angular(3/4)-screenshots-fluent-next.blue.light,0,0,0,0,0,0,0,0,97,4,3,0,30,"0,004166666667","0,005437366453","0,02469907407"
+2026-10-29,Demos Visual Tests,CSP Violations Summary,12,0,0,0,0,"0,0002314814815","0,000268132716","0,0003009259259",111,0,13,0,31,"-0,00001157407407","0,0002893518519","0,001157407407"
+2026-10-29,Demos Visual Tests,Determine jQuery test matrix,12,0,0,0,0,"0,00002314814815","0,00003472222222","0,0000462962963",12,0,0,0,1,"0,00002314814815","0,00003665123457","0,00005787037037"
+2026-10-29,Demos Visual Tests,"matrix.SHARD_TOTAL == 1 && format('CSP check ({0})', matrix.FRAMEWORK) || format('CSP check ({0} {1}/{2})', matrix.FRAMEWORK, matrix.SHARD_INDEX, matrix.SHARD_TOTAL)",0,0,0,0,0,0,0,0,0,0,8,12,1,"-0,00001157407407","-0,004322337963",0
+2026-10-29,Demos Visual Tests,CSP check (jQuery ${{ matrix.SHARD_INDEX }}/${{ matrix.SHARD_TOTAL }}),0,0,0,0,0,0,0,0,0,0,4,0,0,"-0,00001157407407","-0,000005787037037",0
+2026-10-29,Demos Visual Tests,CSP check (jQuery),1,0,0,0,0,"0,008043981481","0,008043981481","0,008043981481",36,3,4,0,8,0,"0,008170757967","0,01961805556"
+2026-10-29,Wrappers Tests,build,13,0,5,0,0,"0,0008101851852","0,004746013374","0,0183912037",103,0,7,1,8,"0,0008101851852","0,003907761929","0,02447916667"
+2026-10-29,Wrappers Tests,test (vue),12,0,1,0,0,"0,002256944444","0,004001958689","0,005428240741",100,1,2,0,8,"0,002453703704","0,003858324344","0,01388888889"
+2026-10-29,Wrappers Tests,test (react),12,0,1,0,0,"0,001423611111","0,003973468661","0,005034722222",98,4,1,0,8,"0,002453703704","0,003982492808","0,01181712963"
+2026-10-29,Wrappers Tests,test (angular),12,0,1,0,0,"0,002962962963","0,008441951567","0,01321759259",91,3,9,0,8,"0,002905092593","0,007180420712","0,01390046296"
+2026-10-29,Wrappers Tests,check-regenerate,14,0,4,0,0,"0,000775462963","0,002221579218","0,0183912037",20,0,0,1,0,"0,0009953703704","0,001344797178","0,00244212963"
+2026-10-29,Wrappers Tests,test,0,0,5,0,0,"-0,00001157407407","-0,000002314814815",0,0,0,6,2,0,"-0,00001157407407","-0,000004340277778",0
+2026-10-29,DevExtreme Wrappers Tests,Check if tests should run,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00005787037037","0,00005787037037","0,00005787037037"
+2026-10-29,DevExtreme Wrappers Tests,test,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+2026-10-29,Wrappers Tests,Check if tests should run,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,00003472222222","0,00003472222222","0,00003472222222"
+2026-10-29,Wrappers E2E Tests,Build DevExtreme and Wrappers,18,1,0,0,0,"0,005509259259","0,007294103314","0,01041666667",88,2,16,2,4,"0,0008101851852","0,00599740655","0,02449074074"
+2026-10-29,Wrappers E2E Tests,Test vue3,18,0,0,0,0,"0,001030092593","0,001237139918","0,00162037037",86,0,2,0,3,"0,0008564814815","0,001180818603","0,007002314815"
+2026-10-29,Wrappers E2E Tests,Test angular,18,0,0,0,0,"0,001053240741","0,001201774691","0,001516203704",87,0,1,0,3,"0,0008796296296","0,001151094276","0,007002314815"
+2026-10-29,Wrappers E2E Tests,Test react19,18,0,0,0,0,"0,001064814815","0,00135159465","0,002222222222",86,0,2,0,3,"0,0008564814815","0,001200152567","0,007002314815"
+2026-10-29,Wrappers E2E Tests,Test ${{ matrix.framework }},0,0,0,1,0,0,"-0,00001157407407",0,0,0,9,11,1,"-0,00001157407407","-0,000004050925926",0
+2026-10-29,Wrappers E2E Tests,Check if tests should run,0,0,0,0,0,0,0,0,2,0,0,0,0,"0,00002314814815","0,00003472222222","0,0000462962963"
