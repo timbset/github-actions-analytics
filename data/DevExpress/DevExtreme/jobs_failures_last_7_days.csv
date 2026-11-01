@@ -1,4 +1,7 @@
 created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"31.10.26, 02:13:15",124412054913,41158980841,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/41158980841/job/124412054913
+"31.10.26, 01:20:42",124399398077,41153528953,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/41153528953/job/124399398077
+"31.10.26, 01:17:10",124398489057,41153527314,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/41153527314/job/124398489057
 "30.10.26, 02:16:35",123852218018,40990722125,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/40990722125/job/123852218018
 "30.10.26, 17:24:23",124210521397,41098536189,1,Build and pack DevExtreme npm packages,build,gh-readonly-queue/main/pr-36012-f51e167fa7cacef7325af3e8528fd65ccbbaa4e9,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/41098536189/job/124210521397
 "30.10.26, 14:30:52",124118878126,41072189450,1,Build and pack DevExtreme npm packages,build,refactor/type-virtual-scrolling-main,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/41072189450/job/124118878126
@@ -4531,5 +4534,3 @@ created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,
 "25.10.26, 09:15:25",121128488423,40179445721,1,Wrappers Tests,test (angular),26_2_licensing_expired_trial,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/40179445721/job/121128488423
 "25.10.26, 09:23:03",121130073356,40180413748,1,Wrappers E2E Tests,Build DevExtreme and Wrappers,26_2_licensing_expired_trial,cancelled,Use Node.js,https://github.com/DevExpress/DevExtreme/actions/runs/40180413748/job/121130073356
 "25.10.26, 09:23:28",121130164582,40180413748,1,Wrappers E2E Tests,Test ${{ matrix.framework }},26_2_licensing_expired_trial,cancelled,,https://github.com/DevExpress/DevExtreme/actions/runs/40180413748/job/121130164582
-"24.10.26, 01:33:57",120741486337,40049242017,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/40049242017/job/120741486337
-"24.10.26, 01:36:14",120742018832,40049240495,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/40049240495/job/120742018832
