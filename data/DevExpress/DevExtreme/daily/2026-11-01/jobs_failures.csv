@@ -1,0 +1,4 @@
+created at,id,run id,run attempt,workflow name,name,head branch,conclusion,step,html url
+"01.11.26, 02:14:50",124724010269,41264371683,1,Send dependabot new vulnerability alerts,Send notifications,main,failure,Teams Notification,https://github.com/DevExpress/DevExtreme/actions/runs/41264371683/job/124724010269
+"01.11.26, 01:24:33",124713955802,41259526178,1,CodeQL,Send notifications,25_1,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/41259526178/job/124713955802
+"01.11.26, 01:19:39",124712955497,41259525345,1,CodeQL,Send notifications,24_2,failure,Set up job,https://github.com/DevExpress/DevExtreme/actions/runs/41259525345/job/124712955497
