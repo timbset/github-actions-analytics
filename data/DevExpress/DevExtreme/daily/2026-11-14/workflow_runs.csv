@@ -1,0 +1,8 @@
+date,id,workflow name,main success runs,main failure runs,main cancelled runs,main skipped runs,main retries,main min duration,main avg duration,main max duration,pr success runs,pr failure runs,pr cancelled runs,pr skipped runs,pr retries,pr min duration,pr avg duration,pr max duration
+2026-11-14,_security-alerts.yml,Send dependabot new vulnerability alerts,0,0,0,0,0,0,0,0,0,1,0,0,0,"0,0002199074074","0,0002199074074","0,0002199074074"
+2026-11-14,codeql.yml,CodeQL,2,2,0,0,0,"0,009895833333","0,01382523148","0,01681712963",1,0,0,0,0,"0,01428240741","0,01428240741","0,01428240741"
+2026-11-14,codeql_scheduler.yml,CodeQL (scheduler),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,000150462963","0,000150462963","0,000150462963"
+2026-11-14,packages_publishing.yml,Publishing to GitHub Packages,4,0,0,0,0,"0,007939814815","0,01464699074","0,01850694444",1,0,0,0,0,"0,01427083333","0,01427083333","0,01427083333"
+2026-11-14,packages_publishing_scheduler.yml,Publishing to GitHub Packages (scheduler),0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0001157407407","0,0001157407407","0,0001157407407"
+2026-11-14,pnpm_store_cache.yml,pnpm store cache,0,0,0,0,0,0,0,0,1,0,0,0,0,"0,0005208333333","0,0005208333333","0,0005208333333"
+2026-11-14,repository-check.yml,Repository Check,0,0,0,0,0,0,0,0,4,0,0,0,0,"0,002060185185","0,002760416667","0,004143518519"
